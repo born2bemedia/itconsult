@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-import "/public/scss/footer.scss";
+import "@/styles/footer.scss";
 import Link from "next/link";
 
 function Footer() {

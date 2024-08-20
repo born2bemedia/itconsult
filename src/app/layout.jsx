@@ -1,105 +1,20 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import React from "react";
+import { DM_Sans } from "next/font/google";import "@/styles/base.scss";
 
-const inter = Inter({ subsets: ["latin"] });
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
-export const metadata = {
-  title: "Itconsult",
-  description: "", 
-};
+const dmsans = DM_Sans({ subsets: ["latin"] });
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Header/>
-        <main className="page">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          HOME
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </main>
-        <Footer/> 
+      <body className={dmsans.className}>
+        <Header />
+        <main className="site">{children}</main>
+        <Footer />
       </body>
     </html>
   );
-}
+};

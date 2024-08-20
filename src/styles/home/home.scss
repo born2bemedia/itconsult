@@ -1,0 +1,16 @@
+@import "../mixin.scss";
+
+.home-hero { 
+  background-color: #f9f9f9;
+  &__container { 
+
+  }
+
+  &__body { 
+    
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 700;
+    color: #202020;
+  }
+}
