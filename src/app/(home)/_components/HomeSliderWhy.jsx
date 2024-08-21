@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
@@ -13,30 +13,37 @@ const HomeSliderWhy = ({ slides }) => {
     const [currentSlide, setCurrentSlide] = useState(1);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+    const swiperRef = useRef(null); // Добавляем ссылку на Swiper
+
+    // Используем useEffect для инициализации навигации после отрисовки
+    useEffect(() => {
+        if (swiperRef.current && prevRef.current && nextRef.current) {
+            const swiper = swiperRef.current.swiper;
+            swiper.params.navigation.prevEl = prevRef.current;
+            swiper.params.navigation.nextEl = nextRef.current;
+            swiper.navigation.init();
+            swiper.navigation.update();
+        }
+    }, []);
 
     return (
         <div className="home-why__slider">
-
-            <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            custom={0.3}
-            className="home-why-slider">
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                custom={0.3}
+                className="home-why-slider"
+            >
                 <Swiper
+                    ref={swiperRef} // Добавляем ссылку на Swiper
                     modules={[Navigation]}
                     spaceBetween={24}
                     loop={true}
                     navigation={{
                         prevEl: prevRef.current,
                         nextEl: nextRef.current,
-                    }}
-                    onSwiper={(swiper) => {
-                        swiper.params.navigation.prevEl = prevRef.current;
-                        swiper.params.navigation.nextEl = nextRef.current;
-                        swiper.navigation.init();
-                        swiper.navigation.update();
                     }}
                     onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex + 1)}
                     breakpoints={{
@@ -74,7 +81,8 @@ const HomeSliderWhy = ({ slides }) => {
                 viewport={{ once: true }}
                 variants={fadeInUp}
                 custom={0.4}
-                className="home-why-slider__bottom">
+                className="home-why-slider__bottom"
+            >
                 <div className="home-why-slider__buttons">
                     <button ref={prevRef} className="home-why-slider__prev">
                         <ArrowLeft />
@@ -88,7 +96,6 @@ const HomeSliderWhy = ({ slides }) => {
                     <ArrowRight />
                 </Link>
             </motion.div>
-
         </div>
     );
 };
