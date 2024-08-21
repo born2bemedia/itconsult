@@ -10,9 +10,8 @@ const HomeSlider = ({ slides }) => {
     const [currentSlide, setCurrentSlide] = useState(1);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
-    const swiperRef = useRef(null); // Хранение ссылки на Swiper
+    const swiperRef = useRef(null);
 
-    // Используем useEffect для инициализации навигации после отрисовки
     useEffect(() => {
         if (swiperRef.current && prevRef.current && nextRef.current) {
             const swiper = swiperRef.current.swiper;
@@ -32,7 +31,7 @@ const HomeSlider = ({ slides }) => {
             </div>
 
             <Swiper
-                ref={swiperRef} // Добавляем ссылку на Swiper
+                ref={swiperRef}
                 modules={[Navigation]}
                 spaceBetween={30}
                 loop={true}
@@ -54,7 +53,7 @@ const HomeSlider = ({ slides }) => {
             </Swiper>
 
             <div className="home-hero-slider__buttons">
-                <button ref={prevRef} className="home-hero-slider__prev qwerty"><ArrowLeft /></button>
+                <button ref={prevRef} className="home-hero-slider__prev"><ArrowLeft /></button>
                 <button ref={nextRef} className="home-hero-slider__next"><ArrowRight /></button>
             </div>
         </div>

@@ -13,9 +13,8 @@ const HomeSliderFaq = ({ slides }) => {
     const [currentSlide, setCurrentSlide] = useState(1);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
-    const swiperRef = useRef(null); // Добавляем ссылку на Swiper
+    const swiperRef = useRef(null);
 
-    // Используем useEffect для инициализации навигации после отрисовки
     useEffect(() => {
         if (swiperRef.current && prevRef.current && nextRef.current) {
             const swiper = swiperRef.current.swiper;
@@ -36,7 +35,7 @@ const HomeSliderFaq = ({ slides }) => {
                 custom={0.3}
                 className="home-faq-slider">
                 <Swiper
-                    ref={swiperRef} // Добавляем ссылку на Swiper
+                    ref={swiperRef}
                     modules={[Navigation]}
                     spaceBetween={24}
                     loop={true}
