@@ -1,7 +1,12 @@
 @import "mixin";
 
 .header { 
-  background-color: #202020;
+  /* background-color: #202020; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
   border-bottom: 1px solid #6D6D6D4D;
   font-family: 'Urbanist', sans-serif;
   padding: 16px 0;

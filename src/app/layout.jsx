@@ -4,9 +4,12 @@ import "@/styles/base.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const urbanist = Urbanist({ subsets: ["latin"] });
-const roboto = Roboto({ 
-  subsets: ["latin"], 
+const urbanist = Urbanist({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"]
+});
+const roboto = Roboto({
+  subsets: ["latin"],
   weight: ["400", "700"]
 });
 
