@@ -1,5 +1,7 @@
 @use "sass:math";
 
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;400;500;700;900&display=swap');
+
 @function rem($pixel) {
   @if math.is-unitless($pixel) {
     @return math.div($pixel, 16) + rem;

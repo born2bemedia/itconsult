@@ -6,11 +6,13 @@ import Footer from "@/components/Footer";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"]
+  weight: ["100", "300", "400", "500", "700", "900"],
+  display: "swap" 
 });
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "700"]
+  weight: ["400", "700"],
+  display: "swap" 
 });
 
 
