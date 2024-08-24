@@ -288,24 +288,16 @@ function RequestForm() {
                       )}
                     </Field>
                   </div>
-                  <div className="row _select">
-                    <Field name="urgency">
-                      {({ field, form }) => (
-                        <div>
-                          <CustomSelect
-                            {...field}
-                            options={options}
-                            className={
-                              form.touched.urgency && form.errors.urgency
-                                ? "invalid"
-                                : ""
-                            }
-                            classNamePrefix="custom-select"
-                          />
-                        </div>
-                      )}
-                    </Field>
+
+                  <div className="row">
+                    <Field name="urgency" component={CustomSelect} options={options} />
+                    {/* <ErrorMessage
+                      name="urgency"
+                      component="span"
+                      className="error"
+                    /> */}
                   </div>
+
                   <div className="row _policy">
                     <Field name="agreeToPolicy">
                       {({ field, form }) => (
