@@ -12,19 +12,11 @@ import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
-  const [submenuOpen, setSubmenuOpen] = useState({});
   const pathname = usePathname();
 
   const menuOpen = () => {
     setMenuOpened(!menuOpened);
     document.body.classList.toggle("no-scroll", !menuOpened);
-  };
-
-  const toggleSubmenu = (index) => {
-    setSubmenuOpen((prev) => ({
-      ...prev,
-      [index]: !prev[index],
-    }));
   };
 
   useEffect(() => {
@@ -59,7 +51,7 @@ const Header = () => {
               <Link href="/contacts" className="header__link-last">Contact us</Link>
               <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
                 {!menuOpened ? (
-                  <img src="/images/menu-open.svg" alt="menu-burger" />
+                  <img src="/images/menu-open.svg" alt="menu-buger" />
                 ) : (
                   <img alt="logo" src="/images/menu-close.svg" />
                 )}
@@ -69,61 +61,22 @@ const Header = () => {
           <div className={`header__menu ${menuOpened ? "_active" : ""}`}>
             <nav className="header__nav">
               <ul className="header__list">
-                {/* Item with submenu */}
                 <li className="header__item-menu _submenu">
-                  <div className="wrapper">
-                    <span>Services</span>
-                    <button
-                      type="button"
-                      className="btn"
-                      onClick={() => toggleSubmenu("services")}
-                    >
-                      {!submenuOpen["services"] ? (
-                        <img src="/images/menu-plus.svg" alt="expand" />
-                      ) : (
-                        <img src="/images/menu-minus.svg" alt="collapse" />
-                      )}
-                    </button>
-                  </div>
-                  <ul
-                    className={`header__submenu ${submenuOpen["services"] ? "_active" : ""}`}
-                    style={{
-                      maxHeight: submenuOpen["services"] ? "200px" : "0",
-                      overflow: "hidden",
-                      transition: "max-height 0.3s ease",
-                    }}
-                  >
+                  <span>
+                    Services
+                  </span>
+                  <ul className="header__submenu">
                     <li className="header__subitem"><Link href="/it-consulting">IT Consulting</Link></li>
                     <li className="header__subitem"><Link href="/marketing-consulting">Marketing Consulting</Link></li>
                   </ul>
                 </li>
-
-                {/* Other menu items */}
                 <li className="header__item-menu"><Link href="/complex-solutions">Complex Solutions</Link></li>
                 <li className="header__item-menu"><Link href="/market-research">Market Research</Link></li>
-                <li className="header__item-menu _submenu">
-                  <div className="wrapper">
-                    <span>Company</span>
-                    <button
-                      type="button"
-                      className="btn"
-                      onClick={() => toggleSubmenu("company")}
-                    >
-                      {!submenuOpen["company"] ? (
-                        <img src="/images/menu-plus.svg" alt="expand" />
-                      ) : (
-                        <img src="/images/menu-minus.svg" alt="collapse" />
-                      )}
-                    </button>
-                  </div>
-                  <ul
-                    className={`header__submenu ${submenuOpen["company"] ? "_active" : ""}`}
-                    style={{
-                      maxHeight: submenuOpen["company"] ? "200px" : "0",
-                      overflow: "hidden",
-                      transition: "max-height 0.3s ease",
-                    }}
-                  >
+                <li className="header__item-menu">
+                  <span>
+                    Company
+                  </span>
+                  <ul className="header__submenu">
                     <li className="header__subitem"><Link href="/about">About</Link></li>
                     <li className="header__subitem"><Link href="/people">People</Link></li>
                     <li className="header__subitem"><Link href="/newsroom">Newsroom</Link></li>
@@ -133,8 +86,6 @@ const Header = () => {
                 <li className="header__item-menu"><Link href="/faq">FAQ</Link></li>
                 <li className="header__item-menu"><Link href="/contact">Contact</Link></li>
               </ul>
-
-              {/* Contacts and Social Links */}
               <ul className="header__contacts-menu">
                 <li className="header__contacts-item">
                   <Link href="tel:">

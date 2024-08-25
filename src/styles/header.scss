@@ -1,20 +1,20 @@
 @import "mixin";
 
-.header { 
+.header {
   /* background-color: #202020; */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
-  border-bottom: 1px solid #6D6D6D4D;
-  font-family: 'Urbanist', sans-serif;
+  border-bottom: 1px solid #6d6d6d4d;
+  font-family: "Urbanist", sans-serif;
   padding: 16px 0;
-  &__container { 
-
+  &__container {
+    position: relative;
   }
 
-  &__body { 
+  &__body {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +22,6 @@
   }
 
   &__col-01 {
-
   }
 
   &__col-02 {
@@ -31,30 +30,30 @@
     column-gap: 40px;
   }
 
-  &__logo { 
+  &__logo {
     font-size: 40px;
     color: #fff;
   }
 
-  &__contacts { 
+  &__contacts {
     display: flex;
     align-items: center;
     column-gap: 40px;
 
-    @media(max-width: 767px) { 
+    @media (max-width: 767px) {
       display: none;
     }
   }
 
-  &__link { 
+  &__link {
     display: flex;
     align-items: center;
     column-gap: 8px;
     color: #fff;
     transition: all 0.3s ease 0s;
 
-    svg { 
-      path { 
+    svg {
+      path {
         transition: all 0.3s ease 0s;
       }
     }
@@ -62,8 +61,8 @@
     &:hover {
       color: #35544c;
 
-      svg { 
-        path { 
+      svg {
+        path {
           stroke: #35544c;
         }
       }
@@ -75,25 +74,24 @@
     align-items: center;
     column-gap: 8px;
 
-    @media(max-width: 767px) { 
+    @media (max-width: 767px) {
       display: none;
     }
   }
 
-  &__item { 
-
-    a { 
+  &__item {
+    a {
       display: flex;
 
-      svg { 
-        path { 
+      svg {
+        path {
           transition: all 0.3s ease 0s;
         }
       }
 
-      &:hover { 
-        svg { 
-          path { 
+      &:hover {
+        svg {
+          path {
             stroke: #35544c;
           }
         }
@@ -109,16 +107,16 @@
     border-radius: 8px;
     padding: 10px 16px;
     background-color: transparent;
-    border: 1px solid #6D6D6D4D;
+    border: 1px solid #6d6d6d4d;
     color: #fff;
     font-weight: 500;
     transition: all 0.3s ease 0s;
 
-    &:hover { 
+    &:hover {
       background-color: #35544c;
     }
 
-    @media(max-width: 767px) { 
+    @media (max-width: 767px) {
       display: none;
     }
   }
@@ -127,57 +125,213 @@
     width: 40px;
     height: 40px;
     border-radius: 8px;
-    border: 1px solid #6D6D6D4D;
+    border: 1px solid #6d6d6d4d;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease 0s;
+    z-index: 99;
 
-    &:hover { 
+    &._active {
+      background-color: #0c0c0c;
+      border: 1px solid #6d6d6d4d;
+      position: relative;
+      top: 20px;
+      right: 20px;
+
+      @media(max-width: 767px) { 
+        position: static;
+      }
+    }
+
+    &:hover {
       background-color: #35544c;
     }
   }
 
-  &__menu { 
-    display: none;
-  }
+  &__menu {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    background-color: #0f0f0f;
+    width: 100%;
+    max-width: 600px;
+    height: calc(100vh - 40px);
+    padding: 64px 0 0 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
 
-  &__nav { 
+    &._active {
+      opacity: 1;
+      visibility: visible;
+    }
 
-  }
-
-  &__list { 
-
-  }
-
-  &__item-menu { 
-
-    &._submenu { 
-
+    @media(max-width: 767px) { 
+      max-width: 100%;
+      height: auto;
+      min-height: 100vh;
+      top: -16px;
+      right: 0;
+      transition: all 0.5s ease 0s;
     }
   }
 
-  &__subitem { 
+  &__nav {
+    height: 100%;
+    overflow: auto;
 
-    a { 
+    &::-webkit-scrollbar {
+      background: transparent;
+      width: 0px;
+    }
 
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+    }
+
+    /*    &::-webkit-scrollbar {
+      background: transparent;
+      width: 10px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #f5f5f5;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: #979797;
+      border-radius: 100px;
+    } */
+  }
+
+  &__list {
+  }
+
+  &__item-menu {
+    a {
+      padding: 24px;
+      border-top: 1px solid #6d6d6d4d;
+      font-size: 24px;
+      line-height: normal;
+      color: #fff;
+      font-weight: 600;
+      font-family: "Urbanist", sans-serif;
+      width: 100%;
+      display: flex;
+      transition: all 0.3s ease 0s;
+
+      &:hover { 
+        color: #35544c;
+      }
+    }
+    &._submenu {
+      padding: 24px 0;
+      cursor: pointer;
+
+      .wrapper { 
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        span { 
+          font-size: 24px;
+          line-height: normal;
+          font-family: "Urbanist", sans-serif;
+          font-weight: 600;
+          color: #fff;
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &:hover { 
+        span { 
+          color: #35544c;
+        }
+      }
     }
   }
 
-  &__contacts-menu { 
-
+  &__submenu {
+    padding: 0 24px;
   }
 
-  &__contacts-item { 
-
+  &__subitem {
+    &:not(:last-child) { 
+      margin-bottom: 16px;
+    }
+    a {
+      padding: 0;
+      font-size: 16px;
+      line-height: normal;
+      font-weight: 400;
+      border: none;
+    }
   }
 
-  &__social-menu { 
+  &__contacts-menu {
+    border-top: 1px solid #6d6d6d4d;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
 
+  &__contacts-item {
+    a {
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+      color: #fff;
+      font-family: "Urbanist", sans-serif;
+      transition: all 0.3s ease 0s;
+      svg {
+        path {
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &:hover {
+        color: #35544c;
+
+        svg { 
+          path { 
+            stroke: #35544c;
+          }
+        }
+      }
+    }
+  }
+
+  &__social-menu {
+    padding: 0px 24px 48px 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
   }
 
   &__social-item {
 
+    a { 
+      svg { 
+        path { 
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &:hover { 
+        svg { 
+          path { 
+            stroke: #35544c;
+          }
+        }
+      }
+    }
   }
 }

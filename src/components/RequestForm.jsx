@@ -46,6 +46,7 @@ function RequestForm() {
       .email("Please enter a valid email address.")
       .required("The field is required."),
     phone: Yup.string().required("The field is required."),
+    activity: Yup.string().required("The field is required."),
     website: Yup.string().required("The field is required."),
     challenge: Yup.string().required("The field is required."),
     urgency: Yup.string().required("Select an option."),
@@ -210,7 +211,7 @@ function RequestForm() {
                                 : ""
                             }
                           />
-                          {/* <ErrorMessage
+                         {/*  <ErrorMessage
                             name="activity"
                             component="span"
                             className="error"

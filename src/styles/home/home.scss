@@ -563,6 +563,22 @@
     justify-content: center;
     transition: all 0.3s ease 0s;
 
+    @media(min-width: 768px) { 
+      svg { 
+        path { 
+          transition: all 0.3s ease 0s;
+        }
+      }
+      &:hover { 
+        background-color: #fff;
+        svg { 
+          path { 
+            stroke: #000000;
+          }
+        }
+      }
+    }
+
     @media (max-width: 767px) {
       svg {
         path {
@@ -593,6 +609,22 @@
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease 0s;
+
+    @media(min-width: 768px) { 
+      svg { 
+        path { 
+          transition: all 0.3s ease 0s;
+        }
+      }
+      &:hover { 
+        background-color: #fff;
+        svg { 
+          path { 
+            stroke: #000000;
+          }
+        }
+      }
+    }
 
     @media (max-width: 767px) {
       svg {
@@ -1273,6 +1305,13 @@
             .react-tel-input {
               width: 100%;
 
+              &.invalid { 
+                
+                input { 
+                  border-color: #ff0000;
+                }
+              }
+
               .flag-dropdown {
                 width: fit-content;
                 position: absolute;
@@ -1343,6 +1382,7 @@
               input {
                 padding: 10px 16px 10px 65px !important;
                 height: 40px;
+                transition: all 0.3s ease 0s;
               }
             }
 
