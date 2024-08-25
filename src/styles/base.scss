@@ -112,6 +112,15 @@ body {
 		background-color: #979797;
 		border-radius: 100px;
 	}
+	&.no-scroll { 
+		/* overflow: hidden;
+		padding-right: 10px;
+
+		@media(max-width: 767px) { 
+			overflow: auto;
+			padding-right: 0;
+		} */
+	}
 }
 
 ._container {

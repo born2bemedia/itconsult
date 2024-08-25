@@ -91,7 +91,7 @@ const Header = () => {
                       transition: "all 0.3s ease 0s",
                       borderTop: submenuOpen["services"] ? "1px solid #6d6d6d4d" : "none",
                       paddingTop: submenuOpen["services"] ? "24px" : "0",
-                      marginTop: submenuOpen["services"] ? "24px" : "0",
+                      marginTop: submenuOpen["services"] ? "24px" : "0", 
                     }}
                   >
                     <li className="header__subitem"><Link href="/it-consulting">IT Consulting</Link></li>
