@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import "@/styles/home/home.scss";
-import Link from "next/link";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import ArrowRight from "@/icons/slider/ArrowRight";
+import RequestButton from "@/components/RequestButton";
 
 
 const HomeValue = () => {
@@ -22,10 +22,11 @@ const HomeValue = () => {
                             <h2 className="home-value__title">360° VALUE</h2>
                         </div>
                         <div className="home-value__col-02">
-                            <Link href="/solutions" className="home-value__link">
-                                Let's Talk Solutions
-                                <ArrowRight />
-                            </Link>
+                            <RequestButton
+                                className={"home-value__link"}
+                                text={"Let's Talk Solutions"}
+                                icon={<ArrowRight />} 
+                            />
                         </div>
                     </motion.div>
                     <div className="home-value__row-02">
