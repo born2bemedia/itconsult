@@ -2,6 +2,35 @@
 import React, { useState, useEffect } from "react";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import { motion } from "framer-motion";
+import ItConsultingSlider3 from "../_components/ItConsultingSlider3";
+
+const slides = [
+  {
+    title: 'Custom <br /> Software Development',
+    text: 'Development of  bespoke software solutions tailored to business needs, ensuring optimal functionality and user experience',
+    service: 'Custom Software Development',
+  },
+  {
+    title: 'Application <br /> Integration',
+    text: 'Integration of various software applications, creating a unified system that enhances productivity and data flow across organisation.',
+    service: 'Application Integration',
+  },
+  {
+    title: 'API <br/> Integration',
+    text: 'Integration of APIs to enable seamless communication between software systems to enhance interoperability.',
+    service: 'API Integration',
+  },
+  {
+    title: 'Legacy <br /> System Modernization',
+    text: 'Update and integration of legacy systems with modern technologies, ensuring continued relevance and improved performance.',
+    service: 'Legacy System Modernization',
+  },
+  {
+    title: 'Enterprise <br /> Resource Planning',
+    text: 'Development  and implementation of ERP systems that streamline your business processes, providing a single source of truth for all your operations.',
+    service: 'Enterprise Resource Planning',
+  },
+];
 
 const ItTab3 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,11 +82,7 @@ const ItTab3 = () => {
           style={{ overflow: "hidden" }}
         >
           <div className="wrapper">
-            CONTENT #3333333 Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quidem modi quas, accusamus veritatis est
-            asperiores itaque fugit cumque aliquam possimus adipisci tempora
-            consectetur delectus voluptates eos explicabo molestias vitae
-            placeat.
+            <ItConsultingSlider3 slides={slides} />
           </div>
         </motion.div>
       </div>
@@ -65,4 +90,4 @@ const ItTab3 = () => {
   );
 };
 
-export default ItTab3;
+export default ItTab3; 

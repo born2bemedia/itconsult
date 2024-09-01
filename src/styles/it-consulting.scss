@@ -292,7 +292,11 @@
   }
 }
 
-.wrapper-it-conslt-slider1 { 
+.wrapper-it-conslt-slider1,
+.wrapper-it-conslt-slider2,
+.wrapper-it-conslt-slider3,
+.wrapper-it-conslt-slider4,
+.wrapper-it-conslt-slider5 { 
 
   font-family: "Urbanist", sans-serif;
   .swiper {
@@ -387,11 +391,17 @@
 
     &:hover {
       background-color: #35544c;
-    }
 
+      svg { 
+        path { 
+          stroke: #fff;
+        }
+      }
+    }
     svg { 
       path { 
         stroke: #6D6D6D;
+        transition: all 0.3s ease 0s;
       }
     }
   }
@@ -409,10 +419,17 @@
 
     &:hover {
       background-color: #35544c;
+
+      svg { 
+        path { 
+          stroke: #fff;
+        }
+      }
     }
     svg { 
       path { 
         stroke: #6D6D6D;
+        transition: all 0.3s ease 0s;
       }
     }
   }

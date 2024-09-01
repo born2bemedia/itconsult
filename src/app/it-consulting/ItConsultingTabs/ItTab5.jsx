@@ -2,8 +2,37 @@
 import React, { useState, useEffect } from "react";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import { motion } from "framer-motion";
+import ItConsultingSlider5 from "../_components/ItConsultingSlider5";
 
-const ItTab5 = () => {
+const slides = [
+  {
+    title: '24/7 <br /> IT Support',
+    text: 'Round-the-clock support to address IT issues promptly, minimising downtime and keeping your operations running smoothly.',
+    service: '24/7 IT Support',
+  },
+  {
+    title: 'System <br/> Monitoring',
+    text: 'Detecting  and resolving issues before they impact your business, ensuring continuous system performance.',
+    service: 'System Monitoring',
+  },
+  {
+    title: 'Patch <br/> Management',
+    text: 'Timely application of software patches and updates, protecting your systems from vulnerabilities and ensuring compliance.',
+    service: ' Patch Management',
+  },
+  {
+    title: 'Help Desk <br/> Services',
+    text: 'Expert help desk provision of  quick and efficient support for all your IT-related queries and issues, enhancing user satisfaction.',
+    service: 'Help Desk Services',
+  },
+  {
+    title: 'On-Site <br/> and Remote Support',
+    text: 'On-site and remote support services, ensuring businesses have the assistance whenever and wherever they need it.',
+    service: 'On-Site and Remote Support',
+  },
+];
+
+const ItTab4 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -11,7 +40,7 @@ const ItTab5 = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 992);
     };
-    
+
     /* Это состояние при загрузке!!! */
     handleResize();
 
@@ -53,11 +82,7 @@ const ItTab5 = () => {
           style={{ overflow: "hidden" }}
         >
           <div className="wrapper">
-            CONTENT #55555555 Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quidem modi quas, accusamus veritatis est
-            asperiores itaque fugit cumque aliquam possimus adipisci tempora
-            consectetur delectus voluptates eos explicabo molestias vitae
-            placeat.
+            <ItConsultingSlider5 slides={slides} />
           </div>
         </motion.div>
       </div>
@@ -65,4 +90,4 @@ const ItTab5 = () => {
   );
 };
 
-export default ItTab5;
+export default ItTab4; 

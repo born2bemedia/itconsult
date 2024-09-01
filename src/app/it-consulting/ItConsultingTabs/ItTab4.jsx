@@ -2,6 +2,35 @@
 import React, { useState, useEffect } from "react";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import { motion } from "framer-motion";
+import ItConsultingSlider4 from "../_components/ItConsultingSlider4";
+
+const slides = [
+  {
+    title: 'Data <br /> Warehousing',
+    text: 'Design and implementation of data warehouses that centralise business data, making data management  easier.',
+    service: 'Data Warehousing',
+  },
+  {
+    title: 'Business <br /> Intelligence',
+    text: 'Expert provision of actionable insights, enabling data-driven decision-making to drive growth and efficiency.',
+    service: 'Business Intelligence',
+  },
+  {
+    title: 'Big <br /> Data Analytics',
+    text: 'Assistance in  leveraging  big data technologies to analyse large datasets, uncovering trends and insights.',
+    service: 'Big Data Analytics',
+  },
+  {
+    title: 'Data <br/> Migration Services',
+    text: 'Expert management of a secure and seamless data migration between systems, minimising downtime.',
+    service: 'Data Migration Services',
+  },
+  {
+    title: 'Data <br /> Governance',
+    text: 'Establishing data governance frameworks that ensure your data is accurate, accessible, and compliant with relevant regulations.',
+    service: 'Data Governance',
+  },
+];
 
 const ItTab4 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,11 +82,7 @@ const ItTab4 = () => {
           style={{ overflow: "hidden" }}
         >
           <div className="wrapper">
-            CONTENT #44444444 Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quidem modi quas, accusamus veritatis est
-            asperiores itaque fugit cumque aliquam possimus adipisci tempora
-            consectetur delectus voluptates eos explicabo molestias vitae
-            placeat.
+            <ItConsultingSlider4 slides={slides} />
           </div>
         </motion.div>
       </div>
@@ -65,4 +90,4 @@ const ItTab4 = () => {
   );
 };
 
-export default ItTab4;
+export default ItTab4; 

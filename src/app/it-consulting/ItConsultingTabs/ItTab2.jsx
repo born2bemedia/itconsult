@@ -2,6 +2,35 @@
 import React, { useState, useEffect } from "react";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import { motion } from "framer-motion";
+import ItConsultingSlider2 from "../_components/ItConsultingSlider2";
+
+const slides = [
+  {
+    title: 'Network Design <br /> and Optimization',
+    text: 'Design and optimisation of business network infrastructure to ensure reliable, high-performance connectivity across all business locations.',
+    service: 'Network Design and Optimization',
+  },
+  {
+    title: 'Cloud Infrastructure <br/> Management',
+    text: 'Managing and optimisation of  business cloud environments (e.g., AWS, Azure), ensuring scalability, security, and cost-efficiency',
+    service: 'Cloud Infrastructure Management',
+  },
+  {
+    title: 'Professional <br/> Virtualization Services',
+    text: 'Expert assistance in implementation and management of  virtualized environments, reducing hardware costs and improving system flexibility.',
+    service: 'Professional Virtualization Services',
+  },
+  {
+    title: 'Disaster <br /> Recovery Planning',
+    text: 'Development and implementation of disaster recovery plans to safeguard your data and ensure business continuity in case of disruptions.',
+    service: 'Disaster Recovery Planning',
+  },
+  {
+    title: 'Security Infrastructure <br/> Implementation',
+    text: 'Design and deployment of  robust security measures to protect your IT infrastructure from cyber threats and unauthorised access.',
+    service: 'Security Infrastructure Implementation',
+  },
+];
 
 const ItTab2 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,11 +82,7 @@ const ItTab2 = () => {
           style={{ overflow: "hidden" }}
         >
           <div className="wrapper">
-            CONTENT #2222222222222 Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quidem modi quas, accusamus veritatis est
-            asperiores itaque fugit cumque aliquam possimus adipisci tempora
-            consectetur delectus voluptates eos explicabo molestias vitae
-            placeat.
+            <ItConsultingSlider2 slides={slides} />
           </div>
         </motion.div>
       </div>
