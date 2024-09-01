@@ -1,0 +1,145 @@
+@import "mixin";
+
+.solutions-hero {
+  height: 100vh;
+  font-family: "Urbanist", sans-serif;
+  position: relative;
+  background-image: url("/images/complex-solutions/complex-solutions-img-back-01.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.8) 0%, rgba(14, 14, 14, 0.6) 100%);
+  }
+
+  @media (max-width: 767px) {
+    background-image: url("/images/complex-solutions/complex-solutions-img-back-02.webp");
+  }
+
+  &__container {
+    height: 100%;
+  }
+
+  &__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: center;
+    position: relative;
+    z-index: 30;
+
+    @media (max-width: 767px) {
+      padding-top: 100px;
+    }
+  }
+
+  &__title {
+    @include adaptiv-value("font-size", 80, 32, 1);
+    line-height: normal;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  &__subtitle {
+    margin: 24px 0 0 0;
+    @include adaptiv-value("font-size", 24, 16, 1);
+    line-height: normal;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.solutions-need {
+  padding: 120px 0;
+  background-image: url("/images/it-consulting/it-consulting-img-back-04.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Urbanist", sans-serif;
+
+  @media (max-width: 767px) {
+    background-image: url("/images/it-consulting/it-consulting-img-back-05.webp");
+  }
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__content {
+  }
+
+  &__title {
+    @include adaptiv-value("font-size", 64, 32, 1);
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  &__link {
+    padding: 10px 16px;
+    margin: 24px auto 0 auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    column-gap: 10px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Urbanist", sans-serif;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #0f0f0f;
+    }
+
+    svg {
+      path {
+        stroke: #0f0f0f;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    &:hover {
+      background-color: #315149;
+      color: #fff;
+      svg {
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+}
+
+.solutions-main { 
+  @include adaptiv-value('padding-top', 120, 104, 1);
+  @include adaptiv-value('padding-bottom', 120, 104, 1);
+  height: 100vh;
+  &__container { 
+
+  }
+
+  &__body { 
+
+  }
+}
