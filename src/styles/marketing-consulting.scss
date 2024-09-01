@@ -1,0 +1,436 @@
+@import "mixin";
+
+.marketing-hero {
+  height: 100vh;
+  font-family: "Urbanist", sans-serif; 
+  position: relative;
+  background-image: url("/images/maketing-consulting/maketing-consulting-img-back-01.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.8) 0%, rgba(14, 14, 14, 0.6) 100%);
+  }
+
+  @media (max-width: 767px) {
+    background-image: url("/images/maketing-consulting/maketing-consulting-img-back-02.webp");
+  }
+
+  &__container {
+    height: 100%;
+  }
+
+  &__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: center;
+    position: relative;
+    z-index: 30;
+
+    @media (max-width: 767px) {
+      padding-top: 100px;
+    }
+  }
+
+  &__title {
+    @include adaptiv-value("font-size", 80, 32, 1);
+    line-height: normal;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  &__subtitle {
+    margin: 24px 0 0 0;
+    @include adaptiv-value("font-size", 24, 16, 1);
+    line-height: normal;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+.marketing-need {
+  padding: 120px 0;
+  background-image: url("/images/it-consulting/it-consulting-img-back-04.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: "Urbanist", sans-serif;
+
+  @media (max-width: 767px) {
+    background-image: url("/images/it-consulting/it-consulting-img-back-05.webp");
+  }
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__content {
+  }
+
+  &__title {
+    @include adaptiv-value("font-size", 64, 32, 1);
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  &__link {
+    padding: 10px 16px;
+    margin: 24px auto 0 auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    column-gap: 10px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #0f0f0f;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Urbanist", sans-serif;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #0f0f0f;
+    }
+
+    svg {
+      path {
+        stroke: #0f0f0f;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    &:hover {
+      background-color: #315149;
+      color: #fff;
+      svg {
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+}
+
+.marketing-main {
+  @include adaptiv-value("padding-top", 120, 84, 1);
+  @include adaptiv-value("padding-bottom", 120, 104, 1);
+  font-family: "Urbanist", sans-serif;
+  &__container {
+
+    &._container { 
+      @media(max-width: 992px) { 
+        padding: 0;
+      }
+    }
+  }
+
+  &__body {
+  }
+
+  &__tabs {
+  }
+}
+
+.tabsIt {
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__button {
+    font-family: "Urbanist", sans-serif;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #c9cdce;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+    color: #6d6d6d;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #315149;
+      border-color: #315149;
+      color: #fff;
+    }
+
+    &.active {
+      background-color: #315149;
+      border-color: #315149;
+      color: #fff;
+    }
+  }
+
+  &__content {
+  }
+}
+
+.wrapper-it-conslt {
+  font-family: "Urbanist", sans-serif;
+  @media(max-width: 992px) { 
+    &:not(:last-child) { 
+      border-bottom: 1px solid #cecece;
+    }
+  }
+  &__wrapper {
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 56px 0;
+    @media (min-width: 992px) {
+      cursor: default;
+    }
+
+    @media(max-width: 992px) { 
+      padding: 32px 24px;
+    }
+
+    &._open {
+      .icon {
+        background-color: #315149;
+        border-color: #315149;
+        svg {
+          transform: rotate(90deg);
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: #0F0F0F;
+      @include adaptiv-value('font-size', 64, 24, 1);
+      line-height: normal;
+      font-weight: 600;
+      font-family: "Urbanist", sans-serif;
+      .number {
+        color: #315149;
+        font-weight: 400;
+
+        @media(max-width: 992px) { 
+          font-weight: 800;
+        }
+      }
+     
+      @media(max-width: 992px) { 
+        align-items: flex-start;
+        text-align: start;
+        gap: 16px;
+      }
+    }
+
+    .icon {
+      @media (min-width: 992px) {
+        display: none;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      min-height: 40px;
+      border-radius: 8px;
+      border: 1px solid #cdcfce;
+      transition: all 0.3s ease 0s;
+
+      svg {
+        path {
+          stroke: #6d6d6d;
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &:hover {
+        background-color: #315149;
+        border-color: #315149;
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    .wrapper {
+      @media(max-width: 992px) { 
+        padding: 0 24px;
+      }
+    }
+  }
+}
+
+.wrapper-it-conslt-slider1,
+.wrapper-it-conslt-slider2,
+.wrapper-it-conslt-slider3,
+.wrapper-it-conslt-slider4,
+.wrapper-it-conslt-slider5 { 
+
+  font-family: "Urbanist", sans-serif;
+  .swiper {
+    .swiper-wrapper {
+      height: 334px;
+    }
+  }
+  
+  &__item {
+    height: 100%;
+  }
+
+  &__wrapper { 
+    background-color: #fff;
+    padding: 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__title {
+    font-size: 24px;
+    line-height: normal;
+    color: #0F0F0F;
+    font-weight: 600;
+  }
+
+  &__text { 
+    margin: 16px 0 24px 0;
+  }
+
+  &__link {
+    margin-top: auto;
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    column-gap: 10px;
+    font-weight: 600;
+    background-color: #315149;
+    border: 1px solid #cdcfce;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Urbanist", sans-serif;
+    transition: all 0.3s ease 0s;
+
+    svg {
+      path {
+        stroke: #ffffff;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    &:hover {
+      background-color: #0F0F0F;
+      color: #ffffff;
+      border-color: #0F0F0F;
+      svg {
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+
+  &__buttons {
+
+    @media(min-width: 1200px) { 
+      display: none;
+    }
+    
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+  }
+
+  &__prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #6d6d6d4d;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #35544c;
+
+      svg { 
+        path { 
+          stroke: #fff;
+        }
+      }
+    }
+    svg { 
+      path { 
+        stroke: #6D6D6D;
+        transition: all 0.3s ease 0s;
+      }
+    }
+  }
+
+  &__next {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #6d6d6d4d;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #35544c;
+
+      svg { 
+        path { 
+          stroke: #fff;
+        }
+      }
+    }
+    svg { 
+      path { 
+        stroke: #6D6D6D;
+        transition: all 0.3s ease 0s;
+      }
+    }
+  }
+}
