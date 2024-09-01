@@ -8,6 +8,7 @@ import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/X";
 import Email from "@/icons/other/Email";
 import Phone from "@/icons/other/Phone";
+import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
@@ -38,7 +39,7 @@ const Header = () => {
         <div className="header__container _container">
           <div className="header__body">
             <div className="header__col-01">
-              <Link href="/" className="header__logo">Logo</Link>
+              <Link href="/" className="header__logo"><LogoWhite/></Link>
             </div>
             <div className="header__col-02">
               <div className="header__contacts">

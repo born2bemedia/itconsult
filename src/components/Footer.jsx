@@ -8,7 +8,7 @@ import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/X";
 import Email from "@/icons/other/Email";
 import Phone from "@/icons/other/Phone";
-
+import LogoBlack from "@/icons/other/LogoBlack";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer__body">
           <div className="footer__row-01">
             <div className="footer__col-01">
-              <Link href="/" className="footer__logo">Logo</Link>
+              <Link href="/" className="footer__logo"><LogoBlack/></Link>
               <div className="footer__text">Where Technology Meets Strategy</div>
             </div>
             <div className="footer__col-02">
