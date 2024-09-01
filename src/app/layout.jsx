@@ -10,6 +10,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 */
 import { PopupsProvider } from "@/context/PopupsContext";
 import OrderPopup from "@/components/OrderPopup";
+import ServicePopup from "@/components/ServicePopup";
 
 
 const urbanist = Urbanist({
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
           <main className="site">{children}</main>
           <Footer />
           <OrderPopup />
+          <ServicePopup />
         </PopupsProvider>
       </body>
     </html>

@@ -2,6 +2,35 @@
 import React, { useState, useEffect } from "react";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import { motion } from "framer-motion";
+import ItConsultingSlider1 from "../_components/ItConsultingSlider1";
+
+const slides = [
+  {
+    title: "IT Roadmap <br /> Development",
+    text: "Comprehensive IT roadmaps that guide your technology investments and initiatives, ensuring alignment with your long-term business goals.",
+    service: 'IT Roadmap Development',
+  },
+  {
+    title: "Technology <br /> Assessment",
+    text: "Analysis of  current IT infrastructure, identifying strengths and areas for improvement to optimise performance.",
+    service: 'Technology Assessment',
+  },
+  {
+    title: "Digital Transformation <br /> Strategy",
+    text: "Customised strategies to help your business transition to digital platforms, enhancing efficiency, innovation, and competitiveness.",
+    service: 'Digital Transformation Strategy',
+  },
+  {
+    title: "IT Budgeting <br /> and Forecasting",
+    text: "Planning your IT expenditures, ensuring that business investments are cost-effective and aligned with your growth objectives.",
+    service: 'IT Budgeting and Forecasting',
+  },
+  {
+    title: "Risk <br /> Management",
+    text: "Identifying and mitigating IT risks, ensuring business systems comply with relevant regulations and industry standards.",
+    service: 'Risk Management',
+  },
+];
 
 const ItTab1 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,11 +82,7 @@ const ItTab1 = () => {
           style={{ overflow: "hidden" }}
         >
           <div className="wrapper">
-            CONTENT #111111111 Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quidem modi quas, accusamus veritatis est
-            asperiores itaque fugit cumque aliquam possimus adipisci tempora
-            consectetur delectus voluptates eos explicabo molestias vitae
-            placeat.
+            <ItConsultingSlider1 slides={slides} />
           </div>
         </motion.div>
       </div>

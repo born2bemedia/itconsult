@@ -2,24 +2,19 @@
 import React from "react";
 import { usePopup } from "@/context/PopupsContext";
 
-function RequestButton({ className, text, service, icon }) {
-    const {
-        setOrderPopupDisplay,
-        setServiceValue,
-    } = usePopup();
+function RequestButton({ className, text, icon }) {
+  const { setOrderPopupDisplay } = usePopup();
 
-    const orderPopupOpen = () => {
-        setServiceValue(service);
-        setOrderPopupDisplay(true);
-    };
-    return (
-        <>
-            <button className={className} onClick={() => orderPopupOpen()}>
-                {text}
-                {icon}
-            </button>
-        </>
-    );
+  const requestPopupOpen = () => {
+    setOrderPopupDisplay(true); // Открыть OrderPopup
+  };
+
+  return (
+    <button className={className} onClick={requestPopupOpen}>
+      {text}
+      {icon}
+    </button>
+  );
 }
 
 export default RequestButton;

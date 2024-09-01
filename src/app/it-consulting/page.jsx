@@ -1,4 +1,5 @@
 import "@/styles/it-consulting.scss";
+import "@/styles/base.scss";
 import React from "react";
 import ItConsultingHero from "./_components/ItConsultingHero";
 import ItConsultingMain from "./_components/ItConsultingMain";

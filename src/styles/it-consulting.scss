@@ -285,7 +285,135 @@
 
   &__content {
     .wrapper {
-      /* padding-top: 100px; */
+      @media(max-width: 992px) { 
+        padding: 0 24px;
+      }
+    }
+  }
+}
+
+.wrapper-it-conslt-slider1 { 
+
+  font-family: "Urbanist", sans-serif;
+  .swiper {
+    .swiper-wrapper {
+      height: 334px;
+    }
+  }
+  
+  &__item {
+    height: 100%;
+  }
+
+  &__wrapper { 
+    background-color: #fff;
+    padding: 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &__title {
+    font-size: 24px;
+    line-height: normal;
+    color: #0F0F0F;
+    font-weight: 600;
+  }
+
+  &__text { 
+    margin: 16px 0 24px 0;
+  }
+
+  &__link {
+    margin-top: auto;
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    column-gap: 10px;
+    font-weight: 600;
+    background-color: #315149;
+    border: 1px solid #cdcfce;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Urbanist", sans-serif;
+    transition: all 0.3s ease 0s;
+
+    svg {
+      path {
+        stroke: #ffffff;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    &:hover {
+      background-color: #0F0F0F;
+      color: #ffffff;
+      border-color: #0F0F0F;
+      svg {
+        path {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+
+  &__buttons {
+
+    @media(min-width: 1200px) { 
+      display: none;
+    }
+    
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+  }
+
+  &__prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #6d6d6d4d;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #35544c;
+    }
+
+    svg { 
+      path { 
+        stroke: #6D6D6D;
+      }
+    }
+  }
+
+  &__next {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #6d6d6d4d;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #35544c;
+    }
+    svg { 
+      path { 
+        stroke: #6D6D6D;
+      }
     }
   }
 }
