@@ -5,68 +5,41 @@ export async function POST(request) {
   try {
     const requestBody = await request.text();
     const bodyJSON = JSON.parse(requestBody);
-    const { firstName, lastName, email, phone, service, budget, company, website, message } = bodyJSON;
+    const { firstName, email, phone, service, company, website, activity, agreeToPolicy } = bodyJSON;
 
-    // Configure nodemailer with Gmail SMTP
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER, // Your Gmail email
-        pass: process.env.EMAIL_PASS, // Your Gmail password or app password
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
       tls: {
-        rejectUnauthorized: false, // This bypasses the certificate validation
+        rejectUnauthorized: false,
       },
     });
 
-    // Set up email data for the recipient
     const mailOptionsRecipient = {
-      from: '"The Next Wave Ad" <noreply@nextwavead.com>', // Sender address
-      to: "noreply@nextwavead.com", // Change to your recipient's email
+      from: '"The Next Wave Ad" <noreply@nexoria.ai>',
+      to: "noreply@nexoria.ai",
       subject: "Order Form Submission",
-      text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nBudget: ${budget}\nCompany name: ${company}\nCompany website: ${website}\nMessage: ${message}`,
+      text: `Name: ${firstName}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nCompany name: ${company}\nCompany website: ${website}\nActivity: ${activity}\nAgree to Policy: ${agreeToPolicy}`,
     };
 
-    // Set up email data for the client
     const mailOptionsClient = {
-      from: '"The Next Wave Ad" <noreply@nextwavead.com>', // Sender address
-      to: email, // Client's email
+      from: '"The Next Wave Ad" <noreply@nexoria.ai>',
+      to: email,
       subject: "Service Order Confirmation",
       html: `
         <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif">
-  <thead>
-    <tr>
-      <td>
-        <img style="width: 100%" src="https://nextwavead.com/images/email_header.png" />
-      </td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 40px">
-        <h2 style="text-align: left; font-size: 20px;color:#202020;">Dear ${firstName} ${lastName},</h2>
-        <p style="text-align: left; font-size: 16px;color:#202020;">Thank you for submitting your service order with Next Wave Ad!</p>
-        <p style="text-align: left; font-size: 16px;color:#202020;">We have received your request and our team will review the details. You can expect a follow-up from us shortly to discuss your needs and outline the next steps.</p>
-        <p style="text-align: left; font-size: 16px;color:#202020;">In the meantime, if you have any questions or need further assistance, please feel free to reply to this email or contact us at info@nextwavead.com.</p>
-        <p style="text-align: left; font-size: 16px;color:#202020;">We look forward to working with you and delivering exceptional results!</p>
-        <h2 style="text-align: left; font-size: 20px;color:#202020;"> Best regards,<br>The Next Wave Ad Team </h2>
-      </td>
-    </tr>
-  </tbody>
-  <tfoot >
-				<td style="padding: 24px 40px;background: #222222;background-size:cover;font-size: 20px;text-decoration: none;color: #ffffff;text-align: center;">
-					Thanks for using <a href="https://nextwavead.com/" style="color: #fff;font-size: 20px;text-decoration: none;color: #EB6418;">Next Wave Ad</a>
-				</td>
-			  </tfoot>
-</table>
+          <!-- Нужен дизайн письма :) -->
+        </table>
       `,
     };
 
-    // Send email to the recipient
     await transporter.sendMail(mailOptionsRecipient);
-    // Send email to the client
     await transporter.sendMail(mailOptionsClient);
 
+    console.log("Emails sent successfully.");
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
     console.error("Error sending emails:", error);

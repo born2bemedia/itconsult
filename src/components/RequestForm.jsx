@@ -9,6 +9,7 @@ import Select from "react-select";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import Mark from "@/icons/other/Mark";
 import Link from "next/link";
+import Snipper from "@/icons/loading/Snipper";
 
 // Кастомный компонент Select
 const CustomSelect = ({ name, options, ...props }) => {
@@ -211,7 +212,7 @@ function RequestForm() {
                                 : ""
                             }
                           />
-                         {/*  <ErrorMessage
+                          {/*  <ErrorMessage
                             name="activity"
                             component="span"
                             className="error"
@@ -351,6 +352,11 @@ function RequestForm() {
                     Submit Request
                     <ArrowRight />
                   </button>
+                  {isSubmitting && (
+                    <div className="loading-icon">
+                      <Snipper />
+                    </div>
+                  )}
                 </Form>
               </>
             )}

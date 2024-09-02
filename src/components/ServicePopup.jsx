@@ -8,7 +8,9 @@ import PhoneInput from "react-phone-input-2";
 import useCountryCode from "@/utils/useCountryCode";
 import ArrowRight from "@/icons/slider/ArrowRight";
 import CloseIcon from "@/icons/other/CloseIcon";
+import Snipper from "@/icons/loading/Snipper";
 import Link from "next/link";
+
 
 const ServicePopup = () => {
   const { servicePopupDisplay, setServicePopupDisplay, currentService } = usePopup();
@@ -245,6 +247,11 @@ const ServicePopup = () => {
                                 Submit Request
                                 <ArrowRight />
                               </button>
+                              {isSubmitting && (
+                                <div className="loading-icon">
+                                  <Snipper />
+                                </div>
+                              )}
                             </Form>
                           </>
                         )}
