@@ -131,15 +131,331 @@
   }
 }
 
-.solutions-main { 
-  @include adaptiv-value('padding-top', 120, 104, 1);
-  @include adaptiv-value('padding-bottom', 120, 104, 1);
-  height: 100vh;
-  &__container { 
-
+.solutions-main {
+  font-family: "Urbanist", sans-serif;
+  &__container {
   }
 
-  &__body { 
+  &__body {
+  }
 
+  &__row {
+    position: relative;
+    display: flex;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 120vw;
+      height: 1px;
+      border-bottom: 1px solid #d4d4d4;
+    }
+  }
+
+  &__col-01 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    @include adaptiv-value("padding-top", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 28, 0, 1);
+    padding-right: 40px;
+    border-right: 1px solid #d4d4d4;
+    background-color: #fff;
+  }
+
+  &__col-02 {
+    width: 55%;
+    background-color: #f7f7f7;
+    @include adaptiv-value("padding-top", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 58, 0, 1);
+    padding-right: 40px;
+    padding-left: 80px;
+
+    @media (max-width: 992px) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  &__title {
+    @include adaptiv-value("font-size", 64, 30, 1);
+    line-height: normal;
+    font-weight: 600;
+    color: #0f0f0f;
+  }
+
+  &__desc {
+    margin: 16px 0 0 0;
+    max-width: 620px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0f0f0f;
+  }
+
+  &__price {
+    margin: 40px 0 0 0;
+    font-size: 24px;
+    line-height: normal;
+    color: #315149;
+    font-weight: 600;
+  }
+
+  &__number {
+    margin: auto 0 0 0;
+    @include adaptiv-value("font-size", 128, 50, 1);
+    line-height: normal;
+    color: #ebedec;
+    font-weight: 600;
+  }
+
+  &__link {
+    padding: 10px 16px;
+    margin: 40px auto 40px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    column-gap: 10px;
+    font-weight: 600;
+    background-color: #315149;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: normal;
+    font-family: "Urbanist", sans-serif;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #0f0f0f;
+    }
+
+    svg {
+      path {
+        stroke: #ffffff;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    &:hover {
+      background-color: #0f0f0f;
+    }
+  }
+}
+
+.complex-accordion {
+  font-family: "Urbanist", sans-serif;
+  &__container {
+  }
+
+  &__wrapper {
+  }
+
+  &__btn {
+    @media (min-width: 992px) {
+      display: none;
+    }
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 34px 0;
+    gap: 16px;
+    font-family: "Urbanist", sans-serif;
+    @media (min-width: 992px) {
+      cursor: default;
+    }
+
+    &._open {
+      .icon {
+        background-color: #315149;
+        border-color: #315149;
+        svg {
+          transform: rotate(90deg);
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    .number {
+      font-size: 30px;
+      font-weight: 600;
+      color: #315149;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: #0f0f0f;
+      font-size: 30px;
+      line-height: normal;
+      text-align: start;
+      font-weight: 600;
+      font-family: "Urbanist", sans-serif;
+      .number {
+        color: #315149;
+        font-weight: 400;
+
+        @media (max-width: 992px) {
+          font-weight: 800;
+        }
+      }
+
+      @media (max-width: 992px) {
+        align-items: flex-start;
+        text-align: start;
+        gap: 16px;
+      }
+    }
+
+    .icon {
+      margin: auto 0 auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      min-height: 40px;
+      border-radius: 8px;
+      border: 1px solid #cdcfce;
+      transition: all 0.3s ease 0s;
+
+      svg {
+        path {
+          stroke: #6d6d6d;
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &:hover {
+        background-color: #315149;
+        border-color: #315149;
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    .wrapper {
+      .label {
+        @include adaptiv-value("font-size", 36, 24, 1);
+        line-height: normal;
+        color: #0f0f0f;
+        font-weight: 600;
+      }
+
+      .rows {
+        margin: 32px 0 0 0;
+        @media (max-width: 992px) {
+          margin: 0;
+        }
+
+        .row {
+          padding: 24px 0;
+          display: flex;
+          align-items: center;
+          column-gap: 24px;
+          border-bottom: 1px solid #cecece;
+
+          @media (max-width: 992px) {
+            flex-direction: column;
+            align-items: flex-start;
+            row-gap: 8px;
+          }
+
+          .title {
+            width: 250px;
+            text-align: start;
+            @include adaptiv-value("font-size", 24, 16, 1);
+            line-height: normal;
+            color: #0f0f0f;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .text {
+        font-size: 16px;
+        line-height: normal;
+        color: #0f0f0f;
+        @media (min-width: 992px) {
+          display: none;
+        }
+      }
+
+      .price {
+        margin: 32px 0;
+        font-size: 16px;
+        line-height: normal;
+        color: #315149;
+        font-weight: 600;
+        @media (min-width: 992px) {
+          display: none;
+        }
+      }
+
+      .best {
+        margin: 32px 0 0 0;
+        padding: 40px;
+        background-color: #fff;
+        @media (max-width: 992px) {
+          padding: 24px;
+        }
+
+        .title {
+          @include adaptiv-value("font-size", 36, 24, 1);
+          line-height: normal;
+          color: #0f0f0f;
+          font-weight: 600;
+        }
+
+        .text {
+          margin: 16px 0 0 0;
+          display: flex;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+
+      .link {
+        @media(min-width: 992px) { 
+          display: none;
+        }
+        padding: 10px 16px;
+        margin: 32px auto;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        column-gap: 10px;
+        font-weight: 600;
+        background-color: #315149;
+        color: #fff;
+        font-size: 16px;
+        line-height: normal;
+        font-family: "Urbanist", sans-serif;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+          background-color: #0f0f0f;
+        }
+
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
   }
 }
