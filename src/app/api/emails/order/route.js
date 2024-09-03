@@ -19,14 +19,14 @@ export async function POST(request) {
     });
 
     const mailOptionsRecipient = {
-      from: '"The Next Wave Ad" <noreply@nexoria.ai>',
+      from: '"Nexoria" <noreply@nexoria.ai>',
       to: "noreply@nexoria.ai",
       subject: "Order Form Submission",
       text: `Name: ${firstName}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\nCompany name: ${company}\nCompany website: ${website}\nActivity: ${activity}\nAgree to Policy: ${agreeToPolicy}`,
     };
 
     const mailOptionsClient = {
-      from: '"The Next Wave Ad" <noreply@nexoria.ai>',
+      from: '"Nexoria" <noreply@nexoria.ai>',
       to: email,
       subject: "Service Order Confirmation",
       html: `

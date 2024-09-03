@@ -14,7 +14,7 @@ import SolutionsMain from "./_components/SolutionsMain";
         title: "Contact  Marketing Experts",
         description:
             "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-        images: "https://nextwavead.com/images/meta.png",
+        images: "",
     },
 }; */
 

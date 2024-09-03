@@ -21,7 +21,7 @@ export async function POST(request) {
 
     // Set up email data for the recipient
     const mailOptionsRecipient = {
-      from: '"The Next Wave Ad" <noreply@nextwavead.com>', // Sender address
+      from: '"Nexoria" <noreply@nextwavead.com>', // Sender address
       to: "noreply@nextwavead.com", // Change to your recipient's email
       subject: "Get a Proposal Confirmation",
       text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\nCompany website: ${website}\nCompany name: ${company}\nChallenges: ${challenges}\nGoals: ${goals}`,
@@ -29,7 +29,7 @@ export async function POST(request) {
 
     // Set up email data for the client
     const mailOptionsClient = {
-      from: '"The Next Wave Ad" <noreply@nextwavead.com>', // Sender address
+      from: '"Nexoria" <noreply@nextwavead.com>', // Sender address
       to: email, // Client's email
       subject: "Get a Proposal Confirmation",
       html: `
@@ -51,7 +51,7 @@ export async function POST(request) {
 </p>
         <p style="text-align: left; font-size: 16px;color:#202020;">If you have any immediate questions or need further assistance, please do not hesitate to reply to this email or contact us at info@nextwavead.com..</p>
         <p style="text-align: left; font-size: 16px;color:#202020;">We look forward to connecting with you!</p>
-        <h2 style="text-align: left; font-size: 20px;color:#202020;"> Best regards,<br>The Next Wave Ad Team </h2>
+        <h2 style="text-align: left; font-size: 20px;color:#202020;"> Best regards,<br>Nexoria Team </h2>
       </td>
     </tr>
   </tbody>

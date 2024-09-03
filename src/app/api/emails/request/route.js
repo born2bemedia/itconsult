@@ -28,7 +28,7 @@ export async function POST(request) {
     });
 
     const mailOptionsRecipient = {
-      from: '"The Next Wave Ad" <noreply@nexoria.ai>', 
+      from: '"Nexoria" <noreply@nexoria.ai>', 
       to: "noreply@nexoria.ai", //
       subject: "Consultation Request",
       text: `Name: ${yourName}
@@ -42,7 +42,7 @@ Urgency: ${urgency}`,
     };
 
     const mailOptionsClient = {
-      from: '"The Next Wave Ad" <noreply@nexoria.ai>', 
+      from: '"Nexoria" <noreply@nexoria.ai>', 
       to: email, 
       subject: "nexoria - Consultation Request Confirmation",
       html: `
