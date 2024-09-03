@@ -21,15 +21,15 @@ export async function POST(request) {
 
     // Set up email data for the recipient
     const mailOptionsRecipient = {
-      from: '"Nexoria" <noreply@nextwavead.com>', // Sender address
-      to: "noreply@nextwavead.com", // Change to your recipient's email
+      from: '"Nexoria" <noreply@nexoria.ai>', // Sender address
+      to: "noreply@nexoria.ai", // Change to your recipient's email
       subject: "Get a Proposal Confirmation",
       text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nPhone: ${phone}\nCompany website: ${website}\nCompany name: ${company}\nChallenges: ${challenges}\nGoals: ${goals}`,
     };
 
     // Set up email data for the client
     const mailOptionsClient = {
-      from: '"Nexoria" <noreply@nextwavead.com>', // Sender address
+      from: '"Nexoria" <noreply@nexoria.ai>', // Sender address
       to: email, // Client's email
       subject: "Get a Proposal Confirmation",
       html: `
