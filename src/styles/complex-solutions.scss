@@ -151,6 +151,7 @@
       width: 120vw;
       height: 1px;
       border-bottom: 1px solid #d4d4d4;
+      z-index: 30;
     }
   }
 
@@ -163,6 +164,17 @@
     padding-right: 40px;
     border-right: 1px solid #d4d4d4;
     background-color: #fff;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 120%;
+      height: 100%;
+      background-color: #fff;
+      top: 0;
+      left: -60%;
+      z-index: -1;
+    }
   }
 
   &__col-02 {
