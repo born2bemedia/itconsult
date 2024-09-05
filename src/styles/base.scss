@@ -521,6 +521,10 @@ body {
             border-color: #ff0000;
           }
         }
+
+        .react-datepicker-wrapper { 
+          width: 100%;
+        }
       }
 
       .button {
@@ -556,6 +560,38 @@ body {
         }
       }
 
+      .request-button { 
+        padding: 10px 16px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        column-gap: 10px;
+        font-weight: 500;
+        background-color: #315149;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: normal;
+        font-family: "Urbanist", sans-serif;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+          background-color: #0f0f0f;
+        }
+
+        svg {
+          path {
+            stroke: #ffffff;
+            transition: all 0.3s ease 0s;
+          }
+        }
+
+        &:hover {
+          background-color: #0f0f0f;
+        }
+      }
+
       .loading-icon {
         position: absolute;
         left: 210px;
@@ -567,6 +603,17 @@ body {
         svg { 
           width: 30px;
           height: 35px;
+        }
+      }
+
+      &._about { 
+        .general-error { 
+          left: 0;
+          bottom: -50px;
+
+          @media(max-width: 767px) { 
+            position: static;
+          }
         }
       }
     }

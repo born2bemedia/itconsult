@@ -1,0 +1,346 @@
+@import "mixin";
+
+.about-hero {
+    height: 100vh;
+    font-family: "Urbanist", sans-serif;
+    position: relative;
+    background-image: url("/images/about/about-back-img-01.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(14, 14, 14, 0.8) 0%, rgba(14, 14, 14, 0.6) 100%);
+    }
+
+    @media (max-width: 767px) {
+        background-image: url("/images/about/about-back-img-02.webp");
+    }
+
+    &__container {
+        height: 100%;
+    }
+
+    &__body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 30;
+
+        @media (max-width: 767px) {
+            padding-top: 100px;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 80, 32, 1);
+        line-height: normal;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin: 24px 0 0 0;
+        @include adaptiv-value("font-size", 24, 16, 1);
+        line-height: normal;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.about-text {
+    @include adaptiv-value("padding-top", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 120, 104, 1);
+    font-family: "Urbanist", sans-serif;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 36, 24, 1);
+        line-height: normal;
+        text-align: center;
+        font-weight: 600;
+        max-width: 984px;
+        margin: 0 auto;
+        /* position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 990px;
+            height: 200px;
+            background-color: red;
+        } */
+    }
+}
+
+.about-main {
+    font-family: "Urbanist", sans-serif;
+    &__container {
+        &._container {
+            @media (max-width: 992px) {
+                padding: 0 0 0 24px;
+            }
+        }
+    }
+
+    &__body {
+    }
+
+    &__row {
+        display: flex;
+        align-items: stretch;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            width: 120vw;
+            height: 1px;
+            border-bottom: 1px solid #d4d4d4;
+            z-index: 30;
+        }
+
+        &:first-child {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 120vw;
+                height: 1px;
+                border-top: 1px solid #d4d4d4;
+                z-index: 30;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 40%;
+        border-right: 1px solid #d4d4d4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 24px 0 0;
+
+        @media (max-width: 1200px) {
+            width: 100%;
+            padding: 104px 24px 40px 0;
+            border-right: 0;
+        }
+    }
+
+    &__col-02 {
+        width: 60%;
+        @include adaptiv-value("padding-top", 105, 40, 1);
+        @include adaptiv-value("padding-bottom", 105, 40, 1);
+        @include adaptiv-value("padding-left", 80, 24, 1);
+        @media (max-width: 1200px) {
+            width: 100%;
+            padding: 40px 0 104px 0;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 120%;
+                height: 1px;
+                border-top: 1px solid #d4d4d4;
+            }
+        }
+    }
+
+    &__number {
+        font-size: 36px;
+        line-height: normal;
+        font-weight: 600;
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 64, 32, 1);
+        line-height: normal;
+        font-weight: 600;
+    }
+
+    &__text {
+        margin: 16px 0 0 0;
+        font-size: 16px;
+        line-height: normal;
+        max-width: 620px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 16px;
+        overflow: auto;
+    }
+
+    &__item {
+        background-color: #fff;
+        padding: 40px;
+        width: 33.3333%;
+
+        .image {
+            max-width: 218px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 19px;
+            color: #0f0f0f;
+            font-weight: 600;
+            margin: 24px 0 0 0;
+        }
+
+        @media (max-width: 1651px) {
+            padding: 24px;
+        }
+
+        @media (max-width: 1200px) {
+            width: 100%;
+            .image {
+                max-width: 100%;
+                min-width: 218px;
+            }
+        }
+    }
+}
+
+.about-last {
+    font-family: "Urbanist", sans-serif;
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 40%;
+        position: relative;
+        &::before { 
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -25%;
+            width: 130%;
+            height: 100%;
+            background-image: url("/images/home/home-img-06.webp");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__col-02 {
+        width: 60%;
+        background-color: #fff;
+        position: relative;
+        @include adaptiv-value("padding-top", 120, 40, 1);
+        padding-right: 24px;
+        @include adaptiv-value("padding-bottom", 120, 40, 1);
+        @include adaptiv-value("padding-left", 80, 24, 1);
+        position: relative;
+        &::before { 
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -50%;
+            width: 120%;
+            height: 100%;
+            background-color: #fff;
+
+            @media(max-width: 767px) { 
+                right: -24px;
+                z-index: -1;
+            }
+        }
+        @media (max-width: 992px) {
+            width: 100%;
+            padding: 40px 0;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        @include adaptiv-value("row-gap", 24, 8, 1);
+        height: 100%;
+        @include adaptiv-value("padding-right", 80, 24, 1);
+        @include adaptiv-value("padding-bottom", 120, 40, 1);
+        padding-top: 24px;
+
+        @media (max-width: 992px) {
+            padding: 104px 24px;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 64, 32, 1);
+        line-height: normal;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    &__text {
+        @include adaptiv-value("font-size", 24, 16, 1);
+        line-height: normal;
+        color: #fff;
+        max-width: 580px;
+
+        @media (max-width: 992px) {
+            max-width: 100%;
+        }
+    }
+
+    &__label {
+        @include adaptiv-value("font-size", 36, 24, 1);
+        line-height: normal;
+        color: #0f0f0f;
+        font-weight: 600;
+    }
+
+    &__form {
+        max-width: 900px;
+        margin: 24px 0 0 0;
+
+        @media (max-width: 992px) {
+            max-width: 100%;
+        }
+    }
+}
