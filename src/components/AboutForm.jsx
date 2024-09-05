@@ -11,31 +11,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 // Кастомный компонент Select
-/* const CustomSelect = ({ name, options, ...props }) => {
-    const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
-
-    const handleChange = (selectedOption) => {
-        setFieldValue(name, selectedOption ? selectedOption.value : "");
-        setFieldTouched(name, true);
-    };
-
-    return (
-        <div className="row">
-            <Select
-                {...props}
-                options={options}
-                onChange={handleChange}
-                value={options.find(option => option.value === values[name])}
-                className={touched[name] && errors[name] ? "invalid" : ""}
-                classNamePrefix="custom-select"
-            />
-            {touched[name] && errors[name] ? (
-                <div className="error">{errors[name]}</div>
-            ) : null}
-        </div>
-    );
-}; */
-
 const CustomSelect = ({ name, options, ...props }) => {
     const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
 
