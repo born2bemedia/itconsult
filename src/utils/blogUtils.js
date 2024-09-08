@@ -10,7 +10,7 @@ export async function getPost(slug, locale) {
     fileSlug = `DE-${slug}`;
   }
 
-  const text = await readFile(`./src/lib/blog/${fileSlug}.md`, "utf8");
+  const text = await readFile(`./src/lib/newsroom/${fileSlug}.md`, "utf8");
   const {
     content,
     data: { title, seo_title, seo_description, thumbnail },
@@ -20,7 +20,7 @@ export async function getPost(slug, locale) {
 }
 
 export async function getSlugs() {
-  const files = await readdir("./src/lib/blog");
+  const files = await readdir("./src/lib/newsroom");
   return files
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.slice(0, -".md".length));
