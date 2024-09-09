@@ -175,6 +175,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    font-family: "Urbanist", sans-serif;
     &__container { 
 
     }
@@ -183,7 +184,14 @@
 
     }
 
-    &__form { 
+    &__title { 
+        font-size: 36px;
+        line-height: normal;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__content { 
         background-color: #fff;
         max-width: 840px;
         width: 100%;
@@ -193,4 +201,9 @@
             padding: 40px 24px;
         }
     }
+
+    &__form { 
+        margin: 24px 0 0 0;
+    }
+
 }

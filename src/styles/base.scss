@@ -522,7 +522,7 @@ body {
           }
         }
 
-        .react-datepicker-wrapper { 
+        .react-datepicker-wrapper {
           width: 100%;
         }
       }
@@ -560,7 +560,7 @@ body {
         }
       }
 
-      .request-button { 
+      .request-button {
         padding: 10px 16px;
         border-radius: 8px;
         display: flex;
@@ -596,24 +596,79 @@ body {
         position: absolute;
         left: 210px;
         bottom: 5px;
-        animation: spin 5s linear infinite; 
+        animation: spin 5s linear infinite;
         width: 30px;
         height: 35px;
 
-        svg { 
+        svg {
           width: 30px;
           height: 35px;
         }
       }
 
-      &._about { 
-        .general-error { 
+      &._about {
+        .general-error {
           left: 0;
           bottom: -50px;
 
-          @media(max-width: 767px) { 
+          @media (max-width: 767px) {
             position: static;
           }
+        }
+      }
+
+      &._people {
+        ._file {
+          grid-column-start: span 2;
+        }
+
+        ._textarea {
+          grid-column-start: span 2;
+
+          .textarea-container {
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+
+            label {
+              font-size: 16px;
+              font-weight: 600;
+            }
+
+            textarea {
+              padding: 10px 16px;
+              border-radius: 8px;
+              border: 1px solid #6d6d6d4d;
+              width: 100%;
+              color: #0f0f0f;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 19px;
+              font-family: "Urbanist", sans-serif;
+              transition: all 0.3s ease 0s;
+              height: 80px;
+              resize: none;
+
+              &::placeholder {
+                color: #6d6d6d;
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+
+        .request-button {
+          grid-column-start: span 2;
+          width: fit-content;
+          margin: 0 auto;
+        }
+
+        .general-error { 
+          left: 0;
+          bottom: -50px;
+          grid-column-start: span 2;
         }
       }
     }
