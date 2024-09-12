@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Formik, Form, Field, ErrorMessage, useFormikContext } from "formik";
 import * as Yup from "yup";
 import "react-phone-input-2/lib/style.css";
@@ -39,6 +39,7 @@ const CustomSelect = ({ name, options, ...props }) => {
 
 function RequestForm() {
   const countryCode = useCountryCode();
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const validationSchema = Yup.object({
     yourName: Yup.string().required("The field is required."),
@@ -80,6 +81,7 @@ function RequestForm() {
           setSubmitting(false);
           resetForm();
           setStatus({ success: true });
+          setIsSuccess(true); // Устанавливаем статус успеха
         }, 400);
       } else {
         setStatus({ success: false });
@@ -95,7 +97,7 @@ function RequestForm() {
     { value: "", label: "Urgency" },
     { value: "urgent", label: "Urgent" },
     { value: "high_priority", label: "High Priority" },
-    { value: "standard", label: "standard" },
+    { value: "standard", label: "Standard" },
   ];
 
   return (
@@ -107,263 +109,218 @@ function RequestForm() {
       >
         {({ isSubmitting, status, errors, touched }) => (
           <div className="wrapper">
-            {status && status.success ? (
-              <div className="success-message">
-                <h2>Thank you!</h2>
-                <span>
-                  Your request has been successfully received. Our team will review
-                  your information and contact you shortly to discuss your marketing
-                  challenges and the solutions we can provide.
+            <Form className="form">
+              {Object.keys(errors).length > 0 && touched && (
+                <span className="general-error">
+                  <Mark />
+                  This field is required.
                 </span>
-              </div>
-            ) : (
-              <>
-                <Form className="form">
-                  {Object.keys(errors).length > 0 && touched && (
-                    <span className="general-error">
-                      <Mark />
-                      This field is required.
-                    </span>
-                  )}
+              )}
 
-                  <div className="row">
-                    <Field name="yourName">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="text"
-                            placeholder="Your name"
-                            className={
-                              form.touched.yourName && form.errors.yourName
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/* <ErrorMessage
-                            name="yourName"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="company">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="text"
-                            placeholder="Company"
-                            className={
-                              form.touched.company && form.errors.company
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/* <ErrorMessage
-                            name="company"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="website">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="text"
-                            placeholder="Website"
-                            className={
-                              form.touched.website && form.errors.website
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/* <ErrorMessage
-                            name="website"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="activity">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="text"
-                            placeholder="Activity"
-                            className={
-                              form.touched.activity && form.errors.activity
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/*  <ErrorMessage
-                            name="activity"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="email">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="email"
-                            placeholder="Email"
-                            className={
-                              form.touched.email && form.errors.email
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/*  <ErrorMessage
-                            name="email"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="phone">
-                      {({ field, form }) => (
-                        <div>
-                          <PhoneInput
-                            country={countryCode}
-                            value={field.value}
-                            onChange={(value) => form.setFieldValue("phone", value)}
-                            placeholder="Your phone"
-                            className={
-                              form.touched.phone && form.errors.phone
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/* <ErrorMessage name="phone" component="span" /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <div className="row">
-                    <Field name="challenge">
-                      {({ field, form }) => (
-                        <div>
-                          <input
-                            {...field}
-                            type="text"
-                            placeholder="Your challenge"
-                            className={
-                              form.touched.challenge && form.errors.challenge
-                                ? "invalid"
-                                : ""
-                            }
-                          />
-                          {/*  <ErrorMessage
-                            name="challenge"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-                  <div className="row _select">
-                    <Field name="urgency">
-                      {({ field, form }) => (
-                        <div>
-                          <CustomSelect
-                            {...field}
-                            options={options}
-                            className={
-                              form.touched.urgency && form.errors.urgency
-                                ? "invalid"
-                                : ""
-                            }
-                            classNamePrefix="custom-select"
-                          />
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-                  <div className="row _policy">
-                    <Field name="agreeToPolicy">
-                      {({ field, form }) => (
-                        <div className="wrapper">
-                          <label
-                            className={`checkbox-label ${field.value ? "_active" : ""} ${form.touched.agreeToPolicy && form.errors.agreeToPolicy
-                              ? "invalid"
-                              : ""
-                              }`}
-                          >
-                            <input
-                              {...field}
-                              type="checkbox"
-                              checked={field.value}
-                              className={
-                                form.touched.agreeToPolicy && form.errors.agreeToPolicy
-                                  ? "invalid"
-                                  : ""
-                              }
-                            />
-                            <span>
-                              I agree to be contacted by Nexoria regarding my inquiry and
-                              understand that my data will be handled in accordance with
-                              the <Link href="privacy-policy">Privacy Policy</Link>.
-                            </span>
-                          </label>
-                          {/* <ErrorMessage
-                            name="agreeToPolicy"
-                            component="span"
-                            className="error"
-                          /> */}
-                        </div>
-                      )}
-                    </Field>
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="button"
-                    disabled={isSubmitting}
-                  >
-                    Submit Request
-                    <ArrowRight />
-                  </button>
-                  {isSubmitting && (
-                    <div className="loading-icon">
-                      <Snipper />
+              <div className="row">
+                <Field name="yourName">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="text"
+                        placeholder="Your name"
+                        className={
+                          form.touched.yourName && form.errors.yourName
+                            ? "invalid"
+                            : ""
+                        }
+                      />
                     </div>
                   )}
-                </Form>
-              </>
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="company">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="text"
+                        placeholder="Company"
+                        className={
+                          form.touched.company && form.errors.company
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="website">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="text"
+                        placeholder="Website"
+                        className={
+                          form.touched.website && form.errors.website
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="activity">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="text"
+                        placeholder="Activity"
+                        className={
+                          form.touched.activity && form.errors.activity
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="email">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="email"
+                        placeholder="Email"
+                        className={
+                          form.touched.email && form.errors.email
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="phone">
+                  {({ field, form }) => (
+                    <div>
+                      <PhoneInput
+                        country={countryCode}
+                        value={field.value}
+                        onChange={(value) => form.setFieldValue("phone", value)}
+                        placeholder="Your phone"
+                        className={
+                          form.touched.phone && form.errors.phone
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <div className="row">
+                <Field name="challenge">
+                  {({ field, form }) => (
+                    <div>
+                      <input
+                        {...field}
+                        type="text"
+                        placeholder="Your challenge"
+                        className={
+                          form.touched.challenge && form.errors.challenge
+                            ? "invalid"
+                            : ""
+                        }
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+              <div className="row _select">
+                <Field name="urgency">
+                  {({ field, form }) => (
+                    <div>
+                      <CustomSelect
+                        {...field}
+                        options={options}
+                        className={
+                          form.touched.urgency && form.errors.urgency
+                            ? "invalid"
+                            : ""
+                        }
+                        classNamePrefix="custom-select"
+                      />
+                    </div>
+                  )}
+                </Field>
+              </div>
+              <div className="row _policy">
+                <Field name="agreeToPolicy">
+                  {({ field, form }) => (
+                    <div className="wrapper">
+                      <label
+                        className={`checkbox-label ${field.value ? "_active" : ""} ${form.touched.agreeToPolicy && form.errors.agreeToPolicy
+                          ? "invalid"
+                          : ""
+                          }`}
+                      >
+                        <input
+                          {...field}
+                          type="checkbox"
+                          checked={field.value}
+                          className={
+                            form.touched.agreeToPolicy && form.errors.agreeToPolicy
+                              ? "invalid"
+                              : ""
+                          }
+                        />
+                        <span>
+                          I agree to be contacted by Nexoria regarding my inquiry and
+                          understand that my data will be handled in accordance with
+                          the <Link href="privacy-policy">Privacy Policy</Link>.
+                        </span>
+                      </label>
+                    </div>
+                  )}
+                </Field>
+              </div>
+
+              <button
+                type="submit"
+                className="button"
+                disabled={isSubmitting}
+              >
+                Submit Request
+                <ArrowRight />
+              </button>
+              {isSubmitting && (
+                <div className="loading-icon">
+                  <Snipper />
+                </div>
+              )}
+            </Form>
+            {isSuccess && (
+              <div className="success-message">
+                <span>Thank you!</span> Your request has been successfully submitted. We’ll get back to you within 1 business day. If you have any urgent questions, please contact us at <a href="mailto:noreply@nexoria.ai">noreply@nexoria.ai</a>.
+              </div>
             )}
           </div>
         )}
       </Formik>
-
     </div>
   );
 }

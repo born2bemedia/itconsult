@@ -672,6 +672,25 @@ body {
         }
       }
     }
+
+    .success-message {
+      margin: 24px 0 0 0;
+      padding: 24px;
+      background-color: #F7F7F7;
+      color: #0f0f0f;
+      span { 
+        color: #315149;
+        font-weight: 600;
+      }
+      
+      a { 
+        color: #315149;
+        font-weight: 600;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
 

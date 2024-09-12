@@ -6,14 +6,14 @@ export async function POST(request) {
     const requestBody = await request.text();
     const bodyJSON = JSON.parse(requestBody);
     const {
-      yourName, 
-      company, 
-      email, 
-      phone, 
-      activity, 
-      website, 
-      challenge, 
-      urgency, 
+      yourName,
+      company,
+      email,
+      phone,
+      activity,
+      website,
+      challenge,
+      urgency,
     } = bodyJSON;
 
     const transporter = nodemailer.createTransport({
@@ -28,7 +28,7 @@ export async function POST(request) {
     });
 
     const mailOptionsRecipient = {
-      from: '"Nexoria" <noreply@nexoria.ai>', 
+      from: '"Nexoria" <noreply@nexoria.ai>',
       to: "noreply@nexoria.ai", //
       subject: "Consultation Request",
       text: `Name: ${yourName}
@@ -42,8 +42,8 @@ Urgency: ${urgency}`,
     };
 
     const mailOptionsClient = {
-      from: '"Nexoria" <noreply@nexoria.ai>', 
-      to: email, 
+      from: '"Nexoria" <noreply@nexoria.ai>',
+      to: email,
       subject: "nexoria - Consultation Request Confirmation",
       html: `
         <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif">
@@ -62,3 +62,7 @@ Urgency: ${urgency}`,
     return NextResponse.status(500).json({ message: "COULD NOT SEND MESSAGE", error: error.message });
   }
 }
+
+
+
+  
