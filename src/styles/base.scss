@@ -95,7 +95,6 @@ body {
   font-weight: 400;
   margin: 0;
   background-color: #f7f7f7;
-
   &::-webkit-scrollbar {
     background: transparent;
     width: 10px;
@@ -136,7 +135,7 @@ body {
 
 .site {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .request-popup-wrap {

@@ -73,22 +73,14 @@
         line-height: normal;
         text-align: center;
         font-weight: 600;
-        max-width: 984px;
+        max-width: 966px;
         margin: 0 auto;
-        /* position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 990px;
-            height: 200px;
-            background-color: red;
-        } */
+
     }
 }
 
 .about-main {
+    overflow: hidden;
     font-family: "Urbanist", sans-serif;
     &__container {
         &._container {
@@ -235,6 +227,7 @@
 
 .about-last {
     font-family: "Urbanist", sans-serif;
+    background-color: #fff;
     &__container {
     }
 
@@ -274,21 +267,6 @@
         padding-right: 24px;
         @include adaptiv-value("padding-bottom", 120, 40, 1);
         @include adaptiv-value("padding-left", 80, 24, 1);
-        position: relative;
-        &::before { 
-            content: '';
-            position: absolute;
-            top: 0;
-            right: -50%;
-            width: 120%;
-            height: 100%;
-            background-color: #fff;
-
-            @media(max-width: 767px) { 
-                right: -24px;
-                z-index: -1;
-            }
-        }
         @media (max-width: 992px) {
             width: 100%;
             padding: 40px 0;
