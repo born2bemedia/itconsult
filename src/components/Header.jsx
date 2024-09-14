@@ -136,7 +136,7 @@ const Header = () => {
 
                 <li className="header__item-menu"><Link href="/how-we-work">How we work</Link></li>
                 <li className="header__item-menu"><Link href="/faq">FAQ</Link></li>
-                <li className="header__item-menu"><Link href="/contact">Contact</Link></li>
+                <li className="header__item-menu"><Link href="/contacts">Contact</Link></li>
               </ul>
 
               <ul className="header__contacts-menu">

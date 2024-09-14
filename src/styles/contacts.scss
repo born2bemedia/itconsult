@@ -104,6 +104,12 @@
 
     &__form { 
         margin: 24px 0 0 0;
+
+        ._policy { 
+            @media(max-width: 575px) { 
+                max-width: 300px;
+            }
+        }
     }
 
     &__contacts { 
