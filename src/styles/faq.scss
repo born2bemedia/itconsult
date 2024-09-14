@@ -80,24 +80,20 @@
         margin: 0;
         max-width: 85%;
 
-        @media(max-width: 767px) { 
+        @media (max-width: 767px) {
             max-width: 100%;
         }
-        /* position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 990px;
-            height: 200px;
-            background-color: red;
-        } */
+
+        .sentence {
+            justify-content: flex-start;
+        }
     }
 }
 
 .faq-main {
     font-family: "Urbanist", sans-serif;
+    overflow: hidden;
+    @include adaptiv-value('padding-bottom', 64, 40, 1);
     &__container {
         &._container {
             @media (max-width: 767px) {
@@ -178,61 +174,57 @@
 }
 
 .faq-last {
-    @include adaptiv-value('padding-top', 120, 104, 1);
-    @include adaptiv-value('padding-bottom', 120, 104, 1);
-    background-image: url('/images/people/people-back-img-03.webp');
+    @include adaptiv-value("padding-top", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 120, 104, 1);
+    background-image: url("/images/people/people-back-img-03.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     font-family: "Urbanist", sans-serif;
-    &__container { 
-
+    &__container {
     }
 
-    &__body { 
-
+    &__body {
     }
 
-    &__title { 
+    &__title {
         font-size: 36px;
         line-height: normal;
         font-weight: 600;
         text-align: center;
     }
 
-    &__subtitle { 
+    &__subtitle {
         margin: 8px auto 0 auto;
         text-align: center;
     }
 
-    &__content { 
+    &__content {
         background-color: #fff;
         max-width: 840px;
         width: 100%;
         margin: 0 auto;
         padding: 80px;
-        @media(max-width: 992px) { 
+        @media (max-width: 992px) {
             padding: 40px 24px;
         }
     }
 
-    &__form { 
+    &__form {
         margin: 24px 0 0 0;
 
-        .request-form { 
-
-            .form { 
-
-                .button { 
+        .request-form {
+            .form {
+                .button {
                     margin: 0 auto;
                 }
 
-                .general-error { 
+                .general-error {
                     bottom: -40px;
                     left: 50%;
                     transform: translate(-50%, 0);
 
-                    @media(max-width: 767px) { 
+                    @media (max-width: 767px) {
                         transform: translate(0, 0);
                         left: 0;
                     }
@@ -240,5 +232,4 @@
             }
         }
     }
-
 }

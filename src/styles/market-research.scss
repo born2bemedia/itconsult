@@ -176,6 +176,7 @@
     @include adaptiv-value("padding-bottom", 120, 80, 1);
     font-family: "Urbanist", sans-serif;
     position: relative;
+    overflow: hidden;
     &::before {
         content: "";
         position: absolute;
@@ -207,6 +208,7 @@
         display: flex;
         align-items: stretch;
         @include adaptiv-value("column-gap", 80, 0, 1);
+        overflow: hidden;
         @media (max-width: 992px) {
             flex-direction: column;
             column-gap: 0;
@@ -275,6 +277,7 @@
         display: flex;
         align-items: stretch;
         gap: 32px;
+        height: 100%;
 
         @media (max-width: 992px) {
             flex-direction: column;
@@ -300,6 +303,623 @@
 
         .text {
             margin: 16px 0 0 0;
+        }
+    }
+}
+
+.market-trends-it {
+    @include adaptiv-value('padding-top', 120, 80, 1);
+    @include adaptiv-value("padding-bottom", 120, 80, 1);
+    font-family: "Urbanist", sans-serif;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 120%;
+        height: 1px;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 48, 40, 1);
+        line-height: normal;
+        font-weight: 600;
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+    }
+
+    &__row-top {
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+    }
+
+    &__row {
+        display: flex;
+        align-items: stretch;
+        @include adaptiv-value("column-gap", 80, 0, 1);
+        overflow: hidden;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 32px;
+        }
+        &:not(:last-child) {
+            @include adaptiv-value("margin-bottom", 80, 40, 1);
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__col-02 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        line-height: normal;
+        color: #315149;
+        font-weight: 600;
+        margin: 0 0 24px 0;
+    }
+
+    &__items {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 50%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text {
+            margin: 16px 0 0 0;
+        }
+    }
+
+    &__subitems {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+        height: 100%;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__subitem {
+        width: 50%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text {
+            margin: 16px 0 0 0;
+        }
+    }
+}
+
+.market-common {
+    @include adaptiv-value('padding-top', 120, 80, 1);
+    @include adaptiv-value("padding-bottom", 120, 80, 1);
+    font-family: "Urbanist", sans-serif;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 120%;
+        height: 1px;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__top { 
+        display: flex;
+        column-gap: 40px;
+        @media(max-width: 767px) { 
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 80px;
+        }
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 48, 40, 1);
+        line-height: normal;
+        font-weight: 600;
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+        width: 50%;
+
+        @media(max-width: 767px) { 
+            width: 100%;
+        }
+    }
+
+    &__row-top {
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+        width: 50%;
+        @media(max-width: 767px) {
+            width: 100%;
+        }
+    }
+
+    &__row {
+        display: flex;
+        align-items: stretch;
+        @include adaptiv-value("column-gap", 80, 0, 1);
+        overflow: hidden;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 32px;
+        }
+        &:not(:last-child) {
+            @include adaptiv-value("margin-bottom", 80, 40, 1);
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__col-02 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        line-height: normal;
+        color: #315149;
+        font-weight: 600;
+        margin: 0 0 24px 0;
+    }
+
+    &__items {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 50%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text {
+            margin: 16px 0 0 0;
+        }
+    }
+
+    &__subitems {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+        height: 100%;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+
+        &._green { 
+            gap: 0;
+        }
+    }
+
+    &__subitem {
+        width: 50%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text { 
+            margin: 16px 0 0 0;
+        }
+
+        &._green { 
+            background-color: #315149;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .text { 
+                margin: 0;
+                font-size: 96px;
+                line-height: normal;
+                font-weight: 600;
+                color: #fff;
+                position: relative;
+                top: -30px;
+
+                @media(max-width: 767px) { 
+                    top: 0;
+                }
+            }
+        }
+    }
+}
+
+.market-face {
+    @include adaptiv-value('padding-top', 120, 80, 1);
+    @include adaptiv-value("padding-bottom", 120, 80, 1);
+    font-family: "Urbanist", sans-serif;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 120%;
+        height: 1px;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 48, 40, 1);
+        line-height: normal;
+        font-weight: 600;
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+    }
+
+    &__row-top {
+        @include adaptiv-value("margin-bottom", 80, 40, 1);
+    }
+
+    &__row {
+        display: flex;
+        align-items: stretch;
+        @include adaptiv-value("column-gap", 80, 0, 1);
+        overflow: hidden;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 32px;
+        }
+        &:not(:last-child) {
+            @include adaptiv-value("margin-bottom", 80, 40, 1);
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__col-02 {
+        width: 50%;
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    &__green { 
+        background-color: #315149;
+        height: 100%;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+
+        .title { 
+            font-size: 32px;
+            line-height: normal;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .text { 
+            margin: 16px 0 0 0;
+            color: #fff;
+            @include adaptiv-value('font-size', 24, 16, 1);
+            line-height: normal;
+        }
+    }
+
+    &__subtitle {
+        font-size: 32px;
+        line-height: normal;
+        color: #315149;
+        font-weight: 600;
+        margin: 0 0 24px 0;
+    }
+
+    &__items {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        width: 33.3333%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text {
+            margin: 16px 0 0 0;
+        }
+    }
+
+    &__subitems {
+        display: flex;
+        align-items: stretch;
+        gap: 32px;
+        height: 100%;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__subitem {
+        width: 50%;
+        background-color: #fff;
+        @include adaptiv-value("padding-top", 40, 24, 1);
+        @include adaptiv-value("padding-right", 40, 24, 1);
+        @include adaptiv-value("padding-bottom", 40, 24, 1);
+        @include adaptiv-value("padding-left", 40, 24, 1);
+        @media (max-width: 992px) {
+            width: 100%;
+        }
+        .title {
+            font-size: 24px;
+            line-height: normal;
+            color: #315149;
+            font-weight: 600;
+        }
+
+        .text {
+            margin: 16px 0 0 0;
+        }
+
+        &._full { 
+            width: 100%;
+        }
+    }
+}
+
+.market-recom {
+    @include adaptiv-value("padding-top", 120, 80, 1);
+    @include adaptiv-value("padding-bottom", 120, 80, 1);
+    font-family: "Urbanist", sans-serif;
+    &__container {
+
+    }
+
+    &__body {
+    }
+
+    &__title {
+        @include adaptiv-value("font-size", 48, 36, 1);
+        line-height: normal;
+        font-weight: 600;
+
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &__content {
+        display: flex;
+        margin: 56px 0 0 0;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+        }
+    }
+
+    &__col-01 {
+        width: 50%;
+        @include adaptiv-value("padding-top", 80, 0, 1);
+        @include adaptiv-value("padding-right", 80, 0, 1);
+        @include adaptiv-value("padding-bottom", 80, 0, 1);
+        @include adaptiv-value("padding-left", 80, 0, 1);
+        background-color: #315149;
+        @media (max-width: 992px) {
+            width: 100%;
+            padding: 80px 24px;
+        }
+    }
+
+    &__col-02 {
+        width: 50%;
+        @include adaptiv-value("padding-top", 80, 0, 1);
+        @include adaptiv-value("padding-right", 80, 0, 1);
+        @include adaptiv-value("padding-bottom", 80, 0, 1);
+        @include adaptiv-value("padding-left", 80, 0, 1);
+        background-color: #fff;
+        @media (max-width: 992px) {
+            width: 100%;
+            padding: 80px 24px;
+        }
+    }
+
+    &__subtitle {
+        @include adaptiv-value("font-size", 40, 32, 1);
+        line-height: normal;
+        font-weight: 600;
+        color: #0f0f0f;
+
+        &._left {
+            color: #fff;
+        }
+    }
+
+    &__text {
+        margin: 24px 0 0 0;
+        @include adaptiv-value("font-size", 24, 16, 1);
+        line-height: normal;
+
+        &._left {
+            color: #fff;
+        }
+    }
+}
+
+.market-last {
+    @include adaptiv-value("padding-top", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 120, 104, 1);
+    background-image: url("/images/people/people-back-img-03.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: "Urbanist", sans-serif;
+    &__container {
+    }
+
+    &__body {
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: normal;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin: 8px auto 0 auto;
+        text-align: center;
+    }
+
+    &__content {
+        background-color: #fff;
+        max-width: 840px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px;
+        @media (max-width: 992px) {
+            padding: 40px 24px;
+        }
+    }
+
+    &__form {
+        margin: 24px 0 0 0;
+
+        .request-form {
+            .form {
+                .button {
+                    margin: 0 auto;
+                }
+
+                .general-error {
+                    bottom: -40px;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+
+                    @media (max-width: 767px) {
+                        transform: translate(0, 0);
+                        left: 0;
+                    }
+                }
+            }
         }
     }
 }

@@ -1,7 +1,7 @@
 "use client";
 import "@/styles/animation.scss";
 import React from "react";
-import AnimatedSentence from "./AnimatedSentence";
+import AnimatedSentence from "@/components/AnimatedSentence";
 
 const AboutText = () => {
     return (

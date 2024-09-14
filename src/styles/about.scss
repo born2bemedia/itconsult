@@ -282,6 +282,7 @@
         @include adaptiv-value("padding-right", 80, 24, 1);
         @include adaptiv-value("padding-bottom", 120, 40, 1);
         padding-top: 24px;
+        position: relative;
 
         @media (max-width: 992px) {
             padding: 104px 24px;

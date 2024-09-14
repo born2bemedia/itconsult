@@ -4,7 +4,7 @@
     @include adaptiv-value("padding-top", 200, 100, 1);
     font-family: "Urbanist", sans-serif;
     position: relative;
-    background-image: url("/images/how-we-work/newsroom-img-01.webp");
+    background-image: url("/images/newsroom/newsroom-img-01.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -78,21 +78,17 @@
         line-height: normal;
         font-weight: 600;
         margin: 0;
-        /* position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 990px;
-            height: 200px;
-            background-color: red;
-        } */
+        max-width: 93%;
+        
+        .sentence { 
+            justify-content: flex-start;
+        }
     }
 }
 
 .newsroom-main {
     font-family: "Urbanist", sans-serif;
+    overflow: hidden;
     &__container {
     }
 

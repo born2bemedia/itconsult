@@ -33,6 +33,8 @@
   &__logo {
     font-size: 40px;
     color: #fff;
+    position: relative;
+    z-index: 9999;
   }
 
   &__contacts {

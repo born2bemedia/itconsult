@@ -78,16 +78,10 @@
         line-height: normal;
         font-weight: 600;
         margin: 0;
-        /* position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 990px;
-            height: 200px;
-            background-color: red;
-        } */
+       
+        .sentence { 
+            justify-content: flex-start;
+        }
     }
 }
 
