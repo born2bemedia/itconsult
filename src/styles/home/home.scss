@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  overflow: hidden;
 
   @media (max-width: 767px) {
     background-position: 75% bottom;
@@ -75,6 +76,7 @@
   gap: 40px;
   position: relative;
   z-index: 30;
+  overflow: hidden;
 
   @media (max-width: 767px) {
     display: flex;
@@ -163,6 +165,7 @@
 .home-value {
   @include adaptiv-value("padding-top", 120, 104, 1);
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__container {
   }
 
@@ -271,6 +274,7 @@
   @include adaptiv-value("padding-top", 120, 104, 1);
   @include adaptiv-value("padding-bottom", 120, 104, 1);
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__container {
   }
 
@@ -315,6 +319,7 @@
 
 .home-why-slider {
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   .swiper {
     .swiper-wrapper {
       height: 320px;
@@ -429,6 +434,7 @@
 .home-faq {
   @include adaptiv-value("padding-top", 120, 104, 1);
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__container {
   }
 
@@ -485,6 +491,7 @@
 
 .home-faq-slider {
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__item {
   }
 
@@ -649,6 +656,7 @@
 
 .home-what {
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
 
   &__container {
   }
@@ -985,6 +993,7 @@
   @include adaptiv-value("padding-top", 120, 104, 1);
   @include adaptiv-value("margin-bottom", 200, 200, 1);
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__container {
   }
 
@@ -1054,6 +1063,7 @@
 
 .home-last {
   font-family: "Urbanist", sans-serif;
+  overflow: hidden;
   &__container {
   }
 
