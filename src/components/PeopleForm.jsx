@@ -1,18 +1,14 @@
 "use client";
-import React from "react";
-import { Formik, Form, Field, ErrorMessage, useFormikContext } from "formik";
+import React, { useState, useEffect } from "react";
+import { Formik, Form, Field, useFormikContext } from "formik";
 import * as Yup from "yup";
-import "react-phone-input-2/lib/style.css";
 import Select from "react-select";
-import ArrowRight from "@/icons/slider/ArrowRight";
+import PhoneInput from "react-phone-input-2";
 import useCountryCode from "@/utils/useCountryCode";
 import Mark from "@/icons/other/Mark";
-import Snipper from "@/icons/loading/Snipper";
-import DatePicker from "react-datepicker";
+import "react-phone-input-2/lib/style.css";
 import "react-datepicker/dist/react-datepicker.css";
-import PhoneInput from "react-phone-input-2";
 
-// Кастомный компонент Select
 const CustomSelect = ({ name, options, placeholder, ...props }) => {
     const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
 
@@ -39,16 +35,40 @@ const CustomSelect = ({ name, options, placeholder, ...props }) => {
     );
 };
 
+const readFileAsBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+    });
+};
+
+const getCountryCodeFromIP = async () => {
+    try {
+        const response = await fetch("https://ipinfo.io/json?token=YOUR_API_TOKEN");
+        const data = await response.json();
+        return data.country.toLowerCase();
+    } catch (error) {
+        console.error("Error fetching country code:", error);
+        return "us";
+    }
+};
 
 function PeopleForm() {
+    const [fileSelected, setFileSelected] = useState(false);
+    const [isSuccess, setIsSuccess] = useState(false);
+    const [phoneCountryCode, setPhoneCountryCode] = useState("us");
     const countryCode = useCountryCode();
+
     const validationSchema = Yup.object({
         yourName: Yup.string().required("The field is required."),
         yourDomain: Yup.string().required("Select an option."),
         email: Yup.string().email("Please enter a valid email address.").required("The field is required."),
         phone: Yup.string().required("The field is required."),
-        cv: Yup.mixed().required("The field is required."),
-        explanation: Yup.string(), // Поле необязательное
+        ///file: Yup.mixed().required("The field is required."),
+        file: Yup.mixed(),
+        explanation: Yup.string(),
     });
 
     const initialValues = {
@@ -56,31 +76,55 @@ function PeopleForm() {
         yourDomain: "",
         email: "",
         phone: "",
-        cv: null,
+        file: null,
         explanation: "",
     };
 
+    useEffect(() => {
+        const fetchCountryCode = async () => {
+            const countryCode = await getCountryCodeFromIP();
+            setPhoneCountryCode(countryCode);
+        };
+        fetchCountryCode();
+    }, []);
+
     const handleSubmit = async (values, { setSubmitting, resetForm, setStatus }) => {
         try {
+            console.log("Submitting values:", values);
+
+            const fileBase64 = values.file ? await readFileAsBase64(values.file) : null;
+
+            const payload = {
+                ...values,
+                attachFiles: fileBase64 ? [fileBase64] : [],
+            };
+
+            console.log("Payload:", payload);
+
             const response = await fetch("/api/emails/people", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify(values),
+                body: JSON.stringify(payload),
             });
+
             if (response.ok) {
-                setTimeout(() => {
-                    setSubmitting(false);
-                    resetForm();
-                    setStatus({ success: true });
-                }, 400);
+                resetForm();
+                setStatus({ success: true });
+                setIsSuccess(true);
+                document.querySelector('input[type="file"]').value = "";
+                setFileSelected(false);
             } else {
                 setStatus({ success: false });
+                setIsSuccess(false);
+                console.error("Failed to submit:", await response.text());
             }
         } catch (error) {
-            console.error(error);
+            console.error("Error:", error);
             setStatus({ success: false });
+            setIsSuccess(false);
+        } finally {
             setSubmitting(false);
         }
     };
@@ -98,146 +142,130 @@ function PeopleForm() {
                 validationSchema={validationSchema}
                 onSubmit={handleSubmit}
             >
-                {({ isSubmitting, status, errors, touched }) => (
+                {({ isSubmitting, setFieldValue, status, errors, touched }) => (
                     <div className="wrapper">
-                        {status && status.success ? (
-                            <div className="success-message">
-                                <h2>Thank you!</h2>
-                                <span>
-                                    Your request has been successfully received. Our team will review
-                                    your information and contact you shortly.
-                                </span>
+                        <Form className="form _people">
+                            <div className="row">
+                                <Field name="yourName">
+                                    {({ field, form }) => (
+                                        <input
+                                            {...field}
+                                            type="text"
+                                            placeholder="Your name"
+                                            className={form.touched.yourName && form.errors.yourName ? "invalid" : ""}
+                                        />
+                                    )}
+                                </Field>
                             </div>
-                        ) : (
-                            <>
-                                <Form className="form _people">
-                                    <div className="row">
-                                        <Field name="yourName">
-                                            {({ field, form }) => (
-                                                <div>
-                                                    <input
-                                                        {...field}
-                                                        type="text"
-                                                        placeholder="Your name"
-                                                        className={
-                                                            form.touched.yourName && form.errors.yourName
-                                                                ? "invalid"
-                                                                : ""
-                                                        }
-                                                    />
-                                                </div>
-                                            )}
-                                        </Field>
-                                    </div>
-
-                                    <div className="row _select">
-                                        <Field name="yourDomain">
-                                            {({ field }) => (
-                                                <CustomSelect
-                                                    name="yourDomain"
-                                                    options={domainOptions}
-                                                    {...field}
-                                                    placeholder="Your domain"
-                                                />
-                                            )}
-                                        </Field>
-                                    </div>
-
-                                    <div className="row">
-                                        <Field name="email">
-                                            {({ field, form }) => (
-                                                <div>
-                                                    <input
-                                                        {...field}
-                                                        type="email"
-                                                        placeholder="Email"
-                                                        className={
-                                                            form.touched.email && form.errors.email
-                                                                ? "invalid"
-                                                                : ""
-                                                        }
-                                                    />
-                                                </div>
-                                            )}
-                                        </Field>
-                                    </div>
-
-                                    <div className="row">
-                                        <Field name="phone">
-                                            {({ field, form }) => (
-                                                <div>
-                                                    <PhoneInput
-                                                        country={countryCode}
-                                                        value={field.value}
-                                                        onChange={(value) => form.setFieldValue("phone", value)}
-                                                        placeholder="Your phone"
-                                                        className={
-                                                            form.touched.phone && form.errors.phone
-                                                                ? "invalid"
-                                                                : ""
-                                                        }
-                                                    />
-                                                </div>
-                                            )}
-                                        </Field>
-                                    </div>
-
-                                    <div className="row _file">
-                                        <Field name="cv">
-                                            {({ field }) => (
-                                                <div>
-                                                    <input
-                                                        {...field}
-                                                        type="file"
-                                                        className="file-input"
-                                                        placeholder="Your CV"
-                                                    />
-                                                </div>
-                                            )}
-                                        </Field>
-                                    </div>
-
-                                    <div className="row _textarea">
-                                        <div className="textarea-container">
-                                            <label htmlFor="explanation">Brief Introduction</label>
-                                            <Field name="explanation">
-                                                {({ field, form }) => (
-                                                    <textarea
-                                                        {...field}
-                                                        placeholder="Explain why you want to join our team."
-                                                        className={
-                                                            form.touched.explanation && form.errors.explanation
-                                                                ? "invalid"
-                                                                : ""
-                                                        }
-                                                    />
-                                                )}
-                                            </Field>
+                            <div className="row _select">
+                                <Field name="yourDomain">
+                                    {({ field }) => (
+                                        <CustomSelect
+                                            name="yourDomain"
+                                            options={domainOptions}
+                                            placeholder="Your domain"
+                                            {...field}
+                                        />
+                                    )}
+                                </Field>
+                            </div>
+                            <div className="row">
+                                <Field name="email">
+                                    {({ field, form }) => (
+                                        <input
+                                            {...field}
+                                            type="email"
+                                            placeholder="Email"
+                                            className={form.touched.email && form.errors.email ? "invalid" : ""}
+                                        />
+                                    )}
+                                </Field>
+                            </div>
+                            <div className="row">
+                                <Field name="phone">
+                                    {({ field, form }) => (
+                                        <div>
+                                            <PhoneInput
+                                                country={countryCode}
+                                                value={field.value}
+                                                onChange={(value) => form.setFieldValue("phone", value)}
+                                                placeholder="Your phone"
+                                                className={
+                                                    form.touched.phone && form.errors.phone
+                                                        ? "invalid"
+                                                        : ""
+                                                }
+                                            />
                                         </div>
-                                    </div>
+                                    )}
+                                </Field>
+                            </div>
+                            <div
+                                className={`row _file ${fileSelected ? "_active" : ""} ${touched.file && errors.file ? "_error" : ""
+                                    }`}
+                            >
+                                <input
+                                    type="file"
+                                    name="file"
+                                    onChange={(event) => {
+                                        setFieldValue("file", event.currentTarget.files[0]);
+                                        setFileSelected(true);
+                                    }}
+                                />
+                            </div>
 
+                            {fileSelected && (
+                                <div className="row _remove">
                                     <button
-                                        type="submit"
-                                        className="request-button"
-                                        disabled={isSubmitting}
+                                        type="button"
+                                        onClick={() => {
+                                            setFieldValue("file", null);
+                                            setFileSelected(false);
+                                        }}
                                     >
-                                        Submit Request
-                                        <ArrowRight />
+                                        Remove File
                                     </button>
-                                    {isSubmitting && (
-                                        <div className="loading-icon">
-                                            <Snipper />
-                                        </div>
-                                    )}
+                                </div>
+                            )}
+                            <div className="row _textarea">
+                                <div className="textarea-container">
+                                    <label>Brief Introduction</label>
+                                    <Field name="explanation">
+                                        {({ field, form }) => (
+                                            <textarea
+                                                {...field}
+                                                placeholder="Explain why you want to join our team."
+                                                className={form.touched.explanation && form.errors.explanation ? "invalid" : ""}
+                                            />
+                                        )}
+                                    </Field>
+                                </div>
 
-                                    {Object.keys(errors).length > 0 && touched && (
-                                        <span className="general-error">
-                                            <Mark />
-                                            There are some errors in the form. Please review the fields.
-                                        </span>
-                                    )}
-                                </Form>
-                            </>
+                            </div>
+                            <button
+                                type="submit"
+                                className="request-button"
+                                disabled={isSubmitting}
+                            >
+                                Submit Request
+                            </button>
+                            {isSubmitting && (
+                                <div className="loading-icon">
+
+                                </div>
+                            )}
+
+                            {Object.keys(errors).length > 0 && touched && (
+                                <span className="general-error">
+                                    <Mark />
+                                    This field is required.
+                                </span>
+                            )}
+                        </Form>
+                        {status && status.success && isSuccess && (
+                            <div className="success-message">
+                                <span>Thank you!</span> Your request has been successfully received. Our team will review your information and contact you shortly.
+                            </div>
                         )}
                     </div>
                 )}
@@ -246,4 +274,4 @@ function PeopleForm() {
     );
 }
 
-export default PeopleForm; 
+export default PeopleForm;

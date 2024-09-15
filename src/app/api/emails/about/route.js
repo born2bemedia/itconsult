@@ -63,9 +63,9 @@ export async function POST(request) {
 
     // Set up email data for the client
     const mailOptionsClient = {
-      from: '"Your Company" <noreply@nexoria.ai>',
+      from: '"Testing About Form" <noreply@nexoria.ai>',
       to: contactEmail,
-      subject: "Your Event Request Confirmation",
+      subject: "Testing About Form",
       html: `
           <p>Dear ${contactPerson},</p>
           <p>Thank you for your submission. We have received your event request and will get back to you soon.</p>
@@ -81,11 +81,11 @@ export async function POST(request) {
             <li><strong>Event Date:</strong> ${eventDate}</li>
             <li><strong>Event Topic:</strong> ${eventTopic}</li>
             <li><strong>Type of Participation:</strong> ${participationType}</li>
-            <li><strong>Attach Files:</strong> ${attachments.length > 0 ? attachFiles.map(file => file.filename).join(", ") : "No files attached"}</li>
+           
           </ul>
           <p>Best regards,<br>Your Company</p>
         `,
-      attachments: attachments,
+
     };
 
     // Send emails

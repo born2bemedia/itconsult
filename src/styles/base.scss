@@ -683,15 +683,20 @@ body {
               align-items: center;
               justify-content: center;
               border-radius: 8px;
+              transition: all 0.3s ease 0s;
             }
           }
           &._active {
             input[type="file"] { 
               font-size: 16px;
-              &::before,
-              &::after {
+              &::before {
                 display: none;
               }
+
+              /* &::after { 
+                content: 'Uploaded';
+                background-color: #315149;
+              } */
             }
           }
         }
@@ -747,8 +752,76 @@ body {
 
         .general-error {
           left: 0;
-          bottom: -50px;
+          bottom: 0px;
           grid-column-start: span 2;
+        }
+
+        ._file {
+          input[type="file"] {
+            font-size: 0;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            &::file-selector-button {
+              display: none;
+            }
+
+            &::before { 
+              content: 'Your CV';
+              position: absolute;
+              top: 50%;
+              transform: translate(0, -50%);
+              left: 16px;
+              font-size: 16px;
+              line-height: normal;
+              font-weight: 600;
+              font-family: "Urbanist", sans-serif;
+            }
+
+            &::after { 
+              content: 'Upload';
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 83px;
+              height: 100%;
+              text-align: center;
+              font-family: "Urbanist", sans-serif;
+              font-size: 16px;
+              line-height: normal;
+              color: #fff;
+              background-color: #98a7a4;
+              font-weight: 400;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 8px;
+              transition: all 0.3s ease 0s;
+            }
+          }
+          &._active {
+            input[type="file"] { 
+              font-size: 16px;
+              &::before {
+                display: none;
+              }
+
+              /* &::after { 
+                content: 'Uploaded';
+                background-color: #315149;
+              } */
+            }
+          }
+
+          &._error { 
+            input { 
+              border-color: #ff0000;
+            }
+          }
+        }
+
+        ._remove { 
+          display: none;
         }
       }
     }

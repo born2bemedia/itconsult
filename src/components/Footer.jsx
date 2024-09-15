@@ -23,7 +23,7 @@ const Footer = () => {
               <div className="footer__text">Where Technology Meets Strategy</div>
             </div>
             <div className="footer__col-02">
-              <Link href="/contact" className="footer__contact-link">Contact Us</Link>
+              <Link href="/contacts" className="footer__contact-link">Contact Us</Link>
               <ul className="footer__contacts">
                 <li className="footer__contact">
                   <Link href="tel:">

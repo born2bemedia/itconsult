@@ -1,74 +1,82 @@
-import { NextResponse } from "next/server";
-const nodemailer = require("nodemailer");
+import { NextResponse } from 'next/server';
+import nodemailer from 'nodemailer';
+
+const getFileTypeFromBase64 = (base64) => {
+  const mimeType = base64.split(';')[0].split(':')[1];
+  return mimeType.split('/')[1];
+};
 
 export async function POST(request) {
   try {
-    const requestBody = await request.text();
-    const bodyJSON = JSON.parse(requestBody);
 
-    const {
-      yourName,
-      yourDomain,
-      email,
-      phone,
-      cv,
-      explanation,
-    } = bodyJSON;
+    const { yourName, yourDomain, email, phone, attachFiles, explanation } = await request.json();
+
+    if (!yourName || !yourDomain || !email || !phone) {
+      return NextResponse.json({ message: 'Required fields missing' }, { status: 400 });
+    }
 
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      service: 'Gmail', 
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
+        user: process.env.EMAIL_USER, 
+        pass: process.env.EMAIL_PASS, 
       },
     });
 
-    const mailOptionsRecipient = {
-      from: '"Your Company" <noreply@nexoria.ai>',
-      to: "noreply@nexoria.ai", 
-      subject: "New form People",
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: 'noreply@nexoria.ai', 
+      subject: 'New Submission from PeopleForm',
       text: `
-        Your Name: ${yourName}
+        Name: ${yourName}
         Domain: ${yourDomain}
         Email: ${email}
         Phone: ${phone}
-        CV: ${cv ? "File attached" : "No file attached"}
         Explanation: ${explanation}
       `,
+      attachments: attachFiles ? attachFiles.map((fileBase64, index) => {
+
+        const base64Data = fileBase64.split(',')[1]; 
+        const buffer = Buffer.from(base64Data, 'base64');
+
+        const fileType = getFileTypeFromBase64(fileBase64);
+        const fileName = `file-${index}.${fileType}`;
+
+        return {
+          filename: fileName, 
+          content: buffer,
+        };
+      }) : [],
     };
 
+    await transporter.sendMail(mailOptions);
+
     const mailOptionsClient = {
-      from: '"Your Company" <noreply@nexoria.ai>',
-      to: email,
-      subject: "Form Submission Confirmation",
+      from: '"Nexoria" <noreply@nexoria.ai>',
+      to: email, // Email клиента из формы
+      subject: 'Form People Testing',
       html: `
         <p>Dear ${yourName},</p>
-        <p>Thank you for your submission. We have received your form and will get back to you soon.</p>
+        <p>Thank you for your submission. We have received your event request and will get back to you soon.</p>
         <p>Here are the details of your submission:</p>
         <ul>
-          <li><strong>Your Name:</strong> ${yourName}</li>
+          <li><strong>Name:</strong> ${yourName}</li>
           <li><strong>Domain:</strong> ${yourDomain}</li>
           <li><strong>Email:</strong> ${email}</li>
           <li><strong>Phone:</strong> ${phone}</li>
-          <li><strong>CV:</strong> ${cv ? "File attached" : "No file attached"}</li>
           <li><strong>Explanation:</strong> ${explanation}</li>
         </ul>
-        <p>Best regards,<br>Your Company</p>
+        <p>Best regards,<br>Nexoria Testing</p>
       `,
+
     };
 
-    await transporter.sendMail(mailOptionsRecipient);
     await transporter.sendMail(mailOptionsClient);
 
-    return NextResponse.json({ message: "Success: emails were sent" });
-  } catch (error) {
-    console.error("Error sending emails:", error);
+    return NextResponse.json({ message: 'Data received and emails sent successfully' }, { status: 200 });
 
-    return NextResponse.json({ message: "COULD NOT SEND MESSAGE", error: error.message }, { status: 500 });
+  } catch (error) {
+    console.error('Error processing request:', error);
+    return NextResponse.json({ message: 'Internal Server Error' }, { status: 500 });
   }
 }
-
-
