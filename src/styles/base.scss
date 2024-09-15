@@ -267,6 +267,19 @@ body {
 
   &__form {
     margin: 24px 0 0 0;
+
+    .request-form {
+      .wrapper {
+        .success-message {
+          background-color: #fff;
+          font-family: "Urbanist", sans-serif;
+          span {
+            margin-right: 5px;
+            display: inline-block;
+          }
+        }
+      }
+    }
   }
 
   &__image {
@@ -614,6 +627,74 @@ body {
             position: static;
           }
         }
+
+        .button {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        ._remove {
+          display: none;
+        }
+
+        .row {
+          .error {
+            display: none;
+          }
+        }
+
+        ._file {
+          input[type="file"] {
+            font-size: 0;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            &::file-selector-button {
+              display: none;
+            }
+
+            &::before { 
+              content: 'Attach files (optional)';
+              position: absolute;
+              top: 50%;
+              transform: translate(0, -50%);
+              left: 16px;
+              font-size: 16px;
+              line-height: normal;
+              font-weight: 600;
+              font-family: "Urbanist", sans-serif;
+            }
+
+            &::after { 
+              content: 'Upload';
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 83px;
+              height: 100%;
+              text-align: center;
+              font-family: "Urbanist", sans-serif;
+              font-size: 16px;
+              line-height: normal;
+              color: #fff;
+              background-color: #98a7a4;
+              font-weight: 400;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 8px;
+            }
+          }
+          &._active {
+            input[type="file"] { 
+              font-size: 16px;
+              &::before,
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
       }
 
       &._people {
@@ -664,7 +745,7 @@ body {
           margin: 0 auto;
         }
 
-        .general-error { 
+        .general-error {
           left: 0;
           bottom: -50px;
           grid-column-start: span 2;
@@ -675,14 +756,14 @@ body {
     .success-message {
       margin: 24px 0 0 0;
       padding: 24px;
-      background-color: #F7F7F7;
+      background-color: #f7f7f7;
       color: #0f0f0f;
-      span { 
+      span {
         color: #315149;
         font-weight: 600;
       }
-      
-      a { 
+
+      a {
         color: #315149;
         font-weight: 600;
         &:hover {

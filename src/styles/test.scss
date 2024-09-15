@@ -1,0 +1,375 @@
+.contact-us {
+    background-color: #f9f9f9;
+    padding-bottom: 50px;
+}
+.contact-us__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 30px 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(/wp-content/uploads/2023/05/Rectangle-77.png);
+    background-repeat: no-repeat;
+    background-position: right 100px bottom;
+}
+@media (max-width: 921px) {
+    .contact-us__container {
+        flex-direction: column;
+        background: none;
+        align-items: flex-start;
+        position: relative;
+    }
+    .contact-us__container::before {
+        content: "";
+        position: absolute;
+        bottom: 59px;
+        left: 0;
+        width: 100%;
+        height: 123px;
+        background-color: #fd8b10;
+    }
+}
+.contact-us__container .content h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    margin: 0 0 40px;
+    max-width: 560px;
+}
+@media (max-width: 921px) {
+    .contact-us__container .content h1 {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+}
+.contact-us__container .content p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    max-width: 480px;
+}
+@media (max-width: 921px) {
+    .contact-us__container .content p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+.contact-us__container .image {
+    display: flex;
+    align-items: flex-end;
+    z-index: 10;
+}
+@media (max-width: 921px) {
+    .contact-us__container .image {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 575px) {
+    .contact-us__container .image img {
+        max-width: 288px;
+    }
+}
+.contact-us__form .wpcf7 {
+    padding: 80px 65px 50px 65px;
+    background: #ffffff;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+@media (max-width: 1279px) {
+    .contact-us__form .wpcf7 {
+        padding: 40px 30px 25px 30px;
+    }
+}
+@media (max-width: 767px) {
+    .contact-us__form .wpcf7 {
+        padding: 30px 20px;
+    }
+}
+.contact-us__form .wpcf7 .wpcf7-form.invalid .contact-us__form-wrapper p span input {
+    border-color: #ff0000 !important;
+}
+.contact-us__form .wpcf7 .wpcf7-form.invalid .wpcf7-response-output {
+    margin: 15px 0 5px 0;
+    background: #ffdddd;
+    border: 1px solid #ff0000 !important;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ff0000;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+.contact-us__form .wpcf7 .wpcf7-form.invalid .wpcf7-response-output::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(0, -50%);
+    background-image: url("/wp-content/uploads/2023/05/Vector-2.svg");
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: center center;
+    width: 23px;
+    height: 23px;
+}
+@media (max-width: 921px) {
+    .contact-us__form .wpcf7 .wpcf7-form.invalid .wpcf7-response-output::before {
+        left: 30px;
+    }
+}
+.contact-us__form .wpcf7 .wpcf7-form.sent .wpcf7-response-output {
+    margin: 15px 0 5px 0;
+    background: #e5ffe4;
+    border: 1px solid #04af00 !important;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #04af00;
+    text-align: center;
+    position: relative;
+    top: 8px;
+}
+.contact-us__form .wpcf7 .wpcf7-form.sent .wpcf7-response-output::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(0, -50%);
+    background-image: url("/wp-content/uploads/2023/05/Group-1-1.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 921px) {
+    .contact-us__form .wpcf7 .wpcf7-form.sent .wpcf7-response-output::before {
+        left: 10px;
+    }
+}
+@media (max-width: 575px) {
+    .contact-us__form .wpcf7 .wpcf7-form.sent .wpcf7-response-output {
+        text-align: end;
+    }
+}
+.contact-us__form-wrapper p {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: minmax(auto, 25%) minmax(auto, 25%) minmax(auto, 25%) minmax(auto, 25%);
+    gap: 30px;
+}
+@media (max-width: 921px) {
+    .contact-us__form-wrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 20px;
+    }
+}
+.contact-us__form-wrapper p span input {
+    width: 100%;
+    background: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 15px 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #646464;
+    transition: all 0.3s ease 0s;
+}
+.contact-us__form-wrapper p span input:focus,
+.contact-us__form-wrapper p span input:active,
+.contact-us__form-wrapper p span input:hover {
+    border-color: #fd8b10;
+}
+.contact-us__form-wrapper p span:nth-child(1) {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.contact-us__form-wrapper p span:nth-child(2) {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.contact-us__form-wrapper p span:nth-child(3) {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.contact-us__form-wrapper p span:nth-child(4) {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.contact-us__form-wrapper p span:nth-child(5) {
+    grid-column-start: span 2;
+    grid-row-start: 2;
+}
+.contact-us__form-wrapper p span:nth-child(6) {
+    grid-column-start: span 2;
+    grid-row-start: 2;
+    position: relative;
+}
+.contact-us__form-wrapper p span:nth-child(6)::before {
+    content: "Choose file";
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    right: 0px;
+    transform: translate(0, -50%);
+    background-color: #fff;
+    border: 1px solid #fd8b10;
+    width: 130px;
+    height: 48.5px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fd8b10;
+    border-radius: 3px;
+    z-index: 999;
+    cursor: pointer;
+}
+.contact-us__form-wrapper p span:nth-child(7) {
+    grid-column-start: span 4;
+    grid-row-start: 3;
+}
+.contact-us__form-wrapper p span .wpcf7-not-valid-tip {
+    display: none !important;
+}
+.contact-us__form-wrapper p span .intl-tel-input {
+    width: 100%;
+}
+.contact-us__form-wrapper p span .intl-tel-input.elementor-error input {
+    border-color: #ff0000;
+}
+.contact-us__form-wrapper p span .intl-tel-input .flag-container {
+    width: 100%;
+    position: relative;
+}
+.contact-us__form-wrapper p span .intl-tel-input .flag-container .selected-flag {
+    background-color: transparent !important;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+    position: absolute;
+    width: fit-content;
+    top: 27px;
+    left: 10px;
+}
+.contact-us__form-wrapper p span .intl-tel-input .flag-container .selected-flag .iti-arrow {
+    right: -37px;
+}
+.contact-us__form-wrapper p span .intl-tel-input .flag-container .country-list {
+    width: 100%;
+    top: 52px;
+}
+.contact-us__form-wrapper p span .intl-tel-input .flag-container .country-list li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454545;
+    display: flex;
+}
+.contact-us__form-wrapper p span .intl-tel-input input {
+    padding-left: 65px !important;
+}
+.contact-us__form-btn {
+    margin-top: 30px;
+}
+.contact-us__form-btn p input {
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fd8b10;
+    border: 1px solid #fd8b10 !important;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    transition: all 0.3s ease 0s;
+}
+.contact-us__form-btn p input:hover {
+    background-color: transparent;
+    color: #000000;
+}
+@media (max-width: 921px) {
+    .contact-us__form-btn p input {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.contact-us__form-btn p .wpcf7-spinner {
+    display: none !important;
+}
+.wpcf7-file {
+    position: relative;
+}
+.wpcf7-file::file-selector-button {
+    display: none;
+}
+.wpcf7 input[type="file"] {
+    font-size: 0;
+    position: relative;
+}
+.wpcf7 input[type="file"]::after {
+    content: "Upload your logo";
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #646464;
+}
+.wpcf7 input[type="file"].file-selected {
+    font-size: 14px;
+    line-height: 17px;
+    color: #646464;
+}
+.wpcf7 input[type="file"].file-selected::after {
+    display: none;
+}

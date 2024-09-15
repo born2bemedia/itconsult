@@ -84,8 +84,7 @@ const AboutForm = () => {
         eventDate: Yup.date().required("Select a date."),
         eventTopic: Yup.string().required("The field is required."),
         participationType: Yup.string().required("Select an option."),
-        /* file: Yup.mixed() */
-        file: Yup.mixed().required("File is required"),
+        file: Yup.mixed()
     });
 
     const initialValues = {
@@ -162,6 +161,16 @@ const AboutForm = () => {
             >
                 {({ status, isSubmitting, setFieldValue }) => (
                     <div className="wrapper">
+                        {status?.success && !isSubmitting && (
+                            <div className="success-message">
+                                <h2>Thank you!</h2>
+                                <span>
+                                    Your request has been successfully received. Our team will review
+                                    your information and contact you shortly.
+                                </span>
+                            </div>
+                        )}
+
                         <Form className="form _about">
                             <div className="row">
                                 <Field name="contactPerson">
@@ -302,7 +311,8 @@ const AboutForm = () => {
                                     )}
                                 </Field>
                             </div>
-                             <div className={`row _file ${fileSelected ? "_active" : ""}`}>
+
+                            <div className="row">
                                 <input
                                     type="file"
                                     name="file"
@@ -314,45 +324,30 @@ const AboutForm = () => {
                             </div>
 
                             {fileSelected && (
-                                <div className="row _remove">
+                                <div className="row">
                                     <button
                                         type="button"
-                                        onClick={() => {
-                                            setFieldValue("file", null);
-                                            setFileSelected(false);
-                                        }}
+                                        onClick={() => setFieldValue("file", null)}
                                     >
                                         Remove File
                                     </button>
                                 </div>
                             )}
 
-                            
-                            
-
-                            <div className="row">
-                                <button
-                                    type="submit"
-                                    className="button"
-                                    disabled={isSubmitting}
-                                >
-                                    Submit Request
-                                    <ArrowRight />
-                                </button>
-                                {isSubmitting && (
-                                    <div className="loading-icon">
-                                        <Snipper />
-                                    </div>
-                                )}
-                            </div>
+                            <button
+                                type="submit"
+                                className="button"
+                                disabled={isSubmitting}
+                            >
+                                Submit Request
+                                <ArrowRight />
+                            </button>
+                            {isSubmitting && (
+                                <div className="loading-icon">
+                                    <Snipper />
+                                </div>
+                            )}
                         </Form>
-
-                        {status?.success && !isSubmitting && (
-                            <div className="success-message">
-                                <span>Thank you!</span>
-                                Your request has been successfully received. Our team will review your information and contact you shortly.
-                            </div>
-                        )}
                     </div>
                 )}
             </Formik>
