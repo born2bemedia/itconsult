@@ -9,17 +9,17 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 
 const slides = [
     {
-        label: "Статья №1",
-        description: "Описание №1",
-        imageSrc: "",
-        alt: "",
+        label: "Our Participation in SMX Advanced Europe 2024",
+        description: "We’re heading to SMX Advanced Europe in Berlin on September 10-11! Discover cutting-edge SEO and PPC strategies with us. Stay tuned for updates, and follow us for the latest news!",
+        imageSrc: "/images/newsroom/newsroom-article-02.webp",
+        alt: "Our Participation in SMX Advanced Europe 2024",
         link: "/newsroom/we-re-officially-here",
     },
     {
-        label: "Статья №2",
-        description: "Описание №2",
-        imageSrc: "",
-        alt: "",
+        label: "We’re Officially Here!",
+        description: "Our new website is live, marking our official launch. We’ve combined our freelance expertise into a unified company to deliver top IT and marketing solutions. Explore our services now.",
+        imageSrc: "/images/newsroom/newsroom-article-01.webp",
+        alt: "We’re Officially Here!",
         link: "/newsroom/our-participation-in-smx-advanced-europe-2024",
     },
 ];

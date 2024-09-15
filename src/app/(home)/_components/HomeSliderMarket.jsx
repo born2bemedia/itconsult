@@ -56,8 +56,8 @@ const HomeSliderMarket = ({ slides }) => {
                                             <Image
                                                 src={slide.imageSrc}
                                                 alt={slide.alt}
-                                                width={600}
-                                                height={400}
+                                                width={3840}
+                                                height={1418}
                                                 className="image"
                                             />
                                         </div>
