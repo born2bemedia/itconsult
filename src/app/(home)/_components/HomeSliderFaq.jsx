@@ -5,7 +5,7 @@ import "swiper/css";
 import { Navigation } from "swiper/modules";
 import ArrowLeft from "@/icons/slider/ArrowLeft";
 import ArrowRight from "@/icons/slider/ArrowRight";
-import Link from "next/link";
+/* import Link from "next/link"; */
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/utils/animations";
 
@@ -65,7 +65,7 @@ const HomeSliderFaq = ({ slides }) => {
             </motion.div>
 
             <div className="home-faq-slider__buttons">
-                <button ref={prevRef} className="home-faq-slider__prev qwerty">
+                <button ref={prevRef} className="home-faq-slider__prev">
                     <ArrowLeft />
                 </button>
                 <button ref={nextRef} className="home-faq-slider__next">
