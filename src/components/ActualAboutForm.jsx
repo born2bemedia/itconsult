@@ -302,7 +302,7 @@ const AboutForm = () => {
                                     )}
                                 </Field>
                             </div>
-                             <div className={`row _file ${fileSelected ? "_active" : ""}`}>
+                            <div className={`row _file ${fileSelected ? "_active" : ""}`}>
                                 <input
                                     type="file"
                                     name="file"
@@ -326,10 +326,6 @@ const AboutForm = () => {
                                     </button>
                                 </div>
                             )}
-
-                            
-                            
-
                             <div className="row">
                                 <button
                                     type="submit"

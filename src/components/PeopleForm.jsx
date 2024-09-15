@@ -8,6 +8,7 @@ import useCountryCode from "@/utils/useCountryCode";
 import Mark from "@/icons/other/Mark";
 import "react-phone-input-2/lib/style.css";
 import "react-datepicker/dist/react-datepicker.css";
+import Snipper from "@/icons/loading/Snipper";
 
 const CustomSelect = ({ name, options, placeholder, ...props }) => {
     const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
@@ -251,7 +252,7 @@ function PeopleForm() {
                             </button>
                             {isSubmitting && (
                                 <div className="loading-icon">
-
+                                    <Snipper />
                                 </div>
                             )}
 

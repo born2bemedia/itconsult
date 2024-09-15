@@ -326,10 +326,6 @@ const AboutForm = () => {
                                     </button>
                                 </div>
                             )}
-
-
-
-
                             <div className="row">
                                 <button
                                     type="submit"
