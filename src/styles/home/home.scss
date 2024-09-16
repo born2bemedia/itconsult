@@ -37,7 +37,7 @@
   &__title {
     @include adaptiv-value("font-size", 80, 32, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     height: 100%;
     display: flex;
@@ -46,6 +46,9 @@
 
     @media (max-width: 767px) {
       padding-top: 60px;
+      br { 
+        display: none;
+      }
     }
   }
 
@@ -175,7 +178,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__link {
@@ -252,7 +255,7 @@
     .label {
       font-size: 36px;
       line-height: normal;
-      font-weight: 600;
+      font-weight: 500;
       color: #0f0f0f;
     }
 
@@ -284,7 +287,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
   }
 
@@ -304,7 +307,7 @@
     column-gap: 10px;
     background-color: #315149;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: normal;
     font-family: "Urbanist", sans-serif;
@@ -341,7 +344,7 @@
   &__title {
     font-size: 24px;
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     max-width: 80%;
 
     @media (max-width: 767px) {
@@ -354,7 +357,7 @@
   }
 
   &__number {
-    font-weight: 600;
+    font-weight: 500;
     color: #315149;
     font-size: 24px;
     margin: auto 0 0 0;
@@ -455,7 +458,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 
     @media (max-width: 767px) {
@@ -470,7 +473,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #315149;
     color: #fff;
     font-size: 16px;
@@ -527,12 +530,12 @@
     @include adaptiv-value("font-size", 24, 16, 1);
     line-height: normal;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__label {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     color: #315149;
     margin: 0 0 16px 0;
   }
@@ -541,7 +544,7 @@
     font-size: 16px;
     line-height: normal;
     color: #0f0f0f;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__buttons {
@@ -667,7 +670,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
   }
@@ -848,7 +851,7 @@
       font-size: 36px;
       line-height: normal;
       color: #fff;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     .text {
@@ -861,7 +864,7 @@
   &__label {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
   }
 
@@ -894,6 +897,10 @@
   }
 
   &__items {
+
+    @media(max-width: 767px) { 
+      padding: 0 0 80px 0;
+    }
   }
 
   &__item {
@@ -916,6 +923,10 @@
         @media (max-width: 1439px) {
           padding: 24px;
         }
+
+        @media(max-width: 767px) { 
+          padding: 24px 24px 104px 24px;
+        }
       }
     }
 
@@ -932,7 +943,7 @@
       font-size: 24px;
       line-height: normal;
       color: #fff;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     .text {
@@ -958,7 +969,7 @@
     justify-content: center;
     width: fit-content;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #fff;
     color: #0f0f0f;
     font-size: 16px;
@@ -1028,7 +1039,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 40, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__link {
@@ -1039,7 +1050,7 @@
     justify-content: center;
     width: fit-content;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #35544c;
     color: #ffffff;
     font-size: 16px;
@@ -1157,7 +1168,7 @@
   &__title {
     @include adaptiv-value("font-size", 64, 32, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
   }
 
@@ -1176,7 +1187,7 @@
     @include adaptiv-value("font-size", 36, 24, 1);
     line-height: normal;
     color: #0f0f0f;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__form {
@@ -1236,7 +1247,7 @@
     max-width: 50%;
     font-size: 36px;
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
 
     @media(max-width: 992px) { 
       max-width: 100%;
@@ -1262,7 +1273,7 @@
     justify-content: center;
     width: fit-content;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: transparent;
     border: 1px solid #cacaca;
     color: #0f0f0f;

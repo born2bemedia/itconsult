@@ -43,7 +43,7 @@
   &__title {
     @include adaptiv-value("font-size", 80, 32, 1);
     line-height: normal;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
   }
 
@@ -82,7 +82,7 @@
     line-height: normal;
     text-transform: uppercase;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 
     @media (max-width: 767px) {
@@ -100,7 +100,7 @@
     justify-content: center;
     width: fit-content;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #fff;
     color: #0f0f0f;
     font-size: 16px;
@@ -168,7 +168,7 @@
     color: #6d6d6d;
     font-size: 16px;
     line-height: 19px;
-    font-weight: 600;
+    font-weight: 500;
 
     &:hover {
       background-color: #315149;
@@ -231,7 +231,8 @@
       color: #0F0F0F;
       @include adaptiv-value('font-size', 64, 24, 1);
       line-height: normal;
-      font-weight: 600;
+      font-weight: 500;
+      text-transform: uppercase;
       font-family: "Urbanist", sans-serif;
       .number {
         color: #315149;
@@ -321,7 +322,7 @@
     font-size: 24px;
     line-height: normal;
     color: #0F0F0F;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &__text { 
@@ -337,7 +338,7 @@
     justify-content: center;
     width: fit-content;
     column-gap: 10px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #315149;
     border: 1px solid #cdcfce;
     color: #ffffff;

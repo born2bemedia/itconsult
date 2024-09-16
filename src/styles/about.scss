@@ -36,14 +36,14 @@
         z-index: 30;
 
         @media (max-width: 767px) {
-            padding-top: 100px;
+            padding-top: 80px;
         }
     }
 
     &__title {
         @include adaptiv-value("font-size", 80, 32, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         color: #fff;
         text-align: center;
     }
@@ -72,7 +72,7 @@
         @include adaptiv-value("font-size", 36, 24, 1);
         line-height: normal;
         text-align: center;
-        font-weight: 600;
+        font-weight: 500;
         max-width: 966px;
         margin: 0 auto;
 
@@ -170,13 +170,13 @@
     &__number {
         font-size: 36px;
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     &__title {
         @include adaptiv-value("font-size", 64, 32, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     &__text {
@@ -207,7 +207,7 @@
             font-size: 16px;
             line-height: 19px;
             color: #0f0f0f;
-            font-weight: 600;
+            font-weight: 500;
             margin: 24px 0 0 0;
         }
 
@@ -285,14 +285,14 @@
         position: relative;
 
         @media (max-width: 992px) {
-            padding: 104px 24px;
+            padding: 104px 0;
         }
     }
 
     &__title {
         @include adaptiv-value("font-size", 64, 32, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         color: #fff;
     }
 
@@ -311,7 +311,7 @@
         @include adaptiv-value("font-size", 36, 24, 1);
         line-height: normal;
         color: #0f0f0f;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     &__form {

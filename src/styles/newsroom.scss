@@ -39,14 +39,14 @@
         z-index: 30;
 
         @media (max-width: 767px) {
-            padding-top: 100px;
+            padding-top: 80px;
         }
     }
 
     &__title {
         @include adaptiv-value("font-size", 80, 32, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         color: #fff;
     }
 
@@ -76,7 +76,7 @@
     &__text {
         @include adaptiv-value("font-size", 36, 24, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         margin: 0;
         max-width: 93%;
         
@@ -150,7 +150,7 @@
 
     &__title {
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         @include adaptiv-value("font-size", 36, 30, 1);
     }
 
@@ -169,7 +169,7 @@
         justify-content: center;
         width: fit-content;
         column-gap: 10px;
-        font-weight: 600;
+        font-weight: 500;
         background-color: transparent;
         border: 1px solid #cacaca;
         color: #0f0f0f;
@@ -263,7 +263,7 @@
     &__title {
         @include adaptiv-value('font-size', 64, 30, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     &__text {
@@ -278,7 +278,7 @@
         h2 { 
             @include adaptiv-value('font-size', 36, 24, 1);
             line-height: normal;
-            font-weight: 600;
+            font-weight: 500;
             margin: 0 0 24px 0;
         }
 
@@ -286,7 +286,7 @@
 
            margin: 0 0 16px 0;
            @include adaptiv-value('font-size', 24, 16, 1);
-           font-weight: 600;
+           font-weight: 500;
 
            span { 
             color: #315149;
@@ -303,7 +303,7 @@
         justify-content: center;
         width: fit-content;
         column-gap: 10px;
-        font-weight: 600;
+        font-weight: 500;
         background-color: transparent;
         border: 1px solid #cacaca;
         color: #0f0f0f;

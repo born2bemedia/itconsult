@@ -59,7 +59,7 @@ const HomeWhy = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         className="home-why__title">
-                        Why choose
+                        Why choose Nexoria
                     </motion.h2>
                     <div className="home-why__content">
                         <HomeSliderWhy slides={slides} />

@@ -39,9 +39,6 @@ const ContactsHero = () => {
                 <div className="contacts-hero__content">
                     <div className="wrapper">
                         <h5 className="title">
-                            Register address:
-                            <br />
-                            <br />
                             Hamilton Development, Unit B, Charlestown, Nevis, West Indies
                         </h5>
                         <div className="map">

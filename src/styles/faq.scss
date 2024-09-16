@@ -46,7 +46,7 @@
     &__title {
         @include adaptiv-value("font-size", 80, 32, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         color: #fff;
     }
 
@@ -56,10 +56,6 @@
         line-height: normal;
         color: #fff;
         font-weight: 400;
-
-        @media (max-width: 767px) {
-            max-width: 60%;
-        }
     }
 }
 
@@ -76,7 +72,7 @@
     &__text {
         @include adaptiv-value("font-size", 36, 24, 1);
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         margin: 0;
         max-width: 85%;
 
@@ -149,14 +145,14 @@
         font-size: 36px;
         line-height: normal;
         color: #315149;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     &__title {
-        font-size: 32px;
+        @include adaptiv-value('font-size', 32, 24, 1);
         line-height: normal;
         color: #0f0f0f;
-        font-weight: 600;
+        font-weight: 500;
 
         @media (max-width: 767px) {
             br {
@@ -167,7 +163,7 @@
 
     &__text {
         margin: 24px 0 0 0;
-        font-size: 24px;
+        @include adaptiv-value('font-size', 24, 16, 1);
         line-height: normal;
         color: #0f0f0f;
     }
@@ -190,7 +186,7 @@
     &__title {
         font-size: 36px;
         line-height: normal;
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
     }
 
