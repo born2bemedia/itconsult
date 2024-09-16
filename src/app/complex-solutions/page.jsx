@@ -6,17 +6,17 @@ import SolutionsNeed from "./_components/SolutionsNeed";
 import SolutionsMain from "./_components/SolutionsMain";
 
 
-/* export const metadata = {
-    title: "Contact  Marketing Experts",
+export const metadata = {
+    title: "Complex IT and Marketing Solutions for Business | Nexoria",
     description:
-        "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
+        "Unlock business potential with Nexoria's tailored IT and marketing packages. From company launches to global expansions, our integrated solutions cover IT infrastructure, branding, marketing, and more.",
     openGraph: {
-        title: "Contact  Marketing Experts",
+        title: "Complex IT and Marketing Solutions for Business | Nexoria",
         description:
-            "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-        images: "",
+            "Unlock business potential with Nexoria's tailored IT and marketing packages. From company launches to global expansions, our integrated solutions cover IT infrastructure, branding, marketing, and more.",
+        images: "https://nexoria.ai/images/banner.jpg/",
     },
-}; */
+};
 
 const ComplesSolutions = () => {
     return (

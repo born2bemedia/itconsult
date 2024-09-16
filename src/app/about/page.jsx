@@ -8,16 +8,16 @@ import AboutMain from "./_components/AboutMain";
 import AboutBottom from "./_components/AboutBottom";
 
 export const metadata = {
-    title: "",
+    title: "Our Knowledge and Expertise | Nexoria",
     description:
-      "",
+        "Discover how Nexoria's team delivers tailored IT and marketing solutions backed by real-world data and customer feedback. We help businesses optimise performance through expert strategies and innovative technologies.",
     openGraph: {
-      title: "",
-      description:
-        "",
-      images: "",
+        title: "Our Knowledge and Expertise | Nexoria",
+        description:
+            "Discover how Nexoria's team delivers tailored IT and marketing solutions backed by real-world data and customer feedback. We help businesses optimise performance through expert strategies and innovative technologies.",
+        images: "https://nexoria.ai/images/banner.jpg/",
     },
-  };
+};
 
 const About = () => {
     return (

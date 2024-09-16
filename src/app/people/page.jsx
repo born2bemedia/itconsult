@@ -7,25 +7,25 @@ import PeopleMain from "./_components/PeopleMain";
 import PeopleLast from "./_components/PeopleLast";
 
 
-/* export const metadata = {
-    title: "Contact  Marketing Experts",
+export const metadata = {
+    title: "IT and Marketing Experts | Nexoria",
     description:
-        "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
+        "Meet the Nexoria team of skilled IT and marketing professionals. Our experts are dedicated to helping your business succeed through tailored solutions.",
     openGraph: {
-        title: "Contact  Marketing Experts",
+        title: "IT and Marketing Experts | Nexoria",
         description:
-            "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-        images: "",
+            "Meet the Nexoria team of skilled IT and marketing professionals. Our experts are dedicated to helping your business succeed through tailored solutions.",
+        images: "https://nexoria.ai/images/banner.jpg/",
     },
-}; */
+};
 
 const About = () => {
     return (
         <>
-        <PeopleHero />
-        <PeopleText />
-        <PeopleMain />
-        <PeopleLast />
+            <PeopleHero />
+            <PeopleText />
+            <PeopleMain />
+            <PeopleLast />
         </>
     );
 };

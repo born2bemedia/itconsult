@@ -3,29 +3,29 @@ import "@/styles/base.scss";
 import React from "react";
 import MarketingHero from "./_components/MarketingHero";
 import MarketingNeed from "./_components/MarketingNeed";
-import MarketingMain from "./_components/MarketingMain"; 
+import MarketingMain from "./_components/MarketingMain";
 
 
-/* export const metadata = {
-    title: "Contact  Marketing Experts",
-    description:
-        "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-    openGraph: {
-        title: "Contact  Marketing Experts",
-        description:
-            "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-        images: "https://nextwavead.com/images/meta.png",
-    },
-}; */
+export const metadata = {
+  title: "Expert Marketing Consulting Businesses | Nexoria",
+  description:
+      "Maximise your marketing efforts with Nexoria's consulting services. We offer strategic planning, digital marketing, content creation, CRM optimization, and performance analytics to drive growth and engagement.",
+  openGraph: {
+      title: "Expert Marketing Consulting Businesses | Nexoria",
+      description:
+          "Maximise your marketing efforts with Nexoria's consulting services. We offer strategic planning, digital marketing, content creation, CRM optimization, and performance analytics to drive growth and engagement.",
+      images: "https://nexoria.ai/images/banner.jpg/",
+  },
+};
 
 const ItConsulting = () => {
-    return (
-      <>
-        <MarketingHero />
-        <MarketingMain />
-        <MarketingNeed />
-      </>
-    );
-  };
-  
-  export default ItConsulting;
+  return (
+    <>
+      <MarketingHero />
+      <MarketingMain />
+      <MarketingNeed />
+    </>
+  );
+};
+
+export default ItConsulting;

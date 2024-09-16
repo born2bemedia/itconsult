@@ -6,26 +6,26 @@ import HowWeWorkMain from "./_components/HowWeWorkMain";
 import HowWeWorkText from "./_components/HowWeWorkText";
 
 
-/* export const metadata = {
+export const metadata = {
+  title: "",
+  description:
+    "",
+  openGraph: {
     title: "",
     description:
-        "",
-    openGraph: {
-        title: "",
-        description:
-            "",
-        images: "",
-    },
-}; */
+      "",
+    images: "https://nexoria.ai/images/banner.jpg/",
+  },
+};
 
 const HowWeWork = () => {
-    return (
-      <>
-        <HowWeWorkHero />
-        <HowWeWorkText />
-        <HowWeWorkMain />
-      </>
-    );
-  };
-  
-  export default HowWeWork;
+  return (
+    <>
+      <HowWeWorkHero />
+      <HowWeWorkText />
+      <HowWeWorkMain />
+    </>
+  );
+};
+
+export default HowWeWork;

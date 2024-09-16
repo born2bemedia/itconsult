@@ -6,17 +6,17 @@ import ItConsultingMain from "./_components/ItConsultingMain";
 import ItConsultingNeed from "./_components/ItConsultingNeed";
 
 
-/* export const metadata = {
-    title: "Contact  Marketing Experts",
-    description:
-        "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-    openGraph: {
-        title: "Contact  Marketing Experts",
-        description:
-            "Have questions or need expert help with your marketing strategy? Reach out to Next Wave Ad for personalised assistance and solutions tailored to your business needs.",
-        images: "",
-    },
-}; */
+export const metadata = {
+  title: "Expert IT Consulting Services for Businesses | Nexoria",
+  description:
+      "Discover Nexoria's IT consulting services. We provide solutions that optimise your business operations, from IT strategy and infrastructure management to data analytics and software integration.",
+  openGraph: {
+      title: "Expert IT Consulting Services for Businesses | Nexoria",
+      description:
+          "Discover Nexoria's IT consulting services. We provide solutions that optimise your business operations, from IT strategy and infrastructure management to data analytics and software integration.",
+      images: "https://nexoria.ai/images/banner.jpg/",
+  },
+};
 
 const ItConsulting = () => {
     return (

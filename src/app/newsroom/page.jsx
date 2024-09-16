@@ -5,17 +5,17 @@ import NewsroomHero from "./_components/NewsroomHero";
 import NewsroomMain from "./_components/NewsroomMain";
 import NewsroomText from "./_components/NewsroomText";
 
-/* export const metadata = {
-  title: "",
+export const metadata = {
+  title: "Latest Company Updates and Announcements | Nexoria",
   description:
-    "",
+      "Stay informed with the latest news and updates from Nexoria. Learn about our events, company milestones, and industry insights.",
   openGraph: {
-    title: "",
-    description:
-      "",
-    images: "",
+      title: "Latest Company Updates and Announcements | Nexoria",
+      description:
+          "Stay informed with the latest news and updates from Nexoria. Learn about our events, company milestones, and industry insights.",
+      images: "https://nexoria.ai/images/banner.jpg/",
   },
-}; */
+};
 
 const Newsroom = () => {
   return (

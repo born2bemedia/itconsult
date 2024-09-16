@@ -1,7 +1,7 @@
 ---
 title: "Our Participation in SMX Advanced Europe 2024"
-seo_title: ""
-seo_description: ""
+seo_title: "SMX Advanced Europe 2024 | Nexoria"
+seo_description: "Nexoria applies for participation in SMX Advanced Europe 2024 in Berlin, showcasing advanced SEO and PPC strategies. Join us for expert discussions and insights on AI, Google Ranking, and more."
 thumbnail: "/images/newsroom/newsroom-article-02.webp"
 ---
 
