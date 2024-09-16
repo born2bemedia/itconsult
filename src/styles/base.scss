@@ -856,6 +856,14 @@ body {
   }
 }
 
-.react-parallax-bgimage { 
-  height: 100% !important;
+.react-parallax {
+
+  .react-parallax-bgimage { 
+    height: 100% !important;
+
+    @media(max-width: 767px) { 
+      width: 100% !important;
+      object-fit: cover !important;
+    }
+  }
 }
