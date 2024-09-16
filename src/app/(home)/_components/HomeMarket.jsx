@@ -37,7 +37,7 @@ const HomeMarket = () => {
                         className="home-market__top"
                     >
                         <h2 className="home-market__title">MARKET RESEARCH INSIGHTS</h2>
-                        <Link href="/market-insights" className="home-market__link">
+                        <Link href="/newsroom" className="home-market__link">
                             Market Insights
                             <ArrowRight />
                         </Link>

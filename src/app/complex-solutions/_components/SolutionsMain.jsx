@@ -108,7 +108,7 @@ const SolutionsMain = () => {
                                 <OrderButton
                                     className={"solutions-main__link"}
                                     text={"Order Now"}
-                                    service={"LaunchPad Package"}
+                                    service={"Growth Accelerator Package"}
                                     icon={<ArrowRight />}
                                 />
                             </motion.div>
@@ -163,7 +163,7 @@ const SolutionsMain = () => {
                                 <OrderButton
                                     className={"solutions-main__link"}
                                     text={"Order Now"}
-                                    service={"LaunchPad Package"}
+                                    service={"Digital Transformation Package"}
                                     icon={<ArrowRight />}
                                 />
                             </motion.div>
@@ -218,7 +218,7 @@ const SolutionsMain = () => {
                                 <OrderButton
                                     className={"solutions-main__link"}
                                     text={"Order Now"}
-                                    service={"LaunchPad Package"}
+                                    service={"Market Expansion Package"}
                                     icon={<ArrowRight />}
                                 />
                             </motion.div>

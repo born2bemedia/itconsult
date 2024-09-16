@@ -19,7 +19,7 @@ const ItConsultingNeed = () => {
                         className="itCons-need__content">
                         <h2 className="itCons-need__title">Need Assistance?</h2>
                         <Link
-                            href="/contact"
+                            href="/contacts"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}

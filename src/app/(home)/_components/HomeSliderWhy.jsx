@@ -90,7 +90,7 @@ const HomeSliderWhy = ({ slides }) => {
                         <ArrowRight />
                     </button>
                 </div>
-                <Link href="/how-we-Work" className="home-why__link">
+                <Link href="/how-we-work" className="home-why__link">
                     Learn More
                     <ArrowRight />
                 </Link>

@@ -19,7 +19,7 @@ const SolutionsNeed = () => {
                         className="solutions-need__content">
                         <h2 className="solutions-need__title">Need Assistance?</h2>
                         <Link
-                            href="/contact"
+                            href="/contacts"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
