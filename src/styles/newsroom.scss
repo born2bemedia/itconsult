@@ -4,7 +4,6 @@
     @include adaptiv-value("padding-top", 200, 100, 1);
     font-family: "Urbanist", sans-serif;
     position: relative;
-    background-image: url("/images/newsroom/newsroom-img-01.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -20,7 +19,6 @@
     }
 
     @media (max-width: 767px) {
-        background-image: url("/images/newsroom/newsroom-img-02.webp");
         height: 100vh;
         padding-top: 0;
     }

@@ -12,7 +12,7 @@ const HomeLast = () => {
         <section className="home-last">
             <div className="home-last__container">
                 <div className="home-last__body">
-                    <Parallax bgImage="/images/home/home-img-06.webp" strength={150}>
+                    <Parallax bgImage="/images/home/home-img-06.webp" strength={50}>
                         <div className="home-last__col-01">
                             <div className="home-last__wrapper">
                                 <motion.h2

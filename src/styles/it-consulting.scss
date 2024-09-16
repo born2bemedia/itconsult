@@ -4,7 +4,7 @@
   height: 100vh;
   font-family: "Urbanist", sans-serif;
   position: relative;
-  background-image: url("/images/it-consulting/it-consulting-img-back-02.webp");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -16,10 +16,6 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(90deg, rgba(14, 14, 14, 0.8) 0%, rgba(14, 14, 14, 0.6) 100%);
-  }
-
-  @media (max-width: 767px) {
-    background-image: url("/images/it-consulting/it-consulting-img-back-03.webp");
   }
 
   &__container {
@@ -58,15 +54,10 @@
 
 .itCons-need {
   padding: 120px 0;
-  background-image: url("/images/it-consulting/it-consulting-img-back-04.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   font-family: "Urbanist", sans-serif;
-
-  @media (max-width: 767px) {
-    background-image: url("/images/it-consulting/it-consulting-img-back-05.webp");
-  }
 
   &__container {
   }

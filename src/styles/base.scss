@@ -856,8 +856,7 @@ body {
   }
 }
 
-.react-parallax {
-
+.parallax-custom {
   .react-parallax-bgimage { 
     height: 100% !important;
 
@@ -865,5 +864,12 @@ body {
       width: 100% !important;
       object-fit: cover !important;
     }
+  }
+}
+
+.react-parallax {
+  .react-parallax-bgimage { 
+    width: 100% !important;
+    object-fit: cover;
   }
 }

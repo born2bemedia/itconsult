@@ -30,7 +30,7 @@ const HomeHero = () => {
     : "/images/home/home-img-01.webp"; /* Desktop */
 
   return (
-    <Parallax bgImage={bgImage} strength={150}>
+    <Parallax bgImage={bgImage} strength={150} className="parallax-custom">
       <section className="home-hero">
         <div className="home-hero__container _container">
           <div className="home-hero__body">
