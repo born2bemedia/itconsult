@@ -15,7 +15,9 @@ const slides = [
 
 const HomeHero = () => {
   return (
-    <section className="home-hero">
+
+    <Parallax bgImage="/images/home/home-img-01.webp" strength={150}>
+      <section className="home-hero">
         <div className="home-hero__container _container">
           <div className="home-hero__body">
             <motion.h1
@@ -38,6 +40,8 @@ const HomeHero = () => {
           </div>
         </div>
       </section>
+    </Parallax>
+
 
   );
 };
