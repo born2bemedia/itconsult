@@ -125,8 +125,7 @@ const AboutForm = () => {
                 resetForm();
                 setStatus({ success: true });
                 setIsSuccess(true);
-                // Reset custom selects and file input
-                document.querySelector('input[type="file"]').value = ""; // Reset file input
+                document.querySelector('input[type="file"]').value = ""; 
                 setFileSelected(false);
             } else {
                 setStatus({ success: false });
@@ -160,11 +159,11 @@ const AboutForm = () => {
                 validationSchema={validationSchema}
                 onSubmit={handleSubmit}
             >
-                {({ status, isSubmitting, setFieldValue }) => (
+                {({ status, isSubmitting, errors, setFieldValue, touched }) => (
                     <div className="wrapper">
                         <Form className="form _about">
                             <div className="row">
-                                <Field name="contactPerson">
+                                <Field name="contactPerson"> 
                                     {({ field, form }) => (
                                         <div>
                                             <input
@@ -341,6 +340,12 @@ const AboutForm = () => {
                                     </div>
                                 )}
                             </div>
+                            {Object.keys(errors).length > 0 && touched && (
+                                <span className="general-error">
+                                    <Mark />
+                                    This field is required.
+                                </span>
+                            )}
                         </Form>
 
                         {status?.success && !isSubmitting && (
