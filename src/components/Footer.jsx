@@ -32,9 +32,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer__contact">
-                  <Link href="matilto:">
+                  <Link href="matilto:info@nexoria.ai">
                   <Email/>
-                  Email
+                  info@nexoria.ai
                   </Link>
                 </li>
               </ul>

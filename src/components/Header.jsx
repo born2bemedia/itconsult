@@ -47,9 +47,9 @@ const Header = () => {
                   <Phone />
                   Phone
                 </Link>
-                <Link href="mailto:" className="header__link">
+                <Link href="mailto:info@nexoria.ai" className="header__link">
                   <Email />
-                  Email
+                  info@nexoria.ai
                 </Link>
               </div>
               <ul className="header__social">
@@ -147,9 +147,9 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="header__contacts-item">
-                  <Link href="mailto:">
+                  <Link href="mailto:info@nexoria.ai">
                     <Email />
-                    Email
+                    info@nexoria.ai
                   </Link>
                 </li>
               </ul>
