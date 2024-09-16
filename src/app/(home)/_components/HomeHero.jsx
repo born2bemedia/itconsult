@@ -1,11 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "@/styles/home/home.scss";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
-import { Parallax } from 'react-parallax';
+import { Parallax } from "react-parallax";
 import HomeSlider from "./HomeSlider";
-
 
 const slides = [
   "Empowering business with the right technology and marketing strategies to drive growth, efficiency, and innovation.",
@@ -14,9 +13,24 @@ const slides = [
 ];
 
 const HomeHero = () => {
-  return (
 
-    <Parallax bgImage="/images/home/home-img-01.webp" strength={150}>
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); 
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const bgImage = isMobile
+    ? "/images/home/home-back-02.webp" /* Mobile */
+    : "/images/home/home-img-01.webp"; /* Desktop */
+
+  return (
+    <Parallax bgImage={bgImage} strength={150}>
       <section className="home-hero">
         <div className="home-hero__container _container">
           <div className="home-hero__body">
@@ -25,7 +39,8 @@ const HomeHero = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
-              className="home-hero__title">
+              className="home-hero__title"
+            >
               Integrated Growth Solutions <br /> through IT & Marketing Expertise
             </motion.h1>
             <motion.div
@@ -34,15 +49,14 @@ const HomeHero = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
               custom={0.3}
-              className="home-hero__slider">
+              className="home-hero__slider"
+            >
               <HomeSlider slides={slides} />
             </motion.div>
           </div>
         </div>
       </section>
     </Parallax>
-
-
   );
 };
 

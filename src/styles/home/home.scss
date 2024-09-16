@@ -3,15 +3,14 @@
 .home-hero {
   position: relative;
   font-family: "Urbanist", sans-serif;
-  /* background-image: url("/images/home/home-img-01.webp"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
 
-  @media (max-width: 767px) {
-    background-position: 75% bottom;
-  }
+ /*  @media (max-width: 767px) {
+    background-image: url('/images/home/home-back-02.webp');
+  } */
 
   &::before {
     content: "";
@@ -1123,14 +1122,23 @@
     @media (max-width: 992px) {
       flex-direction: column;
     }
+
+    .react-parallax {
+      width: 50%;
+      @media(max-width: 992px) {
+        width: 100%;
+      }
+      .react-parallax-content { 
+        height: 100%;
+      }
+    }
   }
 
   &__col-01 {
-    width: 50%;
-    background-image: url("/images/home/home-img-06.webp");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: auto;
+    height: 100%;
     @media (max-width: 992px) {
       width: 100%;
     }
