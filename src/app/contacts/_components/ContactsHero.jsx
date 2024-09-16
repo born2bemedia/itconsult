@@ -38,9 +38,14 @@ const ContactsHero = () => {
             {activeTab === "registration" && (
                 <div className="contacts-hero__content">
                     <div className="wrapper">
-                        <h5 className="title">Hamilton Development, Unit B, Charlestown, Nevis, West Indies</h5>
+                        <h5 className="title">
+                            Register address:
+                            <br />
+                            <br />
+                            Hamilton Development, Unit B, Charlestown, Nevis, West Indies
+                        </h5>
                         <div className="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.6957147334333!2d-62.60779912484061!3d17.13971208370585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c123d4f9d487ba9%3A0xc3260550868187ff!2sGAMBL!5e1!3m2!1sru!2sua!4v1726492464685!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.6957147334333!2d-62.60779912484061!3d17.13971208370585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c123d4f9d487ba9%3A0xc3260550868187ff!2sGAMBL!5e1!3m2!1sru!2sua!4v1726492464685!5m2!1sru!2sua" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
