@@ -3,8 +3,8 @@ import { Urbanist, Roboto } from "next/font/google";
 import "@/styles/base.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-/* import Preloader from "@/components/Preloader"; 
+import Preloader from "@/components/Preloader";
+/*  
 import RequestPopup from "@/components/RequestPopup";
 import { GoogleAnalytics } from "@next/third-parties/google";
 */
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
 
         {/* <GoogleAnalytics gaId="" /> */}
         <PopupsProvider>
-          {/* <Preloader /> */}
+          <Preloader />
           <Header />
           <main className="site">{children}</main>
           <Footer />
