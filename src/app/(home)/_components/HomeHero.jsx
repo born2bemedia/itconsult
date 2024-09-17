@@ -26,7 +26,7 @@ const HomeHero = () => {
   }, []);
 
   const bgImage = isMobile
-    ? "/images/home/home-back-02.webp" /* Mobile */
+    ? "/images/home/home-back-03.webp" /* Mobile */
     : "/images/home/home-img-01.webp"; /* Desktop */
 
   return (
