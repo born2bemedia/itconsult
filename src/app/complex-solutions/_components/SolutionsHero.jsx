@@ -18,7 +18,7 @@ const SolutionsHero = () => {
   }, []);
 
   const bgImage = isMobile
-    ? "/images/complex-solutions/complex-solutions-img-back-02.webp" /* Mobile */
+    ? "/images/complex-solutions/complex-solutions-img-back-02.jpg" /* Mobile */
     : "/images/complex-solutions/complex-solutions-img-back-01.webp"; /* Desktop */
 
   return (
