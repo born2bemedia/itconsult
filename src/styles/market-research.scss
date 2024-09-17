@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    @include adaptiv-value("padding-bottom", 120, 104, 1);
+    @include adaptiv-value("padding-bottom", 120, 0, 1);
     &::before {
         content: "";
         position: absolute;
@@ -37,7 +37,8 @@
         z-index: 30;
 
         @media (max-width: 767px) {
-            padding-top: 80px;
+            padding-top: 120px;
+            justify-content: center;
         }
     }
 

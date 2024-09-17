@@ -1,12 +1,28 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { fadeInUp } from "@/utils/animations";
 import { motion } from "framer-motion";
 import { Parallax } from "react-parallax";
 
 const NewsroomHero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); 
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const bgImage = isMobile
+    ? "/images/newsroom/newsroom-img-02.webp" /* Mobile */
+    : "/images/newsroom/newsroom-img-01.webp"; /* Desktop */
+
   return (
-    <Parallax bgImage="/images/newsroom/newsroom-img-01.webp" strength={150} className="parallax-custom">
+    <Parallax bgImage={bgImage} strength={150} className="parallax-custom">
       <section className="newsroom-hero">
         <div className="newsroom-hero__container _container">
           <div className="newsroom-hero__body">
