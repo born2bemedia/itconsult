@@ -71,12 +71,12 @@ const ContactsHero = () => {
                             <div className="contacts-hero__contacts">
                                 <h3 className="title"></h3>
                                 <ul className="contacts-hero__list">
-                                    <li className="contacts-hero__item">
+                                    {/* <li className="contacts-hero__item">
                                         <Link href="#" className="contacts-hero__link">
                                             <Phone />
                                             Phone
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="contacts-hero__item">
                                         <Link href="mailto:info@nexoria.ai" className="contacts-hero__link">
                                             <Email />

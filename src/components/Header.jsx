@@ -43,10 +43,10 @@ const Header = () => {
             </div>
             <div className="header__col-02">
               <div className="header__contacts">
-                <Link href="tel:" className="header__link">
+                {/* <Link href="tel:" className="header__link">
                   <Phone />
                   Phone
-                </Link>
+                </Link> */}
                 <Link href="mailto:info@nexoria.ai" className="header__link">
                   <Email />
                   info@nexoria.ai
@@ -140,12 +140,12 @@ const Header = () => {
               </ul>
 
               <ul className="header__contacts-menu">
-                <li className="header__contacts-item">
+                {/* <li className="header__contacts-item">
                   <Link href="tel:">
                     <Phone />
                     Phone
                   </Link>
-                </li>
+                </li> */}
                 <li className="header__contacts-item">
                   <Link href="mailto:info@nexoria.ai">
                     <Email />
