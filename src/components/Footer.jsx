@@ -25,12 +25,12 @@ const Footer = () => {
             <div className="footer__col-02">
               <Link href="/contacts" className="footer__contact-link">Contact Us</Link>
               <ul className="footer__contacts">
-                <li className="footer__contact">
+                {/* <li className="footer__contact">
                   <Link href="tel:">
                   <Phone/>
                   Phone
                   </Link>
-                </li>
+                </li> */}
                 <li className="footer__contact">
                   <Link href="matilto:info@nexoria.ai">
                   <Email/>
