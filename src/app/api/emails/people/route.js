@@ -26,7 +26,7 @@ export async function POST(request) {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: 'noreply@nexoria.ai', 
-      subject: 'New Submission from PeopleForm',
+      subject: 'Form to join the team - page People',
       text: `
         Name: ${yourName}
         Domain: ${yourDomain}
@@ -51,7 +51,7 @@ export async function POST(request) {
 
     await transporter.sendMail(mailOptions);
 
-    const mailOptionsClient = {
+    /* const mailOptionsClient = {
       from: '"Nexoria" <noreply@nexoria.ai>',
       to: email, // Email клиента из формы
       subject: 'Form People Testing',
@@ -71,7 +71,7 @@ export async function POST(request) {
 
     };
 
-    await transporter.sendMail(mailOptionsClient);
+    await transporter.sendMail(mailOptionsClient); */
 
     return NextResponse.json({ message: 'Data received and emails sent successfully' }, { status: 200 });
 

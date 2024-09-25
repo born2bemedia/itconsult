@@ -36,7 +36,7 @@ const ServicePopup = () => {
     website: "",
     activity: "",
     email: "",
-    phone: "", // Обратите внимание на это
+    phone: "", 
     agreeToPolicy: false,
     service: `${currentService} Request`,
   };

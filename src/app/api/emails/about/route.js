@@ -62,7 +62,7 @@ export async function POST(request) {
     };
 
     // Set up email data for the client
-    const mailOptionsClient = {
+    /* const mailOptionsClient = {
       from: '"Testing About Form" <noreply@nexoria.ai>',
       to: contactEmail,
       subject: "Testing About Form",
@@ -86,11 +86,11 @@ export async function POST(request) {
           <p>Best regards,<br>Your Company</p>
         `,
 
-    };
+    }; */
 
     // Send emails
     await transporter.sendMail(mailOptionsRecipient);
-    await transporter.sendMail(mailOptionsClient);
+    /* await transporter.sendMail(mailOptionsClient); */
 
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
