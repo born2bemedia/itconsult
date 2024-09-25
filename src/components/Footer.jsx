@@ -67,9 +67,9 @@ const Footer = () => {
           <div className="footer__row-02">
             <div className="footer__col-4">
               <ul className="footer__social">
-                <li className="footer__social-link"><Link href="#"><Instagram /></Link></li>
-                <li className="footer__social-link"><Link href="#"><Facebook /></Link></li>
-                <li className="footer__social-link"><Link href="#"><X /></Link></li>
+                <li className="footer__social-link"><Link href="https://www.instagram.com/nexoria.ai/"><Instagram /></Link></li>
+                <li className="footer__social-link"><Link href="https://www.facebook.com/nexoria.fb"><Facebook /></Link></li>
+                <li className="footer__social-link"><Link href="https://x.com/nexoria_ai"><X /></Link></li>
               </ul>
             </div>
             <div className="footer__col-5">

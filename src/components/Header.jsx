@@ -53,9 +53,9 @@ const Header = () => {
                 </Link>
               </div>
               <ul className="header__social">
-                <li className="header__item"><Link href="#"><Instagram /></Link></li>
-                <li className="header__item"><Link href="#"><Facebook /></Link></li>
-                <li className="header__item"><Link href="#"><X /></Link></li>
+                <li className="header__item"><Link href="https://www.instagram.com/nexoria.ai/"><Instagram /></Link></li>
+                <li className="header__item"><Link href="https://www.facebook.com/nexoria.fb"><Facebook /></Link></li>
+                <li className="header__item"><Link href="https://x.com/nexoria_ai"><X /></Link></li>
               </ul>
               <Link href="/contacts" className="header__link-last">Contact us</Link>
               <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
@@ -154,9 +154,9 @@ const Header = () => {
                 </li>
               </ul>
               <ul className="header__social-menu">
-                <li className="header__social-item"><Link href="#"><Instagram /></Link></li>
-                <li className="header__social-item"><Link href="#"><Facebook /></Link></li>
-                <li className="header__social-item"><Link href="#"><X /></Link></li>
+                <li className="header__social-item"><Link href="https://www.instagram.com/nexoria.ai/"><Instagram /></Link></li>
+                <li className="header__social-item"><Link href="https://www.facebook.com/nexoria.fb"><Facebook /></Link></li>
+                <li className="header__social-item"><Link href="https://x.com/nexoria_ai"><X /></Link></li>
               </ul>
             </nav>
           </div>

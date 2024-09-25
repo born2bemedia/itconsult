@@ -85,9 +85,9 @@ const ContactsHero = () => {
                                     </li>
                                 </ul>
                                 <ul className="contacts-hero__socials">
-                                    <li className="contacts-hero__social"><Link href="#"><Instagram /></Link></li>
-                                    <li className="contacts-hero__social"><Link href="#"><Facebook /></Link></li>
-                                    <li className="contacts-hero__social"><Link href="#"><X /></Link></li>
+                                    <li className="contacts-hero__social"><Link href="https://www.instagram.com/nexoria.ai/"><Instagram /></Link></li>
+                                    <li className="contacts-hero__social"><Link href="https://www.facebook.com/nexoria.fb"><Facebook /></Link></li>
+                                    <li className="contacts-hero__social"><Link href="https://x.com/nexoria_ai"><X /></Link></li>
                                 </ul>
                                 <h4 className="contacts-hero__title-bold">Business Correspondence</h4>
                             </div>
