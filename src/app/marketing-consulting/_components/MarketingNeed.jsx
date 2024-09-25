@@ -37,7 +37,7 @@ const MarketingNeed = () => {
             >
               <h2 className="marketing-need__title">Need Assistance?</h2>
               <Link
-                href="/contact"
+                href="/contacts"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
