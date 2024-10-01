@@ -71,7 +71,7 @@
             li {
                 list-style-type: disc;
                 font-size: 24px;
-                line-height: normal;
+                line-height: 120%;
             }
         }
 
@@ -79,6 +79,7 @@
             margin: 0 0 16px 32px;
             li {
                 list-style: auto;
+                line-height: 120%;
             }
         }
 

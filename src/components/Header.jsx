@@ -39,14 +39,14 @@ const Header = () => {
         <div className="header__container _container">
           <div className="header__body">
             <div className="header__col-01">
-              <Link href="/" className="header__logo"><LogoWhite/></Link>
+              <Link href="/" className="header__logo"><LogoWhite /></Link>
             </div>
             <div className="header__col-02">
               <div className="header__contacts">
-                {/* <Link href="tel:" className="header__link">
+                <Link href="tel:+48573587868" className="header__link">
                   <Phone />
-                  Phone
-                </Link> */}
+                  +48573587868
+                </Link>
                 <Link href="mailto:info@nexoria.ai" className="header__link">
                   <Email />
                   info@nexoria.ai
@@ -92,7 +92,7 @@ const Header = () => {
                       transition: "all 0.3s ease 0s",
                       borderTop: submenuOpen["services"] ? "1px solid #6d6d6d4d" : "none",
                       paddingTop: submenuOpen["services"] ? "24px" : "0",
-                      marginTop: submenuOpen["services"] ? "24px" : "0", 
+                      marginTop: submenuOpen["services"] ? "24px" : "0",
                     }}
                   >
                     <li className="header__subitem"><Link href="/it-consulting">IT Consulting</Link></li>
@@ -140,12 +140,12 @@ const Header = () => {
               </ul>
 
               <ul className="header__contacts-menu">
-                {/* <li className="header__contacts-item">
-                  <Link href="tel:">
+                <li className="header__contacts-item">
+                  <Link href="tel:+48573587868">
                     <Phone />
-                    Phone
+                    +48573587868
                   </Link>
-                </li> */}
+                </li>
                 <li className="header__contacts-item">
                   <Link href="mailto:info@nexoria.ai">
                     <Email />

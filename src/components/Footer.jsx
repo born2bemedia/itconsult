@@ -19,22 +19,22 @@ const Footer = () => {
         <div className="footer__body">
           <div className="footer__row-01">
             <div className="footer__col-01">
-              <Link href="/" className="footer__logo"><LogoBlack/></Link>
+              <Link href="/" className="footer__logo"><LogoBlack /></Link>
               <div className="footer__text">Where Technology Meets Strategy</div>
             </div>
             <div className="footer__col-02">
               <Link href="/contacts" className="footer__contact-link">Contact Us</Link>
               <ul className="footer__contacts">
-                {/* <li className="footer__contact">
-                  <Link href="tel:">
-                  <Phone/>
-                  Phone
+                <li className="footer__contact">
+                  <Link href="tel:+48573587868">
+                    <Phone />
+                    +48573587868
                   </Link>
-                </li> */}
+                </li>
                 <li className="footer__contact">
                   <Link href="matilto:info@nexoria.ai">
-                  <Email/>
-                  info@nexoria.ai
+                    <Email />
+                    info@nexoria.ai
                   </Link>
                 </li>
               </ul>

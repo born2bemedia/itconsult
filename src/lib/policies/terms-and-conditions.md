@@ -111,4 +111,5 @@ Contact Information
 For any inquiries regarding these Terms or to request permission to use any content, please contact us:
 
 - Email: info@nexoria.ai 
+- Phone <a href="tel:+48573587868">+48573587868</a>
 - Website: https://nexoria.ai 
