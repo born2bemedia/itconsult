@@ -4,10 +4,8 @@ import "@/styles/base.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Preloader from "@/components/Preloader";
-/*  
-import RequestPopup from "@/components/RequestPopup";
+/* import RequestPopup from "@/components/RequestPopup"; */
 import { GoogleAnalytics } from "@next/third-parties/google";
-*/
 import { PopupsProvider } from "@/context/PopupsContext";
 import OrderPopup from "@/components/OrderPopup";
 import ServicePopup from "@/components/ServicePopup";
@@ -30,7 +28,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${urbanist.className} ${roboto.className}`}>
 
-        {/* <GoogleAnalytics gaId="" /> */}
+        <GoogleAnalytics gaId="G-2CTH8M2SJ4" />
         <PopupsProvider>
           <Preloader />
           <Header />

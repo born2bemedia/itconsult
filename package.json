@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.2.14",
     "axios": "^1.7.4",
     "form-data": "^4.0.0",
     "formidable": "^3.5.1",
@@ -23,6 +24,7 @@
     "react-datepicker": "^7.3.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18",
+    "react-ga4": "^2.1.0",
     "react-parallax": "^3.5.1",
     "react-phone-input-2": "^2.15.1",
     "react-select": "^5.8.0",
