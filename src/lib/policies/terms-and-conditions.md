@@ -15,6 +15,9 @@ Nexoria also reserves the right to do the following at any time without prior no
 
 Nexoria reserves all rights not expressly granted herein. Additionally, your use of the Nexoria website for informational purposes is subject to other policies and guidelines incorporated by reference into these Terms.
 
+## Age Verification
+Using this website, you confirm that you are at least 18 or the legal age of majority in your jurisdiction (whichever is greater). You must not use this website if you are under the required legal age. Nexoria reserves the right to terminate your access to the website if it discovers you have violated this age requirement.
+
 ## General Use Guidelines
 All the content and materials available on this website, including but not limited to information, documents, text, services, logos, graphics, photographs, sounds, images, videos, trademarks, interfaces, music, software, computer code, user interfaces, visual interfaces, and the overall design, arrangement, selection, expression, and "look and feel" of the site (collectively referred to as "Content"), are owned, controlled, or licensed by Nexoria, its affiliates, subsidiaries, or third-party partners, authors, developers, and vendors (collectively, "Third-Party Providers").
 Any unauthorised use of this Content may violate intellectual property laws and other legal protections, including copyright, trademark, privacy, publicity rights, and communication regulations.
@@ -40,6 +43,20 @@ Engaging in activities that impose an unreasonable or disproportionately large l
 Using the website or its Content for illegal activities or promoting unlawful or infringing actions.
 Using, exporting, or re-exporting the Content violates applicable laws or regulations, including export laws.
 
+## Refund Policy
+Nexoria has a strict no-refund policy for all purchases made through https://nexoria.ai. By completing a transaction on our website, you agree that all sales are final and non-refundable.
+In exceptional cases, Nexoria may consider refund requests under specific circumstances, such as duplicate or accidental payments, incorrect payment amounts caused by technical errors, or the non-delivery of products or services due to reasons within our control. To request a refund, you must contact our support team at <a href="mailto:info@nexoria.ai">info@nexoria.ai</a>, providing your full name, email address, transaction ID, and a detailed explanation. Refund requests will be reviewed within 7 business days; approval is at Nexoria’s sole discretion.
+
+Refunds are not available for services successfully delivered as described, dissatisfaction unrelated to service quality, or requests submitted beyond 14 days of purchase. Nexoria reserves the right to update this Refund Policy without prior notice. Continued website use after any updates constitutes acceptance of the revised policy.
+
+For further information, please contact us at <a href="mailto:info@nexoria.ai">info@nexoria.ai</a>.
+
+## Dispute Policy
+If a dispute arises concerning your use of the website or services provided by Nexoria, you agree to the following dispute resolution process:
+- **Resolution Attempt:** You must first contact Nexoria at info@nexoria.ai to attempt to resolve the dispute informally. Include all relevant details and supporting documentation.
+- **Binding Arbitration:** If the dispute cannot be resolved informally, it will be settled by binding arbitration under the rules of the jurisdiction governing these Terms (Nevis, West Indies). The arbitration will be conducted confidentially and in English.
+- **Jurisdiction:** Any legal proceedings arising out of these Terms shall be governed by the laws of Nevis, West Indies, without regard to its conflict of law principles.
+- **Limitations on Claims:** Any claim related to these Terms must be filed within one year after the cause of action arises or will be permanently barred.
 
 ## Breach of Terms 
 
@@ -69,6 +86,12 @@ Furthermore, you agree that Nexoria has the right to retain any communication or
 - Enforce these Terms;
 - Address claims that your communications infringe on the rights of others; or
 - Safeguard the rights, property, or personal safety of Nexoria, its employees, users, website visitors, and the general public.
+
+## Risk Disclaimer
+The content and services provided on this website are for informational purposes only and do not constitute financial, investment, legal, or other professional advice. Any use of information or services is at your own risk. Nexoria does not guarantee the content’s accuracy, completeness, or reliability, and you acknowledge that any decisions made based on this information are solely your responsibility.
+
+All users should be aware that investments, trading, or other activities associated with this website may involve significant risks. Nexoria is not responsible for any financial losses or other damages incurred as a result of using this website or its services.
+
 
 ## Disclaimer
 
