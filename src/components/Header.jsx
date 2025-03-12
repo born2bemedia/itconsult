@@ -10,6 +10,7 @@ import Email from "@/icons/other/Email";
 import Phone from "@/icons/other/Phone";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
+import LangSwitcher from "./LangSwitcher";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -43,6 +44,7 @@ const Header = () => {
             </div>
             <div className="header__col-02">
               <div className="header__contacts">
+                <LangSwitcher />
                 <Link href="tel:+48573587868" className="header__link">
                   <Phone />
                   +48573587868
