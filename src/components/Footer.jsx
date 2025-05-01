@@ -27,15 +27,19 @@ const Footer = () => {
               <ul className="footer__contacts">
                 <li className="footer__contact">
                   <Link href="tel:+48573587868">
-                    <Phone />
+                    <span>Phone:</span>
                     +48573587868
                   </Link>
                 </li>
                 <li className="footer__contact">
                   <Link href="matilto:info@nexoria.ai">
-                    <Email />
+                    <span>Email:</span>
                     info@nexoria.ai
                   </Link>
+                </li>
+                <li className="footer__address">
+                  <span>Registered address:</span> <br />
+                  Hamilton Development, Unit B, Charlestown, Nevis, West Indies
                 </li>
               </ul>
             </div>

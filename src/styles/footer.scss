@@ -14,7 +14,7 @@
     gap: 24px;
     padding: 0 0 24px 0;
 
-    @media(max-width: 992px) { 
+    @media (max-width: 992px) {
       flex-direction: column;
     }
   }
@@ -62,16 +62,17 @@
     width: 264px;
     min-width: 264px;
 
-    @media(max-width: 992px) { 
+    @media (max-width: 992px) {
       width: 100%;
       min-width: fit-content;
     }
   }
 
   &__col-02 {
-    width: 264px;
+    width: 336px;
+    min-width: 336px;
 
-    @media(max-width: 992px) { 
+    @media (max-width: 992px) {
       width: 100%;
     }
   }
@@ -88,33 +89,55 @@
 
   &__contacts {
     margin: 24px 0 0 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
-    gap: 24px;
+    column-gap: 40px;
+    row-gap: 8px;
 
-    @media(max-width: 992px) { 
+    @media (max-width: 992px) {
       flex-direction: row;
     }
   }
 
   &__contact {
+    &:nth-child(1) {
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+    &:nth-child(2) {
+      grid-column-start: 1;
+      grid-row-start: 2;
+    }
+    span {
+      color: #828282;
+      font-size: 12px;
+      line-height: normal;
+    }
     a {
-      display: flex;
-      align-items: center;
-      column-gap: 8px;
       color: #0f0f0f;
-      font-family: 'Urbanist', sans-serif;
-      transition: all 0.3s ease 0s;
-      svg {
-        path {
-          stroke: #0f0f0f;
-          transition: all 0.3s ease 0s;
-        }
-      }
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
     }
 
-    @media(max-width: 767px) { 
+    @media (max-width: 767px) {
       width: 50%;
+    }
+  }
+
+  &__address {
+    grid-column-start: 2;
+    grid-row-start: span 2;
+    color: #0f0f0f;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    span {
+      color: #828282;
+      font-size: 12px;
+      line-height: normal;
     }
   }
 
@@ -123,7 +146,7 @@
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 24px;
 
-    @media(max-width: 767px) { 
+    @media (max-width: 767px) {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
   }
@@ -135,12 +158,11 @@
   }
 
   &__item {
-
-    a { 
+    a {
       color: #111314;
       font-size: 16px;
       line-height: normal;
-      font-family: 'Urbanist', sans-serif;
+      font-family: "Urbanist", sans-serif;
       transition: all 0.3s ease 0s;
     }
   }
