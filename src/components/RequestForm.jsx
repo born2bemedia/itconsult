@@ -10,9 +10,13 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 import Mark from "@/icons/other/Mark";
 import Link from "next/link";
 import Snipper from "@/icons/loading/Snipper";
-
+import { useTranslations } from "next-intl";
+import { excludedCountries } from "@/utils/excludedCountries";
 // Кастомный компонент Select
 const CustomSelect = ({ name, options, ...props }) => {
+
+  const t = useTranslations("home");
+
   const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
 
   const handleChange = (selectedOption) => {
@@ -38,21 +42,22 @@ const CustomSelect = ({ name, options, ...props }) => {
 };
 
 function RequestForm() {
+  const t = useTranslations("home");
   const countryCode = useCountryCode();
   const [isSuccess, setIsSuccess] = useState(false);
 
   const validationSchema = Yup.object({
-    yourName: Yup.string().required("The field is required."),
-    company: Yup.string().required("The field is required."),
+    yourName: Yup.string().required(t("request.error1", {}, "The field is required.")),
+    company: Yup.string().required(t("request.error1", {}, "The field is required.")),
     email: Yup.string()
-      .email("Please enter a valid email address.")
-      .required("The field is required."),
-    phone: Yup.string().required("The field is required."),
-    activity: Yup.string().required("The field is required."),
-    website: Yup.string().required("The field is required."),
-    challenge: Yup.string().required("The field is required."),
-    urgency: Yup.string().required("Select an option."),
-    agreeToPolicy: Yup.boolean().oneOf([true], "You must agree to the Privacy Policy."),
+      .email(t("request.error2", {}, "Please enter a valid email address."))
+      .required(t("request.error1", {}, "The field is required.")),
+    phone: Yup.string().required(t("request.error1", {}, "The field is required.")),
+    activity: Yup.string().required(t("request.error1", {}, "The field is required.")),
+    website: Yup.string().required(t("request.error1", {}, "The field is required.")),
+    challenge: Yup.string().required(t("request.error1", {}, "The field is required.")),
+    urgency: Yup.string().required(t("request.error3", {}, "Select an option.")),
+    agreeToPolicy: Yup.boolean().oneOf([true], t("request.error4", {}, "You must agree to the Privacy Policy.")),
   });
 
   const initialValues = {
@@ -94,10 +99,10 @@ function RequestForm() {
   };
 
   const options = [
-    { value: "", label: "Urgency" },
-    { value: "urgent", label: "Urgent" },
-    { value: "high_priority", label: "High Priority" },
-    { value: "standard", label: "Standard" },
+    { value: "", label: t("request.value1", {}, "Urgency") },
+    { value: "urgent", label: t("request.value2", {}, "Urgent") },
+    { value: "high_priority", label: t("request.value3", {}, "High Priority") },
+    { value: "standard", label: t("request.value4", {}, "Standard") },
   ];
 
   return (
@@ -113,7 +118,7 @@ function RequestForm() {
               {Object.keys(errors).length > 0 && touched && (
                 <span className="general-error">
                   <Mark />
-                  This field is required.
+                  {t("request.error", {}, "This field is required.")}
                 </span>
               )}
 
@@ -124,7 +129,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="text"
-                        placeholder="Your name"
+                        placeholder={t("request.placeholder1", {}, "Your name")}
                         className={
                           form.touched.yourName && form.errors.yourName
                             ? "invalid"
@@ -143,7 +148,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="text"
-                        placeholder="Company"
+                        placeholder={t("request.placeholder2", {}, "Company")}
                         className={
                           form.touched.company && form.errors.company
                             ? "invalid"
@@ -162,7 +167,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="text"
-                        placeholder="Website"
+                        placeholder={t("request.placeholder3", {}, "Website")}
                         className={
                           form.touched.website && form.errors.website
                             ? "invalid"
@@ -181,7 +186,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="text"
-                        placeholder="Activity"
+                        placeholder={t("request.placeholder4", {}, "Activity")}
                         className={
                           form.touched.activity && form.errors.activity
                             ? "invalid"
@@ -200,7 +205,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="email"
-                        placeholder="Email"
+                        placeholder={t("request.placeholder5", {}, "Email")}
                         className={
                           form.touched.email && form.errors.email
                             ? "invalid"
@@ -220,12 +225,13 @@ function RequestForm() {
                         country={countryCode}
                         value={field.value}
                         onChange={(value) => form.setFieldValue("phone", value)}
-                        placeholder="Your phone"
+                        placeholder={t("request.placeholder6", {}, "Your phone")}
                         className={
                           form.touched.phone && form.errors.phone
                             ? "invalid"
                             : ""
                         }
+                        excludeCountries={excludedCountries}
                       />
                     </div>
                   )}
@@ -239,7 +245,7 @@ function RequestForm() {
                       <input
                         {...field}
                         type="text"
-                        placeholder="Your challenge"
+                        placeholder={t("request.placeholder7", {}, "Your challenge")}
                         className={
                           form.touched.challenge && form.errors.challenge
                             ? "invalid"
@@ -289,9 +295,8 @@ function RequestForm() {
                           }
                         />
                         <span>
-                          I agree to be contacted by Nexoria regarding my inquiry and
-                          understand that my data will be handled in accordance with
-                          the <Link href="privacy-policy">Privacy Policy</Link>.
+                          {t("request.policy", {}, "I agree to be contacted by Nexoria regarding my inquiry and understand that my data will be handled in accordance with the .")}
+                          <Link href='/privacy-policy'>{t("request.policyLink", {}, "Privacy Policy")}</Link>
                         </span>
                       </label>
                     </div>
@@ -304,7 +309,7 @@ function RequestForm() {
                 className="button"
                 disabled={isSubmitting}
               >
-                Submit Request
+                {t("request.button", {}, "Submit Request")}
                 <ArrowRight />
               </button>
               {isSubmitting && (
@@ -315,7 +320,7 @@ function RequestForm() {
             </Form>
             {isSuccess && (
               <div className="success-message">
-                <span>Thank you!</span> Your request has been successfully submitted. We’ll get back to you within 1 business day. If you have any urgent questions, please contact us at <a href="mailto:noreply@nexoria.ai">noreply@nexoria.ai</a>.
+                <span>{t("request.success", {}, "Thank you!")}</span> {t("request.successMessage", {}, "Your request has been successfully submitted. We’ll get back to you within 1 business day. If you have any urgent questions, please contact us at")} <a href="mailto:noreply@nexoria.ai">{t("request.successEmail", {}, "noreply@nexoria.ai")}</a>.
               </div>
             )}
           </div>

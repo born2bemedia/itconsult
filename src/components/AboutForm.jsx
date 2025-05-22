@@ -9,8 +9,11 @@ import Mark from "@/icons/other/Mark";
 import Snipper from "@/icons/loading/Snipper";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-
+import { useTranslations } from "next-intl";
 const CustomSelect = ({ name, options, ...props }) => {
+
+    const t = useTranslations("about");
+
     const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
 
     const handleChange = (selectedOption) => {
@@ -70,22 +73,22 @@ const readFileAsBase64 = (file) => {
 };
 
 const AboutForm = () => {
+    const t = useTranslations("about");
     const [fileSelected, setFileSelected] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
 
     const validationSchema = Yup.object({
-        contactPerson: Yup.string().required("The field is required."),
-        contactEmail: Yup.string().email("Please enter a valid email address.").required("The field is required."),
-        organisingCompany: Yup.string().required("The field is required."),
-        eventName: Yup.string().required("The field is required."),
-        eventLink: Yup.string().url("Please enter a valid URL.").required("The field is required."),
-        industry: Yup.string().required("Select an option."),
-        eventLocation: Yup.string().required("The field is required."),
-        eventDate: Yup.date().required("Select a date."),
-        eventTopic: Yup.string().required("The field is required."),
-        participationType: Yup.string().required("Select an option."),
-        /* file: Yup.mixed() */
-        file: Yup.mixed().required("File is required"),
+        contactPerson: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        contactEmail: Yup.string().email(t("emailError", {}, "Please enter a valid email address.")).required(t("requiredError", {}, "The field is required.")),
+        organisingCompany: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        eventName: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        eventLink: Yup.string().url(t("urlError", {}, "Please enter a valid URL.")).required(t("requiredError", {}, "The field is required.")),
+        industry: Yup.string().required(t("requiredError", {}, "Select an option.")),
+        eventLocation: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        eventDate: Yup.date().required(t("dateError", {}, "Select a date.")),
+        eventTopic: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        participationType: Yup.string().required(t("optionError", {}, "Select an option.")),
+        file: Yup.mixed().required(t("fileError", {}, "File is required")),
     });
 
     const initialValues = {
@@ -141,15 +144,15 @@ const AboutForm = () => {
     };
 
     const industryOptions = [
-        { value: "tech", label: "Tech" },
-        { value: "finance", label: "Finance" },
-        { value: "education", label: "Education" },
+        { value: "tech", label: t("industry1", {}, "Tech") },
+        { value: "finance", label: t("industry2", {}, "Finance") },
+        { value: "education", label: t("industry3", {}, "Education") },
     ];
 
     const participationOptions = [
-        { value: "speaker", label: "Speaker" },
-        { value: "attendee", label: "Attendee" },
-        { value: "exhibitor", label: "Exhibitor" },
+        { value: "speaker", label: t("participation1", {}, "Speaker") },
+        { value: "attendee", label: t("participation2", {}, "Attendee") },
+        { value: "exhibitor", label: t("participation3", {}, "Exhibitor") },
     ];
 
     return (
@@ -169,7 +172,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Contact person"
+                                                placeholder={t("contactPerson", {}, "Contact person")}
                                                 className={form.touched.contactPerson && form.errors.contactPerson ? "invalid" : ""}
                                             />
                                         </div>
@@ -184,7 +187,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="email"
-                                                placeholder="Contact email"
+                                                placeholder={t("contactEmail", {}, "Contact email")}
                                                 className={form.touched.contactEmail && form.errors.contactEmail ? "invalid" : ""}
                                             />
                                         </div>
@@ -199,7 +202,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Organising company"
+                                                placeholder={t("organisingCompany", {}, "Organising company")}
                                                 className={form.touched.organisingCompany && form.errors.organisingCompany ? "invalid" : ""}
                                             />
                                         </div>
@@ -214,7 +217,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Event name"
+                                                placeholder={t("eventName", {}, "Event name")}
                                                 className={form.touched.eventName && form.errors.eventName ? "invalid" : ""}
                                             />
                                         </div>
@@ -229,7 +232,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="url"
-                                                placeholder="Event link"
+                                                placeholder={t("eventLink", {}, "Event link")}
                                                 className={form.touched.eventLink && form.errors.eventLink ? "invalid" : ""}
                                             />
                                         </div>
@@ -256,7 +259,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Event location"
+                                                placeholder={t("eventLocation", {}, "Event location")}
                                                 className={form.touched.eventLocation && form.errors.eventLocation ? "invalid" : ""}
                                             />
                                         </div>
@@ -282,7 +285,7 @@ const AboutForm = () => {
                                             <input
                                                 {...field}
                                                 type="text"
-                                                placeholder="Event topic"
+                                                placeholder={t("eventTopic", {}, "Event topic")}
                                                 className={form.touched.eventTopic && form.errors.eventTopic ? "invalid" : ""}
                                             />
                                         </div>
@@ -321,7 +324,7 @@ const AboutForm = () => {
                                             setFileSelected(false);
                                         }}
                                     >
-                                        Remove File
+                                        {t("removeFile", {}, "Remove File")}
                                     </button>
                                 </div>
                             )}
@@ -331,7 +334,7 @@ const AboutForm = () => {
                                     className="button"
                                     disabled={isSubmitting}
                                 >
-                                    Submit Request
+                                    {t("submitRequest", {}, "Submit Request")}
                                     <ArrowRight />
                                 </button>
                                 {isSubmitting && (
@@ -343,15 +346,15 @@ const AboutForm = () => {
                             {Object.keys(errors).length > 0 && touched && (
                                 <span className="general-error">
                                     <Mark />
-                                    This field is required.
+                                    {t("requiredError", {}, "This field is required.")}
                                 </span>
                             )}
                         </Form>
 
                         {status?.success && !isSubmitting && (
                             <div className="success-message">
-                                <span>Thank you!</span>
-                                Your request has been successfully received. Our team will review your information and contact you shortly.
+                                <span>{t("successMessage", {}, "Thank you!")}</span>
+                                {t("successMessageText", {}, "Your request has been successfully received. Our team will review your information and contact you shortly.")}
                             </div>
                         )}
                     </div>
