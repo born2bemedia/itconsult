@@ -9,6 +9,8 @@ import Mark from "@/icons/other/Mark";
 import "react-phone-input-2/lib/style.css";
 import "react-datepicker/dist/react-datepicker.css";
 import Snipper from "@/icons/loading/Snipper";
+import { useTranslations } from "next-intl";
+import { excludedCountries } from "@/utils/excludedCountries";
 
 const CustomSelect = ({ name, options, placeholder, ...props }) => {
     const { setFieldValue, setFieldTouched, errors, touched, values } = useFormikContext();
@@ -57,16 +59,17 @@ const getCountryCodeFromIP = async () => {
 };
 
 function PeopleForm() {
+    const t = useTranslations("people");
     const [fileSelected, setFileSelected] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
     const [phoneCountryCode, setPhoneCountryCode] = useState("us");
     const countryCode = useCountryCode();
 
     const validationSchema = Yup.object({
-        yourName: Yup.string().required("The field is required."),
-        yourDomain: Yup.string().required("Select an option."),
-        email: Yup.string().email("Please enter a valid email address.").required("The field is required."),
-        phone: Yup.string().required("The field is required."),
+        yourName: Yup.string().required(t("requiredError", {}, "The field is required.")),
+        yourDomain: Yup.string().required(t("optionError", {}, "Select an option.")),
+        email: Yup.string().email(t("emailError", {}, "Please enter a valid email address.")).required(t("requiredError", {}, "The field is required.")),
+        phone: Yup.string().required(t("requiredError", {}, "The field is required.")),
         ///file: Yup.mixed().required("The field is required."),
         file: Yup.mixed(),
         explanation: Yup.string(),
@@ -152,7 +155,7 @@ function PeopleForm() {
                                         <input
                                             {...field}
                                             type="text"
-                                            placeholder="Your name"
+                                            placeholder={t("yourName", {}, "Your name")}
                                             className={form.touched.yourName && form.errors.yourName ? "invalid" : ""}
                                         />
                                     )}
@@ -164,7 +167,7 @@ function PeopleForm() {
                                         <CustomSelect
                                             name="yourDomain"
                                             options={domainOptions}
-                                            placeholder="Your domain"
+                                            placeholder={t("yourDomain", {}, "Your domain")}
                                             {...field}
                                         />
                                     )}
@@ -176,7 +179,7 @@ function PeopleForm() {
                                         <input
                                             {...field}
                                             type="email"
-                                            placeholder="Email"
+                                            placeholder={t("email", {}, "Email")}
                                             className={form.touched.email && form.errors.email ? "invalid" : ""}
                                         />
                                     )}
@@ -190,12 +193,13 @@ function PeopleForm() {
                                                 country={countryCode}
                                                 value={field.value}
                                                 onChange={(value) => form.setFieldValue("phone", value)}
-                                                placeholder="Your phone"
+                                                placeholder={t("phone", {}, "Your phone")}
                                                 className={
                                                     form.touched.phone && form.errors.phone
                                                         ? "invalid"
                                                         : ""
                                                 }
+                                                excludeCountries={excludedCountries}
                                             />
                                         </div>
                                     )}
@@ -224,18 +228,18 @@ function PeopleForm() {
                                             setFileSelected(false);
                                         }}
                                     >
-                                        Remove File
+                                        {t("removeFile", {}, "Remove File")}
                                     </button>
                                 </div>
                             )}
                             <div className="row _textarea">
                                 <div className="textarea-container">
-                                    <label>Brief Introduction</label>
+                                    <label>{t("briefIntroduction", {}, "Brief Introduction")}</label>
                                     <Field name="explanation">
                                         {({ field, form }) => (
                                             <textarea
                                                 {...field}
-                                                placeholder="Explain why you want to join our team."
+                                                placeholder={t("explainWhyYouWantToJoinOurTeam", {}, "Explain why you want to join our team.")}
                                                 className={form.touched.explanation && form.errors.explanation ? "invalid" : ""}
                                             />
                                         )}
@@ -248,7 +252,7 @@ function PeopleForm() {
                                 className="request-button"
                                 disabled={isSubmitting}
                             >
-                                Submit Request
+                                {t("submitRequest", {}, "Submit Request")}
                             </button>
                             {isSubmitting && (
                                 <div className="loading-icon">
@@ -259,13 +263,14 @@ function PeopleForm() {
                             {Object.keys(errors).length > 0 && touched && (
                                 <span className="general-error">
                                     <Mark />
-                                    This field is required.
+                                    {t("requiredError", {}, "This field is required.")}
                                 </span>
                             )}
                         </Form>
                         {status && status.success && isSuccess && (
                             <div className="success-message">
-                                <span>Thank you!</span> Your request has been successfully received. Our team will review your information and contact you shortly.
+                                <span>{t("successMessage", {}, "Thank you!")}</span>
+                                {t("successMessageText", {}, "Your request has been successfully received. Our team will review your information and contact you shortly.")}
                             </div>
                         )}
                     </div>

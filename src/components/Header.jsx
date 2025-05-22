@@ -11,8 +11,12 @@ import Phone from "@/icons/other/Phone";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "./LangSwitcher";
-
+import LangChanger from "./LangChanger";
+import { useTranslations } from "next-intl";
 const Header = () => {
+
+  const t = useTranslations("header");
+
   const [menuOpened, setMenuOpened] = useState(false);
   const [submenuOpen, setSubmenuOpen] = useState({});
   const pathname = usePathname();
@@ -44,7 +48,7 @@ const Header = () => {
             </div>
             <div className="header__col-02">
               <div className="header__contacts">
-                <LangSwitcher />
+                <LangChanger />
                 <Link href="tel:+48573587868" className="header__link">
                   <Phone />
                   +48573587868
@@ -77,7 +81,7 @@ const Header = () => {
                   onClick={(event) => toggleSubmenu("services", event)}
                 >
                   <div className="wrapper">
-                    <span>Services</span>
+                    <span>{t("services", {}, "Services")}</span>
                     <button type="button" className="btn">
                       {!submenuOpen["services"] ? (
                         <img src="/images/menu-plus.svg" alt="expand" />
@@ -97,20 +101,20 @@ const Header = () => {
                       marginTop: submenuOpen["services"] ? "24px" : "0",
                     }}
                   >
-                    <li className="header__subitem"><Link href="/it-consulting">IT Consulting</Link></li>
-                    <li className="header__subitem"><Link href="/marketing-consulting">Marketing Consulting</Link></li>
+                    <li className="header__subitem"><Link href="/it-consulting">{t("it-consulting", {}, "IT Consulting")}</Link></li>
+                    <li className="header__subitem"><Link href="/marketing-consulting">{t("marketing-consulting", {}, "Marketing Consulting")}</Link></li>
                   </ul>
                 </li>
 
-                <li className="header__item-menu"><Link href="/complex-solutions">Complex Solutions</Link></li>
-                <li className="header__item-menu"><Link href="/market-research">Market Research</Link></li>
+                <li className="header__item-menu"><Link href="/complex-solutions">{t("complex-solutions", {}, "Complex Solutions")}</Link></li>
+                <li className="header__item-menu"><Link href="/market-research">{t("market-research", {}, "Market Research")}</Link></li>
 
                 <li
                   className={`header__item-menu _submenu ${submenuOpen["company"] ? "_open" : ""}`}
                   onClick={() => toggleSubmenu("company")}
                 >
                   <div className="wrapper">
-                    <span>Company</span>
+                    <span>{t("company", {}, "Company")}</span>
                     <button type="button" className="btn">
                       {!submenuOpen["company"] ? (
                         <img src="/images/menu-plus.svg" alt="expand" />
@@ -130,15 +134,15 @@ const Header = () => {
                       marginTop: submenuOpen["company"] ? "24px" : "0",
                     }}
                   >
-                    <li className="header__subitem"><Link href="/about">About</Link></li>
-                    <li className="header__subitem"><Link href="/people">People</Link></li>
-                    <li className="header__subitem"><Link href="/newsroom">Newsroom</Link></li>
+                    <li className="header__subitem"><Link href="/about">{t("about", {}, "About")}</Link></li>
+                    <li className="header__subitem"><Link href="/people">{t("people", {}, "People")}</Link></li>
+                    <li className="header__subitem"><Link href="/newsroom">{t("newsroom", {}, "Newsroom")}</Link></li>
                   </ul>
                 </li>
 
-                <li className="header__item-menu"><Link href="/how-we-work">How we work</Link></li>
-                <li className="header__item-menu"><Link href="/faq">FAQ</Link></li>
-                <li className="header__item-menu"><Link href="/contacts">Contact</Link></li>
+                <li className="header__item-menu"><Link href="/how-we-work">{t("how-we-work", {}, "How we work")}</Link></li>
+                <li className="header__item-menu"><Link href="/faq">{t("faq", {}, "FAQ")}</Link></li>
+                <li className="header__item-menu"><Link href="/contacts">{t("contacts", {}, "Contact")}</Link></li>
               </ul>
 
               <ul className="header__contacts-menu">

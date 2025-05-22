@@ -10,8 +10,13 @@ import ArrowRight from "@/icons/slider/ArrowRight";
 import CloseIcon from "@/icons/other/CloseIcon";
 import Snipper from "@/icons/loading/Snipper";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { excludedCountries } from "@/utils/excludedCountries";
 
 const ServicePopup = () => {
+
+  const t = useTranslations("servicePopup");
+
   const { servicePopupDisplay, setServicePopupDisplay, currentService } = usePopup();
   const countryCode = useCountryCode();
   const [isSuccess, setIsSuccess] = useState(false);
@@ -19,15 +24,15 @@ const ServicePopup = () => {
   if (!servicePopupDisplay) return null;
 
   const validationSchema = Yup.object({
-    firstName: Yup.string().required("The field is required."),
-    company: Yup.string().required("The field is required."),
-    website: Yup.string().required("The field is required."),
-    activity: Yup.string().required("The field is required."),
+    firstName: Yup.string().required(t("validation.requiredError", {}, "The field is required.")),
+    company: Yup.string().required(t("validation.requiredError", {}, "The field is required.")),
+    website: Yup.string().required(t("validation.requiredError", {}, "The field is required.")),
+    activity: Yup.string().required(t("validation.requiredError", {}, "The field is required.")),
     email: Yup.string()
-      .email("Please enter a valid email address.")
-      .required("The field is required."),
-    phone: Yup.string().required("The field is required."),
-    agreeToPolicy: Yup.boolean().oneOf([true], "You must agree to the privacy policy."),
+      .email(t("validation.emailError", {}, "Please enter a valid email address."))
+      .required(t("validation.requiredError", {}, "The field is required.")),
+    phone: Yup.string().required(t("validation.requiredError", {}, "The field is required.")),
+    agreeToPolicy: Yup.boolean().oneOf([true], t("validation.agreeToPolicyError", {}, "You must agree to the privacy policy.")),
   });
 
   const initialValues = {
@@ -92,7 +97,7 @@ const ServicePopup = () => {
         <div className="order-popup">
           <div className="order-popup__content">
             <div className="order-popup__top">
-              <h2 className="order-popup__title">{currentService} Request</h2>
+              <h2 className="order-popup__title">{currentService} {t("title", {}, "Request")}</h2>
               <button
                 className="order-popup__close"
                 onClick={() => closePopup(null)}
@@ -123,13 +128,13 @@ const ServicePopup = () => {
                         <Field
                           type="hidden"
                           name="service"
-                          value={`${currentService} Request`}
+                          value={`${currentService} ${t("service", {}, "Request")}`}
                         />
                         <div className="row">
                           <Field
                             name="firstName"
                             type="text"
-                            placeholder="Your name"
+                            placeholder={t("firstName", {}, "Your name")}
                             className={touched.firstName && errors.firstName ? "invalid" : ""}
                           />
                         </div>
@@ -138,7 +143,7 @@ const ServicePopup = () => {
                           <Field
                             name="company"
                             type="text"
-                            placeholder="Company"
+                            placeholder={t("company", {}, "Company")}
                             className={touched.company && errors.company ? "invalid" : ""}
                           />
                         </div>
@@ -147,7 +152,7 @@ const ServicePopup = () => {
                           <Field
                             name="website"
                             type="text"
-                            placeholder="Website"
+                            placeholder={t("website", {}, "Website")}
                             className={touched.website && errors.website ? "invalid" : ""}
                           />
                         </div>
@@ -156,7 +161,7 @@ const ServicePopup = () => {
                           <Field
                             name="activity"
                             type="text"
-                            placeholder="Activity"
+                            placeholder={t("activity", {}, "Activity")}
                             className={touched.activity && errors.activity ? "invalid" : ""}
                           />
                         </div>
@@ -165,7 +170,7 @@ const ServicePopup = () => {
                           <Field
                             name="email"
                             type="email"
-                            placeholder="Email"
+                            placeholder={t("email", {}, "Email")}
                             className={touched.email && errors.email ? "invalid" : ""}
                           />
                         </div>
@@ -175,8 +180,9 @@ const ServicePopup = () => {
                             country={countryCode}
                             value={values.phone} // Обратите внимание на это
                             onChange={(value) => setFieldValue("phone", value)}
-                            placeholder="Your phone"
+                            placeholder={t("phone", {}, "Your phone")}
                             className={touched.phone && errors.phone ? "invalid" : ""}
+                            excludeCountries={excludedCountries}
                           />
                         </div>
 
@@ -201,9 +207,8 @@ const ServicePopup = () => {
                                     }
                                   />
                                   <span>
-                                    I agree to be contacted by Nexoria regarding my inquiry and
-                                    understand that my data will be handled in accordance with
-                                    the <Link href="/privacy-policy">Privacy Policy</Link>.
+                                    {t("agreeToPolicy", {}, "I agree to be contacted by Nexoria regarding my inquiry and understand that my data will be handled in accordance with the")}
+                                    <Link href="/privacy-policy">{t("privacyPolicy", {}, "Privacy Policy")}</Link>.
                                   </span>
                                 </label>
                               </div>
@@ -213,7 +218,7 @@ const ServicePopup = () => {
 
                         {Object.keys(errors).length > 0 && touched && (
                           <span className="general-error">
-                            This field is required.
+                            {t("validation.requiredError", {}, "This field is required.")}
                           </span>
                         )}
 
@@ -222,7 +227,7 @@ const ServicePopup = () => {
                           className="button"
                           disabled={isSubmitting}
                         >
-                          Submit Request
+                          {t("submitRequest", {}, "Submit Request")}
                           <ArrowRight />
                         </button>
                         {isSubmitting && (
@@ -235,8 +240,8 @@ const ServicePopup = () => {
                   </Formik>
                   {isSuccess && (
                     <div className="success-message">
-                      <span>Thank you!</span>
-                      Your request has been successfully received. Our team will review your information and contact you shortly to discuss your marketing challenges and the solutions we can provide.
+                      <span>{t("successMessage.title", {}, "Thank you!")}</span>
+                      {t("successMessage.description", {}, "Your request has been successfully received. Our team will review your information and contact you shortly to discuss your marketing challenges and the solutions we can provide.")}
                     </div>
                   )}
                 </div>

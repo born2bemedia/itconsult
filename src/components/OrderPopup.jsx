@@ -47,8 +47,11 @@ import React from "react";
 import { usePopup } from "@/context/PopupsContext";
 import CloseIcon from "@/icons/other/CloseIcon";
 import RequestForm from "@/components/RequestForm";
-
+import { useTranslations } from "next-intl";
 const OrderPopup = () => {
+
+    const t = useTranslations("orderPopup");
+
     const { orderPopupDisplay, setOrderPopupDisplay } = usePopup();
 
     const closePopup = () => {
@@ -64,8 +67,8 @@ const OrderPopup = () => {
                 <div className="order-popup">
                     <div className="order-popup__content">
                         <div className="order-popup__top">
-                            <h2 className="order-popup__title">Request a Consultation</h2>
-                            <h3 className="order-popup__subtitle">Let’s Discuss How We Can Help Your Business Grow.</h3>
+                            <h2 className="order-popup__title">{t("title", {}, "Request a Consultation")}</h2>
+                            <h3 className="order-popup__subtitle">{t("subtitle", {}, "Let’s Discuss How We Can Help Your Business Grow.")}</h3>
                             <button
                                 className="order-popup__close"
                                 onClick={closePopup}
