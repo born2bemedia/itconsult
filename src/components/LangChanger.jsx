@@ -11,6 +11,8 @@ export default function LangChanger() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
+  const localeName = locale.toUpperCase();
+
   const handleChange = (locale) => {
     router.push(pathname, { locale });
     setIsOpen(false);
@@ -28,7 +30,7 @@ export default function LangChanger() {
     <div className="lang-changer">
       <button onClick={handleToggle} className="lang-changer__item-label">
         <Image
-          src={`/images/${locale}.svg`}
+          src={`/images/${localeName}.svg`}
           alt={locale}
           width={24}
           height={24}
@@ -40,21 +42,21 @@ export default function LangChanger() {
             onClick={() => handleChange("en")}
             className="lang-changer__dropdown-item"
           >
-            <Image src={`/images/en.svg`} alt={"en"} width={24} height={24} />
+            <Image src={`/images/EN.svg`} alt={"en"} width={24} height={24} />
             English
           </button>
           <button
             onClick={() => handleChange("de")}
             className="lang-changer__dropdown-item"
           >
-            <Image src={`/images/de.svg`} alt={"de"} width={24} height={24} />
+            <Image src={`/images/DE.svg`} alt={"de"} width={24} height={24} />
             German
           </button>
           <button
             onClick={() => handleChange("it")}
             className="lang-changer__dropdown-item"
           >
-            <Image src={`/images/it.svg`} alt={"it"} width={24} height={24} />
+            <Image src={`/images/IT.svg`} alt={"it"} width={24} height={24} />
             Italian
           </button>
         </div>
