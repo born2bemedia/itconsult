@@ -1,734 +1,734 @@
 {
-    "home": {
-      "faq": {
-        "question1": "We've invested $50,000 in digital marketing over the last three months, but our ROI is only 2%. We struggle to identify which channels are working and how to optimise our spending. Can you help us turn this around?",
-        "label1": "Brand Name team:",
-        "answer1": "You should start by accessing your Google Analytics, Facebook Ads Manager, and CRM data to conduct a detailed multi-channel attribution analysis, pinpointing which channels contribute to conversions. <br /> <br /> We use tools like Google Data Studio for reporting and perform A/B testing on customer’s ads and landing pages to refine targeting and messaging. <br /> <br /> By reallocating your budget towards high-performing channels and optimising bids in real-time with Google Ads and Facebook Business Manager, we aim to significantly boost your ROI, providing a clear, data-driven strategy for future campaigns.",
-        "question2": "Our IT systems struggle with handling large volumes of data, causing delays in processing and leaving us vulnerable to security breaches. We need to optimise our data management and secure our systems to ensure seamless operations as we expand. How can you help us?",
-        "label2": "Brand Name team:",
-        "answer2": "To address these challenges, we recommend implementing a data management overhaul by deploying scalable cloud storage solutions like AWS S3 paired with high-performance databases like PostgreSQL or MongoDB to handle large data volumes efficiently. <br /> <br /> For security, integrating advanced encryption and access control measures using tools like Fortinet for network security and Splunk for real-time threat detection will protect your data from breaches. <br /> <br /> Optimising data processing and enhancing security protocols, your systems will be better equipped to handle growth, ensuring reliable and secure operations.",
-        "title": "Your ask, we answer",
-        "link": "More FAQ"
-      },
-      "hero": {
-        "slide1": "Empowering business with the right technology and marketing strategies to drive growth, efficiency, and innovation.",
-        "slide2": "Success in today's digital landscape requires the seamless integration of technology and marketing.",
-        "slide3": "We align your IT capabilities with strategic marketing to drive efficiency, boost customer engagement, and fuel sustainable growth.",
-        "title": "Integrated Growth Solutions <br /> through IT & Marketing Expertise"
-      },
-      "last": {
-        "title": "INTEGRATED <br /> GROWTH AWAITS",
-        "text": "Ready to see how seamless integration can drive your business forward? Let’s create solutions that transform your operations and accelerate your growth.",
-        "label": "Harness the Power <br /> of Unified IT and Marketing"
-      },
-      "market": {
-        "label1": "Our Participation in SMX Advanced Europe 2024",
-        "description1": "We’re heading to SMX Advanced Europe in Berlin on September 10-11! Discover cutting-edge SEO and PPC strategies with us. Stay tuned for updates, and follow us for the latest news!",
-        "alt1": "Our Participation in SMX Advanced Europe 2024",
-        "label2": "We’re Officially Here!",
-        "description2": "Our new website is live, marking our official launch. We’ve combined our freelance expertise into a unified company to deliver top IT and marketing solutions. Explore our services now.",
-        "alt2": "We’re Officially Here!",
-        "title": "MARKET RESEARCH INSIGHTS",
-        "link": "Read Full Report"
-      },
-      "why": {
-        "link": "Learn More",
-        "slide1": {
-          "title": "Integrated IT and Marketing Expertise",
-          "text": "We merge IT and Marketing to deliver cohesive solutions across your business."
-        },
-        "slide2": {
-          "title": "Data-Driven Decisions, Not Guesswork",
-          "text": "Our strategies are grounded in data, ensuring effectiveness and continuous improvement."
-        },
-        "slide3": {
-          "title": "Rapid Implementation with Minimal Disruption",
-          "text": "We implement solutions quickly and efficiently, minimising impact on your operations."
-        },
-        "slide4": {
-          "title": "End-to-End Accountability",
-          "text": "We handle every aspect of your project with one point of contact, ensuring seamless execution."
-        },
-        "slide5": {
-          "title": "Future-Proof Solutions",
-          "text": "Our solutions are scalable and adaptable, keeping you ahead of technological and marketing trends."
-        },
-        "slide6": {
-          "title": "Transparent Communication, No Surprises",
-          "text": "Expect clear updates and no hidden costs, with open channels for feedback throughout."
-        },
-        "slide7": {
-          "title": "Collaborative Partnership",
-          "text": "We work alongside your team, sharing knowledge and empowering you to leverage our solutions fully."
-        },
-        "slide8": {
-          "title": "Flexible Engagement Models",
-          "text": "Choose from project-based, managed services, or staff augmentation to match your needs and goals."
-        },
-        "title": "Why choose Nexoria"
-      },
-      "value": {
-        "title": "360° VALUE",
-        "link": "Let's Talk Solutions",
-        "item1": "Digital Transformation",
-        "item2": "Accelerate Your Digital Growth",
-        "item3": "Integrating IT and Marketing is essential for staying competitive. We streamline your digital transformation by aligning technology with strategic marketing, ensuring your business adapts quickly and thrives in the digital landscape.",
-        "item6": "Efficiency and Innovation",
-        "item7": "Optimise and Innovate Your Marketing",
-        "item8": "Our IT solutions empower your marketing efforts. We enhance your infrastructure to support scalable, data-driven campaigns that maximise impact, reduce costs, and increase speed to market.",
-        "item9": "Customer-Centric Solutions",
-        "item10": "Deliver Personalised CX",
-        "item11": "We leverage data, CRM systems, and automation tools to craft customer-centric strategies. Our IT-backed marketing solutions ensure you meet and exceed customer expectations, driving loyalty and growth.",
-        "item12": "Strategic Alignment",
-        "item13": "Align IT and Marketing for Maximum ROI",
-        "item14": "We ensure your IT and Marketing strategies align, leading to unified goals and measurable results. Our approach maximises ROI by optimising resources and driving consistent business performance."
-      },
-      "what": {
-        "title": "What we do",
-        "label1": "IT Consulting",
-        "title1": "IT Consulting",
-        "text1": "We turn your technology into a strategic advantage by developing customised solutions that support your business goals and drive efficiency.",
-        "title2": "IT Strategy <br /> and Planning",
-        "text2": "We create clear, actionable roadmaps that align your IT with your business objectives, setting you up for sustained success.",
-        "title3": "IT Infrastructure <br /> Management",
-        "text3": "Our team ensures your IT systems are optimised and reliable so you can focus on what matters most—growing your business.",
-        "title4": "Software Development <br /> and Integration",
-        "text4": "We build and integrate software solutions tailored to your unique needs, ensuring seamless operation and scalability.",
-        "title5": "Data Management <br /> and Analytics",
-        "text5": "We help you unlock the potential of your data, providing insights that inform smarter decisions and strategic growth.",
-        "title6": "IT Support <br /> and Maintenance",
-        "text6": "Our proactive support and maintenance services keep your IT environment running smoothly, minimising downtime and disruptions",
-        "link1": "Explore Services",
-        "label2": "Marketing Consulting",
-        "title7": "Marketing Consulting",
-        "text7": "We bridge the gap between technology and marketing to help you effectively reach and engage your target audience. ",
-        "title8": "Marketing Strategy <br /> and Planning",
-        "text8": "We develop comprehensive marketing strategies that resonate with your audience and align with your business goals.",
-        "title9": "Digital <br /> Marketing",
-        "text9": "Our experts use the latest digital tools and channels to increase your brand’s visibility, attract qualified leads, and drive conversions.",
-        "title10": "Content <br /> Marketing",
-        "text10": "We create compelling content that tells your brand’s story, engages your audience, and builds trust.",
-        "title11": "Marketing Automation <br /> and CRM",
-        "text11": "We implement and optimise automation tools and CRM systems to enhance your marketing efforts and improve customer relationships.",
-        "title12": "Analytics <br /> and Reporting",
-        "text12": "We provide detailed analytics and reporting to track your marketing performance, allowing us to refine strategies and maximise your ROI.",
-        "link2": "Explore Services"
-      },
-      "request": {
-        "error1": "The field is required.",
-        "error2": "Please enter a valid email address.",
-        "error3": "Select an option.",
-        "error4": "You must agree to the Privacy Policy.",
-        "value1": "Urgency",
-        "value2": "Urgent",
-        "value3": "High Priority",
-        "value4": "Standard",
-        "error": "This field is required.",
-        "placeholder1": "Your name",
-        "placeholder2": "Company",
-        "placeholder3": "Website",
-        "placeholder4": "Activity",
-        "placeholder5": "Email",
-        "placeholder6": "Your phone",
-        "placeholder7": "Your challenge",
-        "policy": "I agree to be contacted by Nexoria regarding my inquiry and understand that my data will be handled in accordance with the .",
-        "policyLink": "Privacy Policy",
-        "button": "Submit Request",
-        "success": "Thank you!",
-        "successMessage": "Your request has been successfully submitted. We’ll get back to you within 1 business day. If you have any urgent questions, please contact us at",
-        "successEmail": "noreply@nexoria.ai"
-      }
+  "faq": {
+    "hero": {
+      "title": "Voi chiedete, noi rispondiamo",
+      "subtitle": "Scoprite come il marketing e la tecnologia incrementano le prestazioni aziendali."
     },
-    "about": {
-      "bottom": {
-        "title1": "Want us to speak <br /> or present at your <br /> industry event?",
-        "text1": "Fill out the form below to invite our team. We’re ready to share our insights, prepare a custom report, and contribute our expertise to your conference.",
-        "label1": "INVITATION <br /> TO COLLABORATE"
-      },
-      "hero": {
-        "title": "Our Journey to Expertise",
-        "subtitle": "Turning data into impactful solutions for your business growth."
-      },
-      "main": {
-        "title1": "Education <br /> and Networking",
-        "text1": "Our team members come from diverse educational backgrounds, specialising in IT, marketing, and business strategy. We regularly attend key industry events, such as the Web Summit in Lisbon, DMEXCO in Cologne, and the Cannes Lions International Festival of Creativity. These conferences keep us updated on the latest developments, ensuring our knowledge is both current and globally relevant.",
-        "item1": "Web Summit in Lisbon",
-        "item2": "DMEXCO",
-        "item3": "Cannes Lions International Festival of Creativity",
-        "title2": "Data-Driven <br /> Insights",
-        "text2": "Each project we undertake deepens our understanding of various industries and markets. We use advanced tools like Google Analytics, Tableau, and Power BI to analyse real-world data from our past and ongoing projects. This allows us to fine-tune strategies that are effective across different niches. We deliver tailored solutions that drive measurable results by continuously refining our approaches.",
-        "item4": "Google Analytics",
-        "item5": "Tableau",
-        "item6": "Power BI",
-        "title3": "Customer <br /> Feedback",
-        "text3": "Long-term customer relationships are at the heart of our business. We gather and analyse feedback through tools like SurveyMonkey, Net Promoter Score (NPS) surveys, and Zoom for in-depth client interviews. This feedback not only validates our efforts but also guides our continuous improvement. By leveraging these insights, we stay aligned with our clients' evolving needs, ensuring we deliver solutions that hit the mark.",
-        "item7": "SurveyMonkey",
-        "item8": "Net Promoter Score (NPS)",
-        "item9": "Zoom"
-      },
-      "animated": {
-        "text": "At Nexoria, we blend deep theoretical knowledge with real-world insights. Our expertise is honed through continuous learning and practical application. Discover how we turn knowledge into impactful solutions."
-      },
-      "requiredError": "This field is required.",
-      "emailError": "Please enter a valid email address.",
-      "urlError": "Please enter a valid URL.",
-      "dateError": "Select a date.",
-      "optionError": "Select an option.",
-      "fileError": "File is required",
-      "industry1": "Tech",
-      "industry2": "Finance",
-      "industry3": "Education",
-      "participation1": "Speaker",
-      "participation2": "Attendee",
-      "participation3": "Exhibitor",
-      "contactPerson": "Contact person",
-      "contactEmail": "Contact email",
-      "organisingCompany": "Organising company",
-      "eventName": "Event name",
-      "eventLink": "Event link",
-      "eventLocation": "Event location",
-      "eventTopic": "Event topic",
-      "removeFile": "Remove File",
-      "submitRequest": "Submit Request",
-      "successMessage": "Thank you!",
-      "successMessageText": "Your request has been successfully received. Our team will review your information and contact you shortly."
+    "last": {
+      "title": "Domande",
+      "subtitle": "Ottenete una guida esperta per l'ottimizzazione del business con soluzioni di marketing e IT."
     },
-    "contacts": {
-      "tabs": {
-        "registration": "Registration Address",
-        "office": "Office Address"
-      },
-      "title": "Get in Touch",
-      "subtitle": "We're ready to assist with any inquiry or need.",
-      "business": "Business Correspondence",
-      "label": "Have a Question",
-      "sublabel": "Get Expert Guidance on Business Optimisation with Marketing and IT solutions."
+    "items": {
+      "answer1": "Una SEO efficace non sempre richiede una riprogettazione completa del sito web. I nostri esperti SEO conducono un audit completo per identificare le aree da ottimizzare, come il miglioramento della velocità del sito, la reattività dei dispositivi mobili e l'ottimizzazione della struttura del sito per i motori di ricerca. Ci concentriamo sulla SEO tecnica, che comprende la pulizia dei link non funzionanti, il miglioramento dei metadati e la garanzia che il sito sia completamente indicizzato dai motori di ricerca. Lavoriamo anche sulle strategie di contenuto, aggiornando le pagine esistenti con parole chiave mirate e creando contenuti di alta qualità, ricchi di SEO e in linea con le tendenze del settore e le esigenze del pubblico. Concentrandoci su queste aree, aiutiamo il vostro sito web a posizionarsi meglio senza richiedere modifiche strutturali significative.",
+      "answer2": "Nexoria è specializzata nella progettazione di sistemi centralizzati di gestione dei dati che semplificano e integrano i dati tra i vari reparti. Iniziamo valutando la vostra attuale infrastruttura di dati, identificando i punti critici come i silos di dati, i formati di dati incoerenti e i tempi di elaborazione lenti. Quindi, implementiamo un data warehouse unificato o una soluzione basata su cloud che consolida i dati, consentendo un facile accesso e analisi a tutti gli stakeholder. La visualizzazione dei dati in tempo reale è possibile grazie a strumenti avanzati come Power BI, Tableau o Google BigQuery, che consentono al team di prendere decisioni informate più rapidamente. Questo processo riduce significativamente la gestione manuale dei dati, migliora l'accuratezza e aumenta l'efficienza complessiva delle operazioni aziendali.",
+      "answer3": "L'automazione del marketing può migliorare in modo significativo i vostri sforzi di lead generation e migliorare il coinvolgimento dei clienti, consentendovi di creare campagne personalizzate e basate sui dati in scala. In Nexoria implementiamo strumenti di automazione come HubSpot, Marketo o Salesforce Pardot, che consentono la segmentazione, il targeting e la messaggistica automatizzata in base al comportamento degli utenti e alle informazioni sui dati. Attraverso questi strumenti automatizziamo le sequenze di e-mail, i messaggi di follow-up e la segmentazione dei clienti, assicurando che ogni potenziale cliente riceva la comunicazione giusta al momento giusto. Inoltre, integrando i sistemi CRM con la vostra automazione del marketing, forniamo una visione completa dei percorsi dei clienti, rendendo più facile coltivare i lead con contenuti personalizzati e guidarli attraverso il funnel di vendita in modo più efficiente.",
+      "answer4": "La gestione dell'infrastruttura IT in più sedi richiede una strategia che bilanci il controllo centrale con la flessibilità locale. L'approccio di Nexoria inizia con la valutazione dell'infrastruttura attuale e con la garanzia che sia in grado di scalare tra le varie aree geografiche. Raccomandiamo soluzioni basate su cloud come Microsoft Azure o Amazon Web Services (AWS) per centralizzare la gestione dei dati e offrire un accesso continuo a tutte le filiali. Inoltre, implementiamo VPN, protocolli di cybersecurity e ottimizzazioni di rete che garantiscono prestazioni e sicurezza costanti indipendentemente dalla sede. Per gestire i requisiti di conformità locali, integriamo adeguamenti specifici per ogni regione per garantire il rispetto degli standard legali e operativi. Con una governance IT centralizzata e soluzioni scalabili, la vostra azienda può espandersi senza problemi senza compromettere l'efficienza o la sicurezza.",
+      "answer5": "Nexoria affronta questo problema implementando metodologie di sviluppo agili e pratiche DevOps. Per prima cosa valutiamo i vostri attuali processi di sviluppo per identificare i colli di bottiglia, come pratiche di codifica inefficienti o scarsa collaborazione tra i team. Il nostro team implementa quindi un approccio semplificato e iterativo, utilizzando framework agili come Scrum o Kanban, per suddividere il processo di sviluppo in fasi gestibili. Automatizziamo i test e la distribuzione adottando pipeline di integrazione continua e distribuzione continua (CI/CD), riducendo drasticamente gli errori manuali e abbreviando i cicli di rilascio. Inoltre, strumenti come Jenkins, Docker e Kubernetes consentono di eseguire test rapidi, assicurando che le nuove funzionalità del software vengano distribuite più velocemente, con meno bug e con un feedback più rapido da parte degli stakeholder, aiutandovi a portare il vostro prodotto sul mercato prima.",
+      "answer6": "Per massimizzare il ROI della vostra pubblicità a pagamento, Nexoria adotta un approccio basato sui dati per ottimizzare le vostre campagne PPC. Iniziamo con un'analisi approfondita delle prestazioni della vostra campagna attuale utilizzando strumenti come Google Ads, Facebook Ads Manager e Google Analytics. Identifichiamo le inefficienze esaminando le metriche chiave come il tasso di click-through (CTR), il costo per click (CPC) e i tassi di conversione. Da qui, perfezioniamo le strategie di targeting, modifichiamo la copia degli annunci e sperimentiamo test A/B per trovare ciò che risuona meglio con il vostro pubblico. Ci concentriamo anche sull'ottimizzazione delle pagine di destinazione per le conversioni, assicurandoci che il traffico venga indirizzato a pagine di facile utilizzo e in linea con il contenuto dell'annuncio. Attraverso il monitoraggio e l'ottimizzazione continui, contribuiamo a migliorare l'efficienza della spesa pubblicitaria e ad aumentare il ritorno sull'investimento.",
+      "question1": "Come possiamo migliorare le prestazioni SEO del nostro sito web senza rivedere l'intero design del sito?",
+      "question2": "Siamo alle prese con la gestione e l'analisi dei dati in più reparti. Come può Nexoria aiutarci a snellire i nostri processi di dati?",
+      "question3": "In che modo la marketing automation può aiutarci a gestire la lead generation e a migliorare il <br /> coinvolgimento dei clienti?",
+      "question4": "La nostra attività si sta espandendo a livello internazionale. In che modo Nexoria può aiutarci a gestire <br /> la nostra infrastruttura IT per più sedi?",
+      "question5": "Stiamo riscontrando lunghi ritardi nei nostri cicli di sviluppo software. In che modo Nexoria può aiutarci a ridurre il time to market per nuove funzionalità software?",
+      "question6": "Abbiamo investito nella pubblicità a pagamento ma facciamo fatica a vedere un ROI significativo <br /> In che modo Nexoria può aiutarci a ottimizzare le nostre campagne PPC?"
     },
-    "faq": {
-      "hero": {
-        "title": "You Ask, We Answer",
-        "subtitle": "Find out how marketing and technology boost business performance."
-      },
-      "last": {
-        "title": "Have a Question",
-        "subtitle": "Get Expert Guidance on Business Optimisation with Marketing and IT solutions."
-      },
-      "items": {
-        "question1": "How can we improve our website’s SEO performance without overhauling our <br /> entire site design?",
-        "answer1": "Effective SEO doesn’t always require a complete website redesign. Our SEO experts conduct a comprehensive audit to identify areas for optimization, such as improving site speed, enhancing mobile responsiveness, and optimising your site’s structure for search engines. We focus on technical SEO, which includes cleaning up broken links, enhancing metadata, and ensuring your site is fully indexed by search engines. We also work on content strategies, updating existing pages with targeted keywords and creating high-quality, SEO-rich content that aligns with your industry trends and audience needs. Focusing on these areas, we help your website rank higher without requiring significant structural changes.",
-        "question2": "We’re struggling with data management and analysis across multiple <br /> departments. How can Nexoria help us streamline our data processes?",
-        "answer2": "Nexoria specialises in designing centralised data management systems that streamline and integrate data across various departments. We begin by assessing your current data infrastructure, identifying pain points such as data silos, inconsistent data formats, and slow processing times. Then, we implement a unified data warehouse or cloud-based solution that consolidates your data, allowing easy access and analysis for all stakeholders. We enable real-time data visualisation by employing advanced tools like Power BI, Tableau, or Google BigQuery, ensuring your team can make informed decisions faster. This process significantly reduces manual data handling, improves accuracy, and enhances the overall efficiency of your business operations.",
-        "question3": "How can marketing automation help us manage lead generation and improve <br /> customer engagement?",
-        "answer3": "Marketing automation can significantly improve your lead generation efforts and enhance customer engagement by allowing you to create personalised, data-driven campaigns at scale. At Nexoria, we implement automation tools like HubSpot, Marketo, or Salesforce Pardot, enabling segmentation, targeting, and automated messaging based on user behaviour and data insights. We automate email sequences, follow-up messages, and customer segmentation through these tools, ensuring each prospect receives the proper communication at the right time. Furthermore, by integrating CRM systems with your marketing automation, we provide a complete view of customer journeys, making it easier to nurture leads with personalised content and drive them through your sales funnel more efficiently.",
-        "question4": "Our business is expanding internationally. How can Nexoria help us manage <br /> our IT infrastructure for multiple locations?",
-        "answer4": "Managing IT infrastructure across multiple locations requires a strategy that balances central control with localised flexibility. Nexoria’s approach begins with evaluating your current infrastructure and ensuring it can scale across geographies. We recommend cloud-based solutions like Microsoft Azure or Amazon Web Services (AWS) to centralise data management and offer seamless access to all branches. Additionally, we implement VPNs, cybersecurity protocols, and network optimizations that ensure consistent performance and security regardless of location. To handle local compliance requirements, we integrate region-specific adjustments to ensure you meet legal and operational standards. With centralised IT governance and scalable solutions, your business can expand seamlessly without compromising efficiency or security.",
-        "question5": "We are experiencing long delays in our software development cycles. How can <br /> Nexoria help reduce the time to market for new software features?",
-        "answer5": "Nexoria addresses this issue by implementing agile development methodologies and DevOps practices. We first evaluate your current development processes to identify bottlenecks, such as inefficient coding practices or poor team collaboration. Our team then implements a streamlined, iterative approach using agile frameworks like Scrum or Kanban to break down the development process into manageable sprints. We automate testing and deployment by adopting continuous integration and continuous deployment (CI/CD) pipelines, drastically reducing manual errors and shortening release cycles. Additionally, tools like Jenkins, Docker, and Kubernetes enable rapid testing, ensuring that new software features are deployed faster, with fewer bugs, and with quicker feedback from stakeholders, helping you get your product to market sooner.",
-        "question6": "We have invested in paid advertising but struggle to see significant <br /> ROI. How can Nexoria help optimise our PPC campaigns?",
-        "answer6": "To maximise the ROI of your paid advertising, Nexoria takes a data-driven approach to optimise your PPC campaigns. We begin with an in-depth analysis of your current campaign performance using tools like Google Ads, Facebook Ads Manager, and Google Analytics. We identify where inefficiencies lie by reviewing key metrics like click-through rate (CTR), cost-per-click (CPC), and conversion rates. From there, we refine your targeting strategies, adjust ad copy, and experiment with A/B testing to find what resonates best with your audience. We also focus on optimising landing pages for conversions, ensuring your traffic is directed to user-friendly pages aligned with the ad content. Through continuous monitoring and optimization, we help improve your ad spend efficiency and increase your return on investment."
-      },
-      "animated": {
-        "text": "We receive many questions from our clients and have highlighted the most important ones in this section to address key business challenges."
-      }
-    },
-    "howWeWork": {
-      "hero": {
-        "title": "How We Work",
-        "subtitle": "Flexible approaches to meet your needs."
-      },
-      "main": {
-        "title1": "PROJECT-BASED <br /> ENGAGEMENT",
-        "text1": "Complete your specific projects with our end-to-end management. We handle all aspects of the project, ensuring precise execution and timely delivery.",
-        "text2": "Our project-based engagement can be managed online or on-site as needed. We use collaborative tools for remote coordination and project tracking but can also arrange in-person meetings or site visits if required. Our flexible approach ensures that we efficiently meet your project needs, whether virtually or physically.",
-        "button": "Request",
-        "title2": "OUTSTAFFING",
-        "text3": "Integrate our skilled professionals into your team for temporary needs. This model offers additional expertise and fills skill gaps without long-term commitments.",
-        "text4": "Our outstaffing model allows you to seamlessly integrate our skilled professionals into your existing team for temporary projects. We provide the expertise you need without the long-term commitment. Our team works remotely or on-site alongside yours to fill skill gaps and support your projects. You benefit from our specialised skills while maintaining control over your day-to-day.",
-        "title3": "MANAGED SERVICES",
-        "text5": "Let us manage ongoing functions like IT support or marketing. This approach ensures consistent, reliable service, allowing you to focus on your core business activities.",
-        "text6": "We take over the daily management of functions like IT support or marketing. Our team handles all operational tasks, from monitoring and troubleshooting to strategy execution, ensuring consistent and reliable service. You can focus on your core business activities, knowing that experts efficiently manage and optimise these functions."
-      },
-      "animated": {
-        "text": "At Nexoria, we are highly adaptable to your business requirements. Our services can be customised to fit your needs, whether you require a full-scale project, temporary expertise, or ongoing support. We offer flexible engagement models and can work with you online, offline, or globally."
-      }
-    },
-    "itConsulting": {
-      "tab1": {
-        "title1": "IT Roadmap <br /> Development",
-        "text1": "Comprehensive IT roadmaps that guide your technology investments and initiatives, ensuring alignment with your long-term business goals.",
-        "service1": "IT Roadmap Development",
-        "title2": "Technology <br /> Assessment",
-        "text2": "Analysis of  current IT infrastructure, identifying strengths and areas for improvement to optimise performance.",
-        "service2": "Technology Assessment",
-        "title3": "Digital Transformation <br /> Strategy",
-        "text3": "Customised strategies to help your business transition to digital platforms, enhancing efficiency, innovation, and competitiveness.",
-        "service3": "Digital Transformation Strategy",
-        "title4": "IT Budgeting <br /> and Forecasting",
-        "text4": "Planning your IT expenditures, ensuring that business investments are cost-effective and aligned with your growth objectives.",
-        "service4": "IT Budgeting and Forecasting",
-        "title5": "Risk <br /> Management",
-        "text5": "Identifying and mitigating IT risks, ensuring business systems comply with relevant regulations and industry standards.",
-        "service5": "Risk Management",
-        "title": "IT Strategy and Planning"
-      },
-      "tab2": {
-        "title1": "Network Design <br /> and Optimization",
-        "text1": "Design and optimisation of business network infrastructure to ensure reliable, high-performance connectivity across all business locations.",
-        "service1": "Network Design and Optimization",
-        "title2": "Cloud Infrastructure <br/> Management",
-        "text2": "Managing and optimisation of  business cloud environments (e.g., AWS, Azure), ensuring scalability, security, and cost-efficiency",
-        "service2": "Cloud Infrastructure Management",
-        "title3": "Professional <br/> Virtualization Services",
-        "text3": "Expert assistance in implementation and management of  virtualized environments, reducing hardware costs and improving system flexibility.",
-        "service3": "Professional Virtualization Services",
-        "title4": "Disaster <br /> Recovery Planning",
-        "text4": "Development and implementation of disaster recovery plans to safeguard your data and ensure business continuity in case of disruptions.",
-        "service4": "Disaster Recovery Planning",
-        "title5": "Security Infrastructure <br/> Implementation",
-        "text5": "Design and deployment of  robust security measures to protect your IT infrastructure from cyber threats and unauthorised access.",
-        "service5": "Security Infrastructure Implementation",
-        "title": "IT Infrastructure Management"
-      },
-      "tab3": {
-        "title1": "Custom <br /> Software Development",
-        "text1": "Development of  bespoke software solutions tailored to business needs, ensuring optimal functionality and user experience",
-        "service1": "Custom Software Development",
-        "title2": "Application <br /> Integration",
-        "text2": "Integration of various software applications, creating a unified system that enhances productivity and data flow across organisation.",
-        "service2": "Application Integration",
-        "title3": "API <br/> Integration",
-        "text3": "Integration of APIs to enable seamless communication between software systems to enhance interoperability.",
-        "service3": "API Integration",
-        "title4": "Legacy <br /> System Modernization",
-        "text4": "Update and integration of legacy systems with modern technologies, ensuring continued relevance and improved performance.",
-        "service4": "Legacy System Modernization",
-        "title5": "Enterprise <br /> Resource Planning",
-        "text5": "Development  and implementation of ERP systems that streamline your business processes, providing a single source of truth for all your operations.",
-        "service5": "Enterprise Resource Planning",
-        "title": "Software Development and Integration"
-      },
-      "tab4": {
-        "title1": "Data <br /> Warehousing",
-        "text1": "Design and implementation of data warehouses that centralise business data, making data management  easier.",
-        "service1": "Data Warehousing",
-        "title2": "Business <br /> Intelligence",
-        "text2": "Expert provision of actionable insights, enabling data-driven decision-making to drive growth and efficiency.",
-        "service2": "Business Intelligence",
-        "title3": "Big <br /> Data Analytics",
-        "text3": "Assistance in  leveraging  big data technologies to analyse large datasets, uncovering trends and insights.",
-        "service3": "Big Data Analytics",
-        "title4": "Data <br/> Migration Services",
-        "text4": "Expert management of a secure and seamless data migration between systems, minimising downtime.",
-        "service4": "Data Migration Services",
-        "title5": "Data <br /> Governance",
-        "text5": "Establishing data governance frameworks that ensure your data is accurate, accessible, and compliant with relevant regulations.",
-        "service5": "Data Governance",
-        "title": "Data Management and Analytics"
-      },
-      "tab5": {
-        "title1": "24/7 <br /> IT Support",
-        "text1": "Round-the-clock support to address IT issues promptly, minimising downtime and keeping your operations running smoothly.",
-        "service1": "24/7 IT Support",
-        "title2": "System <br/> Monitoring",
-        "text2": "Detecting  and resolving issues before they impact your business, ensuring continuous system performance.",
-        "service2": "System Monitoring",
-        "title3": "Patch <br/> Management",
-        "text3": "Timely application of software patches and updates, protecting your systems from vulnerabilities and ensuring compliance.",
-        "service3": " Patch Management",
-        "title4": "Help Desk <br/> Services",
-        "text4": "Expert help desk provision of  quick and efficient support for all your IT-related queries and issues, enhancing user satisfaction.",
-        "service4": "Help Desk Services",
-        "title5": "On-Site <br/> and Remote Support",
-        "text5": "On-site and remote support services, ensuring businesses have the assistance whenever and wherever they need it.",
-        "service5": "On-Site and Remote Support",
-        "title": "IT Support and Maintenance"
-      },
-      "hero": {
-        "title": "Tailored IT Consulting <br /> Solutions for Business Success",
-        "subtitle": "Delivering IT solutions that enhance efficiency, security, and scalability to drive your business forward."
-      },
-      "main": {
-        "tab1": "IT Strategy and Planning",
-        "tab2": "IT Infrastructure Management",
-        "tab3": "Software Development and Integration",
-        "tab4": "Data Management and Analytics",
-        "tab5": "IT Support and Maintenance"
-      },
-      "need": {
-        "title": "Need Assistance?",
-        "contactUs": "Contact Us"
-      },
-      "orderNow": "Order Now"
-    },
-    "marketResearch": {
-      "common": {
-        "title": "Common Marketing Challenges <br /> Businesses Face in 2024",
-        "subtitle1": "Inadequate Digital Transformation",
-        "dataPoint": "Data Point:",
-        "dataPoint1": "45% of businesses report they are struggling with fully implementing digital marketing strategies due to limited resources or technical expertise.",
-        "challenge": "Challenge:",
-        "challenge1": "Many businesses still use outdated methods and are slow to adapt to new tools and strategies, resulting in missed opportunities.",
-        "subtitle2": "Difficulty in Measuring ROI",
-        "gapInsight": "Gap Insight:",
-        "gapInsight1": "While businesses are investing more in digital marketing channels, 40% struggle with measuring the ROI of campaigns. Attribution remains a key issue as businesses use multiple touchpoints.",
-        "subtitle3": "Budget Constraints",
-        "fact": "Fact:",
-        "fact1": "Businesses, especially SMEs, often struggle with allocating sufficient budget for comprehensive marketing strategies, leading to reliance on outdated or ineffective tactics.",
-        "gap": "Gap:",
-        "gap1": "A lack of resources to invest in critical tools such as CRM systems, paid advertising, and advanced analytics.",
-        "subtitle4": "Content Saturation and Engagement Decline",
-        "issue": "Issue:",
-        "issue1": "With 2X more content being produced every day, businesses face a challenge in standing out and maintaining audience engagement, particularly on social platforms.",
-        "subtitle5": "Fragmented Customer Journeys",
-        "challenge2": "Businesses struggle to unify customer data and deliver cohesive, personalised experiences across multiple channels. This results in a 36% decrease in operational efficiency."
-      },
-      "face": {
-        "title": "Common IT Challenges Businesses Face in 2024",
-        "subtitle1": "Insufficient Cybersecurity Protection",
-        "dataPoint": "Data Point:",
-        "dataPoint1": "Cyberattacks rose by 37% in the first half of 2024, with ransomware being the top threat.",
-        "challenge": "Challenge:",
-        "challenge1": "Businesses often fail to invest in strong cybersecurity solutions, leaving them vulnerable to data breaches.",
-        "subtitle2": "Data Management and Integration",
-        "issue": "Issue:",
-        "issue1": "As businesses collect increasing amounts of data, many struggle to integrate and analyse it effectively. This can lead to missed opportunities for insights and decision-making.",
-        "subtitle3": "Lack of Skilled IT Professionals",
-        "gapInsight": "Gap Insight:",
-        "gapInsight1": "There is a significant shortage of IT talent, particularly in fields such as AI, cloud computing, and cybersecurity.",
-        "challenge2": "Businesses are unable to keep up with innovation due to a lack of qualified personnel to implement and manage advanced IT solutions.",
-        "subtitle4": "Legacy Systems",
-        "problem": "Problem:",
-        "problem1": "Many businesses are stuck with outdated legacy systems that are difficult to modernise and integrate with newer technologies.",
-        "gap": "Gap:",
-        "gap1": "A lack of budget or a proper roadmap to transition from these systems creates inefficiency and limits growth.",
-        "subtitle5": "Lack of Skilled IT Professionals",
-        "gapInsight2": "There is a significant shortage of IT talent, particularly in fields such as AI, cloud computing, and cybersecurity.",
-        "challenge3": "Businesses are unable to keep up with innovation due to a lack of qualified personnel to implement and manage advanced IT solutions.",
-        "summary": "Summary:",
-        "summary1": "This research shows that while technology and marketing are rapidly evolving, businesses often struggle with adoption, talent, and budget constraints. By addressing these gaps, businesses can unlock significant growth potential."
-      },
-      "hero": {
-        "title": "Market Research",
-        "subtitle": "Explore our findings on the latest marketing and IT trends, business gaps, and emerging <br /> demands to understand how we can address your specific challenges."
-      },
-      "last": {
-        "title": "Request a Consultation",
-        "subtitle": "Let’s Discuss How We Can Help Your Business Grow."
-      },
-      "recommendations": {
-        "title": "Recommendations",
-        "forBusinesses": "For Businesses:",
-        "forBusinessesText": "Invest in cybersecurity, AI/ML expertise, cloud solutions, and marketing automation tools.",
-        "forSMBs": "For SMBs:",
-        "forSMBsText": "Leverage low-cost tools that provide high ROI, such as targeted marketing automation, cloud IT infrastructure, and data analytics platforms."
-      },
-      "top": {
-        "title": "Market Research Insights: First Half of 2024",
-        "objective": "Objective:",
-        "objectiveText": "Provide businesses with a comprehensive analysis of 2024’s marketing and IT trends, highlighting key challenges and potential solutions.",
-        "scope": "Scope:",
-        "item1": "Marketing and IT trends",
-        "item2": "Business gaps and common issues in both fields."
-      },
-      "trends": {
-        "title": "Marketing Trends in 2024",
-        "subtitle1": "AI-Powered Marketing Automation",
-        "growthRate": "Growth Rate:",
-        "growthRateText": "The global marketing automation market is expected to reach $8.42 billion by 2027.",
-        "keyTrend": "Key Trend:",
-        "keyTrendText": "Businesses increasingly adopt AI to automate repetitive tasks like email marketing, social media posting, and ad optimization.",
-        "businessGap": "Business Gap:",
-        "businessGapText": "Many businesses lack the technical knowledge or resources to properly implement and manage these tools, leading to suboptimal use of AI technology.",
-        "subtitle2": "Personalization in Marketing",
-        "trendInsight": "Trend Insight:",
-        "trendInsightText1": "Consumers expect hyper-personalised content. According to a report, 80% of consumers are more likely to purchase from a brand that offers personalised experiences.",
-        "gap": "Gap:",
-        "gapText1": "Many small and medium-sized businesses struggle to collect, analyse, and act on customer data to offer personalised marketing at scale.",
-        "subtitle3": "Video Marketing Dominance",
-        "trend": "Trend:",
-        "trendText": "Video content continues to dominate platforms like TikTok, YouTube, and Instagram. Video marketing offers higher engagement, with a 54% increase in purchasing intent among viewers.",
-        "gapText2": "Limited resources for video production remain a challenge, especially for small businesses. Many also lack clear strategies on how to integrate video into their overall content marketing plan.",
-        "subtitle4": "Influencer Marketing Expansion",
-        "trendInsightText2": "Micro and nano-influencers are gaining popularity as businesses target more niche audiences. Spending on influencer marketing is projected to exceed $21 billion in 2024.",
-        "gapText3": "Many businesses find it difficult to identify the right influencers who align with their brand values and audience, while also ensuring that campaigns deliver measurable ROI.",
-        "subtitle5": "SEO Evolution with AI and Voice Search",
-        "trendText2": "AI is shaping search algorithms, and voice search is increasingly influencing SEO strategies. Businesses are optimising content for voice queries and natural language.",
-        "gapText4": "Smaller businesses often struggle with keeping up with rapid algorithm changes and optimising content for both traditional and voice search."
-      },
-      "trendsIt": {
-        "title": "IT Trends in 2024",
-        "subtitle1": "Cloud Computing and Hybrid Cloud Adoption",
-        "trend": "Trend:",
-        "trendText1": "As remote work and digital transformation continue, businesses are increasingly adopting hybrid cloud models for scalability and cost-effectiveness.",
-        "gap": "Gap:",
-        "gapText1": "Many businesses experience difficulties in optimising cloud costs and ensuring data security when integrating cloud solutions.",
-        "subtitle2": "AI and Machine Learning Integration",
-        "trendInsight": "Trend Insight:",
-        "trendInsightText1": "AI-driven solutions are being used for data analytics, customer service (e.g., chatbots), and IT automation. According to a report, AI adoption in IT has increased by 30% since 2023.",
-        "gapText2": "A major challenge is the lack of skilled personnel and data quality issues that hinder the effective deployment of AI/ML solutions.",
-        "subtitle3": "Cybersecurity Concerns and Solutions",
-        "trendText3": "With more businesses going digital, cybersecurity is a top priority. Ransomware attacks have surged, and the demand for stronger IT security protocols is higher than ever.",
-        "gapText3": "Small businesses struggle to allocate budgets for robust cybersecurity measures, leaving them vulnerable to attacks.",
-        "subtitle4": "Edge Computing Growth",
-        "trendInsightText4": "Edge computing is gaining traction as businesses look for low-latency solutions that enable real-time data processing closer to the source.",
-        "gapText4": "The complexity of implementing edge solutions and managing the infrastructure is a common barrier for businesses, particularly in industries with legacy IT systems.",
-        "subtitle5": "5G Implementation in Business Operations",
-        "trendText5": "5G is enabling faster data transfer rates, improving IoT functionality, and enabling remote work and collaboration tools to function seamlessly.",
-        "gapText5": "High implementation costs and lack of infrastructure in certain regions make it difficult for some businesses to fully leverage 5G’s benefits."
-      }
-    },
-    "marketingConsulting": {
-      "tab1": {
-        "title1": "Market Research <br /> and Analysis",
-        "text1": "In-depth analysis of market trends, consumer behaviour, and competitor strategies to inform and tailor your marketing approach.",
-        "service1": "Market Research and Analysis",
-        "title2": "Brand <br/> Positioning",
-        "text2": "Clear definition and positioning of your brand to differentiate from competitors and connect with your target audience.",
-        "service2": "Brand Positioning",
-        "title3": "Go-to-Market <br /> Strategy",
-        "text3": "Strategic planning for the successful launch of new products or services, ensuring market readiness and maximum impact.",
-        "service3": "Go-to-Market Strategy",
-        "title4": "Multichannel <br /> Campaign Planning",
-        "text4": "Coordination of marketing campaigns across multiple channels to ensure consistent messaging and broader reach.",
-        "service4": "Multichannel Campaign Planning",
-        "title5": "Customer <br /> Journey Mapping",
-        "text5": "Detailed mapping of customer interactions with your brand to optimise the overall experience and improve conversion rates.",
-        "service5": "Customer Journey Mapping",
-        "title": "Marketing Strategy and Planning"
-      },
-      "tab2": {
-        "title1": "Search <br/> Engine Optimization",
-        "text1": "Optimization of your website and content to improve search engine rankings and increase organic traffic.",
-        "service1": "Search Engine Optimization",
-        "title2": "Pay-Per-Click <br/> Advertising",
-        "text2": "Strategic management of PPC campaigns to drive targeted traffic and maximise return on ad spend (ROAS).",
-        "service2": "Pay-Per-Click Advertising",
-        "title3": "Social Media <br/> Marketing",
-        "text3": "Development and execution of social media strategies to engage your audience, build brand loyalty, and increase reach.",
-        "service3": "Social Media Marketing",
-        "title4": "Email <br /> Marketing",
-        "text4": "Design and execution of personalised email campaigns to nurture leads and drive customer engagement.",
-        "service4": "Email Marketing",
-        "title5": "Online <br/> Reputation",
-        "text5": "Monitoring and management of your online reputation to maintain a positive brand image and respond effectively to customer feedback.",
-        "service5": "Online Reputation",
-        "title": "Digital Marketing"
-      },
-      "tab3": {
-        "title1": "Content <br /> Strategy Development",
-        "text1": "Creation of a comprehensive content plan that aligns with your marketing goals and speaks to your audience’s needs.",
-        "service1": "Content Strategy Development",
-        "title2": "Blogging and <br /> Article Writing",
-        "text2": "Production of high-quality blog posts and articles that establish your brand as an authority and improve SEO.",
-        "service2": "Blogging and Article Writing",
-        "title3": "Video <br/> Content Creation",
-        "text3": "Development of engaging video content to capture attention and communicate your brand message effectively.",
-        "service3": "Video Content Creation",
-        "title4": "Expert <br /> Infographic Design",
-        "text4": "Creation of visually compelling infographics that simplify complex information and enhance content sharing.",
-        "service4": "Expert Infographic Design",
-        "title5": "Brand <br/> Content Distribution",
-        "text5": "Strategic placement of content across various channels to maximise visibility and audience engagement.",
-        "service5": "Brand Content Distribution",
-        "title": "Content Marketing"
-      },
-      "tab4": {
-        "title1": "Automation <br /> Workflow Design",
-        "text1": "Design and implementation of automation workflows that streamline marketing tasks and enhance lead nurturing.",
-        "service1": "Automation Workflow Design",
-        "title2": "CRM Solutions Integration",
-        "text2": "Integration of CRM systems with your marketing tools to ensure seamless data flow and a unified view of customer interactions.",
-        "service2": "CRM Solutions Integration",
-        "title3": "Lead Scoring <br/> and Segmentation",
-        "text3": "Implementation of lead scoring models and audience segmentation to target the right prospects with the right message.",
-        "service3": "Lead Scoring and Segmentation",
-        "title4": "User <br/> Personalization Strategies",
-        "text4": "Development of personalised marketing approaches using CRM data to improve customer engagement and satisfaction.",
-        "service4": "User Personalization Strategies",
-        "title5": "Sales <br /> Funnel Optimization",
-        "text5": "Analysis and optimization of your sales funnel to reduce drop-off points and increase conversions.",
-        "service5": "Sales Funnel Optimization",
-        "title": "Marketing Automation and CRM"
-      },
-      "tab5": {
-        "title1": "Performance <br/> Dashboard Creation",
-        "text1": "Setup of real-time dashboards that provide at-a-glance insights into key marketing metrics and campaign performance.",
-        "service1": "Performance Dashboard Creation",
-        "title2": "Conversion <br/> Rate Analysis",
-        "text2": "Detailed analysis of conversion rates to identify bottlenecks and improve overall marketing efficiency.",
-        "service2": "Conversion Rate Analysis",
-        "title3": "A/B Testing <br/> and Experimenting",
-        "text3": "Execution of A/B tests to determine the most effective marketing strategies and tactics.",
-        "service3": "A/B Testing and Experimenting",
-        "title4": "Customer <br /> Behaviour Analysis",
-        "text4": "In-depth analysis of customer behaviour to uncover patterns and insights that inform marketing decisions.",
-        "service4": "Customer Behaviour Analysis",
-        "title5": "ROI Tracking <br /> and Reporting",
-        "text5": "Comprehensive reporting on the return on investment for all marketing activities to ensure accountability and improvements.",
-        "service5": "ROI Tracking and Reporting",
-        "title": "Analytics and Reporting"
-      },
-      "hero": {
-        "title": "Marketing Consulting <br /> for Measurable Impact",
-        "subtitle": "Maximising your marketing potential with strategies that resonate, <br /> tools that engage, and data that drives success."
-      },
-      "need": {
-        "title": "Need Assistance?",
-        "contactUs": "Contact Us"
-      },
-      "orderNow": "Order Now"
-    },
-    "newsroom": {
-      "more-news": "More News",
-      "hero": {
-        "title": "Newsroom",
-        "subtitle": "Stay updated with the latest from our company."
-      },
-      "main": {
-        "title01": "We’re Officially Here!",
-        "text01": "Our new website is live, marking our official launch. We’ve combined our freelance expertise into a unified company to deliver top IT and marketing solutions. Explore our services now.",
-        "readMore": "Read",
-        "title02": "Our Participation in SMX Advanced Europe 2024",
-        "text02": "We’re heading to SMX Advanced Europe in Berlin on September 10-11! Discover cutting-edge SEO and PPC strategies with us. Stay tuned for updates, and follow us for the latest news!"
-      },
-      "animated": {
-        "text": "Welcome to our Newsroom, where you can find our team's latest updates, announcements, and insights. Stay informed about our latest projects, industry events, and company milestones."
-      }
-    },
-    "people": {
-      "hero": {
-        "title": "People Behind <br /> Your Business Success",
-        "subtitle": "Expertise, knowledge, and dedication driving your growth."
-      },
-      "last": {
-        "applyToJoinOurTeam": "APPLY TO JOIN OUR TEAM"
-      },
-      "main": {
-        "chiefStrategyOfficer": "Chief Strategy Officer",
-        "chiefStrategyOfficerText": "An expert in aligning IT and marketing strategies with business objectives, ensuring our clients’ growth and success.",
-        "leadITConsultant": "Lead IT Consultant",
-        "leadITConsultantText": "Specialises in IT infrastructure and security, providing scalable solutions that keep businesses running smoothly and securely.",
-        "headOfMarketing": "Head of Marketing",
-        "headOfMarketingText": "Develops data-driven marketing strategies that resonate with target audiences and drive conversions.",
-        "seniorSoftwareDeveloper": "Senior Software Developer",
-        "seniorSoftwareDeveloperText": "Focuses on building and integrating software tailored to each client’s unique needs.",
-        "dataAnalyst": "Data Analyst",
-        "dataAnalystText": "Extracts actionable insights from data, allowing us to refine our approaches and maximise ROI continuously.",
-        "contentStrategist": "Content Strategist",
-        "contentStrategistText": "Crafts compelling narratives that engage audiences and build brand authority.",
-        "digitalMarketingSpecialist": "Digital Marketing Specialist",
-        "digitalMarketingSpecialistText": "Masters the latest digital tools and platforms to enhance online visibility and lead generation.",
-        "customerSuccessManager": "Customer Success Manager",
-        "customerSuccessManagerText": "Ensures our clients receive ongoing support and value, maintaining long-term relationships."
-      },
-      "animated": {
-        "text": "Meet the people who turn your business challenges into opportunities. Our team of skilled professionals combines expertise in IT and marketing to deliver solutions that drive your success."
-      },
-      "requiredError": "This field is required.",
-      "optionError": "Select an option.",
-      "emailError": "Please enter a valid email address.",
-      "yourName": "Your name",
-      "yourDomain": "Your domain",
-      "email": "Email",
-      "phone": "Your phone",
-      "removeFile": "Remove File",
-      "briefIntroduction": "Brief Introduction",
-      "explainWhyYouWantToJoinOurTeam": "Explain why you want to join our team.",
-      "submitRequest": "Submit Request",
-      "successMessage": "Thank you!",
-      "successMessageText": "Your request has been successfully received. Our team will review your information and contact you shortly."
-    },
-    "aboutForm": {
-      "validation": {
-        "requiredError": "The field is required.",
-        "emailError": "Please enter a valid email address.",
-        "urlError": "Please enter a valid URL.",
-        "optionError": "Select an option.",
-        "dateError": "Select a date.",
-        "fileError": "File is required"
-      },
-      "industry": {
-        "tech": "Tech",
-        "finance": "Finance",
-        "education": "Education"
-      },
-      "participation": {
-        "speaker": "Speaker",
-        "attendee": "Attendee",
-        "exhibitor": "Exhibitor"
-      },
-      "contactPerson": "Contact person",
-      "contactEmail": "Contact email",
-      "organisingCompany": "Organising company",
-      "eventName": "Event name",
-      "eventLink": "Event link",
-      "eventLocation": "Event location",
-      "eventTopic": "Event topic",
-      "removeFile": "Remove File",
-      "submitRequest": "Submit Request",
-      "successMessage": {
-        "title": "Thank you!",
-        "text": "Your request has been successfully received. Our team will review your information and contact you shortly."
-      }
-    },
-    "footer": {
-      "text": "Where Technology Meets Strategy",
-      "contact": "Contact Us",
-      "phone": "Phone:",
-      "email": "Email:",
-      "registered": "Registered address:",
-      "it-consulting": "IT Consulting",
-      "marketing-consulting": "Marketing Consulting",
-      "complex-solutions": "Complex Solutions",
-      "faq": "FAQ",
-      "how-we-work": "How We Work",
-      "market-research": "Market Research",
-      "about": "About",
-      "people": "People",
-      "newsroom": "Newsroom",
-      "terms-and-conditions": "Terms and Conditions",
-      "privacy-policy": "Privacy Policy",
-      "cookie-policy": "Cookie Policy",
-      "copyright": "All rights reserved."
-    },
-    "header": {
-      "services": "Services",
-      "it-consulting": "IT Consulting",
-      "marketing-consulting": "Marketing Consulting",
-      "complex-solutions": "Complex Solutions",
-      "market-research": "Market Research",
-      "company": "Company",
-      "about": "About",
-      "people": "People",
-      "newsroom": "Newsroom",
-      "how-we-work": "How we work",
-      "faq": "FAQ",
-      "contacts": "Contact"
-    },
-    "orderPopup": {
-      "title": "Request a Consultation",
-      "subtitle": "Let’s Discuss How We Can Help Your Business Grow."
-    },
-    "servicePopup": {
-      "validation": {
-        "requiredError": "This field is required.",
-        "emailError": "Please enter a valid email address.",
-        "agreeToPolicyError": "You must agree to the privacy policy."
-      },
-      "title": "Request",
-      "service": "Request",
-      "firstName": "Your name",
-      "company": "Company",
-      "website": "Website",
-      "activity": "Activity",
-      "email": "Email",
-      "phone": "Your phone",
-      "agreeToPolicy": "I agree to be contacted by Nexoria regarding my inquiry and understand that my data will be handled in accordance with the",
-      "privacyPolicy": "Privacy Policy",
-      "submitRequest": "Submit Request",
-      "successMessage": {
-        "title": "Thank you!",
-        "description": "Your request has been successfully received. Our team will review your information and contact you shortly to discuss your marketing challenges and the solutions we can provide."
-      }
+    "animated": {
+      "text": "Riceviamo molte domande dai nostri clienti e in questa sezione abbiamo evidenziato le più importanti per affrontare le principali sfide aziendali."
     }
+  },
+  "home": {
+    "faq": {
+      "link": "Altre domande frequenti",
+      "title": "Tu chiedi, noi rispondiamo.",
+      "label1": "Squadra di marca:",
+      "label2": "Squadra di marca:",
+      "answer1": "Dovresti iniziare accedendo ai tuoi dati di Google Analytics, Facebook Ads Manager e CRM per condurre un’analisi dettagliata di attribuzione multi-canale, individuando quali canali contribuiscono alle conversioni.  Utilizziamo strumenti come Google Data Studio per i report e eseguiamo test A/B sugli annunci e sulle landing page dei clienti per perfezionare il targeting e i messaggi.  Riassegnando il budget verso i canali ad alte prestazioni e ottimizzando le offerte in tempo reale con Google Ads e Facebook Business Manager, miriamo a incrementare significativamente il tuo ROI, fornendo una strategia basata sui dati per le campagne future.",
+      "answer2": "Per affrontare queste sfide, raccomandiamo di implementare una revisione della gestione dei dati distribuendo soluzioni di cloud storage scalabili come AWS S3 abbinate a database ad alte prestazioni come PostgreSQL o MongoDB per gestire grandi volumi di dati in modo efficiente.  Per la sicurezza, l’integrazione di avanzate misure di crittografia e controllo degli accessi utilizzando strumenti come Fortinet per la sicurezza di rete e Splunk per il rilevamento delle minacce in tempo reale proteggerà i tuoi dati da violazioni.  Ottimizzando il processo di elaborazione dei dati e potenziando i protocolli di sicurezza, i tuoi sistemi saranno meglio attrezzati per gestire la crescita, garantendo operazioni affidabili e sicure.",
+      "question1": "Abbiamo investito 50.000 dollari in marketing digitale negli ultimi tre mesi, ma il nostro ROI è solo del 2%. Facciamo fatica a identificare quali canali funzionano e come ottimizzare la nostra spesa. Puoi aiutarci a invertire questa situazione?",
+      "question2": "I nostri sistemi informatici hanno difficoltà a gestire grandi volumi di dati, causando ritardi nell'elaborazione e rendendoci vulnerabili alle violazioni della sicurezza. Abbiamo bisogno di ottimizzare la gestione dei dati e di proteggere i nostri sistemi per garantire la continuità delle operazioni durante la nostra espansione. Come potete aiutarci?"
+    },
+    "why": {
+      "link": "Per saperne di più",
+      "title": "Perché scegliere Nexoria",
+      "slide1": {
+        "text": "Uniamo l'IT e il marketing per fornire soluzioni coese a tutta l'azienda.",
+        "title": "Competenze integrate di IT e marketing"
+      },
+      "slide2": {
+        "text": "Le nostre strategie si basano sui dati, garantendo efficacia e miglioramento continuo.",
+        "title": "Decisioni basate sui dati, non su congetture"
+      },
+      "slide3": {
+        "text": "Implementiamo le soluzioni in modo rapido ed efficiente, riducendo al minimo l'impatto sulle vostre attività.",
+        "title": "Implementazione rapida con interruzioni minime"
+      },
+      "slide4": {
+        "text": "Gestiamo ogni aspetto del vostro progetto con un unico punto di contatto, garantendo un'esecuzione senza interruzioni.",
+        "title": "Responsabilità end-to-end"
+      },
+      "slide5": {
+        "text": "Le nostre soluzioni sono scalabili e adattabili, per tenervi al passo con le tendenze tecnologiche e di marketing.",
+        "title": "Soluzioni a prova di futuro"
+      },
+      "slide6": {
+        "text": "Aspettatevi aggiornamenti chiari e nessun costo nascosto, con canali aperti per il feedback.",
+        "title": "Comunicazione trasparente, nessuna sorpresa"
+      },
+      "slide7": {
+        "text": "Lavoriamo a fianco del vostro team, condividendo le conoscenze e consentendovi di sfruttare appieno le nostre soluzioni.",
+        "title": "Partnership collaborativa"
+      },
+      "slide8": {
+        "text": "Scegliete tra servizi a progetto, servizi gestiti o aumento del personale per soddisfare le vostre esigenze e i vostri obiettivi.",
+        "title": "Modelli di coinvolgimento flessibili"
+      }
+    },
+    "hero": {
+      "title": "Soluzioni integrate per la crescita <br /> attraverso competenze IT e di marketing",
+      "slide1": "Dare alle aziende la giusta tecnologia e le giuste strategie di marketing per promuovere la crescita, l'efficienza e l'innovazione..",
+      "slide2": "Il successo nell'attuale panorama digitale richiede una perfetta integrazione tra tecnologia e marketing.",
+      "slide3": "Allineiamo le vostre capacità informatiche con il marketing strategico per aumentare l'efficienza, incrementare il coinvolgimento dei clienti e alimentare una crescita sostenibile."
+    },
+    "last": {
+      "text": "Siete pronti a scoprire come la perfetta integrazione può far progredire la vostra azienda? Creiamo soluzioni che trasformino le vostre operazioni e accelerino la vostra crescita.",
+      "label": "Sfruttare la potenza dell'IT e del marketing unificati",
+      "title": "Crescita integrata <br />prevista"
+    },
+    "what": {
+      "link1": "Esplora i servizi",
+      "link2": "Esplora i servizi",
+      "text1": "Trasformiamo la vostra tecnologia in un vantaggio strategico, sviluppando soluzioni personalizzate che supportano i vostri obiettivi di business e aumentano l'efficienza.",
+      "text2": "Creiamo roadmap chiare e attuabili che allineano l'IT con gli obiettivi aziendali, impostando un successo duraturo.",
+      "text3": "Il nostro team garantisce che i vostri sistemi IT siano ottimizzati e affidabili, in modo che possiate concentrarvi su ciò che conta di più: far crescere la vostra azienda.",
+      "text4": "Costruiamo e integriamo soluzioni software su misura per le vostre esigenze specifiche, garantendo un funzionamento e una scalabilità senza soluzione di continuità.",
+      "text5": "Vi aiutiamo a sbloccare il potenziale dei vostri dati, fornendo approfondimenti che informano le decisioni più intelligenti e la crescita strategica.",
+      "text6": "I nostri servizi di assistenza e manutenzione proattiva mantengono il vostro ambiente IT in funzione senza problemi, riducendo al minimo i tempi di inattività e le interruzioni.",
+      "text7": "Colmiamo il divario tra tecnologia e marketing per aiutarvi a raggiungere e coinvolgere efficacemente il vostro pubblico di riferimento.",
+      "text8": "Sviluppiamo strategie di marketing complete che risuonano con il vostro pubblico e si allineano con i vostri obiettivi aziendali.",
+      "text9": "I nostri esperti utilizzano gli strumenti e i canali digitali più recenti per aumentare la visibilità del vostro marchio, attirare lead qualificati e favorire le conversioni.",
+      "title": "Cosa facciamo",
+      "label1": "Consulenza IT",
+      "label2": "Consulenza di marketing",
+      "text10": "Creiamo contenuti interessanti che raccontano la storia del vostro marchio, coinvolgono il vostro pubblico e creano fiducia.",
+      "text11": "Implementiamo e ottimizziamo gli strumenti di automazione e i sistemi CRM per potenziare i vostri sforzi di marketing e migliorare le relazioni con i clienti.",
+      "text12": "Forniamo analisi e report dettagliati per monitorare le prestazioni di marketing, consentendoci di affinare le strategie e massimizzare il ROI.",
+      "title1": "Consulenza IT",
+      "title2": "Strategia IT <br /> e Pianificazione",
+      "title3": "Infrastruttura IT <br /> Gestione",
+      "title4": "Sviluppo Software <br /> e Integrazione",
+      "title5": "Gestione dei dati e analisi",
+      "title6": "Supporto informatico e manutenzione",
+      "title7": "Consulenza di marketing",
+      "title8": "Strategia di Marketing <br /> e Pianificazione",
+      "title9": "Marketing <br /> Digitale",
+      "title10": "Marketing <br /> dei Contenuti",
+      "title11": "Automazione del Marketing <br /> e CRM",
+      "title12": "Analitica e reportistica"
+    },
+    "value": {
+      "link": "Parliamo di soluzioni",
+      "item1": "Trasformazione digitale",
+      "item2": "Accelerare la crescita digitale",
+      "item3": "L'integrazione tra IT e marketing è essenziale per rimanere competitivi. Semplifichiamo la vostra trasformazione digitale allineando la tecnologia al marketing strategico, assicurando che la vostra azienda si adatti rapidamente e prosperi nel panorama digitale.",
+      "item6": "Efficienza e innovazione",
+      "item7": "Ottimizzare e innovare il marketing",
+      "item8": "Le nostre soluzioni IT potenziano le vostre attività di marketing. Miglioriamo la vostra infrastruttura per supportare campagne scalabili e guidate dai dati che massimizzano l'impatto, riducono i costi e aumentano la velocità di commercializzazione.",
+      "item9": "Soluzioni incentrate sul cliente",
+      "title": "VALORE A 360°",
+      "item10": "Fornire una CX personalizzata",
+      "item11": "Sfruttiamo dati, sistemi CRM e strumenti di automazione per creare strategie incentrate sul cliente. Le nostre soluzioni di marketing supportate dalle tecnologie informatiche vi garantiscono di soddisfare e superare le aspettative dei clienti, favorendo la fidelizzazione e la crescita.",
+      "item12": "Allineamento strategico",
+      "item13": "Allineare IT e marketing per ottenere il massimo ROI",
+      "item14": "Garantiamo l'allineamento delle vostre strategie IT e di marketing, per ottenere obiettivi unificati e risultati misurabili. Il nostro approccio massimizza il ROI ottimizzando le risorse e garantendo prestazioni aziendali costanti."
+    },
+    "market": {
+      "alt1": "La nostra partecipazione a SMX Advanced Europe 2024",
+      "alt2": "Siamo ufficialmente qui!",
+      "link": "Leggi il rapporto completo",
+      "title": "RICERCHE DI MERCATO",
+      "label1": "La nostra partecipazione a SMX Advanced Europe 2024",
+      "label2": "Siamo ufficialmente qui!",
+      "description1": "Siamo diretti all'SMX Advanced Europe di Berlino il 10 e 11 settembre! Scoprite con noi le strategie SEO e PPC all'avanguardia. Restate sintonizzati per gli aggiornamenti e seguiteci per le ultime novità!",
+      "description2": "Il nostro nuovo sito web è attivo e segna il nostro lancio ufficiale. Abbiamo unito le nostre competenze di freelance in un'unica azienda per offrire soluzioni IT e di marketing di alto livello. Esplorate ora i nostri servizi."
+    },
+    "request": {
+      "error": "Questo campo è obbligatorio.",
+      "button": "Invia la richiesta",
+      "error1": "Il campo è obbligatorio.",
+      "error2": "Inserire un indirizzo e-mail valido.",
+      "error3": "Selezionare un'opzione.",
+      "error4": "L'utente deve accettare l'Informativa sulla privacy.",
+      "policy": "Accetto di essere contattato da Nexoria in merito alla mia richiesta e sono consapevole che i miei dati saranno trattati in conformità con la legge .",
+      "value1": "Urgenza",
+      "value2": "Urgente",
+      "value3": "Alta priorità",
+      "value4": "Standard",
+      "success": "Grazie!",
+      "policyLink": "Informativa sulla privacy",
+      "placeholder1": " Il tuo nome",
+      "placeholder2": " Azienda",
+      "placeholder3": " Sito web",
+      "placeholder4": "Attività",
+      "placeholder5": "Email",
+      "placeholder6": "Il tuo telefono",
+      "placeholder7": "La vostra sfida",
+      "successEmail": "noreply@nexoria.ai",
+      "successMessage": "La richiesta è stata inoltrata con successo. Vi risponderemo entro 1 giorno lavorativo. Se avete domande urgenti, contattateci all'indirizzo"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Il nostro viaggio verso la competenza",
+      "subtitle": "Trasformare i dati in soluzioni d'impatto per la crescita del vostro business."
+    },
+    "main": {
+      "item1": "Vertice Web a Lisbona",
+      "item2": "DMEXCO",
+      "item3": "Festival Internazionale della Creatività di Cannes Lions",
+      "item4": "Google Analytics",
+      "item5": "Tableau",
+      "item6": "Power BI",
+      "item7": "SurveyMonkey",
+      "item8": "Net Promoter Score (NPS)",
+      "item9": "Zoom",
+      "text1": "I membri del nostro team provengono da diversi percorsi formativi e sono specializzati in informatica, marketing e strategia aziendale. Partecipiamo regolarmente ai principali eventi del settore, come il Web Summit di Lisbona, il DMEXCO di Colonia e il Cannes Lions International Festival of Creativity. Queste conferenze ci tengono aggiornati sugli ultimi sviluppi, assicurando che le nostre conoscenze siano attuali e rilevanti a livello globale.",
+      "text2": "Ogni progetto che intraprendiamo approfondisce la nostra conoscenza di vari settori e mercati. Utilizziamo strumenti avanzati come Google Analytics, Tableau e Power BI per analizzare i dati reali dei nostri progetti passati e in corso. Questo ci permette di mettere a punto strategie efficaci in diverse nicchie. Forniamo soluzioni su misura che portano a risultati misurabili, perfezionando continuamente i nostri approcci.",
+      "text3": "Le relazioni a lungo termine con i clienti sono il cuore della nostra attività. Raccogliamo e analizziamo i feedback attraverso strumenti come SurveyMonkey, sondaggi Net Promoter Score (NPS) e Zoom per interviste approfondite ai clienti. Questo feedback non solo convalida i nostri sforzi, ma guida anche il nostro continuo miglioramento. Sfruttando queste intuizioni, rimaniamo allineati con le esigenze in evoluzione dei nostri clienti, assicurandoci di fornire soluzioni che colpiscono nel segno.",
+      "title1": "Formazione <br /> e Networking",
+      "title2": "Basato sui Dati <br /> Approfondimenti",
+      "title3": "Feedback <br /> dei Clienti"
+    },
+    "bottom": {
+      "text1": "Compila il modulo qui sotto per invitare il nostro team. Siamo pronti a condividere i nostri approfondimenti, preparare un report personalizzato e contribuire con la nostra esperienza alla tua conferenza.",
+      "label1": "INVITO <br /> A COLLABORARE",
+      "title1": "Vuoi che parliamo <br /> o presentiamo al tuo <br /> evento di settore?"
+    },
+    "animated": {
+      "text": "In Nexoria fondiamo una profonda conoscenza teorica con intuizioni reali. La nostra esperienza si affina attraverso l'apprendimento continuo e l'applicazione pratica. Scoprite come trasformiamo la conoscenza in soluzioni d'impatto."
+    },
+    "urlError": "Si prega di inserire un URL valido.",
+    "dateError": "Selezionare una data.",
+    "eventLink": "Collegamento all'evento",
+    "eventName": "Nome dell'evento",
+    "fileError": "Il file è necessario",
+    "industry1": "Tecnologia",
+    "industry2": "Finanza",
+    "industry3": "Istruzione",
+    "emailError": "Inserire un indirizzo e-mail valido.",
+    "eventTopic": "Argomento dell'evento",
+    "removeFile": "Rimuovi file",
+    "optionError": "Selezionare un'opzione.",
+    "contactEmail": "Contatto e-mail",
+    "contactPerson": "Persona di contatto",
+    "eventLocation": "Luogo dell'evento",
+    "requiredError": "Questo campo è obbligatorio.",
+    "submitRequest": "Invia la richiesta",
+    "participation1": "Altoparlante",
+    "participation2": "PartecipanteInterlocutore",
+    "participation3": "Espositore",
+    "successMessage": "Grazie!",
+    "organisingCompany": "Società organizzatrice",
+    "successMessageText": "La sua richiesta è stata ricevuta con successo. Il nostro team esaminerà le vostre informazioni e vi contatterà a breve."
+  },
+  "footer": {
+    "faq": "Domande frequenti",
+    "text": "Dove la tecnologia incontra la strategia",
+    "about": "Circa",
+    "email": "E-mail:",
+    "phone": "Telefono:",
+    "people": "Persone",
+    "contact": "Contatto",
+    "newsroom": "Sala stampa",
+    "copyright": "Tutti i diritti riservati.",
+    "registered": "Indirizzo registrato:",
+    "how-we-work": "Come lavoriamo",
+    "cookie-policy": "Informativa sui cookie",
+    "it-consulting": "Consulenza IT",
+    "privacy-policy": "Informativa sulla privacy",
+    "market-research": "Ricerca di mercato",
+    "complex-solutions": "Soluzioni complesse",
+    "marketing-consulting": "Consulenza di marketing",
+    "terms-and-conditions": "Termini e condizioni"
+  },
+  "header": {
+    "faq": "Domande frequenti",
+    "about": "Circa",
+    "people": "Persone",
+    "company": "L'azienda",
+    "contacts": "Contattateci",
+    "newsroom": "Sala stampa",
+    "services": "Servizi",
+    "how-we-work": "Come lavoriamo",
+    "it-consulting": "Consulenza informatica",
+    "market-research": "Ricerca di mercato",
+    "complex-solutions": "Soluzioni complesse",
+    "marketing-consulting": "Consulenza di marketing"
+  },
+  "people": {
+    "hero": {
+      "title": "Persone Dietro <br /> Il Successo Della Tua Azienda",
+      "subtitle": "Competenza, conoscenza e dedizione guidano la tua crescita."
+    },
+    "last": {
+      "applyToJoinOurTeam": "CANDIDATI PER UNIRTI AL NOSTRO TEAM"
+    },
+    "main": {
+      "dataAnalyst": "Analista dati",
+      "dataAnalystText": "Estrae approfondimenti concreti dai dati, permettendoci di perfezionare i nostri approcci e massimizzare continuamente il ROI.",
+      "headOfMarketing": "Responsabile marketing",
+      "leadITConsultant": "Consulente IT principale",
+      "contentStrategist": "Stratega dei contenuti",
+      "headOfMarketingText": "Sviluppa strategie di marketing basate sui dati, che hanno una risonanza con il pubblico di riferimento e favoriscono le conversioni.",
+      "chiefStrategyOfficer": "Responsabile della strategia",
+      "leadITConsultantText": "Specializzata in infrastrutture e sicurezza IT, fornisce soluzioni scalabili che consentono alle aziende di funzionare in modo fluido e sicuro.",
+      "contentStrategistText": "Crea narrazioni avvincenti che coinvolgono il pubblico e costruiscono l'autorità del marchio.",
+      "customerSuccessManager": "Responsabile del successo del cliente",
+      "seniorSoftwareDeveloper": " Sviluppatore software senior",
+      "chiefStrategyOfficerText": " Un esperto nell'allineare le strategie IT e di marketing con gli obiettivi aziendali, garantendo la crescita e il successo dei nostri clienti.",
+      "customerSuccessManagerText": " Garantisce ai nostri clienti un'assistenza continua e un valore aggiunto, mantenendo relazioni a lungo termine.",
+      "digitalMarketingSpecialist": " Specialista di marketing digitale",
+      "seniorSoftwareDeveloperText": " Si concentra sulla creazione e sull'integrazione di software su misura per le esigenze specifiche di ogni cliente.",
+      "digitalMarketingSpecialistText": " Padroneggia gli strumenti e le piattaforme digitali più recenti per migliorare la visibilità online e la generazione di contatti."
+    },
+    "email": " Email",
+    "phone": " Il vostro telefono",
+    "animated": {
+      "text": " Incontrate le persone che trasformano le vostre sfide aziendali in opportunità. Il nostro team di professionisti esperti combina competenze nel campo dell'IT e del marketing per offrire soluzioni che guidano il vostro successo."
+    },
+    "yourName": " Il tuo nome",
+    "emailError": " Inserire un indirizzo e-mail valido.",
+    "removeFile": " Rimuovi file",
+    "yourDomain": " Il vostro dominio",
+    "optionError": " Selezionare un'opzione.",
+    "requiredError": " Questo campo è obbligatorio.",
+    "submitRequest": " Invia la richiesta",
+    "successMessage": " Grazie!",
+    "briefIntroduction": " Breve introduzione",
+    "successMessageText": " La sua richiesta è stata ricevuta con successo. Il nostro team esaminerà le vostre informazioni e vi contatterà a breve.",
+    "explainWhyYouWantToJoinOurTeam": " Spiegate perché volete unirvi al nostro team."
+  },
+  "contacts": {
+    "tabs": {
+      "office": " Indirizzo dell'ufficio",
+      "registration": " Indirizzo di registrazione"
+    },
+    "label": " Domande",
+    "title": " Contattateci",
+    "business": " Corrispondenza commerciale",
+    "sublabel": " Ottenete una guida esperta per l'ottimizzazione del business con soluzioni di marketing e IT.",
+    "subtitle": " Siamo pronti ad assistervi per qualsiasi richiesta o necessità."
+  },
+  "newsroom": {
+    "hero": {
+      "title": "Newsroom",
+      "subtitle": " Rimanete aggiornati sulle novità della nostra azienda."
+    },
+    "main": {
+      "text01": " Il nostro nuovo sito web è attivo e segna il nostro lancio ufficiale. Abbiamo unito le nostre competenze di freelance in un'unica azienda per offrire soluzioni IT e di marketing di alto livello. Esplorate ora i nostri servizi.",
+      "text02": " Siamo diretti all'SMX Advanced Europe di Berlino il 10 e 11 settembre! Scoprite con noi le strategie SEO e PPC all'avanguardia. Restate sintonizzati per gli aggiornamenti e seguiteci per le ultime novità!",
+      "title01": " Siamo ufficialmente qui!",
+      "title02": " La nostra partecipazione a SMX Advanced Europe 2024",
+      "readMore": " Leggi"
+    },
+    "animated": {
+      "text": "Willkommen in unserem Newsroom, in dem Sie die neuesten Updates, Ankündigungen und Einblicke unseres Teams finden können. Bleiben Sie auf dem Laufenden über unsere neuesten Projekte, Branchenveranstaltungen und Meilensteine des Unternehmens."
+    },
+    "more-news": "Weitere Nachrichten"
+  },
+  "aboutForm": {
+    "industry": {
+      "tech": " Tecnologia",
+      "finance": " Finanza",
+      "education": " Istruzione"
+    },
+    "eventLink": " Collegamento all'evento",
+    "eventName": " Nome dell'evento",
+    "eventTopic": " Argomento dell'evento",
+    "removeFile": " Rimuovi file",
+    "validation": {
+      "urlError": " Inserire un URL valido.",
+      "dateError": "Selezionare una data.",
+      "fileError": "Il file è necessario",
+      "emailError": "Inserire un indirizzo e-mail valido.",
+      "optionError": "Selezionare un'opzione.",
+      "requiredError": "Il campo è obbligatorio."
+    },
+    "contactEmail": "Contatto e-mail",
+    "contactPerson": "Persona di contatto",
+    "eventLocation": "Luogo dell'evento",
+    "participation": {
+      "speaker": "Altoparlante",
+      "attendee": "Partecipante",
+      "exhibitor": "Espositore"
+    },
+    "submitRequest": "Invia la richiesta",
+    "successMessage": {
+      "text": "La sua richiesta è stata ricevuta con successo. Il nostro team esaminerà le vostre informazioni e vi contatterà a breve.",
+      "title": "Grazie!"
+    },
+    "organisingCompany": "Società organizzatrice"
+  },
+  "howWeWork": {
+    "hero": {
+      "title": "Come lavoriamo",
+      "subtitle": "Approcci flessibili per soddisfare le vostre esigenze."
+    },
+    "main": {
+      "text1": "Completate i vostri progetti specifici con la nostra gestione end-to-end. Gestiamo tutti gli aspetti del progetto, assicurando un'esecuzione precisa e una consegna puntuale.",
+      "text2": "Il nostro impegno a progetto può essere gestito online o in loco, a seconda delle necessità. Utilizziamo strumenti di collaborazione per il coordinamento a distanza e il monitoraggio del progetto, ma possiamo anche organizzare incontri di persona o visite in loco, se necessario. Il nostro approccio flessibile ci permette di soddisfare in modo efficiente le esigenze del vostro progetto, sia virtualmente che fisicamente.",
+      "text3": "Integrate i nostri professionisti qualificati nel vostro team per esigenze temporanee. Questo modello offre competenze aggiuntive e colma le lacune di competenze senza impegni a lungo termine.",
+      "text4": "Il nostro modello di outstaffing vi permette di integrare senza problemi i nostri professionisti qualificati nel vostro team esistente per progetti temporanei. Forniamo l'esperienza di cui avete bisogno senza un impegno a lungo termine. Il nostro team lavora in remoto o in loco accanto al vostro per colmare le lacune di competenze e supportare i vostri progetti. Potrete beneficiare delle nostre competenze specialistiche mantenendo il controllo sulla vostra attività quotidiana.",
+      "text5": "Lasciateci gestire funzioni continuative come l'assistenza informatica o il marketing. Questo approccio garantisce un servizio costante e affidabile, permettendovi di concentrarvi sulle vostre attività principali.",
+      "text6": "Ci occupiamo della gestione quotidiana di funzioni come il supporto IT o il marketing. Il nostro team si occupa di tutte le attività operative, dal monitoraggio e risoluzione dei problemi all'esecuzione della strategia, garantendo un servizio coerente e affidabile. Potete concentrarvi sulle vostre attività principali, sapendo che gli esperti gestiscono e ottimizzano queste funzioni in modo efficiente.",
+      "button": "Richiesta",
+      "title1": "Coinvolgimento <br /> Basato su Progetti",
+      "title2": "Outsourcing del Personale",
+      "title3": "Servizi Gestiti"
+    },
+    "animated": {
+      "text": "Da Nexoria, siamo altamente adattabili alle esigenze del tuo business. I nostri servizi possono essere personalizzati per soddisfare le tue necessità, che tu richieda un progetto su larga scala, competenze temporanee o supporto continuativo. Offriamo modelli di coinvolgimento flessibili e possiamo collaborare con te online, offline o a livello globale."
+    }
+  },
+  "orderPopup": {
+    "title": "Richiedi una consulenza",
+    "subtitle": "Discutiamo su come possiamo aiutare la crescita del tuo business."
+  },
+  "itConsulting": {
+    "hero": {
+      "title": "Consulenza IT su misura <br /> Soluzioni per il successo aziendale",
+      "subtitle": "Forniamo soluzioni IT che migliorano l'efficienza, la sicurezza e la scalabilità per far progredire la vostra azienda."
+    },
+    "main": {
+      "tab1": "Strategia e pianificazione IT",
+      "tab2": "Gestione dell'infrastruttura IT",
+      "tab3": "Sviluppo e integrazione del software",
+      "tab4": "Gestione dei dati e analisi",
+      "tab5": "Assistenza e manutenzione IT"
+    },
+    "need": {
+      "title": "Avete bisogno di assistenza?",
+      "contactUs": "Contatto"
+    },
+    "tab1": {
+      "text1": "Roadmap IT complete che guidano gli investimenti e le iniziative tecnologiche, garantendo l'allineamento con gli obiettivi aziendali a lungo termine.",
+      "text2": "Analisi dell'attuale infrastruttura IT, identificando i punti di forza e le aree di miglioramento per ottimizzare le prestazioni.",
+      "text3": "Strategie personalizzate per aiutare la vostra azienda a passare alle piattaforme digitali, migliorando efficienza, innovazione e competitività.",
+      "text4": "Pianificare le spese IT, assicurando che gli investimenti aziendali siano efficaci dal punto di vista dei costi e allineati agli obiettivi di crescita.",
+      "text5": "Identificare e mitigare i rischi informatici, garantendo la conformità dei sistemi aziendali alle normative e agli standard di settore.",
+      "title": "Strategia e pianificazione IT",
+      "title1": "Roadmap IT <br /> Sviluppo",
+      "title2": "Tecnologia <br /> Valutazione",
+      "title3": "Trasformazione digitale <br /> Strategia",
+      "title4": "IT Budgeting <br /> e Forecasting",
+      "title5": "Gestione del rischio",
+      "service1": "Sviluppo della roadmap IT",
+      "service2": "Valutazione della tecnologia",
+      "service3": "Strategia di trasformazione digitale",
+      "service4": "Budgeting e previsioni IT",
+      "service5": "Gestione del rischio"
+    },
+    "tab2": {
+      "text1": "Progettazione e ottimizzazione dell'infrastruttura di rete aziendale per garantire una connettività affidabile e ad alte prestazioni in tutte le sedi aziendali.",
+      "text2": "Gestione e ottimizzazione di ambienti cloud aziendali (ad esempio, AWS, Azure), garantendo scalabilità, sicurezza ed efficienza dei costi.",
+      "text3": "Assistenza esperta nell'implementazione e nella gestione di ambienti virtualizzati, riducendo i costi dell'hardware e migliorando la flessibilità del sistema.",
+      "text4": "Sviluppo e implementazione di piani di disaster recovery per salvaguardare i vostri dati e garantire la continuità aziendale in caso di interruzioni.",
+      "text5": "Progettazione e implementazione di solide misure di sicurezza per proteggere la vostra infrastruttura IT da minacce informatiche e accessi non autorizzati.",
+      "title": "Gestione dell'infrastruttura IT",
+      "title1": "Progettazione <br /> e Ottimizzazione della Rete",
+      "title2": "Gestione dell'Infrastruttura <br/> Cloud",
+      "title3": "Servizi di <br/> Virtualizzazione Professionale",
+      "title4": "Pianificazione per il <br /> Recupero dai Disastri",
+      "title5": "Implementazione dell'Infrastruttura di <br/> Sicurezza",
+      "service1": "Progettazione e ottimizzazione della rete",
+      "service2": "Gestione dell'infrastruttura cloud",
+      "service3": "Servizi professionali di virtualizzazione",
+      "service4": "Pianificazione del disaster recovery",
+      "service5": "Implementazione dell'infrastruttura di sicurezza"
+    },
+    "tab3": {
+      "text1": "Sviluppo di soluzioni software su misura per le esigenze aziendali, garantendo funzionalità ed esperienza utente ottimali.",
+      "text2": "Integrazione di varie applicazioni software, creando un sistema unificato che migliora la produttività e il flusso di dati all'interno dell'organizzazione.",
+      "text3": "Integrazione di API per consentire una comunicazione continua tra i sistemi software e migliorare l'interoperabilità.",
+      "text4": "Aggiornamento e integrazione dei sistemi preesistenti con le moderne tecnologie, per garantire la continuità della pertinenza e il miglioramento delle prestazioni.",
+      "text5": "Sviluppo e implementazione di sistemi ERP che ottimizzano i processi aziendali, fornendo un'unica fonte di verità per tutte le operazioni.",
+      "title": "Sviluppo e integrazione del software",
+      "title1": "Sviluppo di software personalizzato",
+      "title2": "Applicazione <br /> Integrazione",
+      "title3": "Integrazione delle <br/> API",
+      "title4": "Modernizzazione dei <br /> Sistemi Legacy",
+      "title5": "Pianificazione delle <br /> Risorse Aziendali (ERP)",
+      "service1": "Sviluppo di Software Personalizzato",
+      "service2": "Integrazione delle applicazioni",
+      "service3": "Integrazione API",
+      "service4": "Modernizzazione del sistema legacy",
+      "service5": "Pianificazione delle risorse aziendali"
+    },
+    "tab4": {
+      "text1": "Progettazione e implementazione di data warehouse che centralizzano i dati aziendali, facilitando la gestione dei dati.",
+      "text2": "Fornitura esperta di informazioni utili, che consentono di prendere decisioni basate sui dati per favorire la crescita e l'efficienza.",
+      "text3": "Assistenza nello sfruttamento delle tecnologie dei big data per analizzare grandi insiemi di dati, scoprendo tendenze e intuizioni.",
+      "text4": "Gestione esperta di una migrazione sicura e continua dei dati tra i sistemi, riducendo al minimo i tempi di inattività.",
+      "text5": "Stabilire quadri di governance dei dati che garantiscano l'accuratezza, l'accessibilità e la conformità dei dati alle normative vigenti.",
+      "title": "Gestione dei dati e analisi",
+      "title1": "Gestione e analisi dei dati <br /> WarehousingDati",
+      "title2": "Business <br /> Intelligenza",
+      "title3": "Analisi dei Big <br /> Data",
+      "title4": "Servizi di migrazione dei dati",
+      "title5": "Dati <br /> Governance",
+      "service1": "Magazzino dati",
+      "service2": "Intelligenza aziendale",
+      "service3": "Analisi dei Big Data",
+      "service4": "Servizi di migrazione dei dati",
+      "service5": "Governance dei dati"
+    },
+    "tab5": {
+      "text1": "Assistenza 24 ore su 24 per risolvere tempestivamente i problemi IT, riducendo al minimo i tempi di inattività e mantenendo le vostre operazioni senza intoppi.",
+      "text2": "Rilevare e risolvere i problemi prima che si ripercuotano sull'azienda, garantendo prestazioni continue del sistema.",
+      "text3": "Applicazione tempestiva di patch e aggiornamenti software, per proteggere i sistemi dalle vulnerabilità e garantire la conformità.",
+      "text4": "L'help desk di esperti fornisce un'assistenza rapida ed efficiente per tutte le domande e i problemi legati all'IT, migliorando la soddisfazione degli utenti.",
+      "text5": "Servizi di assistenza in loco e da remoto, per garantire alle aziende l'assistenza quando e dove ne hanno bisogno.",
+      "title": "Assistenza e manutenzione IT",
+      "title1": "24/7 <br /> Assistenza IT",
+      "title2": "Sistema <br/> Monitoraggio",
+      "title3": "Patch <br/> Gestione",
+      "title4": "Help Desk <br/> Servizi",
+      "title5": "Assistenza in loco <br/>e a distanza",
+      "service1": "Assistenza IT 24/7",
+      "service2": "Monitoraggio del sistema",
+      "service3": " Gestione delle patch",
+      "service4": "Servizi di help desk",
+      "service5": "Assistenza in loco e a distanza"
+    },
+    "orderNow": "Ordina ora"
+  },
+  "servicePopup": {
+    "email": "Email",
+    "phone": "Il vostro telefono",
+    "title": "Richiesta",
+    "company": "Azienda",
+    "service": "Richiesta",
+    "website": "Sito web",
+    "activity": "Attività",
+    "firstName": "Il vostro nome",
+    "validation": {
+      "emailError": "Inserire un indirizzo e-mail valido.",
+      "requiredError": "Questo campo è obbligatorio.",
+      "agreeToPolicyError": "È necessario accettare l'informativa sulla privacy."
+    },
+    "agreeToPolicy": "Accetto di essere contattato da Nexoria in merito alla mia richiesta e sono consapevole che i miei dati saranno trattati in conformità con le norme di legge.",
+    "privacyPolicy": "Informativa sulla privacy",
+    "submitRequest": "Invia la richiesta",
+    "successMessage": {
+      "title": "Grazie!",
+      "description": "La vostra richiesta è stata ricevuta con successo. Il nostro team esaminerà le vostre informazioni e vi contatterà a breve per discutere delle vostre sfide di marketing e delle soluzioni che possiamo offrirvi."
+    }
+  },
+  "marketResearch": {
+    "top": {
+      "item1": "Tendenze di marketing e IT",
+      "item2": "Lacune aziendali e problemi comuni in entrambi i settori.",
+      "scope": "Ambito di applicazione:",
+      "title": "Ricerche di mercato: Prima metà del 2024",
+      "objective": "Obiettivo:",
+      "objectiveText": "Fornire alle aziende un'analisi completa delle tendenze di marketing e IT del 2024, evidenziando le sfide principali e le potenziali soluzioni."
+    },
+    "face": {
+      "gap": "Gap:",
+      "gap1": "La mancanza di budget o di una roadmap adeguata per la transizione da questi sistemi crea inefficienza e limita la crescita.",
+      "issue": "Problema:",
+      "title": "Sfide IT comuni per le aziende nel 2024",
+      "issue1": "Mentre le aziende raccolgono quantità sempre maggiori di dati, molte faticano a integrarli e analizzarli in modo efficace. Questo può portare a perdere opportunità di approfondimento e di decisione.",
+      "problem": "Problema:",
+      "summary": "Sintesi:",
+      "problem1": "Molte aziende sono bloccate da sistemi legacy obsoleti, difficili da modernizzare e integrare con le nuove tecnologie.",
+      "summary1": "Questa ricerca mostra che, mentre la tecnologia e il marketing sono in rapida evoluzione, le aziende spesso lottano con l'adozione, i talenti e i vincoli di budget. Affrontando queste lacune, le aziende possono sbloccare un potenziale di crescita significativo.",
+      "challenge": "Sfida:",
+      "dataPoint": "Punto dati:",
+      "subtitle1": "Protezione di sicurezza informatica insufficiente",
+      "subtitle2": "Gestione e integrazione dei dati",
+      "subtitle3": "Mancanza di professionisti IT qualificati",
+      "subtitle4": "Sistemi legacy",
+      "subtitle5": "Mancanza di professionisti IT qualificati",
+      "challenge1": "Le aziende spesso non investono in soluzioni di cybersecurity forti, lasciandole vulnerabili alle violazioni dei dati.",
+      "challenge2": "Le aziende non riescono a stare al passo con l'innovazione a causa della mancanza di personale qualificato per implementare e gestire soluzioni IT avanzate.",
+      "challenge3": "Le aziende non riescono a stare al passo con l'innovazione a causa della mancanza di personale qualificato per implementare e gestire soluzioni IT avanzate.",
+      "dataPoint1": "I cyberattacchi sono aumentati del 37% nella prima metà del 2024, con il ransomware come minaccia principale.",
+      "gapInsight": "Approfondimento sul gap: il Gap:",
+      "gapInsight1": "C'è una significativa carenza di talenti IT, in particolare in campi come l'AI, il cloud computing e la cybersecurity.",
+      "gapInsight2": "C'è una significativa carenza di talenti IT, in particolare in campi come l'AI, il cloud computing e la cybersecurity."
+    },
+    "hero": {
+      "title": "Ricerca di mercato",
+      "subtitle": "Esplorate le nostre scoperte sulle ultime tendenze del marketing e dell'IT, sulle lacune aziendali e sulle richieste emergenti per capire come possiamo affrontare le vostre sfide specifiche."
+    },
+    "last": {
+      "title": "Richiesta di consulenza",
+      "subtitle": "Parliamo di come possiamo aiutare la vostra azienda a crescere."
+    },
+    "common": {
+      "gap": "Gap:",
+      "fact": "Fatto:",
+      "gap1": "La mancanza di risorse per investire in strumenti critici come sistemi CRM, pubblicità a pagamento e analisi avanzate.",
+      "fact1": "Le aziende, in particolare le PMI, spesso faticano a stanziare un budget sufficiente per strategie di marketing complete, e questo porta a fare affidamento su tattiche obsolete o inefficaci.",
+      "issue": "Problema:",
+      "title": "Sfide comuni del marketing <br />Le aziende devono affrontare nel 2024",
+      "issue1": "Con un numero due volte superiore di contenuti prodotti ogni giorno, le aziende devono affrontare una sfida per distinguersi e mantenere il coinvolgimento del pubblico, in particolare sulle piattaforme sociali.",
+      "challenge": "Sfida:",
+      "dataPoint": "Punto dati:",
+      "subtitle1": "Trasformazione digitale inadeguata",
+      "subtitle2": "Difficoltà di misurazione del ROI",
+      "subtitle3": "Vincoli di bilancio",
+      "subtitle4": "Saturazione dei contenuti e calo dell'engagement",
+      "subtitle5": "Percorsi dei clienti frammentati",
+      "challenge1": "Molte aziende utilizzano ancora metodi obsoleti e sono lente ad adattarsi a nuovi strumenti e strategie, con il risultato di perdere opportunità.",
+      "challenge2": "Le aziende faticano a unificare i dati dei clienti e a offrire esperienze coese e personalizzate su più canali. Questo si traduce in una riduzione del 36% dell'efficienza operativa.",
+      "dataPoint1": "Il 45% delle aziende dichiara di avere difficoltà a implementare pienamente le strategie di marketing digitale a causa di risorse o competenze tecniche limitate.",
+      "gapInsight": "Approfondimento sul gap: il Gap:",
+      "gapInsight1": "Mentre le aziende investono maggiormente nei canali di marketing digitale, il 40% fatica a misurare il ROI delle campagne. L'attribuzione rimane un problema fondamentale, dato che le aziende utilizzano più punti di contatto."
+    },
+    "trends": {
+      "gap": "Gap:",
+      "title": "Tendenze del marketing nel 2024",
+      "trend": "Tendenza:",
+      "gapText1": "Molte piccole e medie imprese faticano a raccogliere, analizzare e agire sui dati dei clienti per offrire un marketing personalizzato su scala.",
+      "gapText2": "Le risorse limitate per la produzione di video restano una sfida, soprattutto per le piccole imprese. Molte di esse, inoltre, non hanno strategie chiare su come integrare i video nel loro piano generale di content marketing.",
+      "gapText3": "Molte aziende hanno difficoltà a individuare gli influencer giusti, in linea con i valori del loro marchio e con il loro pubblico, garantendo al contempo che le campagne producano un ROI misurabile.",
+      "gapText4": "Le piccole imprese spesso faticano a tenere il passo con i rapidi cambiamenti degli algoritmi e a ottimizzare i contenuti per la ricerca tradizionale e vocale.",
+      "keyTrend": "Tendenza chiave:",
+      "subtitle1": "Automazione del marketing potenziata dall'intelligenza artificiale",
+      "subtitle2": "La personalizzazione nel marketing",
+      "subtitle3": "Dominio del video marketing",
+      "subtitle4": "Espansione dell'Influencer Marketing",
+      "subtitle5": "Evoluzione della SEO con l'intelligenza artificiale e la ricerca vocale",
+      "trendText": "I contenuti video continuano a dominare piattaforme come TikTok, YouTube e Instagram. Il marketing video offre un maggiore coinvolgimento, con un aumento del 54% dell'intenzione di acquisto tra gli spettatori.",
+      "growthRate": "Tasso di crescita:",
+      "trendText2": "L'intelligenza artificiale sta plasmando gli algoritmi di ricerca e la ricerca vocale sta influenzando sempre più le strategie SEO. Le aziende stanno ottimizzando i contenuti per le query vocali e il linguaggio naturale.",
+      "businessGap": " Business Gap:",
+      "keyTrendText": "Le aziende adottano sempre più spesso l'intelligenza artificiale per automatizzare attività ripetitive come il marketing via e-mail, la pubblicazione sui social media e l'ottimizzazione degli annunci.",
+      "trendInsight": "Trend Insight:",
+      "growthRateText": "Si prevede che il mercato globale dell'automazione del marketing raggiungerà 8,42 miliardi di dollari entro il 2027.",
+      "businessGapText": "Molte aziende non hanno le conoscenze tecniche o le risorse per implementare e gestire correttamente questi strumenti, il che porta a un uso non ottimale della tecnologia AI.",
+      "trendInsightText1": "I consumatori si aspettano contenuti iper-personalizzati. Secondo un rapporto, l'80% dei consumatori è più propenso ad acquistare da un marchio che offre esperienze personalizzate.",
+      "trendInsightText2": "I micro e i nano-influencer stanno guadagnando popolarità, in quanto le aziende si rivolgono a un pubblico più di nicchia. Si prevede che la spesa per l'influencer marketing supererà i 21 miliardi di dollari nel 2024."
+    },
+    "trendsIt": {
+      "gap": "Gap:",
+      "title": "Tendenze IT nel 2024",
+      "trend": "Tendenza:",
+      "gapText1": "Viele Unternehmen haben Schwierigkeiten, die Cloud-Kosten zu optimieren und die Datensicherheit bei der Integration von Cloud-Lösungen zu gewährleisten.",
+      "gapText2": "Eine große Herausforderung sind der Mangel an qualifiziertem Personal und Probleme mit der Datenqualität, die die effektive Umsetzung von KI/ML-Lösungen behindern.",
+      "gapText3": "Le piccole imprese faticano a stanziare budget per solide misure di cybersecurity, lasciandole così vulnerabili agli attacchi.",
+      "gapText4": "La complessità dell'implementazione di soluzioni edge e della gestione dell'infrastruttura è un ostacolo comune per le aziende, in particolare nei settori con sistemi IT tradizionali.",
+      "gapText5": "Gli elevati costi di implementazione e la mancanza di infrastrutture in alcune regioni rendono difficile per alcune aziende sfruttare appieno i vantaggi del 5G.",
+      "subtitle1": "Adozione del cloud computing e del cloud ibrido",
+      "subtitle2": "Integrazione dell'intelligenza artificiale e dell'apprendimento automatico",
+      "subtitle3": "Problemi e soluzioni di sicurezza informatica",
+      "subtitle4": "Crescita dell'Edge Computing",
+      "subtitle5": "Implementazione del 5G nelle Operazioni Aziendali",
+      "trendText1": "Con l'avanzare del lavoro da remoto e della trasformazione digitale, le aziende adottano sempre più spesso modelli di cloud ibrido per ottenere scalabilità e convenienza.",
+      "trendText3": "Con il passaggio al digitale di un numero sempre maggiore di aziende, la sicurezza informatica è una priorità assoluta. Gli attacchi ransomware sono aumentati e la richiesta di protocolli di sicurezza informatica più forti è più che mai elevata.",
+      "trendText5": "Il 5G sta consentendo velocità di trasferimento dati più rapide, migliorando la funzionalità dell'IoT e permettendo a strumenti di lavoro remoto e collaborazione di funzionare senza interruzioni.",
+      "trendInsight": "Panoramica delle Tendenze:",
+      "trendInsightText1": "Le soluzioni basate sull'IA vengono utilizzate per l'analisi dei dati, il servizio clienti (ad esempio, chatbot) e l'automazione IT. Secondo un rapporto, l'adozione dell'IA nell'IT è aumentata del 30% dal 2023.",
+      "trendInsightText4": "L'edge computing sta guadagnando popolarità man mano che le aziende cercano soluzioni a bassa latenza che permettano l'elaborazione dei dati in tempo reale più vicino alla fonte."
+    },
+    "recommendations": {
+      "title": "Raccomandazioni",
+      "forSMBs": "Per le PMI (Piccole e Medie Imprese):",
+      "forSMBsText": "Sfrutta strumenti a basso costo che offrono un alto ROI, come l'automazione del marketing mirato, l'infrastruttura IT cloud e le piattaforme di analisi dei dati.",
+      "forBusinesses": "Per le aziende:",
+      "forBusinessesText": "Investite in cybersecurity, competenze AI/ML, soluzioni cloud e strumenti di automazione del marketing."
+    }
+  },
+  "marketingConsulting": {
+    "hero": {
+      "title": "Consulenza di Marketing <br /> per un Impatto Misurabile",
+      "subtitle": "Massimizzare il vostro potenziale di marketing con strategie che risuonano, <br /> strumenti che coinvolgono e dati che guidano il successo."
+    },
+    "need": {
+      "title": "Avete bisogno di assistenza?",
+      "contactUs": "Contatto"
+    },
+    "tab1": {
+      "text1": "Analisi approfondita delle tendenze del mercato, del comportamento dei consumatori e delle strategie dei concorrenti per informare e adattare il vostro approccio di marketing.",
+      "text2": "Definizione e posizionamento chiari del vostro marchio per differenziarvi dalla concorrenza e connettervi con il vostro pubblico di riferimento.",
+      "text3": "Pianificazione strategica per il successo del lancio di nuovi prodotti o servizi, garantendo la prontezza del mercato e il massimo impatto.",
+      "text4": "Coordinamento delle campagne di marketing su più canali per garantire un messaggio coerente e una portata più ampia.",
+      "text5": "Mappatura dettagliata delle interazioni dei clienti con il vostro marchio per ottimizzare l'esperienza complessiva e migliorare i tassi di conversione.",
+      "title": "Strategia di Marketing e Pianificazione",
+      "title1": "Ricerca di Mercato <br /> e Analisi",
+      "title2": "Posizionamento del <br/> Brand",
+      "title3": "Strategia Go-to-Market <br />",
+      "title4": "Pianificazione di Campagne <br /> Multicanale",
+      "title5": "Mappatura del <br /> Viaggio del Cliente",
+      "service1": "Ricerche e analisi di mercato",
+      "service2": "Posizionamento del marchio",
+      "service3": "Strategia Go-to-Market",
+      "service4": "Pianificazione di campagne multicanale",
+      "service5": "Mappatura del viaggio del cliente"
+    },
+    "tab2": {
+      "text1": "Ottimizzazione del sito web e dei contenuti per migliorare il posizionamento sui motori di ricerca e aumentare il traffico organico.",
+      "text2": "Gestione strategica di campagne PPC per indirizzare traffico mirato e massimizzare il ritorno sulla spesa pubblicitaria (ROAS).",
+      "text3": "Sviluppo ed esecuzione di strategie di social media per coinvolgere il pubblico, fidelizzare il marchio e aumentare la portata.",
+      "text4": "Progettazione ed esecuzione di campagne e-mail personalizzate per coltivare i contatti e favorire il coinvolgimento dei clienti.",
+      "text5": "Monitoraggio e gestione della vostra reputazione online per mantenere un'immagine positiva del marchio e rispondere efficacemente ai feedback dei clienti.",
+      "title": "Marketing digitale",
+      "title1": "Ottimizzazione dei motori di ricerca",
+      "title2": "Pubblicità Pay-Per-Click <br/>",
+      "title3": "Media sociali <br/> Marketing",
+      "title4": "E-mail <br /> Marketing",
+      "title5": "Online <br/> Reputazione",
+      "service1": "Ottimizzazione dei motori di ricerca",
+      "service2": "Pubblicità Pay-Per-Click",
+      "service3": "Marketing sui social media",
+      "service4": "Marketing via e-mail",
+      "service5": "Reputazione online"
+    },
+    "tab3": {
+      "text1": "Creazione di un piano di contenuti completo che si allinei agli obiettivi di marketing e risponda alle esigenze del pubblico.",
+      "text2": "Produzione di articoli e post di blog di alta qualità, che affermano il vostro marchio come autorità e migliorano la SEO.",
+      "text3": "Sviluppo di contenuti video coinvolgenti per catturare l'attenzione e comunicare efficacemente il messaggio del vostro marchio.",
+      "text4": " Creazione di infografiche visivamente convincenti che semplificano informazioni complesse e migliorano la condivisione dei contenuti.",
+      "text5": " Posizionamento strategico dei contenuti sui vari canali per massimizzare la visibilità e il coinvolgimento del pubblico.",
+      "title": " Marketing dei contenuti",
+      "title1": "Sviluppo della <br /> Strategia di Contenuto",
+      "title2": "Blogging e <br /> Scrittura di Articoli",
+      "title3": "Creazione di <br /> Contenuti Video",
+      "title4": "Progettazione di <br /> Infografiche Esperte",
+      "title5": "Distribuzione del <br/> Contenuto del Brand",
+      "service1": " Sviluppo della strategia dei contenuti",
+      "service2": " Blogging e scrittura di articoli",
+      "service3": " Creazione di contenuti video",
+      "service4": " Design infografico esperto",
+      "service5": " Distribuzione dei contenuti del marchio"
+    },
+    "tab4": {
+      "text1": " Progettazione e implementazione di flussi di lavoro di automazione che semplificano le attività di marketing e migliorano il lead nurturing.",
+      "text2": " Integrazione dei sistemi CRM con gli strumenti di marketing per garantire un flusso di dati continuo e una visione unificata delle interazioni con i clienti.",
+      "text3": " Implementazione di modelli di lead scoring e di segmentazione del pubblico per indirizzare i prospect giusti con il messaggio giusto.",
+      "text4": " Sviluppo di approcci di marketing personalizzati utilizzando i dati CRM per migliorare il coinvolgimento e la soddisfazione dei clienti.",
+      "text5": " Analisi e ottimizzazione dell'imbuto di vendita per ridurre i punti di caduta e aumentare le conversioni.",
+      "title": "Automazione del marketing e CRM",
+      "title1": "Progettazione dei <br /> Flussi di Automazione",
+      "title2": "Integrazione delle Soluzioni CRM",
+      "title3": "Punteggio dei Lead <br/> e Segmentazione",
+      "title4": "Strategie di <br/> Personalizzazione per gli Utenti",
+      "title5": "Ottimizzazione del <br /> Funnel di Vendita",
+      "service1": "Progettazione dei Flussi di Automazione",
+      "service2": "Integrazione di Soluzioni CRM",
+      "service3": "Punteggio dei Lead e Segmentazione",
+      "service4": "Strategie di Personalizzazione per gli Utenti",
+      "service5": "Ottimizzazione del Funnel di Vendita"
+    },
+    "tab5": {
+      "text1": "Impostazione di cruscotti in tempo reale che forniscono informazioni immediate sui principali metriche di marketing e sulle performance delle campagne.",
+      "text2": "Analisi dettagliata dei tassi di conversione per identificare colli di bottiglia e migliorare l'efficienza complessiva del marketing.",
+      "text3": "Esecuzione di test A/B per determinare le strategie e le tattiche di marketing più efficaci.",
+      "text4": "Analisi approfondita del comportamento dei clienti per scoprire modelli e intuizioni che orientano le decisioni di marketing.",
+      "text5": "Report completi sul ritorno sugli investimenti per tutte le attività di marketing, al fine di garantire responsabilità e miglioramenti.",
+      "title": "Analisi e Reporting",
+      "title1": "Creazione del <br/> Cruscotto di Performance",
+      "title2": "Analisi del <br/> Tasso di Conversione",
+      "title3": "Test A/B <br/> e Sperimentazione",
+      "title4": "Analisi del <br /> Comportamento del Cliente",
+      "title5": " Tracciamento del ROI <br />e rendicontazione",
+      "service1": " Creazione del cruscotto delle prestazioni",
+      "service2": " Analisi del tasso di conversione",
+      "service3": " Test A/B e sperimentazione",
+      "service4": " Analisi del comportamento del cliente",
+      "service5": " Monitoraggio e reporting del ROI"
+    },
+    "orderNow": " Ordina ora"
   }
+}
