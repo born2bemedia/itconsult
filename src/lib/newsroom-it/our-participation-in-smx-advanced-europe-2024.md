@@ -6,18 +6,18 @@ thumbnail: "/images/newsroom/newsroom-article-02.webp"
 ---
 
 <p class="text">
-We are pleased to share that Nexoria plans to participate in SMX Advanced Europe 2024, set to take place in Berlin from September 10-11, 2024. This prestigious event, designed exclusively for seasoned search marketers, offers a deep dive into advanced SEO and PPC strategies.
+Siamo lieti di annunciare che Nexoria parteciperà a SMX Advanced Europe 2024, che si terrà a Berlino dal 10 all'11 settembre 2024. Questo prestigioso evento, progettato esclusivamente per esperti di marketing di ricerca, offre un'immersione profonda nelle strategie SEO e PPC avanzate.
 </p>
 
 ## Event Details:
 
-<p class="item">Workshops: <span class="date-highlight">September 9, 2024</span></p>
-<p class="item">Conference: <span class="date-highlight">September 10-11, 2024</span></p>
+<p class="item">Laboratori: <span class="date-highlight">September 9, 2024</span></p>
+<p class="item">Conferenza: <span class="date-highlight">September 10-11, 2024</span></p>
 
 <p class="text">
-SMX Advanced Europe is renowned for its high-level content and expert-led sessions, which focus on the latest advancements in search marketing. Our team will discuss AI-powered search, advanced PPC management, technical SEO, Google ranking algorithms, and enhancing page quality and user experience.
+SMX Advanced Europe è rinomato per i suoi contenuti di alto livello e le sessioni condotte da esperti, che si concentrano sugli ultimi progressi nel marketing di ricerca. Il nostro team discuterà di ricerca AI-powered, gestione avanzata del PPC, SEO tecnico, algoritmi di ranking di Google e miglioramento della qualità delle pagine e dell'esperienza utente.
 </p>
 
 <p class="text">
-This event promises an intensive and insightful experience, focusing on cutting-edge tactics and strategies. Follow our social media and website updates to stay informed about our participation and the insights we will share from this leading industry conference.
+L'evento promette un'esperienza intensa e approfondita, incentrata su tattiche e strategie all'avanguardia. Seguite gli aggiornamenti dei nostri social media e del nostro sito web per rimanere informati sulla nostra partecipazione e sulle intuizioni che condivideremo da questa conferenza leader del settore.
 <p>
