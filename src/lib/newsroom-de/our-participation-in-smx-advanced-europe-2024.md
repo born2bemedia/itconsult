@@ -1,23 +1,22 @@
 ---
-title: "Our Participation in SMX Advanced Europe 2024"
+title: "Unsere Teilnahme an der SMX Advanced Europe 2024"
 seo_title: "SMX Advanced Europe 2024 | Nexoria"
 seo_description: "Nexoria applies for participation in SMX Advanced Europe 2024 in Berlin, showcasing advanced SEO and PPC strategies. Join us for expert discussions and insights on AI, Google Ranking, and more."
 thumbnail: "/images/newsroom/newsroom-article-02.webp"
 ---
 
 <p class="text">
-We are pleased to share that Nexoria plans to participate in SMX Advanced Europe 2024, set to take place in Berlin from September 10-11, 2024. This prestigious event, designed exclusively for seasoned search marketers, offers a deep dive into advanced SEO and PPC strategies.
-</p>
+Wir freuen uns, Ihnen mitteilen zu können, dass Nexoria an der SMX Advanced Europe 2024 teilnehmen wird, die vom 10. bis 11. September 2024 in Berlin stattfinden wird. Diese prestigeträchtige Veranstaltung, die ausschließlich für erfahrene Search Marketer konzipiert ist, bietet einen tiefen Einblick in fortgeschrittene SEO- und PPC-Strategien.</p>
 
 ## Event Details:
 
-<p class="item">Workshops: <span class="date-highlight">September 9, 2024</span></p>
-<p class="item">Conference: <span class="date-highlight">September 10-11, 2024</span></p>
+<p class="item">Werkstätten: <span class="date-highlight">September 9, 2024</span></p>
+<p class="item">Konferenz: <span class="date-highlight">September 10-11, 2024</span></p>
 
 <p class="text">
-SMX Advanced Europe is renowned for its high-level content and expert-led sessions, which focus on the latest advancements in search marketing. Our team will discuss AI-powered search, advanced PPC management, technical SEO, Google ranking algorithms, and enhancing page quality and user experience.
+Die SMX Advanced Europe ist bekannt für ihre hochkarätigen Inhalte und von Experten geleiteten Sitzungen, die sich auf die neuesten Fortschritte im Suchmaschinenmarketing konzentrieren. Unser Team wird über KI-gestützte Suche, fortschrittliches PPC-Management, technische SEO, Google-Ranking-Algorithmen sowie die Verbesserung der Seitenqualität und der Nutzererfahrung sprechen.
 </p>
 
 <p class="text">
-This event promises an intensive and insightful experience, focusing on cutting-edge tactics and strategies. Follow our social media and website updates to stay informed about our participation and the insights we will share from this leading industry conference.
+Diese Veranstaltung verspricht ein intensives und aufschlussreiches Erlebnis, bei dem der Schwerpunkt auf modernsten Taktiken und Strategien liegt. Verfolgen Sie unsere Aktualisierungen in den sozialen Medien und auf unserer Website, um über unsere Teilnahme und die Erkenntnisse, die wir auf dieser führenden Branchenkonferenz vermitteln werden, informiert zu bleiben.
 <p>
