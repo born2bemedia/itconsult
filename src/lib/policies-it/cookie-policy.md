@@ -2,43 +2,45 @@
 title: "Cookie policy"
 ---
 
-Nexoria uses cookies and similar tracking technologies to enhance the browsing experience, analyze site traffic, and understand user preferences. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.
+Nexoria utilizza i cookie e tecnologie di tracciamento simili per migliorare l'esperienza di navigazione, analizzare il traffico del sito e comprendere le preferenze degli utenti. Questa Cookie Policy spiega cosa sono i cookie, come li utilizziamo e le tue opzioni riguardo al loro utilizzo.
 
-## What Are Cookies?
-Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently and to provide information to the site owners. Cookies can be categorized into different types based on their purpose:
+## **Cosa sono i Cookie?**
 
-- **Essential Cookies:** These cookies are necessary for the website to function and cannot be disabled. They allow you to navigate the site and use its features.
-- **Performance Cookies:** These cookies collect information about how visitors use our website, such as which pages are visited most often. This data helps us improve our site’s performance and user experience.
-- **Functionality Cookies:** These cookies allow our website to remember your choices (such as your username, language, or region) and provide enhanced features and personalization.
-- **Targeting Cookies:** Our advertising partners may set these cookies through our site. They may be used to build a profile of your interests and show you relevant ads on other sites.
+I cookie sono piccoli file di testo che vengono memorizzati sul tuo dispositivo dai siti web che visiti. Vengono ampiamente utilizzati per rendere i siti web più efficienti e per fornire informazioni ai proprietari dei siti. I cookie possono essere suddivisi in diversi tipi in base al loro scopo:
 
-## How We Use Cookies
-We use cookies for various purposes, including:
+- **Cookie Essenziali:** Questi cookie sono necessari per il funzionamento del sito web e non possono essere disabilitati. Ti permettono di navigare nel sito e di utilizzare le sue funzionalità.
+- **Cookie di Prestazione:** Questi cookie raccolgono informazioni su come i visitatori utilizzano il nostro sito web, ad esempio quali pagine vengono visitate più frequentemente. Questi dati ci aiutano a migliorare le prestazioni del sito e l'esperienza dell'utente.
+- **Cookie di Funzionalità:** Questi cookie consentono al nostro sito web di ricordare le tue scelte (come il nome utente, la lingua o la regione) e di fornire funzionalità avanzate e personalizzazione.
+- **Cookie di Targeting:** I nostri partner pubblicitari possono impostare questi cookie attraverso il nostro sito. Possono essere utilizzati per costruire un profilo dei tuoi interessi e mostrarti annunci pertinenti su altri siti.
 
-- To ensure the proper functioning of our website and its services.
-- To analyze website usage and enhance user experience.
-Remember your preferences and settings.
-- To deliver targeted advertisements and track the effectiveness of our marketing efforts.
+## **Come Utilizziamo i Cookie**
 
-## Your Choices Regarding Cookies
-You have several options to manage your cookie preferences:
+Utilizziamo i cookie per vari scopi, tra cui:
 
-- **Browser Settings:** Most web browsers allow you to control cookies through their settings. You can set your browser to refuse cookies or to alert you when cookies are being sent. If you disable cookies, some parts of our website may malfunction.
-- **Opt-Out Links:** You can opt out of performance and targeting cookies through various online tools. For example, you can use the Network Advertising Initiative’s opt-out tool or the Digital Advertising Alliance’s opt-out page.
-- **Cookie Consent Management:** When you visit our website, you will see a cookie consent banner that allows you to accept or reject non-essential cookies.
+- Garantire il corretto funzionamento del nostro sito web e dei suoi servizi.
+- Analizzare l'uso del sito web e migliorare l'esperienza dell'utente.
+- Ricordare le tue preferenze e impostazioni.
+- Fornire pubblicità mirata e monitorare l'efficacia dei nostri sforzi di marketing.
 
-## Third-Party Cookies
+## **Le Tue Opzioni Riguardo ai Cookie**
 
-Our website may contain cookies from third-party services that are not in our control. These cookies are used for various purposes, including analytics and advertising. We encourage you to review the privacy policies of these third parties for more information about their use of cookies.
+Hai diverse opzioni per gestire le tue preferenze sui cookie:
 
-## Changes to This Cookie Policy
+- **Impostazioni del Browser:** La maggior parte dei browser web ti consente di controllare i cookie tramite le loro impostazioni. Puoi impostare il tuo browser per rifiutare i cookie o per avvisarti quando vengono inviati. Se disabiliti i cookie, alcune parti del nostro sito web potrebbero non funzionare correttamente.
+- **Link di Opt-Out:** Puoi disattivare i cookie di prestazione e di targeting tramite vari strumenti online. Ad esempio, puoi utilizzare lo strumento di opt-out della Network Advertising Initiative o la pagina di opt-out della Digital Advertising Alliance.
+- **Gestione del Consenso dei Cookie:** Quando visiti il nostro sito web, vedrai un banner di consenso ai cookie che ti permette di accettare o rifiutare i cookie non essenziali.
 
-We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you when we make significant changes by posting the updated policy on our website with a new effective date.
+## **Cookie di Terze Parti**
 
-## Contact Us
+Il nostro sito web può contenere cookie di servizi di terze parti che non sono sotto il nostro controllo. Questi cookie vengono utilizzati per vari scopi, tra cui analisi e pubblicità. Ti invitiamo a consultare le politiche sulla privacy di queste terze parti per maggiori informazioni sull'uso dei cookie.
 
-If you have any questions about our Cookie Policy or our use of cookies, please contact us at:
+## **Modifiche a Questa Cookie Policy**
 
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+Potremmo aggiornare questa Cookie Policy di tanto in tanto per riflettere cambiamenti nelle nostre pratiche o per altri motivi operativi, legali o normativi. Ti notificheremo quando apportiamo modifiche significative pubblicando la politica aggiornata sul nostro sito web con una nuova data di entrata in vigore.
+
+## **Contattaci**
+
+Se hai domande sulla nostra Cookie Policy o sull'uso dei cookie, ti preghiamo di contattarci a:
+
+- Email: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Sito web: [https://nexoria.ai](https://nexoria.ai)
