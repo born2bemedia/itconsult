@@ -1,6 +1,7 @@
 import { readdir, readFile } from "node:fs/promises";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { join } from "path";
 
 export async function getPost(slug, locale) {
   let fileSlug = slug;
