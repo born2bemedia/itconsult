@@ -1,5 +1,5 @@
 ---
-title: "We’re Officially Here!"
+title: "Siamo ufficialmente qui!"
 seo_title: "We Launch Official Website | Nexoria"
 seo_description: "Nexoria announces the launch of our new website and our official entry into the market. Discover our transition from freelancers to a comprehensive service provider."
 thumbnail: "/images/newsroom/newsroom-article-01.webp"
