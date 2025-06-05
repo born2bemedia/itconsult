@@ -63,7 +63,7 @@ const Header = () => {
                 <li className="header__item"><Link href="https://www.facebook.com/nexoria.fb"><Facebook /></Link></li>
                 <li className="header__item"><Link href="https://x.com/nexoria_ai"><X /></Link></li>
               </ul>
-              <Link href="/contacts" className="header__link-last">Contact us</Link>
+              <Link href="/contacts" className="header__link-last">{t("contactUs", {}, "Contact us")}</Link>
               <button onClick={() => menuOpen()} className={`header__menu-btn ${menuOpened ? "_active" : ""}`}>
                 {!menuOpened ? (
                   <img src="/images/menu-open.svg" alt="menu-burger" />
