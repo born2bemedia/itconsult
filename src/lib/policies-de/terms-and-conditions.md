@@ -1,138 +1,147 @@
 ---
-title: "Terms and Conditions"
+title: "Allgemeine Geschäftsbedingungen"
 ---
 
+Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für Ihre Nutzung der von Nexoria betriebenen Website, die von Acceptance Solutions Group LLC verwaltet wird, mit eingetragener Adresse: Hamilton Development, Unit B, Charlestown, Nevis, Westindische Inseln und operativer Adresse: \[Betriebsadresse\], erreichbar unter [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Durch die Nutzung dieser Website erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die Website bitte nicht.
 
-These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, operated by Acceptance Solutions Group LLC, with a registered address at Hamilton Development, Unit B, Charlestown, Nevis, West Indies and an operational address at [Operational Address], accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
+Sofern Sie diese Bedingungen einhalten, gewährt Ihnen Nexoria ein persönliches, nicht exklusives, nicht übertragbares und eingeschränktes Recht auf Zugriff und Nutzung der Website. Nexoria behält sich das Recht vor, nach eigenem Ermessen jederzeit Teile dieser Bedingungen zu ändern, anzupassen, zu ergänzen oder zu entfernen. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig auf Aktualisierungen zu überprüfen. Ihre fortgesetzte Nutzung der Website nach Änderungen gilt als Zustimmung zu den aktualisierten Bedingungen.
 
-If you comply with these Terms, Nexoria grants you a personal, non-exclusive, non-transferable, and limited right to access and use the website. Nexoria reserves the right, at its sole discretion, to change, modify, add, or remove parts of these Terms at any time. It is your responsibility to review these Terms for updates periodically. Continued website use following any changes constitutes your acceptance of the updated Terms.
+Nexoria behält sich ferner das Recht vor, jederzeit und ohne vorherige Ankündigung Folgendes zu tun:
 
-Nexoria also reserves the right to do the following at any time without prior notice:
+- Änderung, Aussetzung oder Beendigung des Betriebs der Website oder eines Teils davon aus beliebigem Grund;
+- Änderung der Website oder von Teilen davon sowie der zugehörigen Richtlinien oder Bedingungen;
+- Unterbrechung des Betriebs der Website oder eines Teils davon zur Wartung, Fehlerbehebung oder Durchführung sonstiger notwendiger Änderungen.
 
-- Modify, suspend, or terminate the website's operation or any portion thereof for any reason;
-- Alter the website, or any section of it, as well as related policies or terms;
-- Interrupt the website's operation, or any part of it, to perform maintenance, error correction, or other necessary changes.
+Nexoria behält sich alle Rechte vor, die nicht ausdrücklich hierin gewährt werden. Darüber hinaus unterliegt Ihre Nutzung der Nexoria-Website zu Informationszwecken weiteren Richtlinien und Vorgaben, die durch Verweis in diese Bedingungen aufgenommen wurden.
 
-Nexoria reserves all rights not expressly granted herein. Additionally, your use of the Nexoria website for informational purposes is subject to other policies and guidelines incorporated by reference into these Terms.
+## **Altersverifikation**
 
-## Age Verification
-Using this website, you confirm that you are at least 18 or the legal age of majority in your jurisdiction (whichever is greater). You must not use this website if you are under the required legal age. Nexoria reserves the right to terminate your access to the website if it discovers you have violated this age requirement.
+Mit der Nutzung dieser Website bestätigen Sie, dass Sie mindestens 18 Jahre alt oder im Besitz der Volljährigkeit nach dem Recht Ihres Wohnsitzstaates sind (je nachdem, was höher ist). Wenn Sie das gesetzlich erforderliche Mindestalter nicht erreicht haben, dürfen Sie diese Website nicht nutzen. Nexoria behält sich das Recht vor, Ihren Zugang zur Website zu beenden, wenn festgestellt wird, dass Sie gegen diese Altersvorgabe verstoßen haben.
 
-## General Use Guidelines
-All the content and materials available on this website, including but not limited to information, documents, text, services, logos, graphics, photographs, sounds, images, videos, trademarks, interfaces, music, software, computer code, user interfaces, visual interfaces, and the overall design, arrangement, selection, expression, and "look and feel" of the site (collectively referred to as "Content"), are owned, controlled, or licensed by Nexoria, its affiliates, subsidiaries, or third-party partners, authors, developers, and vendors (collectively, "Third-Party Providers").
-Any unauthorised use of this Content may violate intellectual property laws and other legal protections, including copyright, trademark, privacy, publicity rights, and communication regulations.
+## **Allgemeine Nutzungsrichtlinien**
 
-Unless explicitly permitted in these Terms or under a formal agreement with Nexoria, you may not copy, reproduce, republish, distribute, download, upload, post, display, encode, translate, or transmit any portion of the Content without obtaining Nexoria's prior written consent.
-Unless expressly indicated otherwise by Nexoria, nothing on this website should be construed as granting any licence or rights to use Nexoria's or any Third-Party Provider's intellectual property, whether by implication, estoppel, or otherwise. You are solely responsible for acquiring such licences. Please refer to the contact information below for questions about obtaining such licences. Materials from Third-Party Providers on this website have not been independently reviewed, tested, certified, or authenticated in whole or in part by Nexoria. Therefore, Nexoria does not guarantee or provide any warranties for these materials.
+Sämtliche Inhalte und Materialien auf dieser Website, einschließlich, aber nicht beschränkt auf Informationen, Dokumente, Texte, Dienstleistungen, Logos, Grafiken, Fotos, Geräusche, Bilder, Videos, Marken, Benutzeroberflächen, Musik, Software, Computercode, visuelle Schnittstellen, Layouts und das Gesamtdesign („Inhalte“), sind Eigentum von Nexoria bzw. von verbundenen Unternehmen, Tochtergesellschaften oder Dritten (zusammen „Drittanbieter“) oder werden von diesen lizenziert oder kontrolliert.
 
-You are allowed to use informational materials related to Nexoria products and services that are expressly provided for download from the website (such as data sheets, white papers, and similar materials) under the following conditions:
+Jegliche unbefugte Nutzung dieser Inhalte kann gegen Urheberrechtsgesetze und andere rechtliche Vorschriften verstoßen, einschließlich Marken-, Datenschutz-, Persönlichkeits- und Kommunikationsrechte.
 
-- You may not alter the materials in any way.
-- The copyright notice and this permission notice must be included in the materials.
-- The materials may only be used for personal, non-commercial, and informational purposes. They must not be copied or posted on any networked computer, broadcast in any media, or used for commercial advantage. This permission will automatically end without notice if you violate these Terms.
+Sofern in diesen Bedingungen oder durch eine offizielle Vereinbarung mit Nexoria nicht ausdrücklich gestattet, ist es Ihnen untersagt, Inhalte ohne vorherige schriftliche Zustimmung von Nexoria zu kopieren, zu vervielfältigen, erneut zu veröffentlichen, zu verbreiten, herunterzuladen, hochzuladen, zu veröffentlichen, darzustellen, zu verschlüsseln, zu übersetzen oder zu übertragen.
 
-Nexoria strictly prohibits the following activities:
+Sofern nicht ausdrücklich von Nexoria anders angegeben, ist nichts auf dieser Website so auszulegen, als würde eine Lizenz oder ein Recht zur Nutzung des geistigen Eigentums von Nexoria oder Drittanbietern eingeräumt – weder stillschweigend noch durch Duldung oder auf andere Weise. Sie sind allein verantwortlich für den Erwerb entsprechender Lizenzen. Bei Fragen hierzu kontaktieren Sie uns bitte über die unten angegebene Kontaktinformation. Inhalte von Drittanbietern auf dieser Website wurden von Nexoria weder vollständig noch teilweise unabhängig geprüft, getestet, zertifiziert oder bestätigt. Nexoria übernimmt daher keine Gewähr oder Garantie für diese Inhalte.
 
-Gaining or attempting to gain unauthorised access to the website (or any part of it), to any software or services featured on the website, or to any systems or networks connected to the website or Nexoria's servers.
-Obtaining or attempting to obtain any Content or proprietary materials of Nexoria through any means not explicitly made available by Nexoria.
-Interfering with or attempting to disrupt the website's functionality or its use by others.
-Probing, scanning, or testing the website's vulnerabilities or attempting to breach its security measures.
-Attempting to access any portion or feature of the website, any systems or networks connected to the website, any Nexoria server, or any products or services offered on or through the website by hacking, password mining, or any other illegitimate means.
-Using any "deep-link," "page-scrape," "robot," "spider," or other automated device, bot, program, algorithm, or methodology, or any similar process to access, acquire, copy, or monitor any part of the website or its Content.
-Engaging in activities that impose an unreasonable or disproportionately large load on the website's infrastructure, Nexoria's servers, systems, networks, or any systems or networks connected to the website or Nexoria.
-Using the website or its Content for illegal activities or promoting unlawful or infringing actions.
-Using, exporting, or re-exporting the Content violates applicable laws or regulations, including export laws.
+Sie dürfen Informationsmaterialien zu Nexoria-Produkten und -Dienstleistungen, die ausdrücklich zum Herunterladen bereitgestellt werden (z. B. Datenblätter, Whitepapers), unter folgenden Bedingungen verwenden:
 
-## Refund Policy
-Nexoria has a strict no-refund policy for all purchases made through https://nexoria.ai. By completing a transaction on our website, you agree that all sales are final and non-refundable.
-In exceptional cases, Nexoria may consider refund requests under specific circumstances, such as duplicate or accidental payments, incorrect payment amounts caused by technical errors, or the non-delivery of products or services due to reasons within our control. To request a refund, you must contact our support team at <a href="mailto:info@nexoria.ai">info@nexoria.ai</a>, providing your full name, email address, transaction ID, and a detailed explanation. Refund requests will be reviewed within 7 business days; approval is at Nexoria’s sole discretion.
+- Sie dürfen die Materialien in keiner Weise verändern.
+- Der Urheberrechtshinweis und dieser Genehmigungshinweis müssen enthalten sein.
+- Die Materialien dürfen nur für persönliche, nicht-kommerzielle und informative Zwecke verwendet werden. Sie dürfen weder in Netzwerken veröffentlicht noch in Medien übertragen oder kommerziell verwertet werden. Diese Genehmigung erlischt automatisch ohne vorherige Ankündigung, wenn Sie gegen diese Bedingungen verstoßen.
 
-Refunds are not available for services successfully delivered as described, dissatisfaction unrelated to service quality, or requests submitted beyond 14 days of purchase. Nexoria reserves the right to update this Refund Policy without prior notice. Continued website use after any updates constitutes acceptance of the revised policy.
+**Von Nexoria streng untersagte Aktivitäten:**
 
-For further information, please contact us at <a href="mailto:info@nexoria.ai">info@nexoria.ai</a>.
+- Unbefugter Zugriff oder Versuch des Zugriffs auf die Website (oder Teile davon), Software, Dienste oder Netzwerke von Nexoria;
+- Beschaffung oder versuchter Erhalt von Inhalten oder Eigentum von Nexoria auf nicht autorisiertem Weg;
+- Störung oder Versuch der Störung der Website oder der Nutzung durch andere Nutzer;
+- Scannen, Testen oder Eindringen in die Sicherheitsmaßnahmen der Website;
+- Zugriff auf Teile der Website, Server, Netzwerke oder Dienste durch Hacking, Passwort-Diebstahl oder andere unzulässige Mittel;
+- Verwendung von automatisierten Methoden wie „Deep-Linking“, „Page-Scraping“, Bots, Crawlern o. ä. zur Erfassung oder Überwachung von Inhalten;
+- Aktivitäten, die eine übermäßige Belastung der Infrastruktur von Nexoria oder ihrer Netzwerke verursachen;
+- Nutzung der Website oder ihrer Inhalte für illegale Zwecke oder zur Förderung rechtswidriger Handlungen;
+- Nutzung, Export oder Reexport von Inhalten unter Verstoß gegen geltende Gesetze und Vorschriften, insbesondere Exportbestimmungen.
 
-## Dispute Policy
-If a dispute arises concerning your use of the website or services provided by Nexoria, you agree to the following dispute resolution process:
-- **Resolution Attempt:** You must first contact Nexoria at info@nexoria.ai to attempt to resolve the dispute informally. Include all relevant details and supporting documentation.
-- **Binding Arbitration:** If the dispute cannot be resolved informally, it will be settled by binding arbitration under the rules of the jurisdiction governing these Terms (Nevis, West Indies). The arbitration will be conducted confidentially and in English.
-- **Jurisdiction:** Any legal proceedings arising out of these Terms shall be governed by the laws of Nevis, West Indies, without regard to its conflict of law principles.
-- **Limitations on Claims:** Any claim related to these Terms must be filed within one year after the cause of action arises or will be permanently barred.
+## **Rückerstattungsrichtlinie**
 
-## Breach of Terms 
+Nexoria verfolgt eine strikte Keine-Rückerstattung-Politik für alle Käufe, die über [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai) getätigt werden. Mit dem Abschluss einer Transaktion auf unserer Website erklären Sie sich damit einverstanden, dass alle Verkäufe endgültig und nicht erstattungsfähig sind.
 
-By using this website, you acknowledge and accept that Nexoria has the right, at any time and in its sole discretion, to terminate and restrict your present or future access to the website if it finds that you have violated these Terms or any other Nexoria policies or guidelines related to your use of the website.
+In Ausnahmefällen kann Nexoria Rückerstattungsanfragen unter bestimmten Umständen prüfen, wie zum Beispiel bei doppelten oder versehentlichen Zahlungen, falschen Zahlungsbeträgen aufgrund technischer Fehler oder bei Nichtlieferung von Produkten oder Dienstleistungen aus Gründen, die in unserem Verantwortungsbereich liegen. Um eine Rückerstattung zu beantragen, müssen Sie sich an unser Support-Team unter [info@nexoria.ai](mailto:info@nexoria.ai) wenden und Ihren vollständigen Namen, Ihre E-Mail-Adresse, die Transaktions-ID und eine detaillierte Erläuterung angeben. Rückerstattungsanfragen werden innerhalb von 7 Werktagen geprüft; die Genehmigung liegt im alleinigen Ermessen von Nexoria.
 
-Additionally, you understand that breaching these Terms will be considered unlawful and unfair conduct, causing Nexoria irreparable damage that cannot be adequately compensated with monetary damages.
+Rückerstattungen sind ausgeschlossen für erfolgreich und wie beschrieben erbrachte Dienstleistungen, Unzufriedenheit, die nicht mit der Servicequalität zusammenhängt, oder Anträge, die mehr als 14 Tage nach dem Kaufdatum gestellt werden. Nexoria behält sich das Recht vor, diese Rückerstattungsrichtlinie jederzeit ohne vorherige Ankündigung zu aktualisieren. Die fortgesetzte Nutzung der Website nach Änderungen gilt als Zustimmung zur überarbeiteten Richtlinie.
 
-You also agree that Nexoria may seek any injunctive or equitable remedies it considers necessary or appropriate. These remedies are in addition to any other legal actions or remedies available to Nexoria.
+Für weitere Informationen kontaktieren Sie uns bitte unter [info@nexoria.ai](mailto:info@nexoria.ai).
 
-You agree that Nexoria may terminate your access to the website without prior notice, at its discretion, for reasons including but not limited to:
+## **Streitbeilegungsrichtlinie**
 
-- Requests from law enforcement or other governmental bodies;
-- A request by you (e.g., voluntary account deletion);
-- Discontinuation or significant alteration of the website or any services offered through the website; or
-Unforeseen technical difficulties or issues.
+Wenn eine Streitigkeit im Zusammenhang mit Ihrer Nutzung der Website oder der von Nexoria bereitgestellten Dienste entsteht, erklären Sie sich mit folgendem Streitbeilegungsverfahren einverstanden:
 
-If Nexoria initiates legal proceedings against you due to a breach of these Terms, it is entitled to recover all reasonable legal fees and expenses incurred, in addition to any other relief granted. You acknowledge that Nexoria shall not be held liable to you or any third party for terminating your access to the website due to any breach of these Terms.
+- **Versuch einer Einigung:** Sie müssen zunächst Nexoria unter info@nexoria.ai kontaktieren, um zu versuchen, die Streitigkeit informell zu lösen. Fügen Sie alle relevanten Details und unterstützenden Unterlagen bei.
+- **Verbindliches Schiedsverfahren:** Kann die Streitigkeit nicht informell beigelegt werden, wird sie durch ein verbindliches Schiedsverfahren gemäß den Vorschriften der für diese Bedingungen geltenden Gerichtsbarkeit (Nevis, Westindische Inseln) entschieden. Das Schiedsverfahren wird vertraulich und in englischer Sprache durchgeführt.
+- **Gerichtsbarkeit:** Alle rechtlichen Verfahren, die sich aus diesen Bedingungen ergeben, unterliegen dem Recht von Nevis, Westindische Inseln, ungeachtet kollidierender Rechtsvorschriften.
+- **Verjährungsfrist:** Jegliche Ansprüche im Zusammenhang mit diesen Bedingungen müssen innerhalb eines Jahres nach Entstehung des Anspruchs geltend gemacht werden, andernfalls sind sie dauerhaft ausgeschlossen.
 
-Nexoria reserves the right to disclose your information as necessary to comply with laws, regulations, or legal requests. In the event of an investigation or complaint regarding your use of the website, Nexoria may release information about you. Additionally, Nexoria may disclose your personal information to identify, contact, or take legal action against anyone causing harm or interfering with the rights of Nexoria, its clients, or other website users.
+## **Verstoß gegen die Bedingungen** 
 
-## Privacy
+Durch die Nutzung dieser Website erkennen Sie an und akzeptieren, dass Nexoria jederzeit und nach eigenem Ermessen das Recht hat, Ihren aktuellen oder zukünftigen Zugriff auf die Website zu beenden oder einzuschränken, wenn festgestellt wird, dass Sie gegen diese Bedingungen oder andere Richtlinien oder Vorgaben von Nexoria im Zusammenhang mit der Nutzung der Website verstoßen haben.
 
-By accessing this website, you acknowledge that online communications are not entirely secure or private. Any information or messages you transmit to the website may be subject to interception or access by others.
-Furthermore, you agree that Nexoria has the right to retain any communication or data you send through the website or any related services. Nexoria may disclose this information if legally required or if it reasonably believes such actions are necessary to:
+Darüber hinaus verstehen Sie, dass ein Verstoß gegen diese Bedingungen als unrechtmäßiges und unlauteres Verhalten angesehen wird, das Nexoria einen nicht wiedergutzumachenden Schaden zufügt, der nicht angemessen durch Geldersatz kompensiert werden kann.
 
-- Comply with legal obligations or processes;
-- Enforce these Terms;
-- Address claims that your communications infringe on the rights of others; or
-- Safeguard the rights, property, or personal safety of Nexoria, its employees, users, website visitors, and the general public.
+Sie erklären sich außerdem damit einverstanden, dass Nexoria jegliche einstweiligen oder angemessenen Rechtsmittel einleiten kann, die nach dessen Ermessen erforderlich oder angebracht erscheinen. Diese Rechtsmittel gelten zusätzlich zu allen anderen rechtlichen Maßnahmen oder Ansprüchen, die Nexoria zur Verfügung stehen.
 
-## Risk Disclaimer
-The content and services provided on this website are for informational purposes only and do not constitute financial, investment, legal, or other professional advice. Any use of information or services is at your own risk. Nexoria does not guarantee the content’s accuracy, completeness, or reliability, and you acknowledge that any decisions made based on this information are solely your responsibility.
+Sie stimmen zu, dass Nexoria Ihren Zugang zur Website ohne vorherige Ankündigung und nach eigenem Ermessen aus folgenden (aber nicht ausschließlich diesen) Gründen beenden kann:
 
-All users should be aware that investments, trading, or other activities associated with this website may involve significant risks. Nexoria is not responsible for any financial losses or other damages incurred as a result of using this website or its services.
+- Anfragen von Strafverfolgungsbehörden oder anderen staatlichen Stellen;
+- Eine Anfrage Ihrerseits (z. B. freiwillige Kontolöschung);
+- Einstellung oder wesentliche Änderung der Website oder angebotener Dienste;
+- Unerwartete technische Probleme oder Störungen.
 
+Sollte Nexoria rechtliche Schritte gegen Sie wegen eines Verstoßes gegen diese Bedingungen einleiten, ist Nexoria berechtigt, zusätzlich zu anderen gewährten Rechtsmitteln alle angemessenen Anwalts- und Gerichtskosten einzufordern. Sie erkennen an, dass Nexoria Ihnen oder Dritten gegenüber nicht haftbar ist, wenn Ihr Zugang zur Website infolge eines Verstoßes gegen diese Bedingungen beendet wird.
 
-## Disclaimer
+Nexoria behält sich das Recht vor, Ihre Daten offenzulegen, soweit dies zur Einhaltung gesetzlicher Vorschriften oder rechtlicher Anfragen erforderlich ist. Im Falle einer Untersuchung oder Beschwerde in Bezug auf Ihre Nutzung der Website kann Nexoria Informationen über Sie offenlegen. Darüber hinaus kann Nexoria Ihre personenbezogenen Daten verwenden, um Personen zu identifizieren, zu kontaktieren oder rechtliche Schritte gegen Personen einzuleiten, die Nexoria, seinen Kunden oder anderen Nutzern der Website Schaden zufügen oder deren Rechte verletzen.
 
-Unless explicitly stated by Nexoria, all content provided on this website is offered "as is." Nexoria makes no express or implied warranties, guarantees, or assurances of any kind, including but not limited to implied warranties of merchantability, suitability for a specific purpose, title, or non-infringement, unless such disclaimers are legally unenforceable. Nexoria does not guarantee the accuracy, quality, suitability, or completeness of any information or materials available on the site.
+## **Datenschutz**
 
-This disclaimer covers any harm, liability, or loss arising from failures in performance, errors, omissions, interruptions, deletions, defects, operational delays, transmission issues, computer viruses, communication breakdowns, theft, destruction, unauthorised access, alterations, or any other type of malfunction, whether they stem from a breach of contract, negligence, tort, or any other legal theory.
+Durch den Zugriff auf diese Website erkennen Sie an, dass Online-Kommunikation nicht vollständig sicher oder privat ist. Alle Informationen oder Nachrichten, die Sie über die Website übermitteln, können von Dritten abgefangen oder eingesehen werden.
 
-## Intellectual Property Notices
+Außerdem erklären Sie sich damit einverstanden, dass Nexoria das Recht hat, jegliche Kommunikation oder Daten, die Sie über die Website oder damit verbundene Dienste senden, zu speichern. Nexoria kann diese Informationen offenlegen, wenn dies gesetzlich vorgeschrieben ist oder wenn Nexoria nach billigem Ermessen der Ansicht ist, dass solche Maßnahmen erforderlich sind, um:
 
-The website and its content are protected by copyright and other applicable laws. They may not be copied, transmitted, reproduced, repurposed, or imitated, in whole or in part, without express permission from Nexoria.  
+- **gesetzlichen Verpflichtungen oder Verfahren nachzukommen;**
+- **diese Bedingungen durchzusetzen;**
+- **Beschwerden zu prüfen, wonach Ihre Kommunikation die Rechte Dritter verletzt; oder**
+- **die Rechte, das Eigentum oder die persönliche Sicherheit von Nexoria, seinen Mitarbeitenden, Nutzern, Website-Besuchern oder der Öffentlichkeit zu schützen.**
 
-## Intellectual Property Rights
+## **Haftungsausschluss – Risiko**
 
-The content and materials on this website are safeguarded by copyright and other applicable laws. You may not copy, reproduce, modify, or distribute any part of the content without explicit authorization from Innosphere.
+Die Inhalte und Dienste auf dieser Website dienen ausschließlich Informationszwecken und stellen keine Finanz-, Investitions-, Rechts- oder sonstige professionelle Beratung dar. Die Nutzung der bereitgestellten Informationen und Dienste erfolgt auf eigenes Risiko. Nexoria übernimmt keine Garantie für die Richtigkeit, Vollständigkeit oder Zuverlässigkeit der Inhalte, und Sie erkennen an, dass alle Entscheidungen, die auf Grundlage dieser Informationen getroffen werden, in Ihrer alleinigen Verantwortung liegen.
 
-## Terms of Use Agreement
-By accessing and using this website, you confirm that you understand and agree to these Terms and Conditions. If you do not agree with any part of these terms, you should discontinue using this website immediately.
+Alle Nutzer sollten sich bewusst sein, dass Investitionen, Handel oder sonstige Aktivitäten, die mit dieser Website verbunden sind, erhebliche Risiken beinhalten können. Nexoria übernimmt keine Haftung für finanzielle Verluste oder andere Schäden, die aus der Nutzung dieser Website oder ihrer Dienste entstehen.
 
-## Changes to Terms
+## **Haftungsausschluss**
 
-Innosphere reserves the right to revise these Terms and Conditions without prior notice. Modifications become effective upon their posting on the website. You are responsible for regularly reviewing these terms. Continued website use after posting changes signifies your acceptance of the new terms.
+Sofern nicht ausdrücklich von Nexoria angegeben, werden alle Inhalte auf dieser Website „wie besehen“ bereitgestellt. Nexoria gibt keine ausdrücklichen oder stillschweigenden Zusicherungen, Garantien oder Gewährleistungen jeglicher Art ab, einschließlich, aber nicht beschränkt auf stillschweigende Garantien der Marktgängigkeit, der Eignung für einen bestimmten Zweck, der Rechtsmängelfreiheit oder der Nichtverletzung von Rechten – es sei denn, solche Haftungsausschlüsse sind gesetzlich nicht zulässig.
 
-## Linking Guidelines
+Dieser Haftungsausschluss gilt für alle Schäden, Haftungen oder Verluste, die sich aus Leistungsstörungen, Fehlern, Auslassungen, Unterbrechungen, Löschungen, Defekten, Betriebsverzögerungen, Übertragungsproblemen, Computerviren, Kommunikationsausfällen, Diebstahl, Zerstörung, unbefugtem Zugriff, Änderungen oder sonstigen Fehlfunktionen ergeben – unabhängig davon, ob sie durch Vertragsbruch, Fahrlässigkeit, unerlaubte Handlung oder eine andere Rechtsgrundlage verursacht wurden.
 
-You may link to Innosphere's website, provided that your link is established in a lawful and non-damaging manner that does not harm Innosphere's reputation. However, you must not create a link implying endorsement or association without our permission. Innosphere retains the right to withdraw linking permission at any time without notice.
+## **Hinweise zum geistigen Eigentum**
 
-## Liability Disclaimer
+Die Website und ihre Inhalte sind durch Urheberrecht und andere geltende Gesetze geschützt. Sie dürfen weder ganz noch teilweise ohne ausdrückliche Genehmigung von Nexoria kopiert, übertragen, vervielfältigt, zweckentfremdet oder nachgeahmt werden.
 
-Innosphere, including its affiliates, employees, and partners, will not be liable for any direct, indirect, incidental, or consequential damages arising from your website use or inability to access it. This limitation of liability applies to the fullest extent permitted by law.
+## **Rechte am geistigen Eigentum**
 
-## User Indemnification
+Die Inhalte und Materialien auf dieser Website sind durch Urheberrecht und andere geltende Gesetze geschützt. Es ist nicht gestattet, Teile der Inhalte ohne ausdrückliche Genehmigung von Innosphere zu kopieren, zu reproduzieren, zu verändern oder zu verbreiten.
 
-Using this website, you agree to indemnify and hold harmless Innosphere, its employees, officers, and agents from any claims, losses, or expenses, including attorney's fees, resulting from your use of the website or breach of these Terms and Conditions.
+## **Nutzungsbedingungen**
 
-## Governing Law
+Mit dem Zugriff auf und der Nutzung dieser Website bestätigen Sie, dass Sie diese Allgemeinen Geschäftsbedingungen verstanden haben und ihnen zustimmen. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, sollten Sie die Nutzung der Website sofort beenden.
 
-The laws of Nevis, West Indies, will govern these Terms. In the event of a dispute, the laws of Nevis, West Indies, will apply, without regard to conflict of law principles.
-Contact Information
+## **Änderungen der Bedingungen**
+
+Innosphere behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen ohne vorherige Ankündigung zu überarbeiten. Änderungen treten mit ihrer Veröffentlichung auf der Website in Kraft. Sie sind dafür verantwortlich, diese Bedingungen regelmäßig zu überprüfen. Die fortgesetzte Nutzung der Website nach Veröffentlichung gilt als Zustimmung zu den neuen Bedingungen.
+
+## **Verlinkungsrichtlinien**
+
+Sie dürfen auf die Website von Innosphere verlinken, sofern Ihr Link auf rechtmäßige und nicht schädigende Weise gesetzt wird und dem Ruf von Innosphere keinen Schaden zufügt. Sie dürfen jedoch keine Links erstellen, die eine Unterstützung oder Verbindung zu Innosphere suggerieren, ohne unsere ausdrückliche Zustimmung. Innosphere behält sich das Recht vor, die Verlinkungsgenehmigung jederzeit ohne Vorankündigung zu widerrufen.
+
+## **Haftungsausschluss**
+
+Innosphere, einschließlich seiner verbundenen Unternehmen, Mitarbeitenden und Partner, haftet nicht für direkte, indirekte, zufällige oder Folgeschäden, die aus Ihrer Nutzung der Website oder der Unfähigkeit, darauf zuzugreifen, entstehen. Diese Haftungsbeschränkung gilt im gesetzlich zulässigen Umfang.
+
+## **Freistellung durch den Nutzer**
+
+Mit der Nutzung dieser Website erklären Sie sich einverstanden, Innosphere, seine Mitarbeitenden, leitenden Angestellten und Beauftragten von sämtlichen Ansprüchen, Verlusten oder Ausgaben, einschließlich Anwaltskosten, schad- und klaglos zu halten, die aus Ihrer Nutzung der Website oder aus einem Verstoß gegen diese Bedingungen entstehen.
+
+## **Anwendbares Recht**
+
+Für diese Bedingungen gilt das Recht von Nevis, Westindische Inseln. Im Falle eines Rechtsstreits finden ausschließlich die Gesetze von Nevis, Westindische Inseln Anwendung, ungeachtet kollidierender Rechtsvorschriften.
+
+## **Kontaktinformationen**
 
 For any inquiries regarding these Terms or to request permission to use any content, please contact us:
 
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+- E-Mail: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Website: [https://nexoria.ai](https://nexoria.ai)

@@ -1,203 +1,219 @@
 ---
-title: "Privacy policy"
+title: "Informativa sulla Privacy"
 ---
 
+## **Benvenuti su Nexoria!**
 
-## Welcome to Nexoria!
+La protezione delle informazioni della vostra azienda è una delle nostre massime priorità. La presente Informativa sulla Privacy descrive come gestiamo i dati raccolti tramite il nostro sito web e i nostri servizi, garantendo che le vostre informazioni siano sicure e trattate in conformità con le leggi sulla protezione dei dati.
 
-Protecting your business information is one of our top priorities. This Privacy Policy outlines how we manage the data we collect through our website and services, ensuring your data is secure and handled by data protection laws.
-You acknowledge and agree to our data handling practices as described by engaging with our website and using our services. If you have concerns, please discontinue use and contact us directly.
+Utilizzando il nostro sito e i nostri servizi, riconoscete e accettate le pratiche descritte nella presente informativa. Se avete dubbi o preoccupazioni, vi invitiamo a interrompere l’uso e a contattarci direttamente.
 
-## Company Information
+## **Informazioni sull’Azienda**
 
-Nexoria, operated by Acceptance Solutions Group LLC, is responsible for managing your data. You can reach us using the following details:
-- Company Name: Acceptance Solutions Group LLC
-- Registered Office:Hamilton Development, Unit B, Charlestown, Nevis, West Indies
-- Registration Number: LLC23233
-- Contact Email: info@nexoria.ai 
+Nexoria, gestita da Acceptance Solutions Group LLC, è responsabile della gestione dei vostri dati. Potete contattarci tramite i seguenti dettagli:
 
-## Data Utilisation
+- **Nome azienda:** Acceptance Solutions Group LLC
+- **Sede legale:** Hamilton Development, Unit B, Charlestown, Nevis, Indie Occidentali
+- **Numero di registrazione:** LLC23233
+- **Email di contatto:** info@nexoria.ai
 
-We collect and use your data to deliver, improve, and customise our services. Here’s how your data is utilised:
+## **Utilizzo dei Dati**
 
-- Delivering Services: We process the information provided to fulfil your service requests and meet contractual obligations.
-- Improving Services: Your feedback and usage data help us refine and enhance our service offerings to better suit your business needs.
-- Personalisation: We use collected data to customise your experience, ensuring content and recommendations are relevant to your business.
+Raccogliamo e utilizziamo i vostri dati per fornire, migliorare e personalizzare i nostri servizi. Ecco come utilizziamo le informazioni raccolte:
 
-**Security and Compliance**
+- **Fornitura dei Servizi:** Trattiamo le informazioni fornite per soddisfare le vostre richieste di servizio e adempiere agli obblighi contrattuali.
+- **Miglioramento dei Servizi:** I vostri feedback e i dati di utilizzo ci aiutano a perfezionare e migliorare le nostre offerte per soddisfare meglio le esigenze della vostra azienda.
+- **Personalizzazione:** Utilizziamo i dati raccolti per personalizzare la vostra esperienza, assicurandoci che i contenuti e i suggerimenti siano pertinenti per la vostra attività.
 
-- Protecting Data: We take extensive measures to safeguard your data from unauthorised access and breaches. This includes using advanced security technologies, such as encryption, to protect your information.
-- Legal Compliance: We may use or disclose your information to meet legal obligations or respond to lawful requests from regulatory authorities. This ensures compliance with relevant laws and regulations.
-- Research and Improvement: We analyse anonymized data to conduct research and continually improve our services. This helps us serve your business more effectively by refining features and optimising performance.
+### **Sicurezza e Conformità**
 
-**Third-Party Services**
+- **Protezione dei Dati:** Adottiamo misure rigorose per proteggere i vostri dati da accessi non autorizzati e violazioni. Usiamo tecnologie di sicurezza avanzate, come la crittografia, per salvaguardare le vostre informazioni.
+- **Conformità Legale:** Potremmo utilizzare o divulgare le vostre informazioni per soddisfare obblighi legali o rispondere a richieste legittime da parte delle autorità regolatorie, garantendo così la conformità alle normative vigenti.
+- **Ricerca e Sviluppo:** Analizziamo dati anonimizzati per svolgere ricerche e migliorare continuamente i nostri servizi, ottimizzando funzionalità e prestazioni per servire meglio la vostra attività.
 
-- Service Providers: We may share your data with third-party vendors that help deliver our services, such as IT support, cloud storage, or payment processing. These vendors are required to handle your data confidentially and securely.
-- Business Transactions: Your data may be part of a business change such as a merger, acquisition, or sale. We will ensure your information remains protected under our privacy standards throughout the process.
+### **Servizi di Terze Parti**
 
-**Data Collection Methods**
+- **Fornitori di Servizi:** Potremmo condividere i vostri dati con fornitori terzi che ci assistono nella fornitura dei servizi (es. supporto IT, archiviazione cloud, elaborazione dei pagamenti). Questi fornitori sono tenuti a trattare i dati in modo confidenziale e sicuro.
+- **Operazioni Aziendali:** I vostri dati potrebbero essere inclusi in operazioni aziendali come fusioni, acquisizioni o cessioni. Garantiremo che le vostre informazioni restino protette durante l’intero processo, in linea con i nostri standard di privacy.
 
-- We collect your data through various channels, including:
-- Forms: Information provided by you directly through forms or requests.
-- Cookies: Data collected automatically through cookies when you interact with our website.
-- Analytical Tools: Data gathered through analytics to understand usage patterns and enhance our services.
-We are committed to collecting and protecting only what is necessary with rigorous security measures.
+## **Metodi di Raccolta dei Dati**
 
-## How We Use User Data
+Raccogliamo i vostri dati tramite vari canali, tra cui:
 
-At Nexoria, we utilise user data to deliver superior IT services and ensure a seamless experience for our clients. Below is a breakdown of how we use your data:
+- **Moduli:** Informazioni fornite direttamente tramite moduli o richieste.
+- **Cookie:** Dati raccolti automaticamente tramite cookie durante la navigazione del nostro sito.
+- **Strumenti Analitici:** Dati ottenuti tramite strumenti di analisi per comprendere i modelli di utilizzo e migliorare i nostri servizi.
 
-**Delivering Our Services**
+Ci impegniamo a raccogliere solo le informazioni strettamente necessarie, proteggendole con misure di sicurezza rigorose.
 
-- Service Fulfilment: We use your data to provide IT solutions, process orders, manage agreements, and deliver the services you have requested.
-- Operational Support: Your information is essential to maintaining and supporting our IT infrastructure, ensuring it meets performance standards.
+## **Come Utilizziamo i Dati degli Utenti**
 
-**Enhancing Service Quality**
+In Nexoria, utilizziamo i dati degli utenti per offrire servizi IT di alta qualità e garantire un'esperienza fluida ai nostri clienti. Di seguito una panoramica su come impieghiamo i vostri dati:
 
-- Service Improvement: By analysing feedback and usage patterns, we can identify areas for improvement and refine our offerings.
-Personalised Experience: We tailor recommendations and optimise our services based on the data collected to align with your specific business needs.
+### **Fornitura dei Nostri Servizi**
 
-**Communication and Assistance**
+- **Erogazione del Servizio:** Utilizziamo i vostri dati per fornire soluzioni IT, elaborare ordini, gestire accordi e consegnare i servizi richiesti.
+- **Supporto Operativo:** Le vostre informazioni sono fondamentali per mantenere e supportare la nostra infrastruttura IT, assicurando che rispetti gli standard di prestazione.
 
-- Client Support: Your contact details allow us to provide timely customer support, address inquiries, and offer technical assistance when necessary.
-- Updates and Notifications: We may send you essential updates regarding service changes, new features, or any developments that could benefit your business.
+### **Miglioramento della Qualità del Servizio**
 
-**Security and Compliance**
+- **Ottimizzazione del Servizio:** Analizzando i feedback e i modelli di utilizzo, possiamo identificare aree di miglioramento e perfezionare le nostre offerte.
+- **Esperienza Personalizzata:** Adattiamo raccomandazioni e ottimizziamo i servizi in base ai dati raccolti, per rispondere alle esigenze specifiche della vostra azienda.
 
-- Security Measures: We use your data to monitor the security of our systems, detect unauthorised access, and prevent potential threats.
-- Regulatory Compliance: We may utilise your data to ensure compliance with industry standards and regulations and respond to legal inquiries.
+### **Comunicazione e Assistenza**
 
-**Research and Development**
-- Analytics and Research: We analyse anonymized and aggregated data to gain insights into usage trends and improve our services through data-driven decisions.
+- **Supporto Clienti:** I vostri dati di contatto ci permettono di offrire un supporto clienti tempestivo, rispondere a richieste e fornire assistenza tecnica quando necessario.
+- **Aggiornamenti e Notifiche:** Possiamo inviarvi aggiornamenti importanti relativi a modifiche nei servizi, nuove funzionalità o sviluppi che possano avvantaggiare la vostra attività.
 
-**Data Retention**
+### **Sicurezza e Conformità**
 
-At Nexoria, we are committed to handling your data responsibly in compliance with applicable data protection laws. Our data retention practices are designed to keep your information only for as long as necessary to fulfil its intended purpose. Below is an overview of how we manage data retention:
+- **Misure di Sicurezza:** Utilizziamo i vostri dati per monitorare la sicurezza dei nostri sistemi, rilevare accessi non autorizzati e prevenire potenziali minacce.
+- **Conformità Normativa:** I vostri dati possono essere utilizzati per garantire l’aderenza agli standard del settore e alle normative, nonché per rispondere a richieste legali.
 
-**Retention Time**
+### **Ricerca e Sviluppo**
 
-- Service Provision: We retain personal data for the time necessary to deliver and support your requested IT services. This includes maintaining service agreements, processing transactions, and resolving service-related issues.
-- Legal and Compliance Requirements: In some cases, we may need to retain data for an extended period to comply with legal, regulatory, and contractual obligations. This ensures that we meet our legal responsibilities and maintain adherence to industry standards.
+- **Analisi e Ricerca:** Analizziamo dati anonimizzati e aggregati per comprendere le tendenze di utilizzo e migliorare i nostri servizi attraverso decisioni basate sui dati.
 
-**Data Deletion and Anonymization**
+## **Conservazione dei Dati**
 
-- End of Service: When using our services ends, we take steps to delete or anonymize your data securely. This minimises potential risks associated with prolonged data retention and ensures the protection of your privacy.
-- Anonymization: In certain situations, we may anonymize data instead of deleting it. Anonymized data cannot be traced back to individual users and may be used for analytics and improving our services.
+In Nexoria ci impegniamo a gestire i vostri dati in modo responsabile, in conformità con le leggi vigenti sulla protezione dei dati. Le nostre pratiche di conservazione dei dati sono progettate per mantenere le informazioni solo per il tempo necessario a raggiungere lo scopo previsto. Di seguito una panoramica su come gestiamo la conservazione dei dati:
 
-**Data Review**
+### **Durata della Conservazione**
 
-- Periodic Review: We regularly review the data we hold to ensure it is still relevant and necessary for its intended purpose. Any data no longer required or exceeded its retention period is securely deleted or anonymized.
-- Data Minimization: In accordance with the principle of data minimization, we retain only information necessary to achieve specific goals and discard data that is no longer required.
+- **Fornitura dei Servizi:** Conserviamo i dati personali per il tempo necessario a fornire e supportare i servizi IT richiesti. Questo include la gestione dei contratti di servizio, l'elaborazione delle transazioni e la risoluzione di eventuali problemi correlati.
+- **Obblighi Legali e Normativi:** In alcuni casi, potremmo dover conservare i dati per un periodo prolungato per adempiere a obblighi legali, regolamentari o contrattuali. Questo garantisce che rispettiamo le responsabilità legali e gli standard del settore.
 
-**Secure Disposal**
+### **Cancellazione e Anonimizzazione dei Dati**
 
-- Deletion Procedures: When it’s time to delete data, we use secure methods to ensure complete and irreversible removal from our systems. We follow industry best practices for data destruction to prevent unauthorised access or recovery.
-- Ongoing Security: Throughout the data retention period and deletion process, we implement robust security measures to protect your data from unauthorised access and potential breaches.
+- **Fine del Servizio:** Quando l’utilizzo dei nostri servizi termina, adottiamo misure per cancellare o anonimizzare in modo sicuro i vostri dati. Questo riduce i rischi legati alla conservazione prolungata e tutela la vostra privacy.
+- **Anonimizzazione:** In determinate situazioni, potremmo anonimizzare i dati invece di eliminarli. I dati anonimizzati non possono essere ricondotti a singoli utenti e possono essere utilizzati per analisi e miglioramento dei servizi.
 
-## Data Protection Practices
+### **Revisione dei Dati**
 
-At Nexoria, protecting your data is our top priority. We implement comprehensive security measures and protocols to safeguard your information against unauthorised access, breaches, and misuse. Below is an outline of the robust strategies we employ to ensure the security of your data:
+- **Revisione Periodica:** Verifichiamo regolarmente i dati in nostro possesso per assicurarci che siano ancora pertinenti e necessari allo scopo previsto. I dati non più richiesti o oltre il periodo di conservazione vengono eliminati o anonimizzati in modo sicuro.
+- **Minimizzazione dei Dati:** In conformità con il principio di minimizzazione dei dati, conserviamo solo le informazioni strettamente necessarie per raggiungere specifici obiettivi, eliminando ciò che non è più utile.
 
-**Security Protocols**
+### **Smaltimento Sicuro**
 
-- Encryption: We use cutting-edge encryption technologies to secure data in transit and at rest. This ensures that your information is protected, whether transmitted online or stored within our systems.
-- Firewalls and Intrusion Detection: Our network is secured with advanced firewalls and intrusion detection systems to monitor and prevent unauthorised access. These systems are crucial in defending against cyber threats and ensuring the integrity of your data.
+- **Procedure di Cancellazione:** Quando è il momento di eliminare i dati, utilizziamo metodi sicuri per garantirne la rimozione completa e irreversibile dai nostri sistemi. Seguiamo le migliori pratiche del settore per prevenire accessi non autorizzati o tentativi di recupero.
+- **Sicurezza Continuativa:** Durante tutto il periodo di conservazione e cancellazione, adottiamo solide misure di sicurezza per proteggere i vostri dati da accessi non autorizzati e potenziali violazioni.
 
-**Access Controls**
+## **Pratiche di Protezione dei Dati**
 
-- Role-Based Access: We apply role-based access controls to restrict only data access to authorised personnel. Team members and partners have access only to the data required for their specific roles, reducing the likelihood of unauthorised exposure.
-- Authentication: Strong authentication practices, including multi-factor authentication (MFA), are in place to verify the identity of anyone accessing our systems. This added layer of protection helps prevent unauthorised access.
+In Nexoria, la protezione dei vostri dati è la nostra massima priorità. Adottiamo misure di sicurezza e protocolli completi per salvaguardare le vostre informazioni da accessi non autorizzati, violazioni e usi impropri. Di seguito una panoramica delle strategie solide che impieghiamo per garantire la sicurezza dei vostri dati:
 
-**Data Handling Procedures**
-- Data Minimization: We collect only the data necessary for specific purposes and limit access accordingly. Minimising data collection reduces the risk of unnecessary or excessive data exposure.
-- Secure Storage: Our storage systems comply with stringent security standards, including robust physical security for data centres and secure digital storage protocols, ensuring your data remains safe.
+### **Protocolli di Sicurezza**
 
-**Regular Security Audits**
+- **Crittografia:** Utilizziamo tecnologie di crittografia all’avanguardia per proteggere i dati sia in transito che a riposo. Questo garantisce la sicurezza delle informazioni sia durante la trasmissione online sia quando sono archiviate nei nostri sistemi.
+- **Firewall e Rilevamento delle Intrusioni:** La nostra rete è protetta da firewall avanzati e sistemi di rilevamento delle intrusioni per monitorare e prevenire accessi non autorizzati. Questi strumenti sono fondamentali per contrastare le minacce informatiche e preservare l’integrità dei dati.
 
-- Vulnerability Assessments: We perform regular security audits and vulnerability assessments to detect and resolve potential system weaknesses. These assessments enable us to stay ahead of emerging threats and continuously fortify our defences.
-- Compliance Checks: We regularly review data protection strategies to ensure compliance with relevant regulations and industry standards. This ensures our security measures remain up-to-date and legally compliant.
+### **Controlli di Accesso**
 
-**Incident Response**
+- **Accesso Basato sui Ruoli:** Applichiamo controlli di accesso basati sui ruoli per limitare l’accesso ai dati solo al personale autorizzato. I membri del team e i partner accedono solo alle informazioni necessarie per le loro funzioni specifiche, riducendo il rischio di esposizioni non autorizzate.
+- **Autenticazione:** Impieghiamo solidi metodi di autenticazione, inclusa l’autenticazione a più fattori (MFA), per verificare l’identità di chi accede ai nostri sistemi. Questo ulteriore livello di protezione aiuta a prevenire accessi non autorizzati.
 
-- Incident Management: In the event of a data breach or security incident, we have predefined incident response protocols designed to mitigate the impact swiftly. This includes notifying affected parties and taking corrective actions to prevent future occurrences.
-- Continuous Improvement: We continually update and improve our data protection measures based on lessons learned from incidents and evolving security challenges. This proactive stance helps us maintain a high level of security.
+### **Procedure di Gestione dei Dati**
 
-**Employee Training**
-- Awareness Programs: We provide ongoing training and awareness initiatives to educate employees on data protection and cybersecurity best practices. Ensuring staff are informed about their responsibilities is key to protecting customer data.
+- **Minimizzazione dei Dati:** Raccogliamo solo i dati necessari per scopi specifici e limitiamo l’accesso di conseguenza. Ridurre la raccolta di dati diminuisce il rischio di esposizione eccessiva o non necessaria.
+- **Archiviazione Sicura:** I nostri sistemi di archiviazione rispettano rigorosi standard di sicurezza, compresi solidi controlli fisici nei data center e protocolli digitali sicuri, per garantire la protezione dei vostri dati.
 
-**Third-Party Security**
+### **Audit di Sicurezza Regolari**
 
-- Vendor Management: We carefully vet and monitor all third-party service providers that handle data on our behalf. These vendors must adhere to our data protection standards and sign confidentiality agreements to secure your data. 
+- **Valutazioni delle Vulnerabilità:** Conduciamo audit di sicurezza e valutazioni delle vulnerabilità per identificare e risolvere potenziali debolezze nei sistemi. Queste attività ci permettono di anticipare le minacce emergenti e rafforzare continuamente le nostre difese.
+- **Verifiche di Conformità:** Rivediamo regolarmente le nostre strategie di protezione dei dati per assicurarci che siano conformi alle normative vigenti e agli standard di settore. Questo garantisce che le nostre misure siano sempre aggiornate e legalmente valide.
 
-**Secure Data Transmission**
+### **Gestione degli Incidenti**
 
-- Secure Communication Channels: All data transmitted over the internet is protected using secure communication protocols such as HTTPS. This encryption safeguards sensitive information during online interactions. 
+- **Gestione degli Incidenti:** In caso di violazione dei dati o incidente di sicurezza, abbiamo protocolli di risposta predefiniti per ridurre rapidamente l’impatto. Ciò include la notifica alle parti interessate e l’adozione di misure correttive per prevenire futuri eventi simili.
+- **Miglioramento Continuo:** Miglioriamo e aggiorniamo costantemente le nostre misure di protezione dei dati in base alle lezioni apprese dagli incidenti e all’evoluzione delle minacce. Questo approccio proattivo ci consente di mantenere un elevato livello di sicurezza.
 
-## User Rights
+### **Formazione del Personale**
 
-At Nexoria, we are dedicated to respecting and safeguarding your rights concerning your data. In compliance with applicable data protection laws, we offer the following rights to our users:
+**Programmi di Sensibilizzazione:** Offriamo formazione continua e iniziative di sensibilizzazione per educare i dipendenti sulle migliori pratiche in materia di protezione dei dati e sicurezza informatica. È fondamentale che il personale conosca le proprie responsabilità per garantire la protezione dei dati dei clienti.
 
-**Right to Access**
+### **Sicurezza dei Fornitori Terzi**
 
-- Request Information: You have the right to request access to the personal data we hold about you. This includes details about the data we collect, how it is used, and with whom it is shared.
-- Obtain a Copy: You can request a copy of your data in a structured, commonly used, and machine-readable format, enabling you to review and verify the information we have.
+**Gestione dei Fornitori:** Valutiamo e monitoriamo attentamente tutti i fornitori di servizi terzi che trattano dati per nostro conto. Tali fornitori devono rispettare i nostri standard di protezione dei dati e firmare accordi di riservatezza per tutelare le vostre informazioni.
 
-**Right to Rectification**
+### **Trasmissione Sicura dei Dati**
 
-- Correct Inaccuracies: If any personal data we hold about you is inaccurate or incomplete, you can request its correction or update.
-Timely Updates: We will promptly correct any inaccurate data to ensure your information remains up-to-date and accurate.
+**Canali di Comunicazione Sicuri:** Tutti i dati trasmessi tramite Internet sono protetti da protocolli di comunicazione sicuri come HTTPS. Questa crittografia protegge le informazioni sensibili durante le interazioni online.
 
-**Right to Erasure**
+## **Diritti degli Utenti**
 
-- Request Deletion: You have the right to request the deletion of your data under certain conditions, such as when the data is no longer necessary for the purpose it was collected or if you withdraw your consent.
-- Limitations: We may need to retain specific data due to legal or contractual obligations, even if you request deletion.
+In Nexoria ci impegniamo a rispettare e tutelare i vostri diritti relativi ai dati personali. In conformità con le normative vigenti in materia di protezione dei dati, offriamo agli utenti i seguenti diritti:
 
-**Right to Restrict Processing**
-- Limit Use: You have the right to request the restriction of the processing of your personal data in certain situations. We will continue to store your data but cease processing it unless legally required to do so.
-- Processing Restrictions: This right applies if you contest the accuracy of your data, if processing is unlawful, or if you object to processing based on legitimate interests.
+### **Diritto di Accesso**
 
-**Right to Data Portability**
-- Transfer Data: You can request that your personal data be transferred to another organisation or to you directly in a structured, commonly used, and machine-readable format.
-- Ease of Transfer: This right allows you to move, copy, or transfer your data, giving you greater control over your personal information.
+- **Richiesta di Informazioni:** Avete il diritto di richiedere l’accesso ai dati personali che conserviamo su di voi. Questo include dettagli sui dati raccolti, il loro utilizzo e con chi vengono condivisi.
+- **Ottenere una Copia:** Potete richiedere una copia dei vostri dati in un formato strutturato, di uso comune e leggibile da dispositivo automatico, per poterli esaminare e verificare.
 
-**Right to Object**
-- Object to Processing: You have the right to object to processing your personal data for reasons based on legitimate interests or for direct marketing purposes.
-- Review and Response: We will review your objection and assess whether we have legitimate grounds to continue processing your data or whether we need to stop processing.
+### **Diritto di Rettifica**
 
-**Right to Withdraw Consent**
-- Revoke Consent: If we process your data based on your consent, you can withdraw that consent at any time. This will not affect the legality of data processing conducted before the withdrawal.
-- Ease of Withdrawal: You can withdraw your consent by contacting us using the methods outlined in our Privacy Policy.
+- **Correzione di Errori:** Se i dati personali in nostro possesso sono inesatti o incompleti, potete richiederne la correzione o l’aggiornamento.
+- **Aggiornamenti Tempestivi:** Provvederemo a correggere rapidamente eventuali inesattezze per mantenere le vostre informazioni aggiornate e corrette.
 
-**Right to Lodge a Complaint**
-- Regulatory Authority: If you believe we are not handling your data in compliance with data protection laws, you can file a complaint with the relevant data protection authority.
-- Contact Information: The relevant authority's official website has information, or you can contact us for assistance.
+### **Diritto alla Cancellazione (Diritto all’Oblio)**
 
-## Exercising Your Rights
+- **Richiesta di Eliminazione:** Avete il diritto di richiedere la cancellazione dei vostri dati in determinate circostanze, ad esempio se i dati non sono più necessari per le finalità per cui sono stati raccolti o se revocate il vostro consenso.
+- **Limitazioni:** Potremmo essere tenuti a conservare alcuni dati per obblighi legali o contrattuali, anche in caso di richiesta di cancellazione.
 
-To exercise these rights, please contact us at info@nexoria.ai. We will respond to your request promptly and in compliance with applicable data protection laws. To ensure a timely response, please provide sufficient information to verify your identity and specify the nature of your request.
-Nexoria is committed to upholding your data rights and ensuring that you have full control over your personal information.
-Updates to This Policy
-At Nexoria, we are committed to ensuring the accuracy and relevance of our Privacy Policy. We regularly review and update this policy to reflect our current practices, legal obligations, and any changes in data protection laws.
+### **Diritto alla Limitazione del Trattamento**
 
-**Regular Reviews**
+- **Limitazione d'Uso:** Avete il diritto di richiedere la limitazione del trattamento dei vostri dati personali in alcune situazioni. I dati verranno conservati ma non più trattati, salvo obblighi di legge.
+- **Condizioni di Applicazione:** Questo diritto si applica se contestate l’esattezza dei dati, se il trattamento è illecito o se vi opponete al trattamento basato su interessi legittimi.
 
-- Ongoing Updates: We regularly review our Privacy Policy to ensure it aligns with evolving data protection regulations, technological advancements, and business operations.
-- Policy Adjustments: Changes may be implemented to comply with new legal requirements, address technological developments, or enhance our data protection procedures.
+### **Diritto alla Portabilità dei Dati**
 
-**Notification of Changes**
-- Communication: We will notify you by posting the updated policy on our website when significant changes are made. The revised version will indicate the date of the most recent update.
-- User Awareness: We encourage you to periodically review this policy to stay informed about how we protect and manage your personal data.
+- **Trasferimento dei Dati:** Potete richiedere che i vostri dati personali siano trasferiti a un'altra organizzazione o direttamente a voi, in un formato strutturato, di uso comune e leggibile da dispositivo automatico.
+- **Facilità di Trasferimento:** Questo diritto vi consente di spostare, copiare o trasferire i vostri dati e di avere maggiore controllo sulle vostre informazioni personali.
 
-**Your Responsibility**
-- Informed Consent: By continuing to use our website and services after changes to the Privacy Policy, you acknowledge and accept the updated terms.
-- Review Practice: We recommend that you regularly check this policy to ensure you are aware of any modifications and understand how they may impact your data.
+### **Diritto di Opposizione**
 
-Nexoria remains committed to safeguarding your privacy and ensuring transparency in how we handle your personal information.
+- **Opposizione al Trattamento:** Avete il diritto di opporvi al trattamento dei vostri dati personali per motivi legati a interessi legittimi o per finalità di marketing diretto.
+- **Valutazione e Risposta:** Esamineremo la vostra opposizione e valuteremo se sussistano motivi legittimi per continuare il trattamento o se debba essere interrotto.
 
-## Contact Information
+### **Diritto di Revocare il Consenso**
 
-For any inquiries regarding this Privacy Policy or to request permission to use any content, please contact us:
+- **Revoca del Consenso:** Se trattiamo i vostri dati in base al consenso, potete revocarlo in qualsiasi momento. La revoca non pregiudica la liceità del trattamento effettuato prima della stessa.
+- **Modalità di Revoca:** Potete revocare il vostro consenso contattandoci tramite i canali indicati nella nostra Informativa sulla Privacy.
 
-- Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
-- Website: https://nexoria.ai 
+### **Diritto di Presentare Reclamo**
+
+- **Autorità di Controllo:** Se ritenete che i vostri dati siano trattati in modo non conforme alle leggi sulla protezione dei dati, potete presentare un reclamo all’autorità competente.
+- **Informazioni di Contatto:** I riferimenti sono disponibili sul sito ufficiale dell’autorità, oppure potete contattare direttamente noi per assistenza.
+
+## **Esercizio dei Vostri Diritti**
+
+Per esercitare tali diritti, vi preghiamo di contattarci all’indirizzo info@nexoria.ai. Risponderemo alla vostra richiesta tempestivamente e in conformità con le leggi applicabili in materia di protezione dei dati. Per garantire una risposta rapida, fornite informazioni sufficienti per verificare la vostra identità e specificate la natura della richiesta.
+
+Nexoria si impegna a rispettare i vostri diritti in materia di dati e a garantirvi il pieno controllo sulle vostre informazioni personali.
+
+## **Aggiornamenti alla Presente Informativa**
+
+In Nexoria ci impegniamo ad assicurare l’accuratezza e la pertinenza della nostra Informativa sulla Privacy. Rivediamo e aggiorniamo regolarmente questa politica per riflettere le nostre pratiche attuali, gli obblighi legali e le eventuali modifiche delle normative sulla protezione dei dati.
+
+### **Revisioni Regolari**
+
+- **Aggiornamenti Continuativi:** Rivediamo regolarmente la nostra Informativa sulla Privacy per assicurarci che sia allineata all’evoluzione delle normative sulla protezione dei dati, ai progressi tecnologici e alle attività operative.
+- **Adeguamenti della Politica:** Possono essere apportate modifiche per conformarsi a nuovi requisiti legali, affrontare sviluppi tecnologici o migliorare le nostre procedure di protezione dei dati.
+
+### **Notifica delle Modifiche**
+
+- **Comunicazione:** Vi informeremo pubblicando la versione aggiornata della politica sul nostro sito web in caso di modifiche significative. La versione aggiornata indicherà la data dell’ultima revisione.
+- **Consapevolezza dell’Utente:** Vi invitiamo a consultare periodicamente questa politica per rimanere informati su come proteggiamo e gestiamo i vostri dati personali.
+
+### **La Vostra Responsabilità**
+
+- **Consenso Informato:** Continuando a utilizzare il nostro sito web e i nostri servizi dopo le modifiche all’Informativa sulla Privacy, riconoscete e accettate i termini aggiornati.
+- **Controllo Periodico:** Vi raccomandiamo di consultare regolarmente questa politica per essere consapevoli di eventuali modifiche e comprendere come possano influenzare i vostri dati.
+
+Nexoria resta fermamente impegnata a tutelare la vostra privacy e a garantire trasparenza nel trattamento delle vostre informazioni personali.
+
+## **Informazioni di Contatto**
+
+Per qualsiasi richiesta relativa alla presente Informativa sulla Privacy o per richiedere il permesso di utilizzare qualsiasi contenuto, vi preghiamo di contattarci:
+
+- Email: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Telefono:
+- Sito web: [https://nexoria.ai](https://nexoria.ai)
