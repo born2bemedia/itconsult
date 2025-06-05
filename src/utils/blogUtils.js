@@ -7,7 +7,7 @@ export async function getPost(slug, locale) {
   let fileSlug = slug;
 
   const text = await readFile(
-    join(process.cwd(), `src/md/newsroom-${locale}`, `${fileSlug}.md`),
+    join(process.cwd(), `src/lib/newsroom-${locale}`, `${fileSlug}.md`),
     "utf8"
   );
   const {
@@ -19,7 +19,7 @@ export async function getPost(slug, locale) {
 }
 
 export async function getSlugs(locale) {
-  const files = await readdir(join(process.cwd(), `src/md/newsroom-${locale}`));
+  const files = await readdir(join(process.cwd(), `src/lib/newsroom-${locale}`));
   return files
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.slice(0, -".md".length));
@@ -29,7 +29,7 @@ export async function getPage(slug, locale) {
   let fileSlug = slug;
 
   const text = await readFile(
-    join(process.cwd(), `src/md/policies-${locale}`, `${fileSlug}.md`),
+    join(process.cwd(), `src/lib/policies-${locale}`, `${fileSlug}.md`),
     "utf8"
   );
   const {
@@ -41,7 +41,7 @@ export async function getPage(slug, locale) {
 }
 
 export async function getPageSlugs(locale) {
-  const files = await readdir(join(process.cwd(), `src/md/policies-${locale}`));
+  const files = await readdir(join(process.cwd(), `src/lib/policies-${locale}`));
   return files
     .filter((file) => file.endsWith(".md"))
     .map((file) => file.slice(0, -".md".length));
