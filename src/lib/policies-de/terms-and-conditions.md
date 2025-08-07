@@ -2,7 +2,7 @@
 title: "Allgemeine Geschäftsbedingungen"
 ---
 
-Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für Ihre Nutzung der von Nexoria betriebenen Website, die von Acceptance Solutions Group LLC verwaltet wird, mit eingetragener Adresse: Hamilton Development, Unit B, Charlestown, Nevis, Westindische Inseln und operativer Adresse: \[Betriebsadresse\], erreichbar unter [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Durch die Nutzung dieser Website erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die Website bitte nicht.
+Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für Ihre Nutzung der von Nexoria betriebenen Website, d erreichbar unter [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Durch die Nutzung dieser Website erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die Website bitte nicht.
 
 Sofern Sie diese Bedingungen einhalten, gewährt Ihnen Nexoria ein persönliches, nicht exklusives, nicht übertragbares und eingeschränktes Recht auf Zugriff und Nutzung der Website. Nexoria behält sich das Recht vor, nach eigenem Ermessen jederzeit Teile dieser Bedingungen zu ändern, anzupassen, zu ergänzen oder zu entfernen. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig auf Aktualisierungen zu überprüfen. Ihre fortgesetzte Nutzung der Website nach Änderungen gilt als Zustimmung zu den aktualisierten Bedingungen.
 
@@ -137,7 +137,7 @@ Mit der Nutzung dieser Website erklären Sie sich einverstanden, Innosphere, sei
 
 ## **Anwendbares Recht**
 
-Für diese Bedingungen gilt das Recht von Nevis, Westindische Inseln. Im Falle eines Rechtsstreits finden ausschließlich die Gesetze von Nevis, Westindische Inseln Anwendung, ungeachtet kollidierender Rechtsvorschriften.
+Die Gesetze von LAND gelten für diese Bedingungen. Im Falle eines Rechtsstreits finden die Gesetze von LAND Anwendung, ohne Rücksicht auf kollisionsrechtliche Grundsätze.
 
 ## **Kontaktinformationen**
 

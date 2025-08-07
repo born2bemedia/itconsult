@@ -29,10 +29,7 @@ const Footer = () => {
               <Link href="/contacts" className="footer__contact-link">{t("contact", {}, "Contact Us")}</Link>
               <ul className="footer__contacts">
                 <li className="footer__contact">
-                  <Link href="tel:+48573587868">
-                    <span>{t("phone", {}, "Phone:")}</span>
-                    +48573587868
-                  </Link>
+                  
                 </li>
                 <li className="footer__contact">
                   <Link href="matilto:info@nexoria.ai">
@@ -41,8 +38,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer__address">
-                  <span>{t("registered", {}, "Registered address:")}</span> <br />
-                  Hamilton Development, Unit B, Charlestown, Nevis, West Indies
+                  
                 </li>
               </ul>
             </div>

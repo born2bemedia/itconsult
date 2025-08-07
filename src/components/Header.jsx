@@ -49,10 +49,6 @@ const Header = () => {
             <div className="header__col-02">
               <div className="header__contacts">
                 <LangChanger />
-                <Link href="tel:+48573587868" className="header__link">
-                  <Phone />
-                  +48573587868
-                </Link>
                 <Link href="mailto:info@nexoria.ai" className="header__link">
                   <Email />
                   info@nexoria.ai
@@ -146,12 +142,6 @@ const Header = () => {
               </ul>
 
               <ul className="header__contacts-menu">
-                <li className="header__contacts-item">
-                  <Link href="tel:+48573587868">
-                    <Phone />
-                    +48573587868
-                  </Link>
-                </li>
                 <li className="header__contacts-item">
                   <Link href="mailto:info@nexoria.ai">
                     <Email />

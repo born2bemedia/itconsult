@@ -10,11 +10,11 @@ Durch die Nutzung unserer Website und Dienstleistungen erkennen Sie unsere in di
 
 ## **Unternehmensinformationen**
 
-Nexoria wird von Acceptance Solutions Group LLC betrieben und ist für die Verarbeitung Ihrer Daten verantwortlich. Sie erreichen uns unter folgenden Kontaktdaten:
+Nexoria betrieben und ist für die Verarbeitung Ihrer Daten verantwortlich. Sie erreichen uns unter folgenden Kontaktdaten:
 
-- **Unternehmensname:** Acceptance Solutions Group LLC
-- **Registrierter Firmensitz:** Hamilton Development, Unit B, Charlestown, Nevis, Westindische Inseln
-- **Handelsregisternummer:** LLC23233
+- **Unternehmensname:** 
+- **Registrierter Firmensitz:** 
+- **Handelsregisternummer:** 
 - **Kontakt-E-Mail:** [info@nexoria.ai](mailto:info@nexoria.ai)
 
 ### **Datenverwendung**

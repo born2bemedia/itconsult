@@ -2,7 +2,7 @@
 title: "Termini e Condizioni"
 ---
 
-I presenti Termini e Condizioni ("Termini") si applicano all'utilizzo del sito web di proprietà di Nexoria, gestito da Acceptance Solutions Group LLC, con sede legale presso Hamilton Development, Unit B, Charlestown, Nevis, Indie Occidentali, e sede operativa presso \[Indirizzo Operativo\], accessibile all’indirizzo [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Utilizzando questo sito web, l’utente accetta i presenti Termini. Se non si accettano tali Termini, si prega di non utilizzare il sito.
+I presenti Termini e Condizioni ("Termini") si applicano all'utilizzo del sito web di proprietà di Nexoria, accessibile all’indirizzo [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Utilizzando questo sito web, l’utente accetta i presenti Termini. Se non si accettano tali Termini, si prega di non utilizzare il sito.
 
 Nel rispetto dei presenti Termini, Nexoria concede all’utente un diritto personale, non esclusivo, non trasferibile e limitato di accesso e utilizzo del sito web. Nexoria si riserva il diritto, a sua esclusiva discrezione, di modificare, aggiornare, aggiungere o rimuovere in qualsiasi momento parti dei presenti Termini. È responsabilità dell’utente controllare periodicamente tali Termini per verificarne eventuali aggiornamenti. L’utilizzo continuato del sito web dopo eventuali modifiche comporta l’accettazione dei Termini aggiornati.
 

@@ -10,10 +10,10 @@ You acknowledge and agree to our data handling practices as described by engagin
 
 ## Company Information
 
-Nexoria, operated by Acceptance Solutions Group LLC, is responsible for managing your data. You can reach us using the following details:
-- Company Name: Acceptance Solutions Group LLC
-- Registered Office:Hamilton Development, Unit B, Charlestown, Nevis, West Indies
-- Registration Number: LLC23233
+Nexoria, is responsible for managing your data. You can reach us using the following details:
+- Company Name: 
+- Registered Office:
+- Registration Number: 
 - Contact Email: info@nexoria.ai 
 
 ## Data Utilisation
@@ -199,5 +199,4 @@ Nexoria remains committed to safeguarding your privacy and ensuring transparency
 For any inquiries regarding this Privacy Policy or to request permission to use any content, please contact us:
 
 - Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
 - Website: https://nexoria.ai 
