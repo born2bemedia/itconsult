@@ -3,7 +3,7 @@ title: "Terms and Conditions"
 ---
 
 
-These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, operated by Acceptance Solutions Group LLC, with a registered address at Hamilton Development, Unit B, Charlestown, Nevis, West Indies and an operational address at [Operational Address], accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
+These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
 
 If you comply with these Terms, Nexoria grants you a personal, non-exclusive, non-transferable, and limited right to access and use the website. Nexoria reserves the right, at its sole discretion, to change, modify, add, or remove parts of these Terms at any time. It is your responsibility to review these Terms for updates periodically. Continued website use following any changes constitutes your acceptance of the updated Terms.
 

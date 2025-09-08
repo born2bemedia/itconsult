@@ -2,7 +2,6 @@
 title: "Privacy policy"
 ---
 
-
 ## Welcome to Nexoria!
 
 Protecting your business information is one of our top priorities. This Privacy Policy outlines how we manage the data we collect through our website and services, ensuring your data is secure and handled by data protection laws.
@@ -10,11 +9,7 @@ You acknowledge and agree to our data handling practices as described by engagin
 
 ## Company Information
 
-Nexoria, is responsible for managing your data. You can reach us using the following details:
-- Company Name: 
-- Registered Office:
-- Registration Number: 
-- Contact Email: info@nexoria.ai 
+Nexoria, is responsible for managing your data.
 
 ## Data Utilisation
 
@@ -41,7 +36,7 @@ We collect and use your data to deliver, improve, and customise our services. He
 - Forms: Information provided by you directly through forms or requests.
 - Cookies: Data collected automatically through cookies when you interact with our website.
 - Analytical Tools: Data gathered through analytics to understand usage patterns and enhance our services.
-We are committed to collecting and protecting only what is necessary with rigorous security measures.
+  We are committed to collecting and protecting only what is necessary with rigorous security measures.
 
 ## How We Use User Data
 
@@ -55,7 +50,7 @@ At Nexoria, we utilise user data to deliver superior IT services and ensure a se
 **Enhancing Service Quality**
 
 - Service Improvement: By analysing feedback and usage patterns, we can identify areas for improvement and refine our offerings.
-Personalised Experience: We tailor recommendations and optimise our services based on the data collected to align with your specific business needs.
+  Personalised Experience: We tailor recommendations and optimise our services based on the data collected to align with your specific business needs.
 
 **Communication and Assistance**
 
@@ -68,6 +63,7 @@ Personalised Experience: We tailor recommendations and optimise our services bas
 - Regulatory Compliance: We may utilise your data to ensure compliance with industry standards and regulations and respond to legal inquiries.
 
 **Research and Development**
+
 - Analytics and Research: We analyse anonymized and aggregated data to gain insights into usage trends and improve our services through data-driven decisions.
 
 **Data Retention**
@@ -109,6 +105,7 @@ At Nexoria, protecting your data is our top priority. We implement comprehensive
 - Authentication: Strong authentication practices, including multi-factor authentication (MFA), are in place to verify the identity of anyone accessing our systems. This added layer of protection helps prevent unauthorised access.
 
 **Data Handling Procedures**
+
 - Data Minimization: We collect only the data necessary for specific purposes and limit access accordingly. Minimising data collection reduces the risk of unnecessary or excessive data exposure.
 - Secure Storage: Our storage systems comply with stringent security standards, including robust physical security for data centres and secure digital storage protocols, ensuring your data remains safe.
 
@@ -123,15 +120,16 @@ At Nexoria, protecting your data is our top priority. We implement comprehensive
 - Continuous Improvement: We continually update and improve our data protection measures based on lessons learned from incidents and evolving security challenges. This proactive stance helps us maintain a high level of security.
 
 **Employee Training**
+
 - Awareness Programs: We provide ongoing training and awareness initiatives to educate employees on data protection and cybersecurity best practices. Ensuring staff are informed about their responsibilities is key to protecting customer data.
 
 **Third-Party Security**
 
-- Vendor Management: We carefully vet and monitor all third-party service providers that handle data on our behalf. These vendors must adhere to our data protection standards and sign confidentiality agreements to secure your data. 
+- Vendor Management: We carefully vet and monitor all third-party service providers that handle data on our behalf. These vendors must adhere to our data protection standards and sign confidentiality agreements to secure your data.
 
 **Secure Data Transmission**
 
-- Secure Communication Channels: All data transmitted over the internet is protected using secure communication protocols such as HTTPS. This encryption safeguards sensitive information during online interactions. 
+- Secure Communication Channels: All data transmitted over the internet is protected using secure communication protocols such as HTTPS. This encryption safeguards sensitive information during online interactions.
 
 ## User Rights
 
@@ -145,7 +143,7 @@ At Nexoria, we are dedicated to respecting and safeguarding your rights concerni
 **Right to Rectification**
 
 - Correct Inaccuracies: If any personal data we hold about you is inaccurate or incomplete, you can request its correction or update.
-Timely Updates: We will promptly correct any inaccurate data to ensure your information remains up-to-date and accurate.
+  Timely Updates: We will promptly correct any inaccurate data to ensure your information remains up-to-date and accurate.
 
 **Right to Erasure**
 
@@ -153,22 +151,27 @@ Timely Updates: We will promptly correct any inaccurate data to ensure your info
 - Limitations: We may need to retain specific data due to legal or contractual obligations, even if you request deletion.
 
 **Right to Restrict Processing**
+
 - Limit Use: You have the right to request the restriction of the processing of your personal data in certain situations. We will continue to store your data but cease processing it unless legally required to do so.
 - Processing Restrictions: This right applies if you contest the accuracy of your data, if processing is unlawful, or if you object to processing based on legitimate interests.
 
 **Right to Data Portability**
+
 - Transfer Data: You can request that your personal data be transferred to another organisation or to you directly in a structured, commonly used, and machine-readable format.
 - Ease of Transfer: This right allows you to move, copy, or transfer your data, giving you greater control over your personal information.
 
 **Right to Object**
+
 - Object to Processing: You have the right to object to processing your personal data for reasons based on legitimate interests or for direct marketing purposes.
 - Review and Response: We will review your objection and assess whether we have legitimate grounds to continue processing your data or whether we need to stop processing.
 
 **Right to Withdraw Consent**
+
 - Revoke Consent: If we process your data based on your consent, you can withdraw that consent at any time. This will not affect the legality of data processing conducted before the withdrawal.
 - Ease of Withdrawal: You can withdraw your consent by contacting us using the methods outlined in our Privacy Policy.
 
 **Right to Lodge a Complaint**
+
 - Regulatory Authority: If you believe we are not handling your data in compliance with data protection laws, you can file a complaint with the relevant data protection authority.
 - Contact Information: The relevant authority's official website has information, or you can contact us for assistance.
 
@@ -185,10 +188,12 @@ At Nexoria, we are committed to ensuring the accuracy and relevance of our Priva
 - Policy Adjustments: Changes may be implemented to comply with new legal requirements, address technological developments, or enhance our data protection procedures.
 
 **Notification of Changes**
+
 - Communication: We will notify you by posting the updated policy on our website when significant changes are made. The revised version will indicate the date of the most recent update.
 - User Awareness: We encourage you to periodically review this policy to stay informed about how we protect and manage your personal data.
 
 **Your Responsibility**
+
 - Informed Consent: By continuing to use our website and services after changes to the Privacy Policy, you acknowledge and accept the updated terms.
 - Review Practice: We recommend that you regularly check this policy to ensure you are aware of any modifications and understand how they may impact your data.
 
@@ -198,5 +203,5 @@ Nexoria remains committed to safeguarding your privacy and ensuring transparency
 
 For any inquiries regarding this Privacy Policy or to request permission to use any content, please contact us:
 
-- Email: info@nexoria.ai 
-- Website: https://nexoria.ai 
+- Email: info@nexoria.ai
+- Website: https://nexoria.ai

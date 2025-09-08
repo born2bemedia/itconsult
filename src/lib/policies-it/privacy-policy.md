@@ -10,12 +10,7 @@ Utilizzando il nostro sito e i nostri servizi, riconoscete e accettate le pratic
 
 ## **Informazioni sull’Azienda**
 
-Nexoria, gestita da Acceptance Solutions Group LLC, è responsabile della gestione dei vostri dati. Potete contattarci tramite i seguenti dettagli:
-
-- **Nome azienda:** Acceptance Solutions Group LLC
-- **Sede legale:** Hamilton Development, Unit B, Charlestown, Nevis, Indie Occidentali
-- **Numero di registrazione:** LLC23233
-- **Email di contatto:** info@nexoria.ai
+Nexoria, gestita da Acceptance Solutions Group LLC, è responsabile della gestione dei vostri dati.
 
 ## **Utilizzo dei Dati**
 
