@@ -10,12 +10,7 @@ Durch die Nutzung unserer Website und Dienstleistungen erkennen Sie unsere in di
 
 ## **Unternehmensinformationen**
 
-Nexoria betrieben und ist für die Verarbeitung Ihrer Daten verantwortlich. Sie erreichen uns unter folgenden Kontaktdaten:
-
-- **Unternehmensname:** 
-- **Registrierter Firmensitz:** 
-- **Handelsregisternummer:** 
-- **Kontakt-E-Mail:** [info@nexoria.ai](mailto:info@nexoria.ai)
+Nexoria betrieben und ist für die Verarbeitung Ihrer Daten verantwortlich.
 
 ### **Datenverwendung**
 
