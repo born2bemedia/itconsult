@@ -1,0 +1,105 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cookiePopup {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  background: var(--1, #FFF);
+  width: 1280px;
+  padding: 32px;
+  display: flex;
+  gap: 24px;
+  z-index: 999;
+
+  .icon {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 1340px) {
+    padding: 40px 20px;
+    bottom: 20px;
+    left: 20px;
+    width: calc(100% - 60px);
+    flex-direction: column;
+  }
+
+  &.visible {
+    display: flex;
+  }
+
+  h2 {
+    background: var(--gradient, linear-gradient(270deg, rgba(14, 14, 14, 0.60) 0%, rgba(14, 14, 14, 0.80) 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 44px */
+    text-transform: capitalize;
+  }
+
+  p {
+    background: var(--gradient, linear-gradient(270deg, rgba(14, 14, 14, 0.60) 0%, rgba(14, 14, 14, 0.80) 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+  }
+
+  .buttons {
+    margin-top: 16px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    @media (max-width: 992px) {
+      gap: 16px;
+    }
+
+    button {
+      cursor: pointer;
+      font-size: 14px;
+      padding: 7px 16px;
+      height: 40px;
+      width: max-content;
+      @media (max-width: 992px) {
+        width: calc(50% - 8px);
+      }
+      &.decline {
+        border-radius: 8px;
+        border: 1px solid rgba(109, 109, 109, 0.30);
+        color: var(--3, #0F0F0F);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      &.accept {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: var(--1, #FFF);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 8px;
+        background: #315149;
+      }
+    }
+  }
+}
