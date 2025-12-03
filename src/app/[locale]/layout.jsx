@@ -12,6 +12,7 @@ import ServicePopup from "@/components/ServicePopup";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { CookiePopup } from "@/components/CookiePopup";
 
 const urbanist = Urbanist({
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default async function RootLayout({ children, params }) {
             <Footer />
             <OrderPopup />
             <ServicePopup />
+            <CookiePopup />
           </PopupsProvider>
         </NextIntlClientProvider>
       </body>
