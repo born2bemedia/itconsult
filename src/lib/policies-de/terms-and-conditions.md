@@ -63,7 +63,7 @@ Für weitere Informationen kontaktieren Sie uns bitte unter [info@nexoria.ai](ma
 Wenn eine Streitigkeit im Zusammenhang mit Ihrer Nutzung der Website oder der von Nexoria bereitgestellten Dienste entsteht, erklären Sie sich mit folgendem Streitbeilegungsverfahren einverstanden:
 
 - **Versuch einer Einigung:** Sie müssen zunächst Nexoria unter info@nexoria.ai kontaktieren, um zu versuchen, die Streitigkeit informell zu lösen. Fügen Sie alle relevanten Details und unterstützenden Unterlagen bei.
-- **Verbindliches Schiedsverfahren:** Kann die Streitigkeit nicht informell beigelegt werden, wird sie durch ein verbindliches Schiedsverfahren gemäß den Vorschriften der für diese Bedingungen geltenden Gerichtsbarkeit (Nevis, Westindische Inseln) entschieden. Das Schiedsverfahren wird vertraulich und in englischer Sprache durchgeführt.
+- **Verbindliches Schiedsverfahren:** Kann die Streitigkeit nicht informell beigelegt werden, wird sie durch ein verbindliches Schiedsverfahren gemäß den Vorschriften der für diese Bedingungen geltenden Gerichtsbarkeit entschieden. Das Schiedsverfahren wird vertraulich und in englischer Sprache durchgeführt.
 - **Gerichtsbarkeit:** Alle Rechtsstreitigkeiten, die sich aus diesen Bedingungen ergeben, unterliegen den Gesetzen des Vereinigten Königreichs, ohne Berücksichtigung der Grundsätze des Kollisionsrechts.
 - **Verjährungsfrist:** Jegliche Ansprüche im Zusammenhang mit diesen Bedingungen müssen innerhalb eines Jahres nach Entstehung des Anspruchs geltend gemacht werden, andernfalls sind sie dauerhaft ausgeschlossen.
 

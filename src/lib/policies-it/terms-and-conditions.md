@@ -64,7 +64,7 @@ Per ulteriori informazioni, ti preghiamo di contattarci all’indirizzo [info@ne
 Se dovesse sorgere una controversia relativa all’utilizzo del sito web o dei servizi forniti da Nexoria, accetti il seguente processo di risoluzione delle controversie:
 
 - **Tentativo di Risoluzione:** Devi prima contattare Nexoria all’indirizzo info@nexoria.ai per cercare di risolvere la controversia in modo informale. Includi tutti i dettagli rilevanti e la documentazione di supporto.
-- **Arbitrato Vincolante:** Se la controversia non può essere risolta informalmente, sarà risolta tramite arbitrato vincolante secondo le regole della giurisdizione che governa i presenti Termini (Nevis, Indie Occidentali). L’arbitrato sarà condotto in modo confidenziale e in lingua inglese.
+- **Arbitrato Vincolante:** Se la controversia non può essere risolta informalmente, sarà risolta tramite arbitrato vincolante secondo le regole della giurisdizione che governa i presenti Termini. L’arbitrato sarà condotto in modo confidenziale e in lingua inglese.
 - **Giurisdizione:** Qualsiasi procedimento legale derivante dai presenti Termini sarà regolato dalle leggi del Regno Unito, indipendentemente dai principi di conflitto di leggi.
 - **Limitazioni sui Reclami:** Qualsiasi reclamo relativo a questi Termini deve essere presentato entro un anno dal momento in cui sorge la causa dell’azione, altrimenti sarà permanentemente escluso.
 
