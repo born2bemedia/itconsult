@@ -2,7 +2,7 @@
 title: "Termini e Condizioni"
 ---
 
-I presenti Termini e Condizioni ("Termini") si applicano all'utilizzo del sito web di proprietà di Nexoria, accessibile all’indirizzo [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Utilizzando questo sito web, l’utente accetta i presenti Termini. Se non si accettano tali Termini, si prega di non utilizzare il sito.
+I presenti Termini e condizioni (“Termini”) si applicano all'utilizzo del sito web di proprietà di Nexoria, gestito da Conseptia Ltd, con sede legale in 2nd Floor College House, 17 King Edwards Road, Ruislip, Londra, Regno Unito, HA4 7AE, accessibile all'indirizzo [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Utilizzando questo sito web, l'utente accetta i presenti Termini. Se l'utente non accetta i presenti Termini, è pregato di non utilizzare il sito web.
 
 Nel rispetto dei presenti Termini, Nexoria concede all’utente un diritto personale, non esclusivo, non trasferibile e limitato di accesso e utilizzo del sito web. Nexoria si riserva il diritto, a sua esclusiva discrezione, di modificare, aggiornare, aggiungere o rimuovere in qualsiasi momento parti dei presenti Termini. È responsabilità dell’utente controllare periodicamente tali Termini per verificarne eventuali aggiornamenti. L’utilizzo continuato del sito web dopo eventuali modifiche comporta l’accettazione dei Termini aggiornati.
 
@@ -65,7 +65,7 @@ Se dovesse sorgere una controversia relativa all’utilizzo del sito web o dei s
 
 - **Tentativo di Risoluzione:** Devi prima contattare Nexoria all’indirizzo info@nexoria.ai per cercare di risolvere la controversia in modo informale. Includi tutti i dettagli rilevanti e la documentazione di supporto.
 - **Arbitrato Vincolante:** Se la controversia non può essere risolta informalmente, sarà risolta tramite arbitrato vincolante secondo le regole della giurisdizione che governa i presenti Termini (Nevis, Indie Occidentali). L’arbitrato sarà condotto in modo confidenziale e in lingua inglese.
-- **Giurisdizione:** Qualsiasi procedimento legale derivante da questi Termini sarà regolato dalle leggi di Nevis, Indie Occidentali, indipendentemente dai principi sul conflitto di leggi.
+- **Giurisdizione:** Qualsiasi procedimento legale derivante dai presenti Termini sarà regolato dalle leggi del Regno Unito, indipendentemente dai principi di conflitto di leggi.
 - **Limitazioni sui Reclami:** Qualsiasi reclamo relativo a questi Termini deve essere presentato entro un anno dal momento in cui sorge la causa dell’azione, altrimenti sarà permanentemente escluso.
 
 ## **Violazione dei Termini**
@@ -140,7 +140,7 @@ Utilizzando questo sito web, accetti di manlevare e tenere indenne Innosphere, i
 
 ## **Legge Applicabile**
 
-I presenti Termini saranno disciplinati dalla legge di Nevis, Indie Occidentali. In caso di controversie, si applicheranno le leggi di Nevis, Indie Occidentali, senza considerazione dei principi di conflitto di leggi.
+Le presenti Condizioni sono regolate dalle leggi del Regno Unito. In caso di controversia, si applicheranno le leggi del Regno Unito, indipendentemente dai principi di conflitto di leggi.
 
 ## **Informazioni di Contatto**
 

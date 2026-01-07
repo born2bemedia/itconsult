@@ -10,7 +10,12 @@ Durch die Nutzung unserer Website und Dienstleistungen erkennen Sie unsere in di
 
 ## **Unternehmensinformationen**
 
-Nexoria betrieben und ist für die Verarbeitung Ihrer Daten verantwortlich.
+Nexoria, betrieben von Conseptia Ltd, ist für die Verwaltung Ihrer Daten verantwortlich. Sie können uns unter folgenden Kontaktdaten erreichen:
+
+- **Firmenname:** Conseptia Ltd
+- **Eingetragener Firmensitz:** 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE
+- **Registrierungsnummer:** 16904847
+- **Kontakt-E-Mail:** info@nexoria.ai 
 
 ### **Datenverwendung**
 

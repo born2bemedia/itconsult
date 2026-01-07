@@ -677,6 +677,8 @@
     "phone": "Phone:",
     "email": "Email:",
     "registered": "Registered address:",
+    "officeaddress": "Office address:",
+    "registerednum": "Registration number:",
     "it-consulting": "IT Consulting",
     "marketing-consulting": "Marketing Consulting",
     "complex-solutions": "Complex Solutions",

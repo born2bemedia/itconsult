@@ -2,7 +2,7 @@
 title: "Cookie policy"
 ---
 
-Nexoria utilizza i cookie e tecnologie di tracciamento simili per migliorare l'esperienza di navigazione, analizzare il traffico del sito e comprendere le preferenze degli utenti. Questa Cookie Policy spiega cosa sono i cookie, come li utilizziamo e le tue opzioni riguardo al loro utilizzo.
+Nexoria, gestito da Conseptia Ltd, con sede legale presso 2nd Floor College House, 17 King Edwards Road, Ruislip, Londra, Regno Unito, HA4 7AE, utilizza cookie e tecnologie di tracciamento simili per migliorare l'esperienza di navigazione, analizzare il traffico del sito e comprendere le preferenze degli utenti. La presente Informativa sui cookie spiega cosa sono i cookie, come li utilizziamo e quali sono le tue scelte in merito al loro utilizzo.
 
 ## **Cosa sono i Cookie?**
 

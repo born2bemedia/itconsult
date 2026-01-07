@@ -2,7 +2,7 @@
 title: "Cookie policy"
 ---
 
-Nexoria uses cookies and similar tracking technologies to enhance the browsing experience, analyze site traffic, and understand user preferences. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.
+Nexoria, operated by Conseptia Ltd, with a registered address at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, uses cookies and similar tracking technologies to enhance the browsing experience, analyze site traffic, and understand user preferences. This Cookie Policy explains what cookies are, how we use them, and your choices regarding their use.
 
 ## What Are Cookies?
 Cookies are small text files placed on your device by websites you visit. They are widely used to make websites work more efficiently and to provide information to the site owners. Cookies can be categorized into different types based on their purpose:

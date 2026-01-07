@@ -2,7 +2,7 @@
 title: "Cookie-Richtlinie"
 ---
 
-Nexoria verwendet Cookies und ähnliche Tracking-Technologien, um das Surferlebnis zu verbessern, den Traffic auf der Website zu analysieren und die Nutzerpräferenzen zu verstehen. Diese Cookie-Richtlinie erklärt, was Cookies sind, wie wir sie verwenden und welche Optionen Sie hinsichtlich ihrer Nutzung haben.
+Nexoria, betrieben von Conseptia Ltd, mit Sitz in 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE, verwendet Cookies und ähnliche Tracking-Technologien, um das Browsing-Erlebnis zu verbessern, den Website-Traffic zu analysieren und die Präferenzen der Nutzer zu verstehen. Diese Cookie-Richtlinie erklärt, was Cookies sind, wie wir sie verwenden und welche Wahlmöglichkeiten Sie hinsichtlich ihrer Verwendung haben.
 
 ## **Was sind Cookies?**
 
