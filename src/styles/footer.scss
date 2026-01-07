@@ -89,14 +89,17 @@
 
   &__contacts {
     margin: 24px 0 0 0;
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(2, 1fr);
     flex-direction: column;
     column-gap: 40px;
+    row-gap: 8px;*/
+    display: flex;
+    flex-direction: column;
     row-gap: 8px;
 
     @media (max-width: 992px) {
-      flex-direction: row;
+      //flex-direction: row;
     }
   }
 
@@ -138,6 +141,13 @@
       color: #828282;
       font-size: 12px;
       line-height: normal;
+    }
+    p {
+      color: #0f0f0f;
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
     }
   }
 

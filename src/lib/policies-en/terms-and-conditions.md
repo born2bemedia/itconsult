@@ -3,7 +3,7 @@ title: "Terms and Conditions"
 ---
 
 
-These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
+These Terms and Conditions ("Terms") apply to your use of the website owned by Nexoria, operated by Conseptia Ltd, with a registered address at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, accessible at [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). By using this website, you agree to these Terms. If you do not agree with these Terms, please do not use the website.
 
 If you comply with these Terms, Nexoria grants you a personal, non-exclusive, non-transferable, and limited right to access and use the website. Nexoria reserves the right, at its sole discretion, to change, modify, add, or remove parts of these Terms at any time. It is your responsibility to review these Terms for updates periodically. Continued website use following any changes constitutes your acceptance of the updated Terms.
 
@@ -55,7 +55,7 @@ For further information, please contact us at <a href="mailto:info@nexoria.ai">i
 If a dispute arises concerning your use of the website or services provided by Nexoria, you agree to the following dispute resolution process:
 - **Resolution Attempt:** You must first contact Nexoria at info@nexoria.ai to attempt to resolve the dispute informally. Include all relevant details and supporting documentation.
 - **Binding Arbitration:** If the dispute cannot be resolved informally, it will be settled by binding arbitration under the rules of the jurisdiction governing these Terms (Nevis, West Indies). The arbitration will be conducted confidentially and in English.
-- **Jurisdiction:** Any legal proceedings arising out of these Terms shall be governed by the laws of Nevis, West Indies, without regard to its conflict of law principles.
+- **Jurisdiction:** Any legal proceedings arising out of these Terms shall be governed by the laws of the United Kingdom without regard to its conflict of law principles.
 - **Limitations on Claims:** Any claim related to these Terms must be filed within one year after the cause of action arises or will be permanently barred.
 
 ## Breach of Terms 
@@ -128,7 +128,7 @@ Using this website, you agree to indemnify and hold harmless Innosphere, its emp
 
 ## Governing Law
 
-The laws of [COUNTRY], will govern these Terms. In the event of a dispute, the laws of [COUNTRY], will apply, without regard to conflict of law principles.
+The laws of the United Kingdom will govern these Terms. In the event of a dispute, the laws of the United Kingdom will apply, without regard to conflict of law principles.
 
 ## Contact Information
 

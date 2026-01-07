@@ -2,7 +2,9 @@
 title: "Allgemeine Geschäftsbedingungen"
 ---
 
-Diese Allgemeinen Geschäftsbedingungen („Bedingungen“) gelten für Ihre Nutzung der von Nexoria betriebenen Website, d erreichbar unter [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai). Durch die Nutzung dieser Website erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die Website bitte nicht.
+Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten für Ihre Nutzung der Website von Nexoria, die von Conseptia Ltd mit Sitz in 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE, betrieben wird und und unter [](https://nexoria.ai)[https://nexoria.ai](https://nexoria.ai) erreichbar ist. Durch die Nutzung dieser Website erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie die Website bitte nicht.
+
+Übersetzt mit DeepL.com (kostenlose Version)
 
 Sofern Sie diese Bedingungen einhalten, gewährt Ihnen Nexoria ein persönliches, nicht exklusives, nicht übertragbares und eingeschränktes Recht auf Zugriff und Nutzung der Website. Nexoria behält sich das Recht vor, nach eigenem Ermessen jederzeit Teile dieser Bedingungen zu ändern, anzupassen, zu ergänzen oder zu entfernen. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig auf Aktualisierungen zu überprüfen. Ihre fortgesetzte Nutzung der Website nach Änderungen gilt als Zustimmung zu den aktualisierten Bedingungen.
 
@@ -62,7 +64,7 @@ Wenn eine Streitigkeit im Zusammenhang mit Ihrer Nutzung der Website oder der vo
 
 - **Versuch einer Einigung:** Sie müssen zunächst Nexoria unter info@nexoria.ai kontaktieren, um zu versuchen, die Streitigkeit informell zu lösen. Fügen Sie alle relevanten Details und unterstützenden Unterlagen bei.
 - **Verbindliches Schiedsverfahren:** Kann die Streitigkeit nicht informell beigelegt werden, wird sie durch ein verbindliches Schiedsverfahren gemäß den Vorschriften der für diese Bedingungen geltenden Gerichtsbarkeit (Nevis, Westindische Inseln) entschieden. Das Schiedsverfahren wird vertraulich und in englischer Sprache durchgeführt.
-- **Gerichtsbarkeit:** Alle rechtlichen Verfahren, die sich aus diesen Bedingungen ergeben, unterliegen dem Recht von Nevis, Westindische Inseln, ungeachtet kollidierender Rechtsvorschriften.
+- **Gerichtsbarkeit:** Alle Rechtsstreitigkeiten, die sich aus diesen Bedingungen ergeben, unterliegen den Gesetzen des Vereinigten Königreichs, ohne Berücksichtigung der Grundsätze des Kollisionsrechts.
 - **Verjährungsfrist:** Jegliche Ansprüche im Zusammenhang mit diesen Bedingungen müssen innerhalb eines Jahres nach Entstehung des Anspruchs geltend gemacht werden, andernfalls sind sie dauerhaft ausgeschlossen.
 
 ## **Verstoß gegen die Bedingungen** 
@@ -137,7 +139,7 @@ Mit der Nutzung dieser Website erklären Sie sich einverstanden, Innosphere, sei
 
 ## **Anwendbares Recht**
 
-Die Gesetze von LAND gelten für diese Bedingungen. Im Falle eines Rechtsstreits finden die Gesetze von LAND Anwendung, ohne Rücksicht auf kollisionsrechtliche Grundsätze.
+Diese Bedingungen unterliegen den Gesetzen des Vereinigten Königreichs. Im Falle einer Streitigkeit gelten die Gesetze des Vereinigten Königreichs, ungeachtet der Grundsätze des Kollisionsrechts.
 
 ## **Kontaktinformationen**
 

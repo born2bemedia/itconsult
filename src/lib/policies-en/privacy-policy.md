@@ -9,7 +9,12 @@ You acknowledge and agree to our data handling practices as described by engagin
 
 ## Company Information
 
-Nexoria, is responsible for managing your data.
+Nexoria, operated by Conseptia Ltd, is responsible for managing your data. You can reach us using the following details:
+
+- **Company Name:** Conseptia Ltd
+- **Registered Office:** 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE
+- **Registration Number:** 16904847
+- **Contact Email:** info@nexoria.ai 
 
 ## Data Utilisation
 

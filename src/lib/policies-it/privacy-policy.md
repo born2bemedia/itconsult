@@ -10,7 +10,12 @@ Utilizzando il nostro sito e i nostri servizi, riconoscete e accettate le pratic
 
 ## **Informazioni sull’Azienda**
 
-Nexoria, gestita da Acceptance Solutions Group LLC, è responsabile della gestione dei vostri dati.
+Nexoria, gestita da Conseptia Ltd, è responsabile della gestione dei tuoi dati. Puoi contattarci utilizzando i seguenti recapiti:
+
+- **Nome dell'azienda:** Conseptia Ltd
+- **Sede legale:** 2nd Floor College House, 17 King Edwards Road, Ruislip, Londra, Regno Unito, HA4 7AE
+- **Numero di registrazione:** 16904847
+- **E-mail di contatto:** info@nexoria.ai 
 
 ## **Utilizzo dei Dati**
 
