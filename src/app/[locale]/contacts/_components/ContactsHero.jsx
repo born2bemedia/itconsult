@@ -48,15 +48,38 @@ const ContactsHero = () => {
               2nd Floor College House, 17 King Edwards Road, Ruislip, London,
               United Kingdom, HA4 7AE
             </h5>
-            <div className="map"></div>
+            <div className="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.661626961048!2d-0.4312570234929074!3d51.57443637182864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766c5ef9eeaaab%3A0x9dcba2b5b973138b!2sLondon%20Papers!5e0!3m2!1sen!2sua!4v1767798813702!5m2!1sen!2sua"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       )}
       {activeTab === "office" && (
         <div className="contacts-hero__content">
           <div className="wrapper">
-            <h5 className="title">Unit 4, Ground Floor, Davyfield Road, Blackburn, Lancashire, BB1 2QY, United Kingdom</h5>
-            <div className="map"></div>
+            <h5 className="title">
+              Unit 4, Ground Floor, Davyfield Road, Blackburn, Lancashire, BB1
+              2QY, United Kingdom
+            </h5>
+            <div className="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2361.027293014442!2d-2.463669823356962!3d53.717776172399326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b9f8edb9f7f09%3A0x697822ca76424b9f!2sDavyfield%20Rd%2C%20Blackburn%2C%20UK!5e0!3m2!1sen!2sua!4v1767798883858!5m2!1sen!2sua"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       )}
