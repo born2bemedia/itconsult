@@ -54,7 +54,7 @@ For further information, please contact us at <a href="mailto:info@nexoria.ai">i
 ## Dispute Policy
 If a dispute arises concerning your use of the website or services provided by Nexoria, you agree to the following dispute resolution process:
 - **Resolution Attempt:** You must first contact Nexoria at info@nexoria.ai to attempt to resolve the dispute informally. Include all relevant details and supporting documentation.
-- **Binding Arbitration:** If the dispute cannot be resolved informally, it will be settled by binding arbitration under the rules of the jurisdiction governing these Terms (Nevis, West Indies). The arbitration will be conducted confidentially and in English.
+- **Binding Arbitration:** If the dispute cannot be resolved informally, it will be settled by binding arbitration under the rules of the jurisdiction governing these Terms. The arbitration will be conducted confidentially and in English.
 - **Jurisdiction:** Any legal proceedings arising out of these Terms shall be governed by the laws of the United Kingdom without regard to its conflict of law principles.
 - **Limitations on Claims:** Any claim related to these Terms must be filed within one year after the cause of action arises or will be permanently barred.
 
