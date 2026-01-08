@@ -21,19 +21,21 @@ const Footer = () => {
         <div className="footer__body">
           <div className="footer__row-01">
             <div className="footer__col-01">
-              <Link href="/" className="footer__logo">
-                <LogoBlack />
-              </Link>
-              <div className="footer__text">
-                {t("text", {}, "Where Technology Meets Strategy")}
+              <div className="footer__top">
+                <div className="footer__top-left">
+                  <Link href="/" className="footer__logo">
+                    <LogoBlack />
+                  </Link>
+                  <div className="footer__text">
+                    {t("text", {}, "Where Technology Meets Strategy")}
+                  </div>
+                </div>
+                <Link href="/contacts" className="footer__contact-link">
+                  {t("contact", {}, "Contact Us")}
+                </Link>
               </div>
-            </div>
-            <div className="footer__col-02">
-              <Link href="/contacts" className="footer__contact-link">
-                {t("contact", {}, "Contact Us")}
-              </Link>
+
               <ul className="footer__contacts">
-                <li className="footer__contact"></li>
                 <li className="footer__contact">
                   <Link href="matilto:info@nexoria.ai">
                     <span>{t("email", {}, "Email:")}</span>
@@ -49,7 +51,10 @@ const Footer = () => {
                 </li>
                 <li className="footer__address">
                   <span>{t("officeaddress", {}, "Office address:")}</span>
-                  <p>Unit 4, Ground Floor, Davyfield Road, Blackburn, Lancashire, BB1 2QY, United Kingdom</p>
+                  <p>
+                    Unit 4, Ground Floor, Davyfield Road, Blackburn, Lancashire,
+                    BB1 2QY, United Kingdom
+                  </p>
                 </li>
               </ul>
             </div>
