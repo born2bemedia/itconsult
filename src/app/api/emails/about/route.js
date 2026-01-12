@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-const nodemailer = require("nodemailer");
+import sgMail from "@sendgrid/mail";
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export async function POST(request) {
   try {
@@ -21,29 +23,18 @@ export async function POST(request) {
       attachFiles = [], // Default to empty array if not present
     } = bodyJSON;
 
-    // Configure nodemailer with Gmail SMTP
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-
-    // Process attachments
+    // Process attachments for SendGrid
     const attachments = attachFiles.map(file => ({
+      content: file.base64,
       filename: file.name,
-      content: Buffer.from(file.base64, 'base64'),
-      encoding: 'base64',
+      type: file.type || 'application/octet-stream',
+      disposition: 'attachment',
     }));
 
     // Set up email data for the recipient
-    const mailOptionsRecipient = {
-      from: '"Your Company" <noreply@nexoria.ai>',
+    const msgRecipient = {
       to: "noreply@nexoria.ai",
+      from: "noreply@nexoria.ai",
       subject: "Event Request Submission",
       text: `
           Contact Person: ${contactPerson}
@@ -56,15 +47,15 @@ export async function POST(request) {
           Event Date: ${eventDate}
           Event Topic: ${eventTopic}
           Type of Participation: ${participationType}
-          Attach Files: ${attachments.length > 0 ? attachFiles.map(file => file.filename).join(", ") : "No files attached"}
+          Attach Files: ${attachments.length > 0 ? attachFiles.map(file => file.name).join(", ") : "No files attached"}
         `,
-      attachments: attachments,
+      attachments: attachments.length > 0 ? attachments : undefined,
     };
 
     // Set up email data for the client
-    /* const mailOptionsClient = {
-      from: '"Testing About Form" <noreply@nexoria.ai>',
+    /* const msgClient = {
       to: contactEmail,
+      from: "noreply@nexoria.ai",
       subject: "Testing About Form",
       html: `
           <p>Dear ${contactPerson},</p>
@@ -85,12 +76,11 @@ export async function POST(request) {
           </ul>
           <p>Best regards,<br>Your Company</p>
         `,
-
     }; */
 
     // Send emails
-    await transporter.sendMail(mailOptionsRecipient);
-    /* await transporter.sendMail(mailOptionsClient); */
+    await sgMail.send(msgRecipient);
+    /* await sgMail.send(msgClient); */
 
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
