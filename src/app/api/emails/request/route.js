@@ -1,5 +1,7 @@
 import { NextResponse, NextRequest } from "next/server";
-const nodemailer = require("nodemailer");
+import sgMail from "@sendgrid/mail";
+
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export async function POST(request) {
   try {
@@ -16,20 +18,9 @@ export async function POST(request) {
       urgency,
     } = bodyJSON;
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-      tls: {
-        rejectUnauthorized: false,
-      },
-    });
-
-    const mailOptionsRecipient = {
-      from: '"Nexoria" <noreply@nexoria.ai>',
-      to: "noreply@nexoria.ai", //
+    const msgRecipient = {
+      to: "noreply@nexoria.ai",
+      from: "noreply@nexoria.ai",
       subject: "Consultation Request",
       text: `Name: ${yourName}
 Company: ${company}
@@ -41,9 +32,9 @@ Challenge: ${challenge}
 Urgency: ${urgency}`,
     };
 
-    const mailOptionsClient = {
-      from: '"Nexoria" <noreply@nexoria.ai>',
+    const msgClient = {
       to: email,
+      from: "noreply@nexoria.ai",
       subject: "Your Consultation Request Has Been Received",
       html: `
             <table width="640" style="border-collapse: collapse; margin: 0 auto; font-style: sans-serif; border-right: 1px solid #222222; border-left: 1px solid #222222;">
@@ -79,9 +70,8 @@ Urgency: ${urgency}`,
       `,
     };
 
-    await transporter.sendMail(mailOptionsRecipient);
-
-    await transporter.sendMail(mailOptionsClient);
+    await sgMail.send(msgRecipient);
+    await sgMail.send(msgClient);
 
     return NextResponse.json({ message: "Success: emails were sent" });
   } catch (error) {
