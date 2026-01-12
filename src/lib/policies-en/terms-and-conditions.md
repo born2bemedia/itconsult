@@ -105,26 +105,26 @@ The website and its content are protected by copyright and other applicable laws
 
 ## Intellectual Property Rights
 
-The content and materials on this website are safeguarded by copyright and other applicable laws. You may not copy, reproduce, modify, or distribute any part of the content without explicit authorization from Innosphere.
+The content and materials on this website are safeguarded by copyright and other applicable laws. You may not copy, reproduce, modify, or distribute any part of the content without explicit authorization from Nexoria.
 
 ## Terms of Use Agreement
 By accessing and using this website, you confirm that you understand and agree to these Terms and Conditions. If you do not agree with any part of these terms, you should discontinue using this website immediately.
 
 ## Changes to Terms
 
-Innosphere reserves the right to revise these Terms and Conditions without prior notice. Modifications become effective upon their posting on the website. You are responsible for regularly reviewing these terms. Continued website use after posting changes signifies your acceptance of the new terms.
+Nexoria reserves the right to revise these Terms and Conditions without prior notice. Modifications become effective upon their posting on the website. You are responsible for regularly reviewing these terms. Continued website use after posting changes signifies your acceptance of the new terms.
 
 ## Linking Guidelines
 
-You may link to Innosphere's website, provided that your link is established in a lawful and non-damaging manner that does not harm Innosphere's reputation. However, you must not create a link implying endorsement or association without our permission. Innosphere retains the right to withdraw linking permission at any time without notice.
+You may link to Nexoria's website, provided that your link is established in a lawful and non-damaging manner that does not harm Nexoria's reputation. However, you must not create a link implying endorsement or association without our permission. Nexoria retains the right to withdraw linking permission at any time without notice.
 
 ## Liability Disclaimer
 
-Innosphere, including its affiliates, employees, and partners, will not be liable for any direct, indirect, incidental, or consequential damages arising from your website use or inability to access it. This limitation of liability applies to the fullest extent permitted by law.
+Nexoria, including its affiliates, employees, and partners, will not be liable for any direct, indirect, incidental, or consequential damages arising from your website use or inability to access it. This limitation of liability applies to the fullest extent permitted by law.
 
 ## User Indemnification
 
-Using this website, you agree to indemnify and hold harmless Innosphere, its employees, officers, and agents from any claims, losses, or expenses, including attorney's fees, resulting from your use of the website or breach of these Terms and Conditions.
+Using this website, you agree to indemnify and hold harmless Nexoria, its employees, officers, and agents from any claims, losses, or expenses, including attorney's fees, resulting from your use of the website or breach of these Terms and Conditions.
 
 ## Governing Law
 

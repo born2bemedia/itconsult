@@ -18,7 +18,7 @@ const MarketTop = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         className="market-research__title">
-                        {t("top.title", {}, "Market Research Insights: First Half of 2024")}
+                        {t("top.title", {}, "Market Research Insights: First Half of 2025")}
                     </motion.h2>
                     <div className="market-research__content">
                         <div className="market-research__col-01">
@@ -38,7 +38,7 @@ const MarketTop = () => {
                                 variants={fadeInUp}
                                 custom={0.2}
                                 className="market-research__text _left">
-                                {t("top.objectiveText", {}, "Provide businesses with a comprehensive analysis of 2024’s marketing and IT trends, highlighting key challenges and potential solutions.")}
+                                {t("top.objectiveText", {}, "Provide businesses with a comprehensive analysis of 2025’s marketing and IT trends, highlighting key challenges and potential solutions.")}
                             </motion.div>
                         </div>
                         <div className="market-research__col-02">

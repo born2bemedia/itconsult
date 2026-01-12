@@ -132,11 +132,11 @@
       "item14": "Wir sorgen dafür, dass Ihre IT- und Marketingstrategien aufeinander abgestimmt sind, was zu gemeinsamen Zielen und messbaren Ergebnissen führt. Unser Ansatz maximiert den ROI durch Ressourcenschonung und fördert eine konstante Unternehmensleistung."
     },
     "market": {
-      "alt1": "Unsere Teilnahme an der SMX Advanced Europe 2024",
+      "alt1": "Unsere Teilnahme an der SMX Advanced Europe 2025",
       "alt2": "Wir sind offiziell da!",
       "link": "Vollständigen Bericht lesen",
       "title": "MARKTFORSCHUNGSERKENNTNISSE",
-      "label1": "Unsere Teilnahme an der SMX Advanced Europe 2024",
+      "label1": "Unsere Teilnahme an der SMX Advanced Europe 2025",
       "label2": "Wir sind offiziell vor Ort!",
       "description1": "Wir fahren zur SMX Advanced Europe in Berlin am 10. und 11. September! Entdecken Sie mit uns wegweisende SEO- und PPC-Strategien. Bleiben Sie dran für Neuigkeiten und folgen Sie uns für die aktuellsten Updates!",
       "description2": "Unsere neue Website ist live und markiert unseren offiziellen Start. Wir haben unsere freiberufliche Expertise zu einem vereinten Unternehmen zusammengeführt, um erstklassige IT- und Marketinglösungen anzubieten. Entdecken Sie jetzt unsere Dienstleistungen."
@@ -320,7 +320,7 @@
       "text01": "Unsere neue Website ist online – und damit starten wir offiziell durch. Aus unserer freiberuflichen Erfahrung haben wir ein gemeinsames Unternehmen geschaffen, das erstklassige IT- und Marketinglösungen bietet. Entdecken Sie jetzt unsere Dienstleistungen.",
       "text02": "Wir sind am 10.–11. September auf der SMX Advanced Europe in Berlin dabei! Entdecken Sie mit uns die neuesten Strategien in den Bereichen SEO und PPC. Bleiben Sie dran für Updates und folgen Sie uns für aktuelle Neuigkeiten!",
       "title01": "Wir sind offiziell da!",
-      "title02": "Unsere Teilnahme an der SMX Advanced Europe 2024",
+      "title02": "Unsere Teilnahme an der SMX Advanced Europe 2025",
       "readMore": "Lesen"
     },
     "animated": {
@@ -521,15 +521,15 @@
       "item1": "Marketing und IT-Trends",
       "item2": "Geschäftslücken und gemeinsame Probleme in beiden Bereichen.",
       "scope": "Umfang:",
-      "title": "Einblicke in die Marktforschung: Erste Hälfte des Jahres 2024",
+      "title": "Einblicke in die Marktforschung: Erste Hälfte des Jahres 2025",
       "objective": "Zielsetzung:",
-      "objectiveText": "Unternehmen eine umfassende Analyse der Marketing- und IT-Trends des Jahres 2024 zur Verfügung stellen und die wichtigsten Herausforderungen und potenziellen Lösungen aufzeigen."
+      "objectiveText": "Unternehmen eine umfassende Analyse der Marketing- und IT-Trends des Jahres 2025 zur Verfügung stellen und die wichtigsten Herausforderungen und potenziellen Lösungen aufzeigen."
     },
     "face": {
       "gap": "Lücke:",
       "gap1": "Ein fehlendes Budget oder ein unzureichender Fahrplan für den Übergang von diesen Systemen führt zu Ineffizienz und begrenzt das Wachstum.",
       "issue": "Ausgabe:",
-      "title": "Gemeinsame IT-Herausforderungen für Unternehmen im Jahr 2024",
+      "title": "Gemeinsame IT-Herausforderungen für Unternehmen im Jahr 2025",
       "issue1": "Da Unternehmen immer größere Datenmengen sammeln, haben viele Schwierigkeiten, diese effektiv zu integrieren und zu analysieren. Dies kann dazu führen, dass Chancen für Erkenntnisse und Entscheidungsfindung verpasst werden.",
       "problem": "Problem:",
       "summary": "Zusammenfassung:",
@@ -545,7 +545,7 @@
       "challenge1": "Unternehmen versäumen es oft, in starke Cybersicherheitslösungen zu investieren, wodurch sie anfällig für Datenschutzverletzungen werden.",
       "challenge2": "Die Unternehmen können mit der Innovation nicht Schritt halten, weil es an qualifiziertem Personal für die Implementierung und Verwaltung fortschrittlicher IT-Lösungen fehlt.",
       "challenge3": "Die Unternehmen können mit der Innovation nicht Schritt halten, weil es an qualifiziertem Personal für die Implementierung und Verwaltung fortschrittlicher IT-Lösungen fehlt.",
-      "dataPoint1": "Cyberangriffe stiegen in der ersten Hälfte des Jahres 2024 um 37 %, wobei Ransomware die größte Bedrohung darstellt.",
+      "dataPoint1": "Cyberangriffe stiegen in der ersten Hälfte des Jahres 2025 um 37 %, wobei Ransomware die größte Bedrohung darstellt.",
       "gapInsight": "Einblick in die Lücke:",
       "gapInsight1": "Es gibt einen erheblichen Mangel an IT-Talenten, insbesondere in Bereichen wie KI, Cloud Computing und Cybersicherheit.",
       "gapInsight2": "Es gibt einen erheblichen Mangel an IT-Talenten, insbesondere in Bereichen wie KI, Cloud Computing und Cybersicherheit."
@@ -564,7 +564,7 @@
       "gap1": "Fehlende Ressourcen für Investitionen in wichtige Tools wie CRM-Systeme, bezahlte Werbung und fortschrittliche Analysen.",
       "fact1": "Unternehmen, insbesondere KMU, haben oft Schwierigkeiten, genügend Budget für umfassende Marketingstrategien bereitzustellen, was dazu führt, dass sie sich auf veraltete oder unwirksame Taktiken verlassen.",
       "issue": "Ausgabe:",
-      "title": "Gemeinsame Marketing-Herausforderungen <br /> für Unternehmen im Jahr 2024",
+      "title": "Gemeinsame Marketing-Herausforderungen <br /> für Unternehmen im Jahr 2025",
       "issue1": "Da jeden Tag doppelt so viele Inhalte produziert werden, ist es für Unternehmen eine Herausforderung, sich von der Masse abzuheben und das Engagement des Publikums aufrechtzuerhalten, insbesondere auf sozialen Plattformen.",
       "challenge": "Herausforderung:",
       "dataPoint": "Datenpunkt:",
@@ -581,7 +581,7 @@
     },
     "trends": {
       "gap": "Lücke:",
-      "title": "Marketing-Trends im Jahr 2024",
+      "title": "Marketing-Trends im Jahr 2025",
       "trend": "Trend:",
       "gapText1": "Viele kleine und mittlere Unternehmen haben Schwierigkeiten, Kundendaten zu sammeln, zu analysieren und zu nutzen, um personalisiertes Marketing in großem Umfang anzubieten.",
       "gapText2": "Begrenzte Ressourcen für die Videoproduktion sind nach wie vor eine Herausforderung, insbesondere für kleine Unternehmen. Vielen fehlt es auch an klaren Strategien, wie sie Videos in ihren allgemeinen Content-Marketing-Plan integrieren können.",
@@ -602,11 +602,11 @@
       "growthRateText": "Es wird erwartet, dass der globale Markt für Marketing-Automatisierung bis 2027 8,42 Milliarden Dollar erreichen wird.",
       "businessGapText": "Viele Unternehmen verfügen nicht über das technische Wissen oder die Ressourcen, um diese Tools ordnungsgemäß zu implementieren und zu verwalten, was zu einer suboptimalen Nutzung der KI-Technologie führt.",
       "trendInsightText1": "Die Verbraucher erwarten hyper-personalisierte Inhalte. Einem Bericht zufolge sind 80 % der Verbraucher eher bereit, von einer Marke zu kaufen, die personalisierte Erlebnisse bietet.",
-      "trendInsightText2": "Mikro- und Nano-Influencer werden immer beliebter, da Unternehmen immer mehr Nischenzielgruppen ansprechen. Die Ausgaben für Influencer-Marketing werden im Jahr 2024 voraussichtlich 21 Milliarden US-Dollar übersteigen."
+      "trendInsightText2": "Mikro- und Nano-Influencer werden immer beliebter, da Unternehmen immer mehr Nischenzielgruppen ansprechen. Die Ausgaben für Influencer-Marketing werden im Jahr 2025 voraussichtlich 21 Milliarden US-Dollar übersteigen."
     },
     "trendsIt": {
       "gap": "Lücke:",
-      "title": "IT-Trends im Jahr 2024",
+      "title": "IT-Trends im Jahr 2025",
       "trend": "Trend:",
       "gapText1": "Viele Unternehmen haben Schwierigkeiten bei der Optimierung der Cloud-Kosten und der Gewährleistung der Datensicherheit bei der Integration von Cloud-Lösungen.",
       "gapText2": "Eine große Herausforderung sind der Mangel an qualifiziertem Personal und Probleme mit der Datenqualität, die den effektiven Einsatz von KI/ML-Lösungen behindern.",

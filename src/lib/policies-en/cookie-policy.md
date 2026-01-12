@@ -40,5 +40,4 @@ We may update this Cookie Policy from time to time to reflect changes in our pra
 If you have any questions about our Cookie Policy or our use of cookies, please contact us at:
 
 - Email: info@nexoria.ai 
-- Phone <a href="tel:+48573587868">+48573587868</a>
 - Website: https://nexoria.ai 

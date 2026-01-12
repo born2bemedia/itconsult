@@ -17,7 +17,7 @@ const MarketCommon = () => {
                             viewport={{ once: true }}
                             variants={fadeInUp}
                             className="market-common__title"
-                            dangerouslySetInnerHTML={{ __html: t("common.title", {br: "<br />"}, "Common Marketing Challenges <br /> Businesses Face in 2024") }}
+                            dangerouslySetInnerHTML={{ __html: t("common.title", {br: "<br />"}, "Common Marketing Challenges <br /> Businesses Face in 2025") }}
                         />
                         <motion.div
                             initial="hidden"
