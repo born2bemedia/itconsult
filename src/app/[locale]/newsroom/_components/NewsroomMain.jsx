@@ -32,25 +32,6 @@ const NewsroomMain = () => {
               </Link>
             </div>
           </motion.article>
-          <motion.article
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            custom={0.3}
-            className="newsroom-main__article">
-            <div className="newsroom-main__col-01">
-              <Link href="/newsroom/our-participation-in-smx-advanced-europe-2024/" className="newsroom-main__poster"><img src="/images/newsroom/newsroom-article-02.webp" alt="Our Participation in SMX Advanced Europe 2024" /></Link>
-            </div>
-            <div className="newsroom-main__col-02">
-              <h2 className="newsroom-main__title">{t("main.title02", {}, "Our Participation in SMX Advanced Europe 2024")}</h2>
-              <p className="newsroom-main__text">{t("main.text02", {}, "We’re heading to SMX Advanced Europe in Berlin on September 10-11! Discover cutting-edge SEO and PPC strategies with us. Stay tuned for updates, and follow us for the latest news!")}</p>
-              <Link href="/newsroom/our-participation-in-smx-advanced-europe-2024/" className="newsroom-main__link">
-                {t("main.readMore", {}, "Read")}
-                <ArrowRight />
-              </Link>
-            </div>
-          </motion.article>
         </div>
       </div>
     </section>

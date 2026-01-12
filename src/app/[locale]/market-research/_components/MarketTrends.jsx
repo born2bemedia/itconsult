@@ -18,7 +18,7 @@ const MarketTrends = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         className="market-trends__title">
-                        {t("trends.title", {}, "Marketing Trends in 2024")}
+                        {t("trends.title", {}, "Marketing Trends in 2025")}
                     </motion.h2>
                     <motion.div
                         initial="hidden"
@@ -86,7 +86,7 @@ const MarketTrends = () => {
                             <div className="market-trends__subitems">
                                 <div className="market-trends__subitem">
                                     <h4 className="title">{t("trends.trendInsight", {}, "Trend Insight:")}</h4>
-                                    <div className="text">{t("trends.trendInsightText2", {}, "Micro and nano-influencers are gaining popularity as businesses target more niche audiences. Spending on influencer marketing is projected to exceed $21 billion in 2024.")}</div>
+                                    <div className="text">{t("trends.trendInsightText2", {}, "Micro and nano-influencers are gaining popularity as businesses target more niche audiences. Spending on influencer marketing is projected to exceed $21 billion in 2025.")}</div>
                                 </div>
                                 <div className="market-trends__subitem">
                                     <h4 className="title">{t("trends.gap", {}, "Gap:")}</h4>

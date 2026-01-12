@@ -18,7 +18,7 @@ const MarketTrendsIt = () => {
                         viewport={{ once: true }}
                         variants={fadeInUp}
                         className="market-trends-it__title">
-                        {t("trendsIt.title", {}, "IT Trends in 2024")}
+                        {t("trendsIt.title", {}, "IT Trends in 2025")}
                     </motion.h2>
                     <motion.div
                         initial="hidden"

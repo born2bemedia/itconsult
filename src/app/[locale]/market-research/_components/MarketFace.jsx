@@ -21,7 +21,7 @@ const MarketFace = () => {
             {t(
               "face.title",
               {},
-              "Common IT Challenges Businesses Face in 2024"
+              "Common IT Challenges Businesses Face in 2025"
             )}
           </motion.h2>
           <motion.div
@@ -48,7 +48,7 @@ const MarketFace = () => {
                     {t(
                       "face.dataPoint1",
                       {},
-                      "Cyberattacks rose by 37% in the first half of 2024, with ransomware being the top threat."
+                      "Cyberattacks rose by 37% in the first half of 2025, with ransomware being the top threat."
                     )}
                   </div>
                 </div>

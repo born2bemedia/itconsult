@@ -5,7 +5,7 @@ seo_description: "Nexoria announces the launch of our new website and our offici
 thumbnail: "/images/newsroom/newsroom-article-01.webp"
 ---
 
-After years of collaboration as a dedicated team of freelancers and independent experts, we’re thrilled to announce the launch of our new website and our official debut as Nexoira. Over the years, we’ve honed our skills, built a strong foundation of expertise, and developed a deep understanding of what businesses need to thrive in today’s competitive market. This new chapter allows us to combine our collective strengths and offer you the best in IT and marketing consulting under one roof.
+After years of collaboration as a dedicated team of freelancers and independent experts, we’re thrilled to announce the launch of our new website and our official debut as Nexoria. Over the years, we’ve honed our skills, built a strong foundation of expertise, and developed a deep understanding of what businesses need to thrive in today’s competitive market. This new chapter allows us to combine our collective strengths and offer you the best in IT and marketing consulting under one roof.
 
 <br />
 <br />

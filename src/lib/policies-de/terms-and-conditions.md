@@ -115,7 +115,7 @@ Die Website und ihre Inhalte sind durch Urheberrecht und andere geltende Gesetze
 
 ## **Rechte am geistigen Eigentum**
 
-Die Inhalte und Materialien auf dieser Website sind durch Urheberrecht und andere geltende Gesetze geschützt. Es ist nicht gestattet, Teile der Inhalte ohne ausdrückliche Genehmigung von Innosphere zu kopieren, zu reproduzieren, zu verändern oder zu verbreiten.
+Die Inhalte und Materialien auf dieser Website sind durch Urheberrecht und andere geltende Gesetze geschützt. Es ist nicht gestattet, Teile der Inhalte ohne ausdrückliche Genehmigung von Nexoria zu kopieren, zu reproduzieren, zu verändern oder zu verbreiten.
 
 ## **Nutzungsbedingungen**
 
@@ -123,19 +123,19 @@ Mit dem Zugriff auf und der Nutzung dieser Website bestätigen Sie, dass Sie die
 
 ## **Änderungen der Bedingungen**
 
-Innosphere behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen ohne vorherige Ankündigung zu überarbeiten. Änderungen treten mit ihrer Veröffentlichung auf der Website in Kraft. Sie sind dafür verantwortlich, diese Bedingungen regelmäßig zu überprüfen. Die fortgesetzte Nutzung der Website nach Veröffentlichung gilt als Zustimmung zu den neuen Bedingungen.
+Nexoria behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen ohne vorherige Ankündigung zu überarbeiten. Änderungen treten mit ihrer Veröffentlichung auf der Website in Kraft. Sie sind dafür verantwortlich, diese Bedingungen regelmäßig zu überprüfen. Die fortgesetzte Nutzung der Website nach Veröffentlichung gilt als Zustimmung zu den neuen Bedingungen.
 
 ## **Verlinkungsrichtlinien**
 
-Sie dürfen auf die Website von Innosphere verlinken, sofern Ihr Link auf rechtmäßige und nicht schädigende Weise gesetzt wird und dem Ruf von Innosphere keinen Schaden zufügt. Sie dürfen jedoch keine Links erstellen, die eine Unterstützung oder Verbindung zu Innosphere suggerieren, ohne unsere ausdrückliche Zustimmung. Innosphere behält sich das Recht vor, die Verlinkungsgenehmigung jederzeit ohne Vorankündigung zu widerrufen.
+Sie dürfen auf die Website von Nexoria verlinken, sofern Ihr Link auf rechtmäßige und nicht schädigende Weise gesetzt wird und dem Ruf von Nexoria keinen Schaden zufügt. Sie dürfen jedoch keine Links erstellen, die eine Unterstützung oder Verbindung zu Nexoria suggerieren, ohne unsere ausdrückliche Zustimmung. Nexoria behält sich das Recht vor, die Verlinkungsgenehmigung jederzeit ohne Vorankündigung zu widerrufen.
 
 ## **Haftungsausschluss**
 
-Innosphere, einschließlich seiner verbundenen Unternehmen, Mitarbeitenden und Partner, haftet nicht für direkte, indirekte, zufällige oder Folgeschäden, die aus Ihrer Nutzung der Website oder der Unfähigkeit, darauf zuzugreifen, entstehen. Diese Haftungsbeschränkung gilt im gesetzlich zulässigen Umfang.
+Nexoria, einschließlich seiner verbundenen Unternehmen, Mitarbeitenden und Partner, haftet nicht für direkte, indirekte, zufällige oder Folgeschäden, die aus Ihrer Nutzung der Website oder der Unfähigkeit, darauf zuzugreifen, entstehen. Diese Haftungsbeschränkung gilt im gesetzlich zulässigen Umfang.
 
 ## **Freistellung durch den Nutzer**
 
-Mit der Nutzung dieser Website erklären Sie sich einverstanden, Innosphere, seine Mitarbeitenden, leitenden Angestellten und Beauftragten von sämtlichen Ansprüchen, Verlusten oder Ausgaben, einschließlich Anwaltskosten, schad- und klaglos zu halten, die aus Ihrer Nutzung der Website oder aus einem Verstoß gegen diese Bedingungen entstehen.
+Mit der Nutzung dieser Website erklären Sie sich einverstanden, Nexoria, seine Mitarbeitenden, leitenden Angestellten und Beauftragten von sämtlichen Ansprüchen, Verlusten oder Ausgaben, einschließlich Anwaltskosten, schad- und klaglos zu halten, die aus Ihrer Nutzung der Website oder aus einem Verstoß gegen diese Bedingungen entstehen.
 
 ## **Anwendbares Recht**
 

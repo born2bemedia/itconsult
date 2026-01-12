@@ -13,7 +13,7 @@ import Snipper from "@/icons/loading/Snipper";
 import { useTranslations } from "next-intl";
 import { excludedCountries } from "@/utils/excludedCountries";
 // Кастомный компонент Select
-const CustomSelect = ({ name, options, ...props }) => {
+const CustomSelect = ({ name, options, optionsLabel, ...props }) => {
 
   const t = useTranslations("home");
 
@@ -31,6 +31,7 @@ const CustomSelect = ({ name, options, ...props }) => {
         options={options}
         onChange={handleChange}
         value={options.find(option => option.value === values[name])}
+        placeholder={optionsLabel}
         className={touched[name] && errors[name] ? "invalid" : ""}
         classNamePrefix="custom-select"
       />
@@ -99,11 +100,12 @@ function RequestForm() {
   };
 
   const options = [
-    { value: "", label: t("request.value1", {}, "Urgency") },
     { value: "urgent", label: t("request.value2", {}, "Urgent") },
     { value: "high_priority", label: t("request.value3", {}, "High Priority") },
     { value: "standard", label: t("request.value4", {}, "Standard") },
   ];
+
+  const optionsLabel = t("request.value1", {}, "Urgency");
 
   return (
     <div className="request-form">
@@ -263,6 +265,7 @@ function RequestForm() {
                       <CustomSelect
                         {...field}
                         options={options}
+                        optionsLabel={optionsLabel}
                         className={
                           form.touched.urgency && form.errors.urgency
                             ? "invalid"
