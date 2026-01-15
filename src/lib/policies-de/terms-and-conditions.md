@@ -146,4 +146,5 @@ Diese Bedingungen unterliegen den Gesetzen des Vereinigten Königreichs. Im Fall
 For any inquiries regarding these Terms or to request permission to use any content, please contact us:
 
 - E-Mail: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Telefon: [+447533225889](tel:+447533225889)
 - Website: [https://nexoria.ai](https://nexoria.ai)

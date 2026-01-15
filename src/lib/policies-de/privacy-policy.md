@@ -215,5 +215,5 @@ Nexoria verpflichtet sich weiterhin, Ihre Privatsphäre zu schützen und Transpa
 Bei Fragen zu dieser Datenschutzerklärung oder zur Einholung einer Genehmigung zur Nutzung von Inhalten kontaktieren Sie uns bitte:
 
 - E-Mail: [info@nexoria.ai](mailto:info@nexoria.ai)
-- Telefon:
+- Telefon: [+447533225889](tel:+447533225889)
 - Website: [https://nexoria.ai](https://nexoria.ai)

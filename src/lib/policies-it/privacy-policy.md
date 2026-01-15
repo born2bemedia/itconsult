@@ -215,5 +215,5 @@ Nexoria resta fermamente impegnata a tutelare la vostra privacy e a garantire tr
 Per qualsiasi richiesta relativa alla presente Informativa sulla Privacy o per richiedere il permesso di utilizzare qualsiasi contenuto, vi preghiamo di contattarci:
 
 - Email: [info@nexoria.ai](mailto:info@nexoria.ai)
-- Telefono:
+- Telefono: [+447533225889](tel:+447533225889)
 - Sito web: [https://nexoria.ai](https://nexoria.ai)

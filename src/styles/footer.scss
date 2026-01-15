@@ -118,6 +118,12 @@
   }
 
   &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    @media (max-width: 992px) {
+      gap: 24px;
+    }
     &:nth-child(1) {
       grid-column-start: 1;
       grid-row-start: 1;

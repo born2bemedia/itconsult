@@ -147,4 +147,5 @@ Le presenti Condizioni sono regolate dalle leggi del Regno Unito. In caso di con
 Per qualsiasi domanda relativa ai presenti Termini o per richiedere l'autorizzazione all'utilizzo di qualsiasi contenuto, contattaci:
 
 - Email: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Telefono: [+447533225889](tel:+447533225889)
 - Sito web: [https://nexoria.ai](https://nexoria.ai)
