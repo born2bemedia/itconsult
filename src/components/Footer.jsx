@@ -41,6 +41,10 @@ const Footer = () => {
                     <span>{t("email", {}, "Email:")}</span>
                     info@nexoria.ai
                   </Link>
+                  <Link href="tel:+447533225889">
+                    <span>{t("phone", {}, "Phone:")}</span>
+                    +447533225889
+                  </Link>
                 </li>
                 <li className="footer__address">
                   <span>{t("registered", {}, "Registered address:")}</span>

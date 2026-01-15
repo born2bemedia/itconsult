@@ -114,6 +114,15 @@ const ContactsHero = () => {
                       info@nexoria.ai
                     </Link>
                   </li>
+                  <li className="contacts-hero__item">
+                    <Link
+                      href="tel:+447533225889"
+                      className="contacts-hero__link"
+                    >
+                      <Phone />
+                      +447533225889
+                    </Link>
+                  </li>
                 </ul>
                 <ul className="contacts-hero__socials">
                   <li className="contacts-hero__social">

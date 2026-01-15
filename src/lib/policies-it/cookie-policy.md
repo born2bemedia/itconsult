@@ -43,4 +43,5 @@ Potremmo aggiornare questa Cookie Policy di tanto in tanto per riflettere cambia
 Se hai domande sulla nostra Cookie Policy o sull'uso dei cookie, ti preghiamo di contattarci a:
 
 - Email: [info@nexoria.ai](mailto:info@nexoria.ai)
+- Telefono: [+447533225889](tel:+447533225889)
 - Sito web: [https://nexoria.ai](https://nexoria.ai)

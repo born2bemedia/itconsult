@@ -135,4 +135,5 @@ The laws of the United Kingdom will govern these Terms. In the event of a disput
 For any inquiries regarding these Terms or to request permission to use any content, please contact us:
 
 - Email: info@nexoria.ai 
+- Phone: [+447533225889](tel:+447533225889)
 - Website: https://nexoria.ai 
