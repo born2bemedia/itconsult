@@ -16,6 +16,7 @@ Nexoria, gestita da Conseptia Ltd, è responsabile della gestione dei tuoi dati.
 - **Sede legale:** 2nd Floor College House, 17 King Edwards Road, Ruislip, Londra, Regno Unito, HA4 7AE
 - **Numero di registrazione:** 16904847
 - **E-mail di contatto:** info@nexoria.ai 
+- **Numero di telefono:** [+447533225889](tel:+447533225889)
 
 ## **Utilizzo dei Dati**
 
