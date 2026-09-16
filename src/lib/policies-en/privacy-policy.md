@@ -15,7 +15,6 @@ Nexoria, operated by Conseptia Ltd, is responsible for managing your data. You c
 - **Registered Office:** 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE
 - **Registration Number:** 16904847
 - **Contact Email:** info@nexoria.ai 
-- **Phone number:** [+447533225889](tel:+447533225889)
 
 ## Data Utilisation
 
@@ -210,5 +209,4 @@ Nexoria remains committed to safeguarding your privacy and ensuring transparency
 For any inquiries regarding this Privacy Policy or to request permission to use any content, please contact us:
 
 - Email: info@nexoria.ai
-- Phone: [+447533225889](tel:+447533225889)
 - Website: https://nexoria.ai

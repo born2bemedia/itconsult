@@ -7,7 +7,6 @@ import Facebook from "@/icons/social/Facebook";
 import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/X";
 import Email from "@/icons/other/Email";
-import Phone from "@/icons/other/Phone";
 import LogoWhite from "@/icons/other/LogoWhite";
 import { usePathname } from "next/navigation";
 import LangSwitcher from "./LangSwitcher";

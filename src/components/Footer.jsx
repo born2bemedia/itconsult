@@ -7,7 +7,6 @@ import Facebook from "@/icons/social/Facebook";
 import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/X";
 import Email from "@/icons/other/Email";
-import Phone from "@/icons/other/Phone";
 import LogoBlack from "@/icons/other/LogoBlack";
 import { useTranslations } from "next-intl";
 const Footer = () => {
@@ -40,10 +39,6 @@ const Footer = () => {
                   <Link href="matilto:info@nexoria.ai">
                     <span>{t("email", {}, "Email:")}</span>
                     info@nexoria.ai
-                  </Link>
-                  <Link href="tel:+447533225889">
-                    <span>{t("phone", {}, "Phone:")}</span>
-                    +447533225889
                   </Link>
                 </li>
                 <li className="footer__address">
