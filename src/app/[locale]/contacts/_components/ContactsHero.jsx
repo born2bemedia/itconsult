@@ -7,7 +7,6 @@ import Facebook from "@/icons/social/Facebook";
 import Instagram from "@/icons/social/Instagram";
 import X from "@/icons/social/X";
 import Email from "@/icons/other/Email";
-import Phone from "@/icons/other/Phone";
 import RequestForm from "@/components/RequestForm";
 import { useTranslations } from "next-intl";
 
@@ -112,15 +111,6 @@ const ContactsHero = () => {
                     >
                       <Email />
                       info@nexoria.ai
-                    </Link>
-                  </li>
-                  <li className="contacts-hero__item">
-                    <Link
-                      href="tel:+447533225889"
-                      className="contacts-hero__link"
-                    >
-                      <Phone />
-                      +447533225889
                     </Link>
                   </li>
                 </ul>
